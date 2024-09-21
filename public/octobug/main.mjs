@@ -31,6 +31,7 @@ function makePost(postAuthor, {postTitle, postTimestamp, postBody, postTagsRawSt
   return `---json
 ${JSON.stringify({
   author: postAuthor,
+  date: "Git created",
   title: postTitle,
   timestamp: postTimestamp,
   tags: tagArray,
