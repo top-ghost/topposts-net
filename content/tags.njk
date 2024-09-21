@@ -5,11 +5,10 @@ pagination:
   alias: tag
   filter:
     - all
-    - post
-    - posts
     - tagList
   addAllPagesToCollections: true
 layout: layouts/home.njk
+eleventyExcludeFromCollections: true
 eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
