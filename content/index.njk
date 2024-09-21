@@ -3,22 +3,22 @@ layout: layouts/home.njk
 eleventyExcludeFromCollections: true
 pagination:
   data: collections.all
-  size: 10
+  size: 20
 permalink: "/{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html"
 ---
 
 {%set postslist = pagination.items %}
 {% include "postslist.njk" %}
 
-<ol>
+<ol class="paginationContainer">
 	<li>
 		{% if pagination.href.previous %}
-			<a href="{{ pagination.href.previous }}">Previous</a>
-		{% else %}Previous{% endif %}
+			<a href="{{ pagination.href.previous }}">{% include "../public/img/prev-page.svg" %}</a>
+		{% endif %}
 	</li>
 	<li>
 		{% if pagination.href.next %}
-			<a href="{{ pagination.href.next }}">Next</a>
-		{% else %}Next{% endif %}
+			<a href="{{ pagination.href.next }}">{% include "../public/img/next-page.svg" %}</a>
+		{% endif %}
 	</li>
 </ol>
