@@ -3,7 +3,7 @@ layout: layouts/home.njk
 eleventyNavigation:
   key: Home
   order: 1
-numberOfLatestPostsToShow: 3
+numberOfLatestPostsToShow: 10
 ---
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
@@ -12,11 +12,6 @@ numberOfLatestPostsToShow: 3
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
-{% endif %}
 
 {# List every content page in the project #}
 {#

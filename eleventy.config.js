@@ -79,7 +79,7 @@ module.exports = function(eleventyConfig) {
 		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
 	});
 
-	// Customize Markdown library settings:
+	// Customize Markdown library tings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
@@ -89,7 +89,10 @@ module.exports = function(eleventyConfig) {
 				ariaHidden: false,
 			}),
 			level: [1,2,3,4],
-			slugify: eleventyConfig.getFilter("slugify")
+			slugify: eleventyConfig.getFilter("slugify"),
+			breaks: true,
+			linkify: true,
+			html: true
 		});
 	});
 

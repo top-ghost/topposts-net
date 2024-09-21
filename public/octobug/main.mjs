@@ -34,7 +34,8 @@ ${JSON.stringify({
   author: postAuthor,
   title: postTitle,
   timestamp: postTimestamp,
-  tags: tagArray
+  tags: tagArray,
+  layout: "layouts/post.html"
 })}
 ---
 ${postBody}
