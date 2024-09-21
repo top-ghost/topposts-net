@@ -1,6 +1,6 @@
 {%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
 <ol reversed class="postlist">
-{% for post in postslist %}
-	{% include "partials/post.njk" %}
-{% endfor %}
+	{% for post in postslist | reverse %}
+		{% include "partials/post.njk" %}
+	{% endfor %}
 </ol>
