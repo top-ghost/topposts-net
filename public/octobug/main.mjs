@@ -28,8 +28,7 @@ function authorize() {
 function makePost(postAuthor, {postTitle, postTimestamp, postBody, postTagsRawString}) {
   const tagArray = postTagsRawString.split(',').map((t) => t.trim());
 
-  return `
----json
+  return `---json
 ${JSON.stringify({
   author: postAuthor,
   title: postTitle,
@@ -39,7 +38,7 @@ ${JSON.stringify({
 })}
 ---
 ${postBody}
-  `;
+`;
 }
 
 window.addEventListener("DOMContentLoaded", async () => {
