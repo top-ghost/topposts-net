@@ -2,67 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://example.com/blog/firstpost/</loc>
+		<loc>https://topposts.net/topposts-net/blog/firstpost/</loc>
 		<lastmod>2018-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/secondpost/</loc>
+		<loc>https://topposts.net/topposts-net/blog/secondpost/</loc>
 		<lastmod>2018-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/thirdpost/</loc>
+		<loc>https://topposts.net/topposts-net/blog/thirdpost/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/fourthpost/</loc>
+		<loc>https://topposts.net/topposts-net/blog/fourthpost/</loc>
 		<lastmod>2018-09-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/1726947875915/</loc>
+		<loc>https://topposts.net/topposts-net/1726809688677/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/about/</loc>
+		<loc>https://topposts.net/topposts-net/1726809695948/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/</loc>
+		<loc>https://topposts.net/topposts-net/1726809775827/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/</loc>
+		<loc>https://topposts.net/topposts-net/1726810717915/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/</loc>
+		<loc>https://topposts.net/topposts-net/1726810831180/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/another-tag/</loc>
+		<loc>https://topposts.net/topposts-net/1726811234478/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/number-2/</loc>
+		<loc>https://topposts.net/topposts-net/1726811344210/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/second-tag/</loc>
+		<loc>https://topposts.net/topposts-net/1726940303042/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/posts-with-two-tags/</loc>
+		<loc>https://topposts.net/topposts-net/1726947875915/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/about/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/blog/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/tags/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/tags/another-tag/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/tags/number-2/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/tags/second-tag/</loc>
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://topposts.net/topposts-net/tags/posts-with-two-tags/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 </urlset>
