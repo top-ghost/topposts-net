@@ -268,3 +268,19 @@ a[href].header-anchor:focus,
 h2 + .header-anchor {
 	font-size: 1.5em;
 }
+
+/* stuff below this line is octobug-specific,
+everything above is remnants of the eleventy-base-blog theme */
+ol.paginationContainer {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+svg.pagination {
+	fill: rgb(255, 171, 92);
+	color: rgb(25,25,25);
+	height: 32px;
+}

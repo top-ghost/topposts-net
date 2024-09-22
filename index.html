@@ -279,6 +279,22 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+
+/* stuff below this line is octobug-specific,
+everything above is remnants of the eleventy-base-blog theme */
+ol.paginationContainer {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+svg.pagination {
+	fill: rgb(255, 171, 92);
+	color: rgb(25,25,25);
+	height: 32px;
 }</style>
 	</head>
 	<body>
@@ -381,12 +397,12 @@ h2 + .header-anchor {
 	
 </ol>
 
-<ol>
+<ol class="paginationContainer">
 	<li>
-		Previous
+		
 	</li>
 	<li>
-		Next
+		
 	</li>
 </ol>
 
@@ -394,6 +410,6 @@ h2 + .header-anchor {
 
 		<footer></footer>
 
-		<!-- This page `/topposts-net/` was built on 2024-09-21T22:44:32.300Z -->
+		<!-- This page `/topposts-net/` was built on 2024-09-22T04:14:41.871Z -->
 	</body>
 </html>
