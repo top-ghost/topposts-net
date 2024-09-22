@@ -11,6 +11,25 @@ const pluginImages = require("./eleventy.config.images.js");
 
 const embeds = require("eleventy-plugin-embed-everything");
 
+
+const SEC_PER_DAY = 24 * 60 * 60;
+/**
+ * @description returns the current time in swatch beats
+ * @returns {string}
+ */
+function getSwatchBeats(timestamp) {
+    const timeCET = convertTZ(new Date(timestamp), "Europe/Berlin");
+    let current_seconds = timeCET.getSeconds() + timeCET.getMinutes() * 60 + timeCET.getHours() * 60 * 60;
+    let swatch = "@" + Math.floor((current_seconds / SEC_PER_DAY) * 1000);
+	let fullDateString = `${new Date(timestamp).toDateString("%b %d\, %Y")} ${swatch}`
+    return fullDateString;
+}
+
+function convertTZ(date, tzString) {
+    return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("en-US", { timeZone: tzString }));
+}
+
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = async function(eleventyConfig) {
 	const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
@@ -49,6 +68,10 @@ module.exports = async function(eleventyConfig) {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
 		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
 	});
+
+	eleventyConfig.addFilter("beatsDate", (dateObj, format, zone) => {
+		return getSwatchBeats(dateObj);
+	})
 
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
