@@ -34,6 +34,12 @@ function convertTZ(date, tzString) {
 module.exports = async function(eleventyConfig) {
 	const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
 
+
+	// Bundle js snippets
+	eleventyConfig.addBundle("js");
+	// Bundle js tags
+	eleventyConfig.addBundle("jstags");
+
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
@@ -99,7 +105,9 @@ module.exports = async function(eleventyConfig) {
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();
 		for(let item of collection) {
-			(item.data.tags || []).forEach(tag => tagSet.add(tag));
+			(item.data.tags || []).forEach((tag) => {
+				return tagSet.add(tag);	
+			});
 		}
 		return Array.from(tagSet);
 	});

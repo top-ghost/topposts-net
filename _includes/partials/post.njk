@@ -13,10 +13,9 @@
     <div class="postbody">{{item.content | safe }}</div>
     <div class="tags">
         <ol>
-            {%- for tag in item.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            {%- for tag in item.data.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
                 <li>
-                    <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
-                    {%- if not loop.last %}, {% endif %}
+                    <a href="{{ tagUrl }}" class="post-tag">#{{ tag }}</a>
                 </li>
             {%- endfor %}
         </ol>

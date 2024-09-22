@@ -1,7 +1,7 @@
 ---
 pagination:
   data: collections
-  size: 20
+  size: 1
   alias: tag
   filter:
     - all
@@ -13,6 +13,7 @@ eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
 ---
+
 <h1>Tagged “{{ tag }}”</h1>
 
 {% set postslist = collections[tag] %}
