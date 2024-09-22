@@ -8,7 +8,8 @@
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="topposts.net">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
-		<style>* { box-sizing: border-box; }
+		<style>
+			* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -319,9 +320,34 @@ svg.pagination {
 	}
 
 	.title {
+		margin-block: 8px;
 		a {
 		text-decoration: none;
 		color: #000;
+		}
+	}
+
+	.postbody {
+		margin-bottom: 20px;
+	}
+
+	.tags {
+		font-size: 0.8em;
+
+		ol {
+			padding: 2px;
+			list-style: none;
+			margin-left: none;
+			display: flex;
+			flex-direction: rows;
+
+			li {
+				padding: 4px;
+				a {
+					text-decoration: none;
+					color: unset;
+				}
+			}
 		}
 	}
 }
@@ -334,7 +360,12 @@ svg.pagination {
 			}
 		}
 	}
-  }</style>
+  }
+		</style>
+		
+		<script type="text/javascript">
+			
+		</script>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -368,6 +399,6 @@ This will work for both GitHub pages and Netlify:
 
 		<footer></footer>
 
-		<!-- This page `/404.html` was built on 2024-09-22T08:11:00.994Z -->
+		<!-- This page `/404.html` was built on 2024-09-22T21:29:29.441Z -->
 	</body>
 </html>

@@ -308,9 +308,34 @@ svg.pagination {
 	}
 
 	.title {
+		margin-block: 8px;
 		a {
 		text-decoration: none;
 		color: #000;
+		}
+	}
+
+	.postbody {
+		margin-bottom: 20px;
+	}
+
+	.tags {
+		font-size: 0.8em;
+
+		ol {
+			padding: 2px;
+			list-style: none;
+			margin-left: none;
+			display: flex;
+			flex-direction: rows;
+
+			li {
+				padding: 4px;
+				a {
+					text-decoration: none;
+					color: unset;
+				}
+			}
 		}
 	}
 }

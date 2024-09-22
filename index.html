@@ -8,7 +8,8 @@
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="topposts.net">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
-		<style>.postlist { counter-reset: start-from 8 }
+		<style>
+			.postlist { counter-reset: start-from 8 }
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -320,9 +321,34 @@ svg.pagination {
 	}
 
 	.title {
+		margin-block: 8px;
 		a {
 		text-decoration: none;
 		color: #000;
+		}
+	}
+
+	.postbody {
+		margin-bottom: 20px;
+	}
+
+	.tags {
+		font-size: 0.8em;
+
+		ol {
+			padding: 2px;
+			list-style: none;
+			margin-left: none;
+			display: flex;
+			flex-direction: rows;
+
+			li {
+				padding: 4px;
+				a {
+					text-decoration: none;
+					color: unset;
+				}
+			}
 		}
 	}
 }
@@ -335,7 +361,12 @@ svg.pagination {
 			}
 		}
 	}
-  }</style>
+  }
+		</style>
+		
+		<script type="text/javascript">
+			
+		</script>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -372,6 +403,9 @@ svg.pagination {
 </div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/good-ideas/" class="post-tag">#good ideas</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -392,6 +426,9 @@ svg.pagination {
 </div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -412,6 +449,9 @@ svg.pagination {
 </div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/wishful-thinking/" class="post-tag">#wishful thinking</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -432,6 +472,9 @@ svg.pagination {
 </div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/stunts/" class="post-tag">#stunts</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -452,6 +495,9 @@ svg.pagination {
 </div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/testing-in-production/" class="post-tag">#testing in production</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -471,6 +517,12 @@ svg.pagination {
     <div class="postbody"></div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/saturday/" class="post-tag">#saturday</a>
+                </li>
+                <li>
+                    <a href="/tags/saturday-morning/" class="post-tag">#saturday morning</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -491,6 +543,15 @@ svg.pagination {
 </div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/fixes/" class="post-tag">#fixes</a>
+                </li>
+                <li>
+                    <a href="/tags/json/" class="post-tag">#json</a>
+                </li>
+                <li>
+                    <a href="/tags/javascript/" class="post-tag">#javascript</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -510,6 +571,6 @@ svg.pagination {
 
 		<footer></footer>
 
-		<!-- This page `/` was built on 2024-09-22T08:11:00.994Z -->
+		<!-- This page `/` was built on 2024-09-22T21:29:29.440Z -->
 	</body>
 </html>

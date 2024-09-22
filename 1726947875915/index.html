@@ -8,7 +8,8 @@
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="topposts.net">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
-		<style>/**
+		<style>
+			/**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
@@ -487,9 +488,34 @@ svg.pagination {
 	}
 
 	.title {
+		margin-block: 8px;
 		a {
 		text-decoration: none;
 		color: #000;
+		}
+	}
+
+	.postbody {
+		margin-bottom: 20px;
+	}
+
+	.tags {
+		font-size: 0.8em;
+
+		ol {
+			padding: 2px;
+			list-style: none;
+			margin-left: none;
+			display: flex;
+			flex-direction: rows;
+
+			li {
+				padding: 4px;
+				a {
+					text-decoration: none;
+					color: unset;
+				}
+			}
 		}
 	}
 }
@@ -502,7 +528,12 @@ svg.pagination {
 			}
 		}
 	}
-  }</style>
+  }
+		</style>
+		
+		<script type="text/javascript">
+			
+		</script>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -535,6 +566,9 @@ svg.pagination {
 </div>
     <div class="tags">
         <ol>
+                <li>
+                    <a href="/tags/testing-in-production/" class="post-tag">#testing in production</a>
+                </li>
         </ol>
     </div>
 </div>
@@ -542,6 +576,6 @@ svg.pagination {
 
 		<footer></footer>
 
-		<!-- This page `/1726947875915/` was built on 2024-09-22T08:11:00.994Z -->
+		<!-- This page `/1726947875915/` was built on 2024-09-22T21:29:29.441Z -->
 	</body>
 </html>
