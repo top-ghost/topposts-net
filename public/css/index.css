@@ -286,12 +286,18 @@ svg.pagination {
 }
 
 .post {
+	background-color: rgba(255, 255, 255, 0.2);
 	border: 1px solid black;
+	box-shadow: 0 0 16px 0 rgba(1,1,1,0.5);
 	border-radius: 8px;
 	margin: 24px;
 	padding: 8px;
 
 	.metadata {
+		margin: -8px;
+		padding: 12px;
+		
+		border-bottom: 1px solid black;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -308,3 +314,13 @@ svg.pagination {
 		}
 	}
 }
+
+@media (prefers-color-scheme: dark) {
+	.post {
+		.title {
+			a {
+				color: #000;
+			}
+		}
+	}
+  }
