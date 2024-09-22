@@ -284,3 +284,27 @@ svg.pagination {
 	color: rgb(25,25,25);
 	height: 32px;
 }
+
+.post {
+	border: 1px solid black;
+	border-radius: 8px;
+	margin: 24px;
+	padding: 8px;
+
+	.metadata {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+		.timestamp {
+			color: #999;
+		}
+	}
+
+	.title {
+		a {
+		text-decoration: none;
+		color: #fff;
+		}
+	}
+}
