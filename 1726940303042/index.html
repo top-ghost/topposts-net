@@ -462,6 +462,30 @@ svg.pagination {
 	fill: rgb(255, 171, 92);
 	color: rgb(25,25,25);
 	height: 32px;
+}
+
+.post {
+	border: 1px solid black;
+	border-radius: 8px;
+	margin: 24px;
+	padding: 8px;
+
+	.metadata {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+		.timestamp {
+			color: #999;
+		}
+	}
+
+	.title {
+		a {
+		text-decoration: none;
+		color: #fff;
+		}
+	}
 }</style>
 	</head>
 	<body>
@@ -486,17 +510,21 @@ svg.pagination {
         <div class="author">@topghost</div>
         <div class="timestamp">1726940303042</div>
     </div>
-    <a href=/1726940303042/>
-        <h1 class="title">here&#39;s a saturday morning post</h1>
-    </a>
+
+    <h1 class="title">
+        <a href=/1726940303042/>here&#39;s a saturday morning post</a>
+    </h1>
+
     <div class="postbody"></div>
     <div class="tags">
+        <ol>
+        </ol>
     </div>
 </div>
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/1726940303042/` was built on 2024-09-22T04:41:11.871Z -->
+		<!-- This page `/1726940303042/` was built on 2024-09-22T06:04:22.326Z -->
 	</body>
 </html>

@@ -295,6 +295,30 @@ svg.pagination {
 	fill: rgb(255, 171, 92);
 	color: rgb(25,25,25);
 	height: 32px;
+}
+
+.post {
+	border: 1px solid black;
+	border-radius: 8px;
+	margin: 24px;
+	padding: 8px;
+
+	.metadata {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+		.timestamp {
+			color: #999;
+		}
+	}
+
+	.title {
+		a {
+		text-decoration: none;
+		color: #fff;
+		}
+	}
 }</style>
 	</head>
 	<body>
@@ -323,12 +347,16 @@ svg.pagination {
         <div class="author">topghost</div>
         <div class="timestamp">1726957940977</div>
     </div>
-    <a href=/1726957940977/>
-        <h1 class="title">seeing if I broke publish after all that nonsense</h1>
-    </a>
+
+    <h1 class="title">
+        <a href=/1726957940977/>seeing if I broke publish after all that nonsense</a>
+    </h1>
+
     <div class="postbody"><p>I wouldn't be surprised! But also I hope it works</p>
 </div>
     <div class="tags">
+        <ol>
+        </ol>
     </div>
 </div>
 	
@@ -339,12 +367,16 @@ svg.pagination {
         <div class="author">@topghost</div>
         <div class="timestamp">1726950240841</div>
     </div>
-    <a href=/1726950240841/>
-        <h1 class="title">testing the publish time</h1>
-    </a>
+
+    <h1 class="title">
+        <a href=/1726950240841/>testing the publish time</a>
+    </h1>
+
     <div class="postbody"><p>STARTING.... NOW!</p>
 </div>
     <div class="tags">
+        <ol>
+        </ol>
     </div>
 </div>
 	
@@ -355,12 +387,16 @@ svg.pagination {
         <div class="author">@topghost</div>
         <div class="timestamp">1726947875915</div>
     </div>
-    <a href=/1726947875915/>
-        <h1 class="title">testing FROM github pages TO github pages</h1>
-    </a>
+
+    <h1 class="title">
+        <a href=/1726947875915/>testing FROM github pages TO github pages</a>
+    </h1>
+
     <div class="postbody"><p>let's fuckin goooooo</p>
 </div>
     <div class="tags">
+        <ol>
+        </ol>
     </div>
 </div>
 	
@@ -371,11 +407,15 @@ svg.pagination {
         <div class="author">@topghost</div>
         <div class="timestamp">1726940303042</div>
     </div>
-    <a href=/1726940303042/>
-        <h1 class="title">here&#39;s a saturday morning post</h1>
-    </a>
+
+    <h1 class="title">
+        <a href=/1726940303042/>here&#39;s a saturday morning post</a>
+    </h1>
+
     <div class="postbody"></div>
     <div class="tags">
+        <ol>
+        </ol>
     </div>
 </div>
 	
@@ -386,12 +426,16 @@ svg.pagination {
         <div class="author">@topghost</div>
         <div class="timestamp">1726811344210</div>
     </div>
-    <a href=/1726811344210/>
-        <h1 class="title">json frontmatter fixes</h1>
-    </a>
+
+    <h1 class="title">
+        <a href=/1726811344210/>json frontmatter fixes</a>
+    </h1>
+
     <div class="postbody"><p>okay, that should fix the front matter to be actual json</p>
 </div>
     <div class="tags">
+        <ol>
+        </ol>
     </div>
 </div>
 	
@@ -410,6 +454,6 @@ svg.pagination {
 
 		<footer></footer>
 
-		<!-- This page `/` was built on 2024-09-22T04:41:11.870Z -->
+		<!-- This page `/` was built on 2024-09-22T06:04:22.325Z -->
 	</body>
 </html>
