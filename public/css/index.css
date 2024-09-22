@@ -310,7 +310,7 @@ svg.pagination {
 	.title {
 		a {
 		text-decoration: none;
-		color: #fff;
+		color: #000;
 		}
 	}
 }
@@ -319,7 +319,7 @@ svg.pagination {
 	.post {
 		.title {
 			a {
-				color: #000;
+				color: #fff;
 			}
 		}
 	}
