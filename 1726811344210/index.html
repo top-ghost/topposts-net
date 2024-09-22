@@ -178,10 +178,48 @@ pre[class*="language-diff-"] {
 	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
+@font-face{
+	font-family:"Atkinson Hyperlegible";
+	font-style:italic;
+	font-display:swap;
+	font-weight:400;
+	src:url(/public/fonts/Atkinson-Hyperlegible-Italic-102a.woff2) format("woff2"),
+	    url(/public/fonts/Atkinson-Hyperlegible-Italic-102.woff) format("woff");
+}
+
+@font-face{
+	font-family:"Atkinson Hyperlegible";
+	font-style:normal;
+	font-display:swap;
+	font-weight:400;
+	src:url(/public/fonts/Atkinson-Hyperlegible-Regular-102a.woff2) format("woff2"),
+		url(/public/fonts/Atkinson-Hyperlegible-Regular-102.woff) format("woff");
+}
+
+@font-face{
+	font-family:"Atkinson Hyperlegible";
+	font-style:italic;
+	font-display:swap;
+	font-weight:700;
+	src:url(/public/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2) format("woff2"),
+		url(/public/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff) format("woff");
+}
+
+@font-face{
+	font-family:"Atkinson Hyperlegible";
+	font-style:normal;
+	font-display:swap;
+	font-weight:700;
+	src:url(/public/fonts/Atkinson-Hyperlegible-Bold-102a.woff2) format("woff2"),
+		url(/public/fonts/Atkinson-Hyperlegible-Bold-102.woff) format("woff");
+}
+
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	font-family: Atkinson Hyperlegible, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	font-feature-settings: normal;
+	font-variation-settings: normal;
 }
 
 /* Theme colors */
@@ -225,7 +263,6 @@ html,
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
@@ -405,8 +442,6 @@ header {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
-	font-style: italic;
 }
 .postlist-item > .post-tag {
 	align-self: center;
@@ -489,6 +524,8 @@ svg.pagination {
 
 	.title {
 		margin-block: 8px;
+		font-size: 1.25em;
+
 		a {
 		text-decoration: none;
 		color: #000;
@@ -500,7 +537,7 @@ svg.pagination {
 	}
 
 	.tags {
-		font-size: 0.8em;
+		font-size: 0.875em;
 
 		ol {
 			padding: 2px;
@@ -582,6 +619,6 @@ svg.pagination {
 
 		<footer></footer>
 
-		<!-- This page `/1726811344210/` was built on 2024-09-22T21:29:29.441Z -->
+		<!-- This page `/1726811344210/` was built on 2024-09-22T23:58:25.891Z -->
 	</body>
 </html>
