@@ -26,7 +26,7 @@ function authorize() {
 }
 
 function makePost(postAuthor, {postTitle, postTimestamp, postBody, postTagsRawString}) {
-  const tagArray = postTagsRawString.split(',').map((t) => t.trim());
+  const tagArray = postTagsRawString.split(',').map((t) => t.trim()).filter((t) => t?.length > 0);
 
   return `---json
 ${JSON.stringify({
