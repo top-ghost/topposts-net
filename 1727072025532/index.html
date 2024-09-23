@@ -183,8 +183,8 @@ pre[class*="language-diff-"] {
 	font-style:italic;
 	font-display:swap;
 	font-weight:400;
-	src:url(/public/fonts/Atkinson-Hyperlegible-Italic-102a.woff2) format("woff2"),
-	    url(/public/fonts/Atkinson-Hyperlegible-Italic-102.woff) format("woff");
+	src:url(/fonts/Atkinson-Hyperlegible-Italic-102a.woff2) format("woff2"),
+	    url(/fonts/Atkinson-Hyperlegible-Italic-102.woff) format("woff");
 }
 
 @font-face{
@@ -192,8 +192,8 @@ pre[class*="language-diff-"] {
 	font-style:normal;
 	font-display:swap;
 	font-weight:400;
-	src:url(/public/fonts/Atkinson-Hyperlegible-Regular-102a.woff2) format("woff2"),
-		url(/public/fonts/Atkinson-Hyperlegible-Regular-102.woff) format("woff");
+	src:url(/fonts/Atkinson-Hyperlegible-Regular-102a.woff2) format("woff2"),
+		url(/fonts/Atkinson-Hyperlegible-Regular-102.woff) format("woff");
 }
 
 @font-face{
@@ -201,8 +201,8 @@ pre[class*="language-diff-"] {
 	font-style:italic;
 	font-display:swap;
 	font-weight:700;
-	src:url(/public/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2) format("woff2"),
-		url(/public/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff) format("woff");
+	src:url(/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2) format("woff2"),
+		url(/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff) format("woff");
 }
 
 @font-face{
@@ -210,8 +210,8 @@ pre[class*="language-diff-"] {
 	font-style:normal;
 	font-display:swap;
 	font-weight:700;
-	src:url(/public/fonts/Atkinson-Hyperlegible-Bold-102a.woff2) format("woff2"),
-		url(/public/fonts/Atkinson-Hyperlegible-Bold-102.woff) format("woff");
+	src:url(/fonts/Atkinson-Hyperlegible-Bold-102a.woff2) format("woff2"),
+		url(/fonts/Atkinson-Hyperlegible-Bold-102.woff) format("woff");
 }
 
 /* Defaults */
@@ -530,8 +530,8 @@ svg.pagination {
 	}
 
 	.title {
-		margin-top: 12px;
-		margin-bottom: 8px;
+		margin-inline: 0.75em;
+		margin-block: 1.25em;
 		font-size: 1.25em;
 
 		a {
@@ -541,26 +541,65 @@ svg.pagination {
 	}
 
 	.postbody {
-		margin-bottom: 20px;
+		margin-inline: 0.75em;
+		margin-bottom: 1.5em;
 	}
 
 	.tags {
+		margin-inline: 0.75em;
 		font-size: 0.875em;
 
 		ol {
 			padding: 2px;
 			list-style: none;
-			margin-left: none;
-			display: flex;
-			flex-direction: rows;
+			display: inline-block;
 
 			li {
-				padding: 4px;
+				margin: 2px;
+				display: inline;
 				a {
 					text-decoration: none;
 					color: unset;
 				}
 			}
+		}
+	}
+
+	#postTitleInput, #postBodyTextarea, #postTagsInput,
+	#postTitleInput:focus, #postBodyTextarea:focus, #postTagsInput:focus
+	 {
+		background-color: inherit;
+		color: inherit;
+		width: 100%;
+		border-style: none;
+		outline: none;
+	}
+
+	#postTitleInput {
+		font-size: 1.25rem;
+		font-weight: 700;
+	}
+
+	#postBodyTextarea {
+		font-family: inherit;
+		resize: vertical;
+	}
+
+	#postTagsInput {
+		font-size: 0.95rem;
+	}
+
+	.controls {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+
+		#postButton {
+			padding: 6px;
+			background-color: rgb(0, 255, 0);
+			color: white;
+			border: 1px solid #666666;
+			border-radius: 4px;
 		}
 	}
 }
@@ -576,9 +615,15 @@ svg.pagination {
 			border-bottom: 1px solid #666666;
 		}
 
-		.title {
-			a {
-				color: #ffffff;
+		.title a, .postbody {
+			color: #ffffff;
+		}
+
+		.controls {
+
+			#postButton {
+				background-color: rgb(255, 0, 255);
+				color: black;
 			}
 		}
 	}
@@ -636,6 +681,6 @@ svg.pagination {
 
 		<footer></footer>
 
-		<!-- This page `/1727072025532/` was built on 2024-09-23T06:14:14.189Z -->
+		<!-- This page `/1727072025532/` was built on 2024-09-23T06:27:59.512Z -->
 	</body>
 </html>
