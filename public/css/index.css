@@ -324,7 +324,7 @@ svg.pagination {
 	background-color: rgb(255,255,255);
 	border: 1px solid black;
 	border-radius: 8px;
-	box-shadow: 0 .2em .4em .1em;
+	box-shadow: 0 .2em .4em .1em black;
 	margin: 24px;
 	padding: 8px;
 
