@@ -350,8 +350,8 @@ svg.pagination {
 	}
 
 	.title {
-		margin-top: 12px;
-		margin-bottom: 8px;
+		margin-inline: 0.75em;
+		margin-block: 1.25em;
 		font-size: 1.25em;
 
 		a {
@@ -361,21 +361,22 @@ svg.pagination {
 	}
 
 	.postbody {
-		margin-bottom: 20px;
+		margin-inline: 0.75em;
+		margin-bottom: 1.5em;
 	}
 
 	.tags {
+		margin-inline: 0.75em;
 		font-size: 0.875em;
 
 		ol {
 			padding: 2px;
 			list-style: none;
-			margin-left: none;
-			display: flex;
-			flex-direction: rows;
+			display: inline-block;
 
 			li {
-				padding: 4px;
+				margin: 2px;
+				display: inline;
 				a {
 					text-decoration: none;
 					color: unset;
@@ -434,10 +435,8 @@ svg.pagination {
 			border-bottom: 1px solid #666666;
 		}
 
-		.title {
-			a {
-				color: #ffffff;
-			}
+		.title a, .postbody {
+			color: #ffffff;
 		}
 
 		.controls {
