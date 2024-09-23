@@ -4,19 +4,23 @@
   title: "Octobug: Post"
 ---
 
-    <h1>Post</h1>
-    <form id="post">
-      <label for="postTitle">Title</label>
-      <input type="text" id="postTitle"/>
-      <label for="postBody">Body</label>
-      <textarea rows="10" id="postBody"></textarea>
-      <label for="postTagsRaw">Tags (comma separated)</label>
-      <input type="text" id="postTagsRaw"/>
-      <button id="postButton" type="submit">POST!</button>
-    </form>
+<div class="post">
+    <h1 class="title">
+        <input type="text" id="postTitleInput" placeholder="headline" />
+    </h1>
+    <div class="postbody">
+      <textarea rows="10" id="postBodyTextarea" placeholder="post body (accepts markdown!)"></textarea>
+    </div>
+    <div class="tags">
+      <input type="text" id="postTagsInput" placeholder="#add tags"/>
+    </div>
+    <div class="controls">
+      <button id="postButton" type="submit">post now</button>
+    </div>
+</div>
 
 {% jstags %}
 
-  <script type="module" href="/octobug/main.mjs"></script>
+  <script type="module" src="/octobug/main.mjs"></script>
 
 {% endjstags %}

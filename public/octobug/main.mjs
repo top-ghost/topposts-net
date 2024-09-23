@@ -46,9 +46,9 @@ window.addEventListener("DOMContentLoaded", async () => {
   authorize();
 
   const postButton = document.getElementById("postButton");
-  const postTitleInput = document.getElementById("postTitle");
-  const postBodyTextarea = document.getElementById("postBody");
-  const postTagsRawInput = document.getElementById("postTagsRaw");
+  const postTitleInput = document.getElementById("postTitleInput");
+  const postBodyTextarea = document.getElementById("postBodyTextarea");
+  const postTagsInput = document.getElementById("postTagsInput");
 
   postButton.addEventListener("click", async (e) => {
     e.preventDefault();
@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       postTitle: postTitleInput.value,
       postTimestamp: Date.now(),
       postBody: postBodyTextarea.value,
-      postTagsRawString: postTagsRawInput.value
+      postTagsRawString: postTagsInput.value
     }
 
     const eleventyFormattedPost = makePost(localStorage.getItem("postAuthor"), window.currentPost);
