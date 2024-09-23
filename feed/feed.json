@@ -16,7 +16,7 @@
 			"title": "having a development environment that can write data to production is never wise",
 			"content_html": "<p>but maybe it could work for us?</p>\n"
 	,
-			"date_published": "2024-09-23T00:57:04Z"
+			"date_published": "2024-09-23T00:59:40Z"
 		}
 		,
 		{
@@ -25,7 +25,7 @@
 			"title": "DNS working, API keys in localstorage...",
 			"content_html": "<p>if this post sends then everything is in a good state</p>\n"
 	,
-			"date_published": "2024-09-23T00:57:04Z"
+			"date_published": "2024-09-23T00:59:40Z"
 		}
 		,
 		{
@@ -34,7 +34,7 @@
 			"title": "seeing if I broke publish after all that nonsense",
 			"content_html": "<p>I wouldn't be surprised! But also I hope it works</p>\n"
 	,
-			"date_published": "2024-09-23T00:57:04Z"
+			"date_published": "2024-09-23T00:59:40Z"
 		}
 		,
 		{
@@ -43,7 +43,7 @@
 			"title": "testing the publish time",
 			"content_html": "<p>STARTING.... NOW!</p>\n"
 	,
-			"date_published": "2024-09-23T00:57:04Z"
+			"date_published": "2024-09-23T00:59:40Z"
 		}
 		,
 		{
@@ -52,7 +52,7 @@
 			"title": "testing FROM github pages TO github pages",
 			"content_html": "<p>let's fuckin goooooo</p>\n"
 	,
-			"date_published": "2024-09-23T00:57:04Z"
+			"date_published": "2024-09-23T00:59:40Z"
 		}
 		,
 		{
@@ -60,7 +60,7 @@
 			"url": "https://topposts.net/1726940303042/",
 			"title": "here&#39;s a saturday morning post",
 			"content_html": "",
-			"date_published": "2024-09-23T00:57:04Z"
+			"date_published": "2024-09-23T00:59:40Z"
 		}
 		,
 		{
@@ -69,7 +69,7 @@
 			"title": "json frontmatter fixes",
 			"content_html": "<p>okay, that should fix the front matter to be actual json</p>\n"
 	,
-			"date_published": "2024-09-23T00:57:04Z"
+			"date_published": "2024-09-23T00:59:40Z"
 		}
 		
 ]
