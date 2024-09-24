@@ -3,7 +3,9 @@
 <div class="post">
     <div class="metadata">
         <span class="author">{{item.data.author}}</span>
-        <span class="timestamp">{{item.data.timestamp | beatsDate }}</span>
+        <span class="timestamp">
+            <a href={{item.url}}>{{item.data.timestamp | beatsDate }}</a>
+        </span>
     </div>
 
     <h1 class="title">
