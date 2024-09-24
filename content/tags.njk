@@ -10,11 +10,11 @@ pagination:
 layout: layouts/home.njk
 eleventyExcludeFromCollections: true
 eleventyComputed:
-  title: Tagged “{{ tag }}”
+  title: Tagged “{{ tag | safe }}”
 permalink: /tags/{{ tag | slug }}/
 ---
 
-<h1>Tagged “{{ tag }}”</h1>
+<h1>Tagged “{{ tag | safe }}”</h1>
 
 {% set postslist = collections[tag] %}
 {% include "postslist.njk" %}

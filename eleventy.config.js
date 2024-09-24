@@ -75,7 +75,7 @@ module.exports = async function(eleventyConfig) {
 
 	// Filters
 	eleventyConfig.addFilter("slug", (str) => {
-		return slugify(he.decode(str));
+		return slugify(he.decode(str), {remove: /[&,+()$~%.'":*?<>{}]/g});
 	});
 
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
