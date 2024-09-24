@@ -13,7 +13,7 @@
     <div class="postbody">{{item.content | safe }}</div>
     <div class="tags">
         <ol>
-            {%- for tag in item.data.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            {%- for tag in item.data.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
                 <li>
                     <a href="{{ tagUrl }}" class="post-tag">#{{ tag | safe }}</a>
                 </li>

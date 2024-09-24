@@ -7,9 +7,9 @@ eleventyExcludeFromCollections: true
 
 <ul>
 	{% for tag in collections.all | getAllTags | filterTagList %}
-		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
 		<li>
-			<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+			<a href="{{ tagUrl }}" class="post-tag">{{ tag | safe }}</a>
 		</li>
 	{% endfor %}
 </ul>

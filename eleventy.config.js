@@ -11,7 +11,8 @@ const pluginImages = require("./eleventy.config.images.js");
 
 const embeds = require("eleventy-plugin-embed-everything");
 const eleventyAutoCacheBuster = require("eleventy-auto-cache-buster");
-
+const slugify = require("slugify");
+const he = require("he");
 
 const SEC_PER_DAY = 24 * 60 * 60;
 /**
@@ -73,6 +74,10 @@ module.exports = async function(eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyAutoCacheBuster);
 
 	// Filters
+	eleventyConfig.addFilter("slug", (str) => {
+		return slugify(he.decode(str));
+	});
+
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
 		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
