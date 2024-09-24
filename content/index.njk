@@ -2,9 +2,9 @@
 layout: layouts/home.njk
 eleventyExcludeFromCollections: true
 pagination:
-  data: collections.all
+  data: collections.reverseChron
   size: 20
-permalink: "/{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html"
+permalink: "/{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/index.html"
 ---
 
 {%set postslist = pagination.items %}
