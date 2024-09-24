@@ -3,13 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>topposts.net</title>
+		<title>okay look I admit it</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="topposts.net">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			.postlist { counter-reset: start-from 15 }
+			/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 @font-face{
 	font-family:"Atkinson Hyperlegible";
@@ -524,10 +691,6 @@ svg.pagination {
 
 
 
-<ol reversed class="postlist">
-	
-		
-
 <div class="post">
     <div class="metadata">
         <span class="author">@topghost</span>
@@ -550,380 +713,10 @@ svg.pagination {
         </ol>
     </div>
 </div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727154071821/>Tue Sep 24 2024 @292.49</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727154071821/>bone letter off</a>
-    </h1>
-
-    <div class="postbody"></div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/one-letter-off/" class="post-tag">#one letter off</a>
-                </li>
-                <li>
-                    <a href="/tags/has-anyone-done-this/" class="post-tag">#has anyone done this</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727153611775/>Tue Sep 24 2024 @287.16</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727153611775/>Octobug does tag autocomplete now</a>
-    </h1>
-
-    <div class="postbody"><p>It gets the list of tags from the server when you open the post editor</p>
-<p>And then as you type it shows the tags you've already used so you can more easily &quot;do a bit&quot; that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>
-<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/json/" class="post-tag">#json</a>
-                </li>
-                <li>
-                    <a href="/tags/dont-worry-about-it/" class="post-tag">#don&#x2019;t worry about it</a>
-                </li>
-                <li>
-                    <a href="/tags/text-encoding!!!!/" class="post-tag">#text encoding!!!!</a>
-                </li>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727139863555/>Tue Sep 24 2024 @128.04</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727139863555/>are you josh brolin</a>
-    </h1>
-
-    <div class="postbody"><p>because buddy you’ve got me brolin’ on the floor blaughin’</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/this-isnt-anything/" class="post-tag">#this isn&#x2019;t anything</a>
-                </li>
-                <li>
-                    <a href="/tags/but-it-is-the-toilet-post/" class="post-tag">#but it is the toilet post</a>
-                </li>
-                <li>
-                    <a href="/tags/historic-anticlimaxes-in-posting/" class="post-tag">#historic anticlimaxes in posting</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727138701372/>Tue Sep 24 2024 @114.59</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727138701372/>this is not the toilet post</a>
-    </h1>
-
-    <div class="postbody"><p>it is the post that proves I have fixed the bug that prevented the toilet post from being made</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/dont-worry-about-it/" class="post-tag">#don&#x2019;t worry about it</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727074872138/>Mon Sep 23 2024 @375.83</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727074872138/></a>
-    </h1>
-
-    <div class="postbody"><div class="eleventy-plugin-embed-twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">[waving hand vaguely] Just make it go viral</p>&mdash; Brooks Otterlake (@i_zzzzzz) <a href="https://twitter.com/i_zzzzzz/status/660925493840072706?ref_src=twsrc%5Etfw">November 1, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</div>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727072025532/>Mon Sep 23 2024 @342.88</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727072025532/>ooh my posting form looks less bad now</a>
-    </h1>
-
-    <div class="postbody"><p>will that make me post here more? maybe!</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-                <li>
-                    <a href="/tags/CSS/" class="post-tag">#CSS</a>
-                </li>
-                <li>
-                    <a href="/tags/the-post-button-is-lime-green-lol/" class="post-tag">#the post button is lime green lol</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726992628735/>Sun Sep 22 2024 @423.94</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726992628735/>having a development environment that can write data to production is never wise</a>
-    </h1>
-
-    <div class="postbody"><p>but maybe it could work for us?</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/good-ideas/" class="post-tag">#good ideas</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726985263716/>Sun Sep 22 2024 @338.69</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726985263716/>DNS working, API keys in localstorage...</a>
-    </h1>
-
-    <div class="postbody"><p>if this post sends then everything is in a good state</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726957940977/>Sat Sep 21 2024 @22.454</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726957940977/>seeing if I broke publish after all that nonsense</a>
-    </h1>
-
-    <div class="postbody"><p>I wouldn't be surprised! But also I hope it works</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/wishful-thinking/" class="post-tag">#wishful thinking</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726950240841/>Sat Sep 21 2024 @933.33</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726950240841/>testing the publish time</a>
-    </h1>
-
-    <div class="postbody"><p>STARTING.... NOW!</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/stunts/" class="post-tag">#stunts</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726947875915/>Sat Sep 21 2024 @905.96</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726947875915/>testing FROM github pages TO github pages</a>
-    </h1>
-
-    <div class="postbody"><p>let's fuckin goooooo</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/testing-in-production/" class="post-tag">#testing in production</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726940303042/>Sat Sep 21 2024 @818.32</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726940303042/>here's a saturday morning post</a>
-    </h1>
-
-    <div class="postbody"></div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/saturday/" class="post-tag">#saturday</a>
-                </li>
-                <li>
-                    <a href="/tags/saturday-morning/" class="post-tag">#saturday morning</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726811344210/>Fri Sep 20 2024 @325.74</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726811344210/>json frontmatter fixes</a>
-    </h1>
-
-    <div class="postbody"><p>okay, that should fix the front matter to be actual json</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/fixes/" class="post-tag">#fixes</a>
-                </li>
-                <li>
-                    <a href="/tags/json/" class="post-tag">#json</a>
-                </li>
-                <li>
-                    <a href="/tags/javascript/" class="post-tag">#javascript</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-</ol>
-
-<ol class="paginationContainer">
-	<li>
-		
-	</li>
-	<li>
-		
-	</li>
-</ol>
-
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/` was built on 2024-09-24T05:11:35.826Z -->
+		<!-- This page `/1727154662986/` was built on 2024-09-24T05:11:35.828Z -->
 	</body>
 </html>
