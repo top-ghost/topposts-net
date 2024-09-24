@@ -9,7 +9,175 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			* { box-sizing: border-box; }
+			/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 @font-face{
 	font-family:"Atkinson Hyperlegible";
 	font-style:italic;
@@ -520,111 +688,34 @@ svg.pagination {
 
 		<main id="skip">
 			
-<h1>Tags</h1>
 
-<ul>
-	
-		
-		<li>
-			<a href="/tags/fixes/" class="post-tag">fixes</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/json/" class="post-tag">json</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/javascript/" class="post-tag">javascript</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/saturday/" class="post-tag">saturday</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/saturday-morning/" class="post-tag">saturday morning</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/testing-in-production/" class="post-tag">testing in production</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/stunts/" class="post-tag">stunts</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/wishful-thinking/" class="post-tag">wishful thinking</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/octobug-meta/" class="post-tag">octobug (meta)</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/good-ideas/" class="post-tag">good ideas</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/CSS/" class="post-tag">CSS</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/the-post-button-is-lime-green-lol/" class="post-tag">the post button is lime green lol</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/dont-worry-about-it/" class="post-tag">don&#x2019;t worry about it</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/this-isnt-anything/" class="post-tag">this isn&#x2019;t anything</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/but-it-is-the-toilet-post/" class="post-tag">but it is the toilet post</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/historic-anticlimaxes-in-posting/" class="post-tag">historic anticlimaxes in posting</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/text-encoding!!!!/" class="post-tag">text encoding!!!!</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/one-letter-off/" class="post-tag">one letter off</a>
-		</li>
-	
-		
-		<li>
-			<a href="/tags/has-anyone-done-this/" class="post-tag">has anyone done this</a>
-		</li>
-	
-</ul>
 
+
+<div class="post">
+    <div class="metadata">
+        <span class="author">@topghost</span>
+        <span class="timestamp">
+            <a href=/1727156814971/>Tue Sep 24 2024 @324.24</a>
+        </span>
+    </div>
+
+    <h1 class="title">
+        <a href=/1727156814971/></a>
+    </h1>
+
+    <div class="postbody"><p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the &quot;right&quot; way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>
+<p>It sucks! It sucks to feel that weight for absolutely no reason, despite the fact that what you are making is <em>mid</em>, that your knowledge is cobbled together from a bizarre bombardment of information that you've exposed yourself to over your career, both technical and political, that realistically no one cares and if someone does it's because they're already doing the same thing for themselves, or hopefully will someday.</p>
+<p>I have to write things into the box and risk them getting posted to the internet in order to test if the software I wrote is working. That's a terrible idea. Automated tests, non-production environments, there are so many ways to make this not be a necessity. And even if not, I <em>can</em> still go delete the file from the repo if I want.</p>
+</div>
+    <div class="tags">
+        <ol>
+        </ol>
+    </div>
+</div>
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/tags/` was built on 2024-09-24T05:47:27.638Z -->
+		<!-- This page `/1727156814971/` was built on 2024-09-24T05:47:27.640Z -->
 	</body>
 </html>
