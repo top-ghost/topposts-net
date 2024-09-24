@@ -70,7 +70,14 @@ module.exports = async function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginBundle);
 
 	// Third party plugins
-	eleventyConfig.addPlugin(embeds);
+	eleventyConfig.addPlugin(embeds, {
+		twitter: {
+			options: {
+				cacheText: true
+			}
+		},
+	});
+
 	eleventyConfig.addPlugin(eleventyAutoCacheBuster);
 
 	// Filters
