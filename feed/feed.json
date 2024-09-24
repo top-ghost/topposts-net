@@ -16,7 +16,7 @@
 			"title": "oh wow",
 			"content_html": "<p>it’s starting to feel like a website in here</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -25,7 +25,7 @@
 			"title": "",
 			"content_html": "<p>honestly writing vanilla javascript to do things that still &quot;feel good&quot; feels like doing the saddest magic trick, but attracting the most hardcore audience. For my next trick, useful OpenGraph tags</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -34,7 +34,7 @@
 			"title": "(it didn&amp;#x27;t clear the form)",
 			"content_html": "<p>and then it didn't again when I posted whatever that was. Third time's a charm?</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -43,7 +43,7 @@
 			"title": "",
 			"content_html": "<p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the &quot;right&quot; way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>\n<p>It sucks! It sucks to feel that weight for absolutely no reason, despite the fact that what you are making is <em>mid</em>, that your knowledge is cobbled together from a bizarre bombardment of information that you've exposed yourself to over your career, both technical and political, that realistically no one cares and if someone does it's because they're already doing the same thing for themselves, or hopefully will someday.</p>\n<p>I have to write things into the box and risk them getting posted to the internet in order to test if the software I wrote is working. That's a terrible idea. Automated tests, non-production environments, there are so many ways to make this not be a necessity. And even if not, I <em>can</em> still go delete the file from the repo if I want.</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -52,7 +52,7 @@
 			"title": "update",
 			"content_html": "<p>and when it posts to Github... we clear the form. hopefully</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -61,7 +61,7 @@
 			"title": "okay look I admit it",
 			"content_html": "<p>I'm posting to production again in order to test something locally. yes it's a nightmare</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -69,7 +69,7 @@
 			"url": "https://topposts.net/1727154071821/",
 			"title": "bone letter off",
 			"content_html": "",
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -78,7 +78,7 @@
 			"title": "Octobug does tag autocomplete now",
 			"content_html": "<p>It gets the list of tags from the server when you open the post editor</p>\n<p>And then as you type it shows the tags you've already used so you can more easily &quot;do a bit&quot; that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>\n<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -87,7 +87,7 @@
 			"title": "are you josh brolin",
 			"content_html": "<p>because buddy you’ve got me brolin’ on the floor blaughin’</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -96,7 +96,7 @@
 			"title": "this is not the toilet post",
 			"content_html": "<p>it is the post that proves I have fixed the bug that prevented the toilet post from being made</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -105,7 +105,7 @@
 			"title": "",
 			"content_html": "<p>https://twitter.com/i_zzzzzz/status/660925493840072706</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -114,7 +114,7 @@
 			"title": "ooh my posting form looks less bad now",
 			"content_html": "<p>will that make me post here more? maybe!</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -123,7 +123,7 @@
 			"title": "having a development environment that can write data to production is never wise",
 			"content_html": "<p>but maybe it could work for us?</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -132,7 +132,7 @@
 			"title": "DNS working, API keys in localstorage...",
 			"content_html": "<p>if this post sends then everything is in a good state</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -141,7 +141,7 @@
 			"title": "seeing if I broke publish after all that nonsense",
 			"content_html": "<p>I wouldn't be surprised! But also I hope it works</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -150,7 +150,7 @@
 			"title": "testing the publish time",
 			"content_html": "<p>STARTING.... NOW!</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -159,7 +159,7 @@
 			"title": "testing FROM github pages TO github pages",
 			"content_html": "<p>let's fuckin goooooo</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -167,7 +167,7 @@
 			"url": "https://topposts.net/1726940303042/",
 			"title": "here&#39;s a saturday morning post",
 			"content_html": "",
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		,
 		{
@@ -176,7 +176,7 @@
 			"title": "json frontmatter fixes",
 			"content_html": "<p>okay, that should fix the front matter to be actual json</p>\n"
 	,
-			"date_published": "2024-09-24T07:39:59Z"
+			"date_published": "2024-09-24T08:04:57Z"
 		}
 		
 ]
