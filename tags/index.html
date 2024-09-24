@@ -401,6 +401,32 @@ svg.pagination {
 				}
 			}
 		}
+
+		#taggedList {
+			display: flex-inline;
+			
+
+			.tagged {
+				margin: .25rem;
+				display: inline-grid;
+				height: min-content;
+				grid-template-columns: 1.5ch auto;
+				align-items: center;
+				text-align: center;
+				padding: calc(.25rem - 1px);
+				border: 1px solid black;
+				border-radius: .5rem .5rem 0 .5rem;
+
+				&::before {
+					content: '#';
+				}
+
+				&::hover:before {
+					content: '\00d7';
+				}
+			}
+
+		}
 	}
 
 	#postTitleInput, #postBodyTextarea, #postTagsInput,
@@ -455,6 +481,14 @@ svg.pagination {
 
 		.title a, .postbody {
 			color: #ffffff;
+		}
+
+		.tags {
+			#taggedList {
+				.tagged {
+					border: 1px solid #666666;
+				}
+			}
 		}
 
 		.controls {
@@ -576,6 +610,6 @@ svg.pagination {
 
 		<footer></footer>
 
-		<!-- This page `/tags/` was built on 2024-09-24T02:16:28.772Z -->
+		<!-- This page `/tags/` was built on 2024-09-24T04:34:58.801Z -->
 	</body>
 </html>

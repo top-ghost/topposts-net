@@ -401,6 +401,32 @@ svg.pagination {
 				}
 			}
 		}
+
+		#taggedList {
+			display: flex-inline;
+			
+
+			.tagged {
+				margin: .25rem;
+				display: inline-grid;
+				height: min-content;
+				grid-template-columns: 1.5ch auto;
+				align-items: center;
+				text-align: center;
+				padding: calc(.25rem - 1px);
+				border: 1px solid black;
+				border-radius: .5rem .5rem 0 .5rem;
+
+				&::before {
+					content: '#';
+				}
+
+				&::hover:before {
+					content: '\00d7';
+				}
+			}
+
+		}
 	}
 
 	#postTitleInput, #postBodyTextarea, #postTagsInput,
@@ -457,6 +483,14 @@ svg.pagination {
 			color: #ffffff;
 		}
 
+		.tags {
+			#taggedList {
+				.tagged {
+					border: 1px solid #666666;
+				}
+			}
+		}
+
 		.controls {
 
 			#postButton {
@@ -468,6 +502,7 @@ svg.pagination {
   }
 		</style>
 		<script type="module" src="/octobug/main.mjs"></script>
+  <script type="module" src="/octobug/tag-autocomplete.mjs"></script>
 		<script type="text/javascript">
 			
 		</script>
@@ -494,18 +529,29 @@ svg.pagination {
       <textarea rows="10" id="postBodyTextarea" placeholder="post body (accepts markdown!)"></textarea>
     </div>
     <div class="tags">
-      <input type="text" id="postTagsInput" placeholder="#add tags"/>
+      <input type="text" id="postTagsInput" placeholder="#add tags" list="all-tags"/>
+      <div id="taggedList"></div>
+      <input
+        type="hidden"
+        id="postTagsHiddenInput"
+        name="tags"
+        value=""
+      />
     </div>
     <div class="controls">
-      <button id="postButton" type="submit">post now</button>
+      <form id="submitForm">
+        <button id="postButton" type="submit">post now</button>
+      </form>
     </div>
 </div>
+<datalist id="all-tags">
+</datalist>
 
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/octobug/` was built on 2024-09-24T02:16:28.772Z -->
+		<!-- This page `/octobug/` was built on 2024-09-24T04:34:58.802Z -->
 	</body>
 </html>
