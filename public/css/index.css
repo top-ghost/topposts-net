@@ -127,16 +127,10 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main {
-	padding: 1rem;
-}
 main :first-child {
 	margin-top: 0;
 }
 
-header {
-	border-bottom: 1px dashed var(--color-gray-20);
-}
 header:after {
 	content: "";
 	display: table;
@@ -219,7 +213,6 @@ header {
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
 }
 .postlist-item {
 	display: flex;
@@ -307,6 +300,51 @@ h2 + .header-anchor {
 
 /* stuff below this line is octobug-specific,
 everything above is remnants of the eleventy-base-blog theme */
+
+#intro {
+	display: grid;
+	height: 8em;
+
+	grid-template-columns: 2fr 4fr;
+	grid-template-rows: 1fr 3fr;
+
+	.profile-pic {
+		grid-column: 1;
+		grid-row: 1 / 3;
+	}
+
+	.display-name {
+		grid-column: 2;
+		grid-row: 1;
+		height: min-content;
+		margin-top: 8px;
+		margin-inline: 4px;
+	}
+
+	.username {
+		margin-top: -16px;
+		margin-bottom: 0px;
+		height: min-content;
+		margin-inline: 8px;
+		grid-column: 2;
+		grid-row: 2;
+	}
+}
+
+.profile-pic {
+	aspect-ratio: 1 / 1;
+	height: 2em;
+	border-radius: 1em;
+	background: url('/img/moon-dutiful.jpg');
+	background-position: center;
+	background-size: contain;
+}
+
+.profile-pic.big {
+	height: 8em;
+	border-radius: 4em;
+}
+
 ol.paginationContainer {
 	width: 100%;
 	list-style: none;

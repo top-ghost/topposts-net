@@ -41,26 +41,32 @@
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
-
+		{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+		<nav>
+			<h2 class="visually-hidden">Top level navigation menu</h2>
+			<ul class="nav">
+				{%- for entry in collections.all | eleventyNavigation %}
+					<li class="nav-item">
+						<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+					</li>
+				{%- endfor %}
+			</ul>
+		</nav>
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
-
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-					{%- for entry in collections.all | eleventyNavigation %}
-						<li class="nav-item">
-							<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
-						</li>
-					{%- endfor %}
-				</ul>
-			</nav>
+			<a href="/" class="home-link" id="intro">
+				<div class="profile-pic big"></div>
+				<h1 class="display-name">trust the process</h1>
+				<h2 class="username">@topghost</h2>
+			</a>
 		</header>
 
-		<main id="skip">
-			{{ content | safe }}
-		</main>
+		<section id="sidebar"></section>
+		<section id="content">
+			<main id="skip">
+
+				{{ content | safe }}
+			</main>
+		</section>
 
 		<footer></footer>
 
