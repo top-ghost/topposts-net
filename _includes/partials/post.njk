@@ -7,7 +7,7 @@
     </div>
 
     <h1 class="title">
-        <a href={{item.url}}>{{item.data.title}}</a>
+        <a href={{item.url}}>{{item.data.title | safe}}</a>
     </h1>
 
     <div class="postbody">{{item.content | safe }}</div>
@@ -15,7 +15,7 @@
         <ol>
             {%- for tag in item.data.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
                 <li>
-                    <a href="{{ tagUrl }}" class="post-tag">#{{ tag }}</a>
+                    <a href="{{ tagUrl }}" class="post-tag">#{{ tag | safe }}</a>
                 </li>
             {%- endfor %}
         </ol>
