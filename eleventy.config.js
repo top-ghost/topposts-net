@@ -131,6 +131,26 @@ module.exports = async function(eleventyConfig) {
 		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
 	});
 
+	eleventyConfig.addFilter("truncate", (text, words, ellipsis) => {
+		const wordsArray = text.split(' ').filter((token) => {
+				return !(
+						token.startsWith('<') ||
+						token.startsWith('>') ||
+						token.startsWith("http://") ||
+						token.startsWith("https://")
+				);
+		});
+		const wordCount = wordsArray.length;
+		const ellipsisNeeded = ellipsis && wordCount > words;
+
+		const startingText = wordsArray.slice(0,words).join(' ');
+		if (startingText.length == 0) {
+				return '(No text)';
+		} else {
+				return `${startingText}${ellipsisNeeded ? '…' : ''}`;
+		}
+});
+
 	// Customize Markdown library tings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
