@@ -1,5 +1,6 @@
 import { createAppAuth } from "https://esm.sh/@octokit/auth-app";
 import { Octokit } from "https://esm.sh/@octokit/core";
+import he from "https://esm.sh/he";
 
 window.octokit = null;
 window.currentPost = {};
@@ -26,15 +27,15 @@ function authorize() {
 }
 
 function makePost(postAuthor, {postTitle, postTimestamp, postBody, postTagsRawString}) {
-  const tagArray = postTagsRawString.split(',').map((t) => t.trim()).filter((t) => t?.length > 0);
+  const tagArray = postTagsRawString.split(',').map((t) => he.encode(t.trim())).filter((t) => t?.length > 0);
 
   return `---json
 ${JSON.stringify({
-  author: postAuthor,
+  author: he.encode(postAuthor),
   date: "Git created",
-  title: postTitle,
+  title: he.encode(postTitle),
   timestamp: postTimestamp,
-  tags: tagArray,
+  tags: tagArray, // all items encoded above
   layout: "layouts/post.njk"
 })}
 ---
