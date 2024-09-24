@@ -4,7 +4,7 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-09-24T05:11:35Z</updated>
+	<updated>2024-09-24T05:13:29Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
@@ -14,7 +14,7 @@
 		<entry>
 			<title>okay look I admit it</title>
 			<link href="https://topposts.net/1727154662986/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1727154662986/</id>
 			<content type="html">&lt;p&gt;I&#39;m posting to production again in order to test something locally. yes it&#39;s a nightmare&lt;/p&gt;
 </content>
@@ -23,7 +23,7 @@
 		<entry>
 			<title>bone letter off</title>
 			<link href="https://topposts.net/1727154071821/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1727154071821/</id>
 			<content type="html"></content>
 		</entry>
@@ -31,7 +31,7 @@
 		<entry>
 			<title>Octobug does tag autocomplete now</title>
 			<link href="https://topposts.net/1727153611775/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1727153611775/</id>
 			<content type="html">&lt;p&gt;It gets the list of tags from the server when you open the post editor&lt;/p&gt;
 &lt;p&gt;And then as you type it shows the tags you&#39;ve already used so you can more easily &amp;quot;do a bit&amp;quot; that you&#39;ve done before, and safely put it in the filing cabinet drawer where it belongs.&lt;/p&gt;
@@ -42,7 +42,7 @@
 		<entry>
 			<title>are you josh brolin</title>
 			<link href="https://topposts.net/1727139863555/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1727139863555/</id>
 			<content type="html">&lt;p&gt;because buddy you’ve got me brolin’ on the floor blaughin’&lt;/p&gt;
 </content>
@@ -51,7 +51,7 @@
 		<entry>
 			<title>this is not the toilet post</title>
 			<link href="https://topposts.net/1727138701372/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1727138701372/</id>
 			<content type="html">&lt;p&gt;it is the post that proves I have fixed the bug that prevented the toilet post from being made&lt;/p&gt;
 </content>
@@ -60,7 +60,7 @@
 		<entry>
 			<title></title>
 			<link href="https://topposts.net/1727074872138/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1727074872138/</id>
 			<content type="html">&lt;p&gt;https://twitter.com/i_zzzzzz/status/660925493840072706&lt;/p&gt;
 </content>
@@ -69,7 +69,7 @@
 		<entry>
 			<title>ooh my posting form looks less bad now</title>
 			<link href="https://topposts.net/1727072025532/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1727072025532/</id>
 			<content type="html">&lt;p&gt;will that make me post here more? maybe!&lt;/p&gt;
 </content>
@@ -78,7 +78,7 @@
 		<entry>
 			<title>having a development environment that can write data to production is never wise</title>
 			<link href="https://topposts.net/1726992628735/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1726992628735/</id>
 			<content type="html">&lt;p&gt;but maybe it could work for us?&lt;/p&gt;
 </content>
@@ -87,7 +87,7 @@
 		<entry>
 			<title>DNS working, API keys in localstorage...</title>
 			<link href="https://topposts.net/1726985263716/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1726985263716/</id>
 			<content type="html">&lt;p&gt;if this post sends then everything is in a good state&lt;/p&gt;
 </content>
@@ -96,7 +96,7 @@
 		<entry>
 			<title>seeing if I broke publish after all that nonsense</title>
 			<link href="https://topposts.net/1726957940977/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1726957940977/</id>
 			<content type="html">&lt;p&gt;I wouldn&#39;t be surprised! But also I hope it works&lt;/p&gt;
 </content>
@@ -105,7 +105,7 @@
 		<entry>
 			<title>testing the publish time</title>
 			<link href="https://topposts.net/1726950240841/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1726950240841/</id>
 			<content type="html">&lt;p&gt;STARTING.... NOW!&lt;/p&gt;
 </content>
@@ -114,7 +114,7 @@
 		<entry>
 			<title>testing FROM github pages TO github pages</title>
 			<link href="https://topposts.net/1726947875915/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1726947875915/</id>
 			<content type="html">&lt;p&gt;let&#39;s fuckin goooooo&lt;/p&gt;
 </content>
@@ -123,7 +123,7 @@
 		<entry>
 			<title>here&#39;s a saturday morning post</title>
 			<link href="https://topposts.net/1726940303042/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1726940303042/</id>
 			<content type="html"></content>
 		</entry>
@@ -131,7 +131,7 @@
 		<entry>
 			<title>json frontmatter fixes</title>
 			<link href="https://topposts.net/1726811344210/"/>
-			<updated>2024-09-24T05:11:35Z</updated>
+			<updated>2024-09-24T05:13:29Z</updated>
 			<id>https://topposts.net/1726811344210/</id>
 			<content type="html">&lt;p&gt;okay, that should fix the front matter to be actual json&lt;/p&gt;
 </content>

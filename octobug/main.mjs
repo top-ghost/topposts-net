@@ -27,7 +27,7 @@ function authorize() {
 }
 
 function makePost(postAuthor, {postTitle, postTimestamp, postBody, postTagsRawString}) {
-  const tagArray = postTagsRawString.split(',').map((t) => he.encode(t.trim())).filter((t) => t?.length > 0);
+  const tagArray = JSON.parse(decodeURIComponent(postTagsRawString));
 
   return `---json
 ${JSON.stringify({
@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   const postButton = document.getElementById("postButton");
   const postTitleInput = document.getElementById("postTitleInput");
   const postBodyTextarea = document.getElementById("postBodyTextarea");
-  const postTagsInput = document.getElementById("postTagsInput");
+  const postTagsInput = document.getElementById("postTagsHiddenInput");
 
   postButton.addEventListener("click", async (e) => {
     e.preventDefault();
