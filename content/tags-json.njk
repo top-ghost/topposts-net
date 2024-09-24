@@ -1,0 +1,10 @@
+---
+permalink: "/tags.json"
+eleventyExcludeFromCollections: true
+---
+
+[
+{% for tag in collections.all | getAllTags | filterTagList %}
+    "{{tag | safe}}"{%- if not loop.last %},{% endif %}
+{% endfor %}
+]
