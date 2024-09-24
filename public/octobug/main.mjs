@@ -39,7 +39,7 @@ ${JSON.stringify({
   layout: "layouts/post.njk"
 })}
 ---
-${postBody}
+${he.encode(postBody)}
 `;
 }
 
