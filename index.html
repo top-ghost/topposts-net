@@ -140,16 +140,10 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main {
-	padding: 1rem;
-}
 main :first-child {
 	margin-top: 0;
 }
 
-header {
-	border-bottom: 1px dashed var(--color-gray-20);
-}
 header:after {
 	content: "";
 	display: table;
@@ -232,7 +226,6 @@ header {
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
 }
 .postlist-item {
 	display: flex;
@@ -320,6 +313,51 @@ h2 + .header-anchor {
 
 /* stuff below this line is octobug-specific,
 everything above is remnants of the eleventy-base-blog theme */
+
+#intro {
+	display: grid;
+	height: 8em;
+
+	grid-template-columns: 2fr 4fr;
+	grid-template-rows: 1fr 3fr;
+
+	.profile-pic {
+		grid-column: 1;
+		grid-row: 1 / 3;
+	}
+
+	.display-name {
+		grid-column: 2;
+		grid-row: 1;
+		height: min-content;
+		margin-top: 8px;
+		margin-inline: 4px;
+	}
+
+	.username {
+		margin-top: -16px;
+		margin-bottom: 0px;
+		height: min-content;
+		margin-inline: 8px;
+		grid-column: 2;
+		grid-row: 2;
+	}
+}
+
+.profile-pic {
+	aspect-ratio: 1 / 1;
+	height: 2em;
+	border-radius: 1em;
+	background: url('/img/moon-dutiful.jpg?v=4e58b6acac05');
+	background-position: center;
+	background-size: contain;
+}
+
+.profile-pic.big {
+	height: 8em;
+	border-radius: 4em;
+}
+
 ol.paginationContainer {
 	width: 100%;
 	list-style: none;
@@ -509,18 +547,24 @@ svg.pagination {
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
-
+		<nav>
+			<h2 class="visually-hidden">Top level navigation menu</h2>
+			<ul class="nav">
+			</ul>
+		</nav>
 		<header>
-			<a href="/" class="home-link">topposts.net</a>
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				</ul>
-			</nav>
+			<a href="/" class="home-link" id="intro">
+				<div class="profile-pic big"></div>
+				<h1 class="display-name">trust the process</h1>
+				<h2 class="username">@topghost</h2>
+			</a>
 		</header>
 
-		<main id="skip">
-			
+		<section id="sidebar"></section>
+		<section id="content">
+			<main id="skip">
+
+				
 
 
 
@@ -530,6 +574,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727159461670/>Tue, Sep 24, 2024 @354.87</a>
@@ -552,6 +597,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727156969779/>Tue, Sep 24, 2024 @326.03</a>
@@ -574,6 +620,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727156814971/>Tue, Sep 24, 2024 @324.24</a>
@@ -598,6 +645,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727156407447/>Tue, Sep 24, 2024 @319.53</a>
@@ -620,6 +668,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727154662986/>Tue, Sep 24, 2024 @299.33</a>
@@ -645,6 +694,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727154071821/>Tue, Sep 24, 2024 @292.49</a>
@@ -672,6 +722,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727153611775/>Tue, Sep 24, 2024 @287.16</a>
@@ -708,6 +759,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727139863555/>Tue, Sep 24, 2024 @128.04</a>
@@ -739,6 +791,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727138701372/>Tue, Sep 24, 2024 @114.59</a>
@@ -764,6 +817,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727074872138/>Mon, Sep 23, 2024 @375.83</a>
@@ -789,6 +843,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1727072025532/>Mon, Sep 23, 2024 @342.88</a>
@@ -820,6 +875,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1726992628735/>Sun, Sep 22, 2024 @423.94</a>
@@ -845,6 +901,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1726985263716/>Sun, Sep 22, 2024 @338.69</a>
@@ -870,6 +927,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1726957940977/>Sun, Sep 22, 2024 @22.454</a>
@@ -895,6 +953,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1726950240841/>Sat, Sep 21, 2024 @933.33</a>
@@ -920,6 +979,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1726947875915/>Sat, Sep 21, 2024 @905.96</a>
@@ -945,6 +1005,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1726940303042/>Sat, Sep 21, 2024 @818.32</a>
@@ -972,6 +1033,7 @@ svg.pagination {
 
 <div class="post">
     <div class="metadata">
+        <span class="profile-pic"></span>
         <span class="author">@topghost</span>
         <span class="timestamp">
             <a href=/1726811344210/>Fri, Sep 20, 2024 @325.74</a>
@@ -1010,10 +1072,11 @@ svg.pagination {
 	</li>
 </ol>
 
-		</main>
+			</main>
+		</section>
 
 		<footer></footer>
 
-		<!-- This page `/` was built on 2024-09-24T06:50:04.783Z -->
+		<!-- This page `/` was built on 2024-09-24T07:37:15.786Z -->
 	</body>
 </html>
