@@ -27,6 +27,7 @@
 		"@11ty/eleventy-plugin-rss": "^2.0.2",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"eleventy-plugin-embed-everything": "^1.19.0",
+		"eleventy-auto-cache-buster": "^0.6.1",
 		"luxon": "^3.5.0",
 		"markdown-it-anchor": "^9.2.0"
 	}

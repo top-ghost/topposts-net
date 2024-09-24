@@ -10,6 +10,7 @@ const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
 const embeds = require("eleventy-plugin-embed-everything");
+const eleventyAutoCacheBuster = require("eleventy-auto-cache-buster");
 
 
 const SEC_PER_DAY = 24 * 60 * 60;
@@ -69,6 +70,7 @@ module.exports = async function(eleventyConfig) {
 
 	// Third party plugins
 	eleventyConfig.addPlugin(embeds);
+	eleventyConfig.addPlugin(eleventyAutoCacheBuster);
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
