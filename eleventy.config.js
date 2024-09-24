@@ -23,7 +23,7 @@ function getSwatchBeats(timestamp) {
     const timeCET = convertTZ(new Date(timestamp), "Europe/Berlin");
     let current_seconds = timeCET.getSeconds() + timeCET.getMinutes() * 60 + timeCET.getHours() * 60 * 60;
     let swatch = "@" + ((current_seconds / SEC_PER_DAY) * 1000).toPrecision(5);
-	let fullDateString = `${new Date(timestamp).toDateString("%b %d\, %Y")} ${swatch}`
+	let fullDateString = `${new Intl.DateTimeFormat("en-us", {weekday: "short", month: "short", day: "numeric", year: "numeric"}).format(timeCET)} ${swatch}`
     return fullDateString;
 }
 

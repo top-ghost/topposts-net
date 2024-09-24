@@ -27,8 +27,12 @@ function authorize() {
 }
 
 function makePost(postAuthor, {postTitle, postTimestamp, postBody, postTagsRawString}) {
-  const tagArray = JSON.parse(decodeURIComponent(postTagsRawString));
 
+  const tagArray = []
+  try {
+    tagArray.push(...JSON.parse(postTagsRawString))
+  } catch (e) {}
+  
   return `---json
 ${JSON.stringify({
   author: he.encode(postAuthor),
@@ -75,7 +79,16 @@ window.addEventListener("DOMContentLoaded", async () => {
           branch: "main"
         });
 
-        console.log(response);
+        if (response.status == "201") {
+          console.log("success!");
+          Array.from(document.querySelectorAll("form")).forEach((el) => {
+            el.reset();
+          })
+          const dataList = document.querySelector("datalist");
+          while (dataList.firstChild) {
+            dataList.removeChild(dataList.lastChild);
+          }
+        }
       } catch (error) {
         console.log(`error: ${error.message}`);
       }

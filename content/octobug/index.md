@@ -4,7 +4,7 @@
   title: "Octobug: Post"
 ---
 
-<div class="post">
+<form id="submitForm" class="post">
     <h1 class="title">
         <input type="text" id="postTitleInput" placeholder="headline" />
     </h1>
@@ -21,12 +21,10 @@
         value=""
       />
     </div>
-    <div class="controls">
-      <form id="submitForm">
+    <div class="controls"> 
         <button id="postButton" type="submit">post now</button>
-      </form>
     </div>
-</div>
+</form>
 
 <datalist id="all-tags">
 </datalist>
