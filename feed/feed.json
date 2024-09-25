@@ -17,40 +17,40 @@
 			"content_html": "",
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1727208050890/",
-			"url": "https://topposts.net/1727208050890/",
+			"id": "https://topposts.net/1727208050887/",
+			"url": "https://topposts.net/1727208050887/",
 			"title": "the stakes of posting",
 			"content_html": "<p>are so much higher when deleting the post requires deleting a file from a git repo 😰</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1727207607054/",
-			"url": "https://topposts.net/1727207607054/",
+			"id": "https://topposts.net/1727207607053/",
+			"url": "https://topposts.net/1727207607053/",
 			"title": "Untitled Post",
 			"content_html": "<p>hopping into the group chat to tell the squad how non-attached I feel today</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1727203782789/",
-			"url": "https://topposts.net/1727203782789/",
+			"id": "https://topposts.net/1727203782788/",
+			"url": "https://topposts.net/1727203782788/",
 			"title": "crisis over",
-			"content_html": "<p>I timed badly the delivery of a new phone (my old one was from 2020 and had had its battery replaced twice… I need a bigger battery, apparently)  and its accompanying case so I was carrying it around for the last 4 days with no case and it was kind of terrifying.</p>\n<p>The new case has arrived and it’s a huge relief to know that I am at least somewhat protected from fucking up my phone now</p>\n"
+			"content_html": "<p>I timed badly the delivery of a new phone (my old one was from 2020 and had had its battery replaced twice… I need a bigger battery, apparently) and its accompanying case so I was carrying it around for the last 4 days with no case and it was kind of terrifying.</p>\n<p>The new case has arrived and it’s a huge relief to know that I am at least somewhat protected from fucking up my phone now</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -61,18 +61,18 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1727159461670/",
-			"url": "https://topposts.net/1727159461670/",
+			"id": "https://topposts.net/1727159461669/",
+			"url": "https://topposts.net/1727159461669/",
 			"title": "Untitled Post",
 			"content_html": "<p>honestly writing vanilla javascript to do things that still &quot;feel good&quot; feels like doing the saddest magic trick, but attracting the most hardcore audience. For my next trick, useful OpenGraph tags</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -83,7 +83,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -98,7 +98,7 @@
 					"who cares"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -109,12 +109,12 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1727154662986/",
-			"url": "https://topposts.net/1727154662986/",
+			"id": "https://topposts.net/1727154662985/",
+			"url": "https://topposts.net/1727154662985/",
 			"title": "okay look I admit it",
 			"content_html": "<p>I'm posting to production again in order to test something locally. yes it's a nightmare</p>\n"
 	,
@@ -122,7 +122,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -136,12 +136,12 @@
 					"has anyone done this"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1727153611775/",
-			"url": "https://topposts.net/1727153611775/",
+			"id": "https://topposts.net/1727153611774/",
+			"url": "https://topposts.net/1727153611774/",
 			"title": "Octobug does tag autocomplete now",
 			"content_html": "<p>It gets the list of tags from the server when you open the post editor</p>\n<p>And then as you type it shows the tags you've already used so you can more easily &quot;do a bit&quot; that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>\n<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>\n"
 	,
@@ -155,12 +155,12 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1727139863555/",
-			"url": "https://topposts.net/1727139863555/",
+			"id": "https://topposts.net/1727139863554/",
+			"url": "https://topposts.net/1727139863554/",
 			"title": "are you josh brolin",
 			"content_html": "<p>because buddy you’ve got me brolin’ on the floor blaughin’</p>\n"
 	,
@@ -172,7 +172,7 @@
 					"historic anticlimaxes in posting"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -185,7 +185,7 @@
 					"don&#x2019;t worry about it"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -196,7 +196,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -213,12 +213,12 @@
 					"the post button is lime green lol"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1726992628735/",
-			"url": "https://topposts.net/1726992628735/",
+			"id": "https://topposts.net/1726992628734/",
+			"url": "https://topposts.net/1726992628734/",
 			"title": "having a development environment that can write data to production is never wise",
 			"content_html": "<p>but maybe it could work for us?</p>\n"
 	,
@@ -226,12 +226,12 @@
 					"good ideas"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
-			"id": "https://topposts.net/1726985263716/",
-			"url": "https://topposts.net/1726985263716/",
+			"id": "https://topposts.net/1726985263715/",
+			"url": "https://topposts.net/1726985263715/",
 			"title": "DNS working, API keys in localstorage...",
 			"content_html": "<p>if this post sends then everything is in a good state</p>\n"
 	,
@@ -239,7 +239,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -252,7 +252,7 @@
 					"wishful thinking"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -265,7 +265,7 @@
 					"stunts"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -278,7 +278,7 @@
 					"testing in production"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -292,7 +292,7 @@
 					"saturday morning"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		,
 		{
@@ -309,7 +309,7 @@
 					"javascript"
 					
 			],
-			"date_published": "2024-09-25T01:16:45Z"
+			"date_published": "2024-09-25T01:29:48Z"
 		}
 		
 ]

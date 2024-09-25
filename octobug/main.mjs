@@ -73,7 +73,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         const response = await octokit.request("PUT /repos/{owner}/{repo}/contents/{path}", {
           owner: localStorage.getItem("githubRepoOwner"),
           repo: localStorage.getItem("githubRepoName"),
-          path: `content/${Date.now().toString()}.md`,
+          path: `content/post/${Date.now().toString()}.md`,
           message: "post created with octobug",
           content: window.btoa(eleventyFormattedPost),
           branch: "main"
