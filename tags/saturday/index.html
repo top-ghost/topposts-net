@@ -49,7 +49,7 @@
 
 /* Defaults */
 :root {
-	font-family: Atkinson Hyperlegible, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: "Atkinson Hyperlegible", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 	font-feature-settings: normal;
 	font-variation-settings: normal;
@@ -475,6 +475,7 @@ svg.pagination {
 	#postTitleInput, #postBodyTextarea, #postTagsInput,
 	#postTitleInput:focus, #postBodyTextarea:focus, #postTagsInput:focus
 	 {
+		font-family: inherit;
 		background-color: inherit;
 		color: inherit;
 		width: 100%;
@@ -483,17 +484,17 @@ svg.pagination {
 	}
 
 	#postTitleInput {
-		font-size: 1.25rem;
+		font-size: 1.25em;
 		font-weight: 700;
 	}
 
 	#postBodyTextarea {
-		font-family: inherit;
+		font-size: 1rem;
 		resize: vertical;
 	}
 
 	#postTagsInput {
-		font-size: 0.95rem;
+		font-size: 0.9rem;
 	}
 
 	.controls {
@@ -613,6 +614,6 @@ svg.pagination {
 
 		<footer></footer>
 
-		<!-- This page `/tags/saturday/` was built on 2024-09-25T00:50:49.048Z -->
+		<!-- This page `/tags/saturday/` was built on 2024-09-25T01:16:46.217Z -->
 	</body>
 </html>
