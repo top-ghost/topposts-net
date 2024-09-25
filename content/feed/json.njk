@@ -4,7 +4,7 @@ permalink: /feed/feed.json
 ---
 {
 	"version": "https://jsonfeed.org/version/1.1",
-	"title": "{{ metadata.title if metadata.title else "Untitled Post" }}",
+	"title": "{{ metadata.title }}",
 	"language": "{{ metadata.language }}",
 	"home_page_url": "{{ metadata.url | addPathPrefixToFullUrl }}",
 	"feed_url": "{{ permalink | htmlBaseUrl(metadata.url) }}",
@@ -19,9 +19,15 @@ permalink: /feed/feed.json
 		{
 			"id": "{{ absolutePostUrl }}",
 			"url": "{{ absolutePostUrl }}",
-			"title": "{{ post.data.title }}",
+			"title": "{{ post.data.title if post.data.title else "Untitled Post" }}",
 			"content_html": {% if post.templateContent %}{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | dump | safe }}
 	{% else %}""{% endif %},
+			"tags": [
+				{%- for tag in post.data.tags | filterTagList %}
+					"{{tag | safe}}"
+					{% if not loop.last %},{% endif %}
+	            {%- endfor %}
+			],
 			"date_published": "{{ post.date | dateToRfc3339 }}"
 		}
 		{% if not loop.last %},{% endif %}
