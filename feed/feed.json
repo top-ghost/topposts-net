@@ -11,6 +11,17 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1727370074285/",
+			"url": "https://topposts.net/post/1727370074285/",
+			"title": "Untitled Post",
+			"content_html": "<p>had a truly sick idea last night revolving around combining short-term cookies with JavaScript setTimeouts in order to fake long-polling (because you have to have GitHub API credentials in order to poll the GitHub repo) and then realized the only user who needs long-polling to auto-refresh is... the person who has API credentials</p>\n"
+	,
+			"tags": [
+			],
+			"date_published": "2024-09-26T17:01:53Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1727312098727/",
 			"url": "https://topposts.net/post/1727312098727/",
 			"title": "dreaming about image posts...",
@@ -18,7 +29,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -31,7 +42,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -41,7 +52,7 @@
 			"content_html": "",
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -52,7 +63,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -63,7 +74,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -74,7 +85,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -85,7 +96,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -96,7 +107,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -107,7 +118,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -122,7 +133,7 @@
 					"who cares"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -133,7 +144,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -146,7 +157,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -160,7 +171,7 @@
 					"has anyone done this"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -179,7 +190,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -196,7 +207,7 @@
 					"historic anticlimaxes in posting"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -209,7 +220,7 @@
 					"don&#x2019;t worry about it"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -220,7 +231,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -237,7 +248,7 @@
 					"the post button is lime green lol"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -250,7 +261,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -263,7 +274,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -276,7 +287,7 @@
 					"wishful thinking"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -289,7 +300,7 @@
 					"stunts"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -302,7 +313,7 @@
 					"testing in production"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -316,7 +327,7 @@
 					"saturday morning"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		,
 		{
@@ -333,7 +344,7 @@
 					"javascript"
 					
 			],
-			"date_published": "2024-09-26T16:58:57Z"
+			"date_published": "2024-09-26T17:01:53Z"
 		}
 		
 ]
