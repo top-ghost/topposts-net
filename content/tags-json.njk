@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 
 [
-{% for tag in collections.all | getAllTags | filterTagList %}
+{% for tag in collections.posts | getAllTags | filterTagList %}
     "{{tag | safe}}"{%- if not loop.last %},{% endif %}
 {% endfor %}
 ]

@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 <h1>Tags</h1>
 
 <ul>
-	{% for tag in collections.all | getAllTags | filterTagList %}
+	{% for tag in collections.posts | getAllTags | filterTagList %}
 		{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
 		<li>
 			<a href="{{ tagUrl }}" class="post-tag">{{ tag | safe }}</a>

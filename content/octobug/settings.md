@@ -21,6 +21,6 @@
 
 {% jstags %}
 
-  <script type="module" src="/octobug/secrets.mjs"></script>
+  <script type="module" src="/js/secrets.mjs"></script>
 
 {% endjstags %}

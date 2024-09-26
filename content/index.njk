@@ -3,7 +3,7 @@ layout: layouts/home.njk
 eleventyExcludeFromCollections: true
 pagination:
   data: collections.reverseChron
-  size: 20
+  size: 10
 permalink: "/{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/index.html"
 ---
 

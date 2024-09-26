@@ -23,7 +23,7 @@ function getSwatchBeats(timestamp) {
     const timeCET = convertTZ(new Date(timestamp), "Europe/Berlin");
     let current_seconds = timeCET.getSeconds() + timeCET.getMinutes() * 60 + timeCET.getHours() * 60 * 60;
     let swatch = "@" + ((current_seconds / SEC_PER_DAY) * 1000).toPrecision(5);
-	let fullDateString = `${new Intl.DateTimeFormat("en-us", {weekday: "short", month: "short", day: "numeric", year: "numeric"}).format(timeCET)} ${swatch}`
+	  let fullDateString = `${new Intl.DateTimeFormat("en-us", {weekday: "short", month: "short", day: "numeric", year: "numeric"}).format(timeCET)} ${swatch}`
     return fullDateString;
 }
 
@@ -80,8 +80,12 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyAutoCacheBuster);
 
   // Collections
-  eleventyConfig.addCollection("reverseChron", function (collection) {
-    return collection.getAll().reverse();
+  eleventyConfig.addCollection("posts", function (collectionApi) {
+	return collectionApi.getFilteredByGlob("content/post/*.md");
+  });
+
+  eleventyConfig.addCollection("reverseChron", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("content/post/*.md").reverse(); // lol sorry
   });
 
   // Filters

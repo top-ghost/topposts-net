@@ -1,11 +1,11 @@
-{%set item = post | d(collections.all | getCollectionItem(page))%}
+{%set item = post | d(collections.posts | getCollectionItem(page))%}
 
 <div class="post">
     <div class="metadata">
         <span class="profile-pic"></span>
         <span class="author">{{item.data.author}}</span>
         <span class="timestamp">
-            <a href={{item.url}}>{{item.data.timestamp | beatsDate }}</a>
+            <a href={{item.url}}>{{item.data.timestamp | beatsDate if item.data.timestamp }}</a>
         </span>
     </div>
 

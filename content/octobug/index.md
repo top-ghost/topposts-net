@@ -31,7 +31,7 @@
 
 {% jstags %}
 
-  <script type="module" src="/octobug/main.mjs"></script>
-  <script type="module" src="/octobug/tag-autocomplete.mjs"></script>
+  <script type="module" src="/js/main.mjs"></script>
+  <script type="module" src="/js/tag-autocomplete.mjs"></script>
 
 {% endjstags %}
