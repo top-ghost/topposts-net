@@ -573,13 +573,15 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	a {
+	span {
 		display: block;
 		color: black;
 		text-decoration: none;
+		user-select: none;
 	}
 	opacity: 0;
 }
+
 
 .showWhenLoggedIn {
 	opacity: 1 !important;
@@ -697,9 +699,9 @@ footer {
 				</div>
 			</footer>
 
-			<div id="cornerPostLink" class="">
-				<a href="/octobug">POST</a>
-			</div>
-			<!-- This page `/octobug/settings/` was built on 2024-09-26T17:01:53.470Z -->
+			<a id="cornerPostLink" class="">
+				<span href="/octobug">POST</a>
+			</a>
+			<!-- This page `/octobug/settings/` was built on 2024-09-26T17:08:50.111Z -->
 		</body>
 	</html>
