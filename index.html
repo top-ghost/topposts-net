@@ -5,11 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>topposts.net</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
+
+		<link rel="apple-touch-icon" href="/maskable_icon.png"/>
+
+		<link rel="manifest" href="/manifest.json"/>
+		<meta name="theme-color" content="#f8f8f8"/>
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="topposts.net">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			.postlist { counter-reset: start-from 21 }
+			.postlist { counter-reset: start-from 11 }
 * { box-sizing: border-box; }
 @font-face{
 	font-family:"Atkinson Hyperlegible";
@@ -62,7 +67,7 @@
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
 
-	--background-color: #836d8e;
+	--background-color: #866bb8;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
@@ -127,17 +132,6 @@ p {
 
 li {
 	line-height: 1.5;
-}
-
-a[href] {
-	color: var(--text-color-link);
-}
-a[href]:visited {
-	color: var(--text-color-link-visited);
-}
-a[href]:hover,
-a[href]:active {
-	color: var(--text-color-link-active);
 }
 
 main :first-child {
@@ -376,6 +370,22 @@ svg.pagination {
 	height: 32px;
 }
 
+form#secrets {
+	display: flex;
+	flex-direction: column;
+
+	label {
+		margin-top: 12px;
+	}
+
+	button {
+		margin-top: 24px;
+		margin-left: auto;
+		width: 80px;
+		height: 2lh;
+	}
+}
+
 .post {
 	background-color: rgb(255,255,255);
 	border: 1px solid black;
@@ -504,13 +514,54 @@ svg.pagination {
 
 		#postButton {
 			padding: 6px;
-			background-color: rgb(0, 255, 0);
+			background-color: #866bb6;
 			color: white;
-			border: 1px solid #666666;
+			font-size: 1.1em;
+			font-weight: 400;
 			border-radius: 4px;
+			border: 0px;
 		}
 	}
 }
+
+footer {
+	padding-top: 20px;
+	padding-inline: 8px;
+	display: flex;
+	justify-content: space-around;
+	/* chris coyier's ".full-width" */
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+
+	div {
+		max-width: 20em;
+
+		ul {
+			display: grid;
+			list-style: none;
+			grid-template-columns: 1fr 1fr;
+			padding: none;
+
+			li {
+				border: 2px solid white;
+				background-color: white;
+				font-weight: 700;
+				margin: 4px;
+				padding: 8px;
+				text-align: center;
+				color: #866bb8;
+				border-radius: 8px;
+				border-color: 2px solid black;
+				height: min-content;
+			}
+		}
+	}
+}
+
 
 @media (prefers-color-scheme: dark) {
 	.post {
@@ -534,12 +585,25 @@ svg.pagination {
 				}
 			}
 		}
+	}
 
-		.controls {
+	footer {
+		div {
+			ul {
+				li {
+					background-color: #866bb8;
 
-			#postButton {
-				background-color: rgb(255, 0, 255);
-				color: black;
+					a {
+						color: white;
+						text-decoration: none;
+					}
+				}
+
+				li.disabled {
+					border: none;
+					background-color: inherit;
+					color: inherit;
+				}
 			}
 		}
 	}
@@ -817,288 +881,6 @@ among some post editor improvements (better mobile support!) NEW posts should ha
     </div>
 </div>
 	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727156407447/>Tue, Sep 24, 2024 @319.53</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727156407447/>update</a>
-    </h1>
-
-    <div class="postbody"><p>and when it posts to Github... we clear the form. hopefully</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727154662985/>Tue, Sep 24, 2024 @299.33</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727154662985/>okay look I admit it</a>
-    </h1>
-
-    <div class="postbody"><p>I'm posting to production again in order to test something locally. yes it's a nightmare</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727154071821/>Tue, Sep 24, 2024 @292.49</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727154071821/>bone letter off</a>
-    </h1>
-
-    <div class="postbody"></div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/one-letter-off/" class="post-tag">#one letter off</a>
-                </li>
-                <li>
-                    <a href="/tags/has-anyone-done-this/" class="post-tag">#has anyone done this</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727153611774/>Tue, Sep 24, 2024 @287.16</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727153611774/>Octobug does tag autocomplete now</a>
-    </h1>
-
-    <div class="postbody"><p>It gets the list of tags from the server when you open the post editor</p>
-<p>And then as you type it shows the tags you've already used so you can more easily &quot;do a bit&quot; that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>
-<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/json/" class="post-tag">#json</a>
-                </li>
-                <li>
-                    <a href="/tags/dont-worry-about-it/" class="post-tag">#don&#x2019;t worry about it</a>
-                </li>
-                <li>
-                    <a href="/tags/text-encoding!!!!/" class="post-tag">#text encoding!!!!</a>
-                </li>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727139863554/>Tue, Sep 24, 2024 @128.04</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727139863554/>are you josh brolin</a>
-    </h1>
-
-    <div class="postbody"><p>because buddy you’ve got me brolin’ on the floor blaughin’</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/this-isnt-anything/" class="post-tag">#this isn&#x2019;t anything</a>
-                </li>
-                <li>
-                    <a href="/tags/but-it-is-the-toilet-post/" class="post-tag">#but it is the toilet post</a>
-                </li>
-                <li>
-                    <a href="/tags/historic-anticlimaxes-in-posting/" class="post-tag">#historic anticlimaxes in posting</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727138701372/>Tue, Sep 24, 2024 @114.59</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727138701372/>this is not the toilet post</a>
-    </h1>
-
-    <div class="postbody"><p>it is the post that proves I have fixed the bug that prevented the toilet post from being made</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/dont-worry-about-it/" class="post-tag">#don&#x2019;t worry about it</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727074872138/>Mon, Sep 23, 2024 @375.83</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727074872138/></a>
-    </h1>
-
-    <div class="postbody"><div class="eleventy-plugin-embed-twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">[waving hand vaguely] Just make it go viral</p>&mdash; Brooks Otterlake (@i_zzzzzz) <a href="https://twitter.com/i_zzzzzz/status/660925493840072706?ref_src=twsrc%5Etfw">November 1, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</div>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1727072025532/>Mon, Sep 23, 2024 @342.88</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1727072025532/>ooh my posting form looks less bad now</a>
-    </h1>
-
-    <div class="postbody"><p>will that make me post here more? maybe!</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-                <li>
-                    <a href="/tags/CSS/" class="post-tag">#CSS</a>
-                </li>
-                <li>
-                    <a href="/tags/the-post-button-is-lime-green-lol/" class="post-tag">#the post button is lime green lol</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726992628734/>Sun, Sep 22, 2024 @423.94</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726992628734/>having a development environment that can write data to production is never wise</a>
-    </h1>
-
-    <div class="postbody"><p>but maybe it could work for us?</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/good-ideas/" class="post-tag">#good ideas</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
-		
-
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">@topghost</span>
-        <span class="timestamp">
-            <a href=/1726985263715/>Sun, Sep 22, 2024 @338.69</a>
-        </span>
-    </div>
-
-    <h1 class="title">
-        <a href=/1726985263715/>DNS working, API keys in localstorage...</a>
-    </h1>
-
-    <div class="postbody"><p>if this post sends then everything is in a good state</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</div>
-	
 </ol>
 
 
@@ -1126,12 +908,28 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 	</li>
 </ol>
 
-
 			</main>
 		</section>
 
-		<footer></footer>
+		<hr>
+		<footer>
+			<div>
+			topposts.net runs on Octobug. Check out Octobug soon.
+		</div>
+			<div>
+				<ul>
+					<li>
+						<a href="/about">About</a>
+					</li>
+					<li class="disabled">TKTK</li>
+					<li>
+						<a href="/octobug/settings">Settings</a>
+					</li>
+					<li class="disabled">TKTK</li>
 
-		<!-- This page `/` was built on 2024-09-26T00:55:34.071Z -->
-	</body>
-</html>
+				</div>
+			</footer>
+
+			<!-- This page `/` was built on 2024-09-26T07:34:45.864Z -->
+		</body>
+	</html>

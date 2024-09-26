@@ -5,6 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Tagged “don&amp;#x2019;t worry about it”</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
+
+		<link rel="apple-touch-icon" href="/maskable_icon.png"/>
+
+		<link rel="manifest" href="/manifest.json"/>
+		<meta name="theme-color" content="#f8f8f8"/>
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="topposts.net">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
@@ -62,7 +67,7 @@
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
 
-	--background-color: #836d8e;
+	--background-color: #866bb8;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
@@ -127,17 +132,6 @@ p {
 
 li {
 	line-height: 1.5;
-}
-
-a[href] {
-	color: var(--text-color-link);
-}
-a[href]:visited {
-	color: var(--text-color-link-visited);
-}
-a[href]:hover,
-a[href]:active {
-	color: var(--text-color-link-active);
 }
 
 main :first-child {
@@ -376,6 +370,22 @@ svg.pagination {
 	height: 32px;
 }
 
+form#secrets {
+	display: flex;
+	flex-direction: column;
+
+	label {
+		margin-top: 12px;
+	}
+
+	button {
+		margin-top: 24px;
+		margin-left: auto;
+		width: 80px;
+		height: 2lh;
+	}
+}
+
 .post {
 	background-color: rgb(255,255,255);
 	border: 1px solid black;
@@ -504,13 +514,54 @@ svg.pagination {
 
 		#postButton {
 			padding: 6px;
-			background-color: rgb(0, 255, 0);
+			background-color: #866bb6;
 			color: white;
-			border: 1px solid #666666;
+			font-size: 1.1em;
+			font-weight: 400;
 			border-radius: 4px;
+			border: 0px;
 		}
 	}
 }
+
+footer {
+	padding-top: 20px;
+	padding-inline: 8px;
+	display: flex;
+	justify-content: space-around;
+	/* chris coyier's ".full-width" */
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+
+	div {
+		max-width: 20em;
+
+		ul {
+			display: grid;
+			list-style: none;
+			grid-template-columns: 1fr 1fr;
+			padding: none;
+
+			li {
+				border: 2px solid white;
+				background-color: white;
+				font-weight: 700;
+				margin: 4px;
+				padding: 8px;
+				text-align: center;
+				color: #866bb8;
+				border-radius: 8px;
+				border-color: 2px solid black;
+				height: min-content;
+			}
+		}
+	}
+}
+
 
 @media (prefers-color-scheme: dark) {
 	.post {
@@ -534,12 +585,25 @@ svg.pagination {
 				}
 			}
 		}
+	}
 
-		.controls {
+	footer {
+		div {
+			ul {
+				li {
+					background-color: #866bb8;
 
-			#postButton {
-				background-color: rgb(255, 0, 255);
-				color: black;
+					a {
+						color: white;
+						text-decoration: none;
+					}
+				}
+
+				li.disabled {
+					border: none;
+					background-color: inherit;
+					color: inherit;
+				}
 			}
 		}
 	}
@@ -643,12 +707,28 @@ svg.pagination {
 </ol>
 
 
-
 			</main>
 		</section>
 
-		<footer></footer>
+		<hr>
+		<footer>
+			<div>
+			topposts.net runs on Octobug. Check out Octobug soon.
+		</div>
+			<div>
+				<ul>
+					<li>
+						<a href="/about">About</a>
+					</li>
+					<li class="disabled">TKTK</li>
+					<li>
+						<a href="/octobug/settings">Settings</a>
+					</li>
+					<li class="disabled">TKTK</li>
 
-		<!-- This page `/tags/dont-worry-about-it/` was built on 2024-09-26T00:55:34.162Z -->
-	</body>
-</html>
+				</div>
+			</footer>
+
+			<!-- This page `/tags/dont-worry-about-it/` was built on 2024-09-26T07:34:46.068Z -->
+		</body>
+	</html>

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>topposts.net</title>
+		<title>Octobug: Settings</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
 
 		<link rel="apple-touch-icon" href="/maskable_icon.png"/>
@@ -608,7 +608,7 @@ footer {
 	}
   }
 		</style>
-		
+		<script type="module" src="/js/secrets.mjs"></script>
 		<script type="text/javascript">
 			
 		</script>
@@ -633,18 +633,20 @@ footer {
 			<main id="skip">
 
 				
-<h1 id="content-not-found" tabindex="-1">Content not found. <a class="header-anchor" href="#content-not-found">#</a></h1>
-<p>Go <a href="/">home</a>.</p>
-<!--
-
-Read more: https://www.11ty.dev/docs/quicktips/not-found/
-
-This will work for both GitHub pages and Netlify:
-
-* https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/
-* https://www.netlify.com/docs/redirects/#custom-404
-
--->
+<p><h1>Secrets</h1>
+<form id="secrets">
+<label for="githubPrivateKeyInput">Private Key (one-line, PKCS8 format)</label>
+<input type="text" id="githubPrivateKeyInput"/>
+<label for="githubAppIdInput">Github App ID</label>
+<input type="text" id="githubAppIdInput"/>
+<label for="githubAppInstallationIdInput">Github App Installation ID</label>
+<input type="text" id="githubAppInstallationIdInput"/>
+<label for="githubRepoUrlInput">Github Repo URL (<code>https://github.com/${owner}/${repo}</code>)</label>
+<input type="text" id="githubRepoUrlInput"/>
+<label for="postAuthorInput">Post Author Name</label>
+<input type="text" id="postAuthorInput"/>
+<button type="submit" id="secretsUpdateButton">UPDATE!</button>
+</form></p>
 
 
 			</main>
@@ -669,6 +671,6 @@ This will work for both GitHub pages and Netlify:
 				</div>
 			</footer>
 
-			<!-- This page `/404.html` was built on 2024-09-26T07:34:45.864Z -->
+			<!-- This page `/octobug/settings/` was built on 2024-09-26T07:34:45.864Z -->
 		</body>
 	</html>

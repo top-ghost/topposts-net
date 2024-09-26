@@ -1,0 +1,3 @@
+# Go nuts guys idk lol
+User-agent: *
+Allow: /

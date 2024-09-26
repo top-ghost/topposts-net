@@ -3,13 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Octobug: Settings</title>
+		<title>topposts.net</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
+
+		<link rel="apple-touch-icon" href="/maskable_icon.png"/>
+
+		<link rel="manifest" href="/manifest.json"/>
+		<meta name="theme-color" content="#f8f8f8"/>
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="topposts.net">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			* { box-sizing: border-box; }
+			.postlist { counter-reset: start-from 6 }
+* { box-sizing: border-box; }
 @font-face{
 	font-family:"Atkinson Hyperlegible";
 	font-style:italic;
@@ -61,7 +67,7 @@
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
 
-	--background-color: #836d8e;
+	--background-color: #866bb8;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
@@ -126,17 +132,6 @@ p {
 
 li {
 	line-height: 1.5;
-}
-
-a[href] {
-	color: var(--text-color-link);
-}
-a[href]:visited {
-	color: var(--text-color-link-visited);
-}
-a[href]:hover,
-a[href]:active {
-	color: var(--text-color-link-active);
 }
 
 main :first-child {
@@ -375,6 +370,22 @@ svg.pagination {
 	height: 32px;
 }
 
+form#secrets {
+	display: flex;
+	flex-direction: column;
+
+	label {
+		margin-top: 12px;
+	}
+
+	button {
+		margin-top: 24px;
+		margin-left: auto;
+		width: 80px;
+		height: 2lh;
+	}
+}
+
 .post {
 	background-color: rgb(255,255,255);
 	border: 1px solid black;
@@ -503,13 +514,54 @@ svg.pagination {
 
 		#postButton {
 			padding: 6px;
-			background-color: rgb(0, 255, 0);
+			background-color: #866bb6;
 			color: white;
-			border: 1px solid #666666;
+			font-size: 1.1em;
+			font-weight: 400;
 			border-radius: 4px;
+			border: 0px;
 		}
 	}
 }
+
+footer {
+	padding-top: 20px;
+	padding-inline: 8px;
+	display: flex;
+	justify-content: space-around;
+	/* chris coyier's ".full-width" */
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+
+	div {
+		max-width: 20em;
+
+		ul {
+			display: grid;
+			list-style: none;
+			grid-template-columns: 1fr 1fr;
+			padding: none;
+
+			li {
+				border: 2px solid white;
+				background-color: white;
+				font-weight: 700;
+				margin: 4px;
+				padding: 8px;
+				text-align: center;
+				color: #866bb8;
+				border-radius: 8px;
+				border-color: 2px solid black;
+				height: min-content;
+			}
+		}
+	}
+}
+
 
 @media (prefers-color-scheme: dark) {
 	.post {
@@ -533,18 +585,31 @@ svg.pagination {
 				}
 			}
 		}
+	}
 
-		.controls {
+	footer {
+		div {
+			ul {
+				li {
+					background-color: #866bb8;
 
-			#postButton {
-				background-color: rgb(255, 0, 255);
-				color: black;
+					a {
+						color: white;
+						text-decoration: none;
+					}
+				}
+
+				li.disabled {
+					border: none;
+					background-color: inherit;
+					color: inherit;
+				}
 			}
 		}
 	}
   }
 		</style>
-		<script type="module" src="/octobug/secrets.mjs"></script>
+		
 		<script type="text/javascript">
 			
 		</script>
@@ -569,27 +634,198 @@ svg.pagination {
 			<main id="skip">
 
 				
-<p><h1>Secrets</h1>
-<form id="secrets">
-<label for="githubPrivateKeyInput">Private Key (one-line, PKCS8 format)</label>
-<input type="text" id="githubPrivateKeyInput"/>
-<label for="githubAppIdInput">Github App ID</label>
-<input type="text" id="githubAppIdInput"/>
-<label for="githubAppInstallationIdInput">Github App Installation ID</label>
-<input type="text" id="githubAppInstallationIdInput"/>
-<label for="githubRepoUrlInput">Github Repo URL (<code>https://github.com/${owner}/${repo}</code>)</label>
-<input type="text" id="githubRepoUrlInput"/>
-<label for="postAuthorInput">Post Author Name</label>
-<input type="text" id="postAuthorInput"/>
-<button type="submit" id="secretsUpdateButton">UPDATE!</button>
-</form></p>
 
+
+
+<ol class="postlist">
+	
+		
+
+<div class="post">
+    <div class="metadata">
+        <span class="profile-pic"></span>
+        <span class="author">@topghost</span>
+        <span class="timestamp">
+            <a href=/1726957940977/>Sun, Sep 22, 2024 @22.454</a>
+        </span>
+    </div>
+
+    <h1 class="title">
+        <a href=/1726957940977/>seeing if I broke publish after all that nonsense</a>
+    </h1>
+
+    <div class="postbody"><p>I wouldn't be surprised! But also I hope it works</p>
+</div>
+    <div class="tags">
+        <ol>
+                <li>
+                    <a href="/tags/wishful-thinking/" class="post-tag">#wishful thinking</a>
+                </li>
+        </ol>
+    </div>
+</div>
+	
+		
+
+<div class="post">
+    <div class="metadata">
+        <span class="profile-pic"></span>
+        <span class="author">@topghost</span>
+        <span class="timestamp">
+            <a href=/1726950240841/>Sat, Sep 21, 2024 @933.33</a>
+        </span>
+    </div>
+
+    <h1 class="title">
+        <a href=/1726950240841/>testing the publish time</a>
+    </h1>
+
+    <div class="postbody"><p>STARTING.... NOW!</p>
+</div>
+    <div class="tags">
+        <ol>
+                <li>
+                    <a href="/tags/stunts/" class="post-tag">#stunts</a>
+                </li>
+        </ol>
+    </div>
+</div>
+	
+		
+
+<div class="post">
+    <div class="metadata">
+        <span class="profile-pic"></span>
+        <span class="author">@topghost</span>
+        <span class="timestamp">
+            <a href=/1726947875915/>Sat, Sep 21, 2024 @905.96</a>
+        </span>
+    </div>
+
+    <h1 class="title">
+        <a href=/1726947875915/>testing FROM github pages TO github pages</a>
+    </h1>
+
+    <div class="postbody"><p>let's fuckin goooooo</p>
+</div>
+    <div class="tags">
+        <ol>
+                <li>
+                    <a href="/tags/testing-in-production/" class="post-tag">#testing in production</a>
+                </li>
+        </ol>
+    </div>
+</div>
+	
+		
+
+<div class="post">
+    <div class="metadata">
+        <span class="profile-pic"></span>
+        <span class="author">@topghost</span>
+        <span class="timestamp">
+            <a href=/1726940303042/>Sat, Sep 21, 2024 @818.32</a>
+        </span>
+    </div>
+
+    <h1 class="title">
+        <a href=/1726940303042/>here's a saturday morning post</a>
+    </h1>
+
+    <div class="postbody"></div>
+    <div class="tags">
+        <ol>
+                <li>
+                    <a href="/tags/saturday/" class="post-tag">#saturday</a>
+                </li>
+                <li>
+                    <a href="/tags/saturday-morning/" class="post-tag">#saturday morning</a>
+                </li>
+        </ol>
+    </div>
+</div>
+	
+		
+
+<div class="post">
+    <div class="metadata">
+        <span class="profile-pic"></span>
+        <span class="author">@topghost</span>
+        <span class="timestamp">
+            <a href=/1726811344210/>Fri, Sep 20, 2024 @325.74</a>
+        </span>
+    </div>
+
+    <h1 class="title">
+        <a href=/1726811344210/>json frontmatter fixes</a>
+    </h1>
+
+    <div class="postbody"><p>okay, that should fix the front matter to be actual json</p>
+</div>
+    <div class="tags">
+        <ol>
+                <li>
+                    <a href="/tags/fixes/" class="post-tag">#fixes</a>
+                </li>
+                <li>
+                    <a href="/tags/json/" class="post-tag">#json</a>
+                </li>
+                <li>
+                    <a href="/tags/javascript/" class="post-tag">#javascript</a>
+                </li>
+        </ol>
+    </div>
+</div>
+	
+</ol>
+
+
+<ol class="paginationContainer">
+	<li>
+		
+			<a href="/page/2/"><svg viewBox="0 0 25 18" xmlns="http://www.w3.org/2000/svg"
+    class="pagination"
+    role="button"
+    style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2; transform: matrix(-1, 0, 0, 1, 0, 0);">
+    <path
+        d="M14.923 17.087c-2.254.666-4.388.967-6.402.905-2.014-.062-3.742-.532-5.183-1.409-1.442-.877-2.436-2.217-2.982-4.022-.549-1.814-.463-3.476.257-4.985.719-1.51 1.905-2.832 3.557-3.965C5.823 2.478 7.776 1.578 10.03.913c2.243-.663 4.369-.965 6.376-.906 2.007.059 3.733.523 5.178 1.394 1.446.87 2.441 2.207 2.987 4.011.546 1.804.457 3.464-.266 4.981-.724 1.516-1.908 2.845-3.551 3.987-1.644 1.143-3.588 2.045-5.831 2.707Z"
+        style="fill-rule: nonzero; transform: rotate(180);"></path>
+    <g transform-origin="center center" transform="scale(0.8 0.8)">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+        </svg>
+    </g>
+</svg></a>
+		
+	</li>
+	<li>
+		
+	</li>
+</ol>
 
 			</main>
 		</section>
 
-		<footer></footer>
+		<hr>
+		<footer>
+			<div>
+			topposts.net runs on Octobug. Check out Octobug soon.
+		</div>
+			<div>
+				<ul>
+					<li>
+						<a href="/about">About</a>
+					</li>
+					<li class="disabled">TKTK</li>
+					<li>
+						<a href="/octobug/settings">Settings</a>
+					</li>
+					<li class="disabled">TKTK</li>
 
-		<!-- This page `/octobug/secrets/` was built on 2024-09-26T00:55:34.072Z -->
-	</body>
-</html>
+				</div>
+			</footer>
+
+			<!-- This page `/page/3/` was built on 2024-09-26T07:34:46.055Z -->
+		</body>
+	</html>
