@@ -1,33 +1,6 @@
-import { createAppAuth } from "https://esm.sh/@octokit/auth-app";
-import { Octokit } from "https://esm.sh/@octokit/core";
-
-window.octokit = null;
 window.currentPost = {};
 
-function authorize() {
-  const privateKey = localStorage.getItem("githubPrivateKey");
-
-  if (!!privateKey) {
-    try {
-      window.octokit = new Octokit({
-        authStrategy: createAppAuth,
-        auth: {
-          appId: localStorage.getItem("githubAppId"),
-          privateKey: localStorage.getItem("githubPrivateKey"),
-          installationId: localStorage.getItem("githubAppInstallationId")
-        },
-      });
-
-      console.log(`done: ${JSON.stringify(octokit)}`);
-    } catch (e) {
-      console.log(`Error: ${e}`);
-    }
-  }
-}
-
 window.addEventListener("DOMContentLoaded", async () => {
-  authorize();
-
   window.secretInputs = {};
   window.secretFields = ['githubPrivateKey', 'githubAppId', 'githubAppInstallationId', 'githubRepoUrl', 'postAuthor']
   
