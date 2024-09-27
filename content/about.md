@@ -1,10 +1,10 @@
 ---
-layout: "layouts/home.njk"
+layout: "layouts/post.njk"
 title: "About"
-timestamp: "Git updated"
+date: "Git created"
+timestamp: 1727385279366
 author: "@topghost"
 eleventyExcludeFromCollections: true
-
 ---
 
 You're visiting topposts.net, the website created by Cohost user @topghost after it was announced that Cohost would be shut down.
