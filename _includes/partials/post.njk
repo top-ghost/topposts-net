@@ -1,19 +1,26 @@
 {%set item = post | d(collections.posts | getCollectionItem(page))%}
 
-<div class="post">
-    <div class="metadata">
-        <span class="profile-pic"></span>
-        <span class="author">{{item.data.author}}</span>
-        <span class="timestamp">
-            <a href={{item.url}}>{{item.data.timestamp | beatsDate if item.data.timestamp }}</a>
-        </span>
+<article class="post h-entry">
+    <div class="attribution">
+
+        <div class="metadata p-author h-card">
+            <span class="profile-pic"></span>
+            <span class="author p-name">{{item.data.author}}</span>
+            <span class="timestamp">
+                <a href={{item.url}} class="u-url u-uid" rel="canonical">
+                    <time datetime={{item.data.timestamp | unixTimestampToIsoDate }} class="dt-published">{{item.data.timestamp | beatsDate if item.data.timestamp }}</time>
+                </a>
+            </span>
+            <data class="p-url" value="/"></data>
+            <data class="p-logo" value="/img/moon-dutiful.jpg"></data>
+        </div>
     </div>
 
-    <h1 class="title">
+    <h1 class="title p-name">
         <a href={{item.url}}>{{item.data.title | safe}}</a>
     </h1>
 
-    <div class="postbody">{{item.content | safe }}</div>
+    <div class="postbody e-content">{{item.content | safe }}</div>
     <div class="tags">
         <ol>
             {%- for tag in item.data.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
@@ -23,4 +30,4 @@
             {%- endfor %}
         </ol>
     </div>
-</div>
+</article>
