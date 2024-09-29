@@ -4,12 +4,23 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-09-29T05:58:15Z</updated>
+	<updated>2024-09-29T06:39:25Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1727591932219/"/>
+			<updated>2024-09-29T06:38:52.218Z</updated>
+			<id>https://topposts.net/post/1727591932219/</id>
+			<content type="html">
+				<p>something I believe strongly is that you cannot skip track on Fatboy Slim's &quot;Weapon of Choice&quot;. Once it starts playing, you have to listen to the whole thing</p>
+
+			</content>
+		</entry>
 		
 		<entry>
 			<title>octobug feature request</title>
