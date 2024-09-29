@@ -326,6 +326,10 @@ everything above is remnants of the eleventy-base-blog theme */
   }
 }
 
+.page-title {
+  padding-inline: 1em;
+}
+
 .profile-pic {
   aspect-ratio: 1 / 1;
   height: 2em;

@@ -14,7 +14,7 @@ eleventyComputed:
 permalink: /tags/{{ tag | slug }}/
 ---
 
-<h1>Tagged “{{ tag | safe }}”</h1>
+<h1 class="page-title">Tagged “{{ tag | safe }}”</h1>
 
 {% set postslist = collections[tag] | reverse %}
 {% include "postslist.njk" %}
