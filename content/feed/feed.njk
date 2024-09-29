@@ -22,10 +22,10 @@ eleventyImport:
 		<entry>
 			<title>{{ post.data.title if post.data.title else "Untitled post" }}</title>
 			<link href="{{ absolutePostUrl }}"/>
-			<updated>{{ post.date | dateToRfc3339 }}</updated>
+			<updated>{{ post.data.timestamp | unixTimestampToIsoDate }}</updated>
 			<id>{{ absolutePostUrl }}</id>
 			<content type="html">
-				{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}
+				{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | safe }}
 				{%- if post.data.tags | length %}
 					<p>Tagged: {%- for tag in post.data.tags %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
 							<a href="{{ tagUrl }}">#{{ tag | safe }}</a>

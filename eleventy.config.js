@@ -20,20 +20,31 @@ const SEC_PER_DAY = 24 * 60 * 60;
  * @returns {string}
  */
 function getSwatchBeats(timestamp) {
-    const timeCET = convertTZ(new Date(timestamp), "Europe/Berlin");
-    let current_seconds = timeCET.getSeconds() + timeCET.getMinutes() * 60 + timeCET.getHours() * 60 * 60;
-    let swatch = "@" + ((current_seconds / SEC_PER_DAY) * 1000).toPrecision(5);
-	  let fullDateString = `${new Intl.DateTimeFormat("en-us", {weekday: "short", month: "short", day: "numeric", year: "numeric"}).format(timeCET)} ${swatch}`
-    return fullDateString;
+  const timeCET = convertTZ(new Date(timestamp), "Europe/Berlin");
+  let current_seconds =
+    timeCET.getSeconds() +
+    timeCET.getMinutes() * 60 +
+    timeCET.getHours() * 60 * 60;
+  let swatch = "@" + ((current_seconds / SEC_PER_DAY) * 1000).toPrecision(5);
+  let fullDateString = `${new Intl.DateTimeFormat("en-us", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(timeCET)} ${swatch}`;
+  return fullDateString;
 }
 
 function convertTZ(date, tzString) {
-    return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("en-US", { timeZone: tzString }));
+  return new Date(
+    (typeof date === "string" ? new Date(date) : date).toLocaleString("en-US", {
+      timeZone: tzString,
+    })
+  );
 }
 
-
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
-module.exports = async function(eleventyConfig) {
+module.exports = async function (eleventyConfig) {
   const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
 
   // Bundle js snippets
@@ -81,7 +92,7 @@ module.exports = async function(eleventyConfig) {
 
   // Collections
   eleventyConfig.addCollection("posts", function (collectionApi) {
-	return collectionApi.getFilteredByGlob("content/post/*.md");
+    return collectionApi.getFilteredByGlob("content/post/*.md");
   });
 
   eleventyConfig.addCollection("reverseChron", function (collectionApi) {
@@ -91,6 +102,14 @@ module.exports = async function(eleventyConfig) {
   // Filters
   eleventyConfig.addFilter("slug", (str) => {
     return slugify(he.decode(str), { remove: /[&,+()$~%.'":*?<>{}]/g });
+  });
+
+  eleventyConfig.addFilter("unixTimestampToIsoDate", (timestamp) => {
+    if (!timestamp) {
+      return null;
+    }
+
+    return new Date(timestamp).toISOString();
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
