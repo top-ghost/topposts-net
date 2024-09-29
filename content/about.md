@@ -1,5 +1,5 @@
 ---
-layout: "layouts/post.njk"
+layout: "layouts/page.njk"
 title: "About"
 date: "Git created"
 timestamp: 1727385279366

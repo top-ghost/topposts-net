@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+---
+<article class="post h-entry">
+    <div class="attribution">
+
+        <div class="metadata p-author h-card">
+            <span class="profile-pic"></span>
+            <span class="author p-name">{{author}}</span>
+            <span class="timestamp">
+                <a href={{url}} class="u-url u-uid" rel="canonical">
+                    <time datetime={{timestamp | unixTimestampToIsoDate }} class="dt-published">{{timestamp | beatsDate if timestamp }}</time>
+                </a>
+            </span>
+            <data class="p-url" value="/"></data>
+            <data class="p-logo" value="/img/moon-dutiful.jpg"></data>
+        </div>
+    </div>
+
+    <h1 class="title p-name">
+        <a href={{url}}>{{title | safe}}</a>
+    </h1>
+
+    <div class="postbody e-content">{{content | safe }}</div>
+    <div class="tags">
+        <ol>
+            {%- for tag in tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+                <li>
+                    <a href="{{ tagUrl }}" class="post-tag">#{{ tag | safe }}</a>
+                </li>
+            {%- endfor %}
+        </ol>
+    </div>
+</article>
