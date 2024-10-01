@@ -590,9 +590,13 @@ footer {
       border-bottom: 1px solid #666666;
     }
 
-    .title a,
+    .title,
     .postbody {
       color: #ffffff;
+
+      a {
+        color: inherit;
+      }
     }
 
     .tags {
