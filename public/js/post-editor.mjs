@@ -33,7 +33,9 @@ function makePost(
   const tagArray = [];
   try {
     tagArray.push(...JSON.parse(postTagsRawString));
-  } catch (e) {}
+  } catch (e) {
+    console.log("problem trying to parse tags");
+  }
 
   return `---json
 ${JSON.stringify({
@@ -70,13 +72,15 @@ window.addEventListener("DOMContentLoaded", async () => {
       postTitle: postTitleInput.value,
       postTimestamp: Date.now(),
       postBody: postBodyTextarea.value,
-      postTagsRawString: postTagsInput.value
-    }
+      postTagsRawString: postTagsHiddenInput.value,
+    };
 
-    const eleventyFormattedPost = makePost(localStorage.getItem("postAuthor"), window.currentPost);
+    const eleventyFormattedPost = makePost(
+      localStorage.getItem("postAuthor"),
+      window.currentPost
+    );
 
     if (octokit) {
-
       try {
         const response = await octokit.request(
           "PUT /repos/{owner}/{repo}/contents/{path}",
@@ -94,7 +98,7 @@ window.addEventListener("DOMContentLoaded", async () => {
           console.log("success!");
           Array.from(document.querySelectorAll("form")).forEach((el) => {
             el.reset();
-          })
+          });
           const dataList = document.querySelector("datalist");
           while (dataList.firstChild) {
             dataList.removeChild(dataList.lastChild);
