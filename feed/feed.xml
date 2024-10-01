@@ -4,26 +4,12 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-01T17:57:02Z</updated>
+	<updated>2024-10-01T17:59:30Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
-		
-		<entry>
-			<title>sorry sorry I&amp;#x2019;m trying to delete it</title>
-			<link href="https://topposts.net/post/1727805384829/"/>
-			<updated>2024-10-01T17:56:24.826Z</updated>
-			<id>https://topposts.net/post/1727805384829/</id>
-			<content type="html">
-				<p>testing a couple attempts to fix some annoying things!</p>
-<p>&gt; blockquotes should parse</p>
-<p>&lt;b&gt;HTML&lt;/b&gt; is probably still broken?</p>
-<p>tags should actually stay attached</p>
-
-			</content>
-		</entry>
 		
 		<entry>
 			<title>Wizard Sokoban</title>
