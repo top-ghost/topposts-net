@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “octobug (meta)”</title>
+		<title>topposts.net</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
 
 		<link rel="apple-touch-icon" href="/maskable_icon.png">
@@ -14,7 +14,174 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			.postlist { counter-reset: start-from 6 }
+			/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 @font-face {
   font-family: "Atkinson Hyperlegible";
@@ -671,13 +838,14 @@ footer {
 
 				
 
-<h1 class="page-title">Tagged “octobug (meta)”</h1>
+<meta property="og:title" content="topposts.net: ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/">
+<meta property="og:description" content="a 20-year-old, watching a 65-year-old person struggle to remember a childhood memory: heh, wow. skill issue I guess. not me, I&#39;ve got this little thing called BRAIN TRAINING, I just do these every day and you&#39;ll never catch me looking like that. sucker
+me, a 40-year-old, seeing something about ZZT: goddammit&lt;/p&gt;
+">
 
 
-
-<ol class="postlist">
-	
-		
 
 <article class="post h-entry">
     <div class="attribution">
@@ -686,8 +854,8 @@ footer {
             <span class="profile-pic"></span>
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727228193024/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-25T01:36:33.023Z" class="dt-published">Wed, Sep 25, 2024 @150.38</time>
+                <a href="/post/1727762932962/" class="u-url u-uid" rel="canonical">
+                    <time datetime="2024-10-01T06:08:52.962Z" class="dt-published">Tue, Oct 1, 2024 @339.49</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
@@ -696,173 +864,17 @@ footer {
     </div>
 
     <h1 class="title p-name">
-        <a href="/post/1727228193024/">tuesday dinnertime octobug update</a>
+        <a href="/post/1727762932962/"></a>
     </h1>
 
-    <div class="postbody e-content"><p>the site upgrades are piling up, I should really backport them to octobug 🤔
-among some post editor improvements (better mobile support!) NEW posts should have a new permalink structure while OLD posts retain their old URLs (to hopefully avoid bombarding feeds with &quot;new&quot; posts, and to avoid breaking what I'm sure are hundreds of links to my first ~25 brilliant posts)</p>
+    <div class="postbody e-content"><p>me, a 20-year-old, watching a 65-year-old person struggle to remember a childhood memory: heh, wow. skill issue I guess. not me, I've got this little thing called BRAIN TRAINING, I just do these every day and you'll never catch me looking like that. sucker
+me, a 40-year-old, seeing something about ZZT: goddammit</p>
 </div>
     <div class="tags">
         <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
         </ol>
     </div>
 </article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a href="/1727154662985/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T05:11:02.985Z" class="dt-published">Tue, Sep 24, 2024 @299.33</time>
-                </a>
-            </span>
-            <data class="p-url" value="/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727154662985/">okay look I admit it</a>
-    </h1>
-
-    <div class="postbody e-content"><p>I'm posting to production again in order to test something locally. yes it's a nightmare</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a href="/1727153611774/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T04:53:31.774Z" class="dt-published">Tue, Sep 24, 2024 @287.16</time>
-                </a>
-            </span>
-            <data class="p-url" value="/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727153611774/">Octobug does tag autocomplete now</a>
-    </h1>
-
-    <div class="postbody e-content"><p>It gets the list of tags from the server when you open the post editor</p>
-<p>And then as you type it shows the tags you've already used so you can more easily &quot;do a bit&quot; that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>
-<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/json/" class="post-tag">#json</a>
-                </li>
-                <li>
-                    <a href="/tags/dont-worry-about-it/" class="post-tag">#don&#x2019;t worry about it</a>
-                </li>
-                <li>
-                    <a href="/tags/text-encoding!!!!/" class="post-tag">#text encoding!!!!</a>
-                </li>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a href="/1727072025532/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-23T06:13:45.532Z" class="dt-published">Mon, Sep 23, 2024 @342.88</time>
-                </a>
-            </span>
-            <data class="p-url" value="/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727072025532/">ooh my posting form looks less bad now</a>
-    </h1>
-
-    <div class="postbody e-content"><p>will that make me post here more? maybe!</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-                <li>
-                    <a href="/tags/CSS/" class="post-tag">#CSS</a>
-                </li>
-                <li>
-                    <a href="/tags/the-post-button-is-lime-green-lol/" class="post-tag">#the post button is lime green lol</a>
-                </li>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a href="/1726985263715/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-22T06:07:43.715Z" class="dt-published">Sun, Sep 22, 2024 @338.69</time>
-                </a>
-            </span>
-            <data class="p-url" value="/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1726985263715/">DNS working, API keys in localstorage...</a>
-    </h1>
-
-    <div class="postbody e-content"><p>if this post sends then everything is in a good state</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</article>
-	
-</ol>
-
-
 			</main>
 		</section>
 
@@ -885,6 +897,6 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/tags/octobug-meta/` was built on 2024-10-01T06:09:22.740Z -->
+			<!-- This page `/post/1727762932962/` was built on 2024-10-01T06:09:22.463Z -->
 		</body>
 	</html>
