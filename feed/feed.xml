@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-01T06:28:03Z</updated>
+	<updated>2024-10-01T16:51:02Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Wizard Sokoban</title>
+			<link href="https://topposts.net/post/1727801427549/"/>
+			<updated>2024-10-01T16:50:27.549Z</updated>
+			<id>https://topposts.net/post/1727801427549/</id>
+			<content type="html">
+				<p>via <a href="https://graham.build/s/a-blog/001-wizard-sokoban/">graham</a>:</p>
+<p>&gt; Today, my friend and I launched another new version of our puzzle game named Wizard Sokoban (working title). You can play it on itch.io for free, though it works best on a computer using firefox:</p>
+<p><a href="https://anvilfood.itch.io/wizard-sokoban">Go try out Wizard Sokoban</a>! I got to level 13 the day after it was released and at that point it’s really unfurling into something more complex. I’m excited to play more!</p>
+
+			</content>
+		</entry>
 		
 		<entry>
 			<title>(wandering back into my group chats in a daze tomorrow morning)</title>
