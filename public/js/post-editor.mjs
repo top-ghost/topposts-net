@@ -26,13 +26,15 @@ function authorize() {
   }
 }
 
-function makePost(postAuthor, {postTitle, postTimestamp, postBody, postTagsRawString}) {
-
-  const tagArray = []
+function makePost(
+  postAuthor,
+  { postTitle, postTimestamp, postBody, postTagsRawString }
+) {
+  const tagArray = [];
   try {
-    tagArray.push(...JSON.parse(postTagsRawString))
+    tagArray.push(...JSON.parse(postTagsRawString));
   } catch (e) {}
-  
+
   return `---json
 ${JSON.stringify({
   author: he.encode(postAuthor),
@@ -40,11 +42,17 @@ ${JSON.stringify({
   title: he.encode(postTitle),
   timestamp: postTimestamp,
   tags: tagArray, // all items encoded above
-  layout: "layouts/post.njk"
+  layout: "layouts/post.njk",
 })}
 ---
 ${he.encode(postBody)}
 `;
+}
+
+function encodeTextForGithub(text) {
+  const encodedBytes = new TextEncoder().encode(text);
+  const binaryString = String.fromCodePoint(...encodedBytes);
+  return btoa(binaryString);
 }
 
 window.addEventListener("DOMContentLoaded", async () => {
@@ -70,14 +78,17 @@ window.addEventListener("DOMContentLoaded", async () => {
     if (octokit) {
 
       try {
-        const response = await octokit.request("PUT /repos/{owner}/{repo}/contents/{path}", {
-          owner: localStorage.getItem("githubRepoOwner"),
-          repo: localStorage.getItem("githubRepoName"),
-          path: `content/post/${Date.now().toString()}.md`,
-          message: "post created with octobug",
-          content: window.btoa(eleventyFormattedPost),
-          branch: "main"
-        });
+        const response = await octokit.request(
+          "PUT /repos/{owner}/{repo}/contents/{path}",
+          {
+            owner: localStorage.getItem("githubRepoOwner"),
+            repo: localStorage.getItem("githubRepoName"),
+            path: `content/post/${Date.now().toString()}.md`,
+            message: "post created with octobug",
+            content: encodeTextForGithub(eleventyFormattedPost),
+            branch: "main",
+          }
+        );
 
         if (response.status == "201") {
           console.log("success!");
