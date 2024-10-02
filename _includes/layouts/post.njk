@@ -8,6 +8,6 @@ layout: layouts/base.njk
 <meta property="og:title" content="topposts.net: {{ title | safe }}"/>
 <meta property="og:type" content="article"/>
 <meta property="og:url" content={{ url }}/>
-<meta property="og:description" content="{{ content | safe | truncate(100, true) }}">
+<meta property="og:description" content="{{ content | atobish | truncate(100, true) }}">
 
 {% include "../partials/post.njk" %}

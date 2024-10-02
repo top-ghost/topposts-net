@@ -128,6 +128,12 @@ module.exports = async function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
+  eleventyConfig.addFilter("atobish", (string) => {
+    return new TextDecoder().decode(
+      Uint8Array.from(string, (m) => m.codePointAt(0))
+    );
+  });
+
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
     if (!Array.isArray(array) || array.length === 0) {
