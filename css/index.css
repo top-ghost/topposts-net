@@ -119,6 +119,14 @@ li {
   line-height: 1.5;
 }
 
+blockquote {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: inherit;
+  padding-left: 36px;
+  border-left: 4px solid #ccc;
+}
+
 main :first-child {
   margin-top: 0;
 }
