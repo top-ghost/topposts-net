@@ -63,7 +63,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   const postButton = document.getElementById("postButton");
   const postTitleInput = document.getElementById("postTitleInput");
   const postBodyTextarea = document.getElementById("postBodyTextarea");
-  const postTagsInput = document.getElementById("postTagsHiddenInput");
+  const postTagsHiddenInput = document.getElementById("postTagsHiddenInput");
 
   postButton.addEventListener("click", async (e) => {
     e.preventDefault();
@@ -99,9 +99,9 @@ window.addEventListener("DOMContentLoaded", async () => {
           Array.from(document.querySelectorAll("form")).forEach((el) => {
             el.reset();
           });
-          const dataList = document.querySelector("datalist");
-          while (dataList.firstChild) {
-            dataList.removeChild(dataList.lastChild);
+          const tagsDisplay = document.querySelector("taggedList");
+          while (tagsDisplay.firstChild) {
+            tagsDisplay.removeChild(tagsDisplay.lastChild);
           }
         }
       } catch (error) {
