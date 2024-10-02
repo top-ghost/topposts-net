@@ -2,7 +2,6 @@
 
 <article class="post h-entry">
     <div class="attribution">
-
         <div class="metadata p-author h-card">
             <span class="profile-pic"></span>
             <span class="author p-name">{{item.data.author}}</span>
@@ -17,10 +16,10 @@
     </div>
 
     <h1 class="title p-name">
-        <a href={{item.url}}>{{item.data.title | safe}}</a>
+        <a href={{item.url}}>{{item.data.title | decode }}</a>
     </h1>
 
-    <div class="postbody e-content">{{item.content | safe }}</div>
+    <div class="postbody e-content">{{item.content  | decode | markdown | safe }}</div>
     <div class="tags">
         <ol>
             {%- for tag in item.data.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}

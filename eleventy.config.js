@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -15,6 +16,7 @@ const slugify = require("slugify");
 const he = require("he");
 
 const SEC_PER_DAY = 24 * 60 * 60;
+
 /**
  * @description returns the current time in swatch beats
  * @returns {string}
@@ -128,11 +130,26 @@ module.exports = async function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
-  eleventyConfig.addFilter("atobish", (string) => {
-    return new TextDecoder().decode(
-      Uint8Array.from(string, (m) => m.codePointAt(0))
-    );
+  eleventyConfig.addFilter("decode", (string) => {
+    return he?.decode(string || "");
   });
+
+  const mdLib = markdownIt({
+    breaks: false,
+    html: true,
+    linkify: true,
+  }).use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "after",
+      class: "header-anchor",
+      symbol: "#",
+      ariaHidden: false,
+    }),
+    level: [1, 2, 3, 4],
+    slugify: eleventyConfig.getFilter("slugify"),
+  });
+  mdLib.disable("code");
+  eleventyConfig.addFilter("markdown", (content) => mdLib.render(content));
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
@@ -187,23 +204,7 @@ module.exports = async function (eleventyConfig) {
       return `${startingText}${ellipsisNeeded ? "…" : ""}`;
     }
   });
-
-  // Customize Markdown library tings:
-  eleventyConfig.amendLibrary("md", (mdLib) => {
-    mdLib.use(markdownItAnchor, {
-      permalink: markdownItAnchor.permalink.ariaHidden({
-        placement: "after",
-        class: "header-anchor",
-        symbol: "#",
-        ariaHidden: false,
-      }),
-      level: [1, 2, 3, 4],
-      slugify: eleventyConfig.getFilter("slugify"),
-      breaks: true,
-      linkify: true,
-      html: true,
-    });
-  });
+  eleventyConfig.setLibrary("md", { render: (markdown) => markdown }); // make eleventy no-op the markdown so we can chain it ourselves
 
   eleventyConfig.addShortcode("currentBuildDate", () => {
     return new Date().toISOString();
