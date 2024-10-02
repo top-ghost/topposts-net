@@ -111,7 +111,7 @@ module.exports = async function (eleventyConfig) {
       return null;
     }
 
-    return new Date(timestamp).toISOString();
+    return new Date(timestamp).toISOString().replace(/\.\d+/, "");
   });
 
   eleventyConfig.addFilter("decode", (string) => he.decode(string || ""));
