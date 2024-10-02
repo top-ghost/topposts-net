@@ -3,11 +3,11 @@
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg"/>
             <span class="author p-name">{{item.data.author}}</span>
             <span class="timestamp">
-                <a href={{item.url}} class="u-url u-uid" rel="canonical">
-                    <time datetime={{item.data.timestamp | unixTimestampToIsoDate }} class="dt-published">{{item.data.timestamp | beatsDate if item.data.timestamp }}</time>
+                <a class="u-url u-uid" href={{item.url}} rel="canonical">
+                    <time class="dt-published" datetime={{item.data.timestamp | unixTimestampToIsoDate }} >{{item.data.timestamp | beatsDate if item.data.timestamp }}</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
@@ -24,7 +24,7 @@
         <ol>
             {%- for tag in item.data.tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
                 <li>
-                    <a href="{{ tagUrl }}" class="post-tag">#{{ tag | safe }}</a>
+                    <a class="p-category" href="{{ tagUrl }}" class="post-tag">#{{ tag | safe }}</a>
                 </li>
             {%- endfor %}
         </ol>
