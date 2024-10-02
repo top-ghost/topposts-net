@@ -114,6 +114,8 @@ module.exports = async function (eleventyConfig) {
     return new Date(timestamp).toISOString();
   });
 
+  eleventyConfig.addFilter("decode", (string) => he.decode(string || ""));
+
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
     // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
     return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
@@ -129,27 +131,6 @@ module.exports = async function (eleventyConfig) {
     // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
-
-  eleventyConfig.addFilter("decode", (string) => {
-    return he?.decode(string || "");
-  });
-
-  const mdLib = markdownIt({
-    breaks: false,
-    html: true,
-    linkify: true,
-  }).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.ariaHidden({
-      placement: "after",
-      class: "header-anchor",
-      symbol: "#",
-      ariaHidden: false,
-    }),
-    level: [1, 2, 3, 4],
-    slugify: eleventyConfig.getFilter("slugify"),
-  });
-  mdLib.disable("code");
-  eleventyConfig.addFilter("markdown", (content) => mdLib.render(content));
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
@@ -204,7 +185,28 @@ module.exports = async function (eleventyConfig) {
       return `${startingText}${ellipsisNeeded ? "…" : ""}`;
     }
   });
-  eleventyConfig.setLibrary("md", { render: (markdown) => markdown }); // make eleventy no-op the markdown so we can chain it ourselves
+
+  const mdLib = markdownIt().use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "after",
+      class: "header-anchor",
+      symbol: "#",
+      ariaHidden: false,
+    }),
+    level: [1, 2, 3, 4],
+    slugify: eleventyConfig.getFilter("slugify"),
+  });
+  mdLib.disable("code");
+  eleventyConfig.setLibrary("md", {
+    render: (content) => {
+      return mdLib.render(he.decode(content || ""), {
+        breaks: true,
+        xhtmlOut: true,
+        html: true,
+        linkify: true,
+      });
+    },
+  }); // run he.decode on content before markdown processing
 
   eleventyConfig.addShortcode("currentBuildDate", () => {
     return new Date().toISOString();
