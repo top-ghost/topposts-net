@@ -333,6 +333,12 @@ everything above is remnants of the eleventy-base-blog theme */
   .profile-pic {
     grid-column: 1;
     grid-row: 1 / 3;
+
+    img {
+      aspect-ratio: 1 / 1;
+      height: 8em;
+      border-radius: 4em;
+    }
   }
 
   .display-name {
@@ -358,12 +364,7 @@ everything above is remnants of the eleventy-base-blog theme */
 }
 
 .profile-pic {
-  aspect-ratio: 1 / 1;
-  height: 2em;
-  border-radius: 1em;
-  background: url("/img/moon-dutiful.jpg?v=4e58b6acac05");
-  background-position: center;
-  background-size: contain;
+
 }
 
 .profile-pic.big {
@@ -424,6 +425,14 @@ form#secrets {
     flex: 1 1 0%;
     min-width: 0px;
     gap: 0.5rem;
+
+    .profile-pic {
+      img {
+        aspect-ratio: 1 / 1;
+        height: 2em;
+        border-radius: 1em;
+      }
+    }
 
     .timestamp {
       color: #999;
@@ -672,8 +681,8 @@ footer {
 		</nav>
 		<header>
 			<a href="/" class="home-link" id="intro">
-				<div class="profile-pic big"></div>
-				<h1 class="display-name">Puilding in Bublic</h1>
+				<div class="profile-pic big"><img src="/img/moon-dutiful.jpg?v=4e58b6acac05"></div>
+				<h1 class="display-name">Gross Point Blog</h1>
 				<h2 class="username">@topghost</h2>
 			</a>
 		</header>
@@ -695,16 +704,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1726811344210/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-20T05:49:04.210Z" class="dt-published">Fri, Sep 20, 2024 @325.74</time>
+                <a class="u-url u-uid" href="/1726811344210/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-20T05:49:04.210Z">Fri, Sep 20, 2024 @325.74</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -716,13 +725,13 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/fixes/" class="post-tag">#fixes</a>
+                    <a class="p-category" href="/tags/fixes/">#fixes</a>
                 </li>
                 <li>
-                    <a href="/tags/json/" class="post-tag">#json</a>
+                    <a class="p-category" href="/tags/json/">#json</a>
                 </li>
                 <li>
-                    <a href="/tags/javascript/" class="post-tag">#javascript</a>
+                    <a class="p-category" href="/tags/javascript/">#javascript</a>
                 </li>
         </ol>
     </div>
@@ -734,16 +743,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1726940303042/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-21T17:38:23.042Z" class="dt-published">Sat, Sep 21, 2024 @818.32</time>
+                <a class="u-url u-uid" href="/1726940303042/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-21T17:38:23.042Z">Sat, Sep 21, 2024 @818.32</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -754,10 +763,10 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/saturday/" class="post-tag">#saturday</a>
+                    <a class="p-category" href="/tags/saturday/">#saturday</a>
                 </li>
                 <li>
-                    <a href="/tags/saturday-morning/" class="post-tag">#saturday morning</a>
+                    <a class="p-category" href="/tags/saturday-morning/">#saturday morning</a>
                 </li>
         </ol>
     </div>
@@ -769,16 +778,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1726947875915/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-21T19:44:35.915Z" class="dt-published">Sat, Sep 21, 2024 @905.96</time>
+                <a class="u-url u-uid" href="/1726947875915/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-21T19:44:35.915Z">Sat, Sep 21, 2024 @905.96</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -790,7 +799,7 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/testing-in-production/" class="post-tag">#testing in production</a>
+                    <a class="p-category" href="/tags/testing-in-production/">#testing in production</a>
                 </li>
         </ol>
     </div>
@@ -802,16 +811,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1726950240841/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-21T20:24:00.841Z" class="dt-published">Sat, Sep 21, 2024 @933.33</time>
+                <a class="u-url u-uid" href="/1726950240841/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-21T20:24:00.841Z">Sat, Sep 21, 2024 @933.33</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -823,7 +832,7 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/stunts/" class="post-tag">#stunts</a>
+                    <a class="p-category" href="/tags/stunts/">#stunts</a>
                 </li>
         </ol>
     </div>
@@ -835,16 +844,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1726957940977/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-21T22:32:20.977Z" class="dt-published">Sun, Sep 22, 2024 @22.454</time>
+                <a class="u-url u-uid" href="/1726957940977/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-21T22:32:20.977Z">Sun, Sep 22, 2024 @22.454</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -856,7 +865,7 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/wishful-thinking/" class="post-tag">#wishful thinking</a>
+                    <a class="p-category" href="/tags/wishful-thinking/">#wishful thinking</a>
                 </li>
         </ol>
     </div>
@@ -868,16 +877,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1726985263715/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-22T06:07:43.715Z" class="dt-published">Sun, Sep 22, 2024 @338.69</time>
+                <a class="u-url u-uid" href="/1726985263715/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-22T06:07:43.715Z">Sun, Sep 22, 2024 @338.69</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -889,7 +898,7 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
+                    <a class="p-category" href="/tags/octobug-meta/">#octobug (meta)</a>
                 </li>
         </ol>
     </div>
@@ -901,16 +910,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1726992628734/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-22T08:10:28.734Z" class="dt-published">Sun, Sep 22, 2024 @423.94</time>
+                <a class="u-url u-uid" href="/1726992628734/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-22T08:10:28.734Z">Sun, Sep 22, 2024 @423.94</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -922,7 +931,7 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/good-ideas/" class="post-tag">#good ideas</a>
+                    <a class="p-category" href="/tags/good-ideas/">#good ideas</a>
                 </li>
         </ol>
     </div>
@@ -934,16 +943,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727072025532/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-23T06:13:45.532Z" class="dt-published">Mon, Sep 23, 2024 @342.88</time>
+                <a class="u-url u-uid" href="/1727072025532/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-23T06:13:45.532Z">Mon, Sep 23, 2024 @342.88</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -955,13 +964,13 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
+                    <a class="p-category" href="/tags/octobug-meta/">#octobug (meta)</a>
                 </li>
                 <li>
-                    <a href="/tags/CSS/" class="post-tag">#CSS</a>
+                    <a class="p-category" href="/tags/CSS/">#CSS</a>
                 </li>
                 <li>
-                    <a href="/tags/the-post-button-is-lime-green-lol/" class="post-tag">#the post button is lime green lol</a>
+                    <a class="p-category" href="/tags/the-post-button-is-lime-green-lol/">#the post button is lime green lol</a>
                 </li>
         </ol>
     </div>
@@ -973,16 +982,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727074872138/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-23T07:01:12.138Z" class="dt-published">Mon, Sep 23, 2024 @375.83</time>
+                <a class="u-url u-uid" href="/1727074872138/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-23T07:01:12.138Z">Mon, Sep 23, 2024 @375.83</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1006,16 +1015,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727138701372/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T00:45:01.372Z" class="dt-published">Tue, Sep 24, 2024 @114.59</time>
+                <a class="u-url u-uid" href="/1727138701372/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T00:45:01.372Z">Tue, Sep 24, 2024 @114.59</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1027,7 +1036,7 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/dont-worry-about-it/" class="post-tag">#don&#x2019;t worry about it</a>
+                    <a class="p-category" href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>
                 </li>
         </ol>
     </div>
@@ -1039,16 +1048,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727139863554/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T01:04:23.554Z" class="dt-published">Tue, Sep 24, 2024 @128.04</time>
+                <a class="u-url u-uid" href="/1727139863554/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T01:04:23.554Z">Tue, Sep 24, 2024 @128.04</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1060,13 +1069,13 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/this-isnt-anything/" class="post-tag">#this isn&#x2019;t anything</a>
+                    <a class="p-category" href="/tags/this-isnt-anything/">#this isn&#x2019;t anything</a>
                 </li>
                 <li>
-                    <a href="/tags/but-it-is-the-toilet-post/" class="post-tag">#but it is the toilet post</a>
+                    <a class="p-category" href="/tags/but-it-is-the-toilet-post/">#but it is the toilet post</a>
                 </li>
                 <li>
-                    <a href="/tags/historic-anticlimaxes-in-posting/" class="post-tag">#historic anticlimaxes in posting</a>
+                    <a class="p-category" href="/tags/historic-anticlimaxes-in-posting/">#historic anticlimaxes in posting</a>
                 </li>
         </ol>
     </div>
@@ -1078,16 +1087,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727153611774/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T04:53:31.774Z" class="dt-published">Tue, Sep 24, 2024 @287.16</time>
+                <a class="u-url u-uid" href="/1727153611774/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T04:53:31.774Z">Tue, Sep 24, 2024 @287.16</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1101,16 +1110,16 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/json/" class="post-tag">#json</a>
+                    <a class="p-category" href="/tags/json/">#json</a>
                 </li>
                 <li>
-                    <a href="/tags/dont-worry-about-it/" class="post-tag">#don&#x2019;t worry about it</a>
+                    <a class="p-category" href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>
                 </li>
                 <li>
-                    <a href="/tags/text-encoding!!!!/" class="post-tag">#text encoding!!!!</a>
+                    <a class="p-category" href="/tags/text-encoding!!!!/">#text encoding!!!!</a>
                 </li>
                 <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
+                    <a class="p-category" href="/tags/octobug-meta/">#octobug (meta)</a>
                 </li>
         </ol>
     </div>
@@ -1122,16 +1131,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727154071821/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T05:01:11.821Z" class="dt-published">Tue, Sep 24, 2024 @292.49</time>
+                <a class="u-url u-uid" href="/1727154071821/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T05:01:11.821Z">Tue, Sep 24, 2024 @292.49</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1142,10 +1151,10 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/one-letter-off/" class="post-tag">#one letter off</a>
+                    <a class="p-category" href="/tags/one-letter-off/">#one letter off</a>
                 </li>
                 <li>
-                    <a href="/tags/has-anyone-done-this/" class="post-tag">#has anyone done this</a>
+                    <a class="p-category" href="/tags/has-anyone-done-this/">#has anyone done this</a>
                 </li>
         </ol>
     </div>
@@ -1157,16 +1166,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727154662985/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T05:11:02.985Z" class="dt-published">Tue, Sep 24, 2024 @299.33</time>
+                <a class="u-url u-uid" href="/1727154662985/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T05:11:02.985Z">Tue, Sep 24, 2024 @299.33</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1178,7 +1187,7 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
+                    <a class="p-category" href="/tags/octobug-meta/">#octobug (meta)</a>
                 </li>
         </ol>
     </div>
@@ -1190,16 +1199,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727156407447/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T05:40:07.447Z" class="dt-published">Tue, Sep 24, 2024 @319.53</time>
+                <a class="u-url u-uid" href="/1727156407447/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T05:40:07.447Z">Tue, Sep 24, 2024 @319.53</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1220,16 +1229,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727156814971/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T05:46:54.971Z" class="dt-published">Tue, Sep 24, 2024 @324.24</time>
+                <a class="u-url u-uid" href="/1727156814971/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T05:46:54.971Z">Tue, Sep 24, 2024 @324.24</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1243,10 +1252,10 @@ footer {
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/so-what/" class="post-tag">#so what</a>
+                    <a class="p-category" href="/tags/so-what/">#so what</a>
                 </li>
                 <li>
-                    <a href="/tags/who-cares/" class="post-tag">#who cares</a>
+                    <a class="p-category" href="/tags/who-cares/">#who cares</a>
                 </li>
         </ol>
     </div>
@@ -1258,16 +1267,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727156969779/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T05:49:29.779Z" class="dt-published">Tue, Sep 24, 2024 @326.03</time>
+                <a class="u-url u-uid" href="/1727156969779/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T05:49:29.779Z">Tue, Sep 24, 2024 @326.03</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1288,16 +1297,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727159461669/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T06:31:01.669Z" class="dt-published">Tue, Sep 24, 2024 @354.87</time>
+                <a class="u-url u-uid" href="/1727159461669/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T06:31:01.669Z">Tue, Sep 24, 2024 @354.87</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1318,16 +1327,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727163563785/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T07:39:23.785Z" class="dt-published">Tue, Sep 24, 2024 @402.35</time>
+                <a class="u-url u-uid" href="/1727163563785/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T07:39:23.785Z">Tue, Sep 24, 2024 @402.35</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1348,16 +1357,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727203782788/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T18:49:42.788Z" class="dt-published">Tue, Sep 24, 2024 @867.85</time>
+                <a class="u-url u-uid" href="/1727203782788/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T18:49:42.788Z">Tue, Sep 24, 2024 @867.85</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1379,16 +1388,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727207607053/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T19:53:27.053Z" class="dt-published">Tue, Sep 24, 2024 @912.12</time>
+                <a class="u-url u-uid" href="/1727207607053/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T19:53:27.053Z">Tue, Sep 24, 2024 @912.12</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1409,16 +1418,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727208050887/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T20:00:50.887Z" class="dt-published">Tue, Sep 24, 2024 @917.25</time>
+                <a class="u-url u-uid" href="/1727208050887/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T20:00:50.887Z">Tue, Sep 24, 2024 @917.25</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1439,16 +1448,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/1727218715518/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-24T22:58:35.518Z" class="dt-published">Wed, Sep 25, 2024 @40.683</time>
+                <a class="u-url u-uid" href="/1727218715518/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-24T22:58:35.518Z">Wed, Sep 25, 2024 @40.683</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1468,16 +1477,16 @@ footer {
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727228193024/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-25T01:36:33.023Z" class="dt-published">Wed, Sep 25, 2024 @150.38</time>
+                <a class="u-url u-uid" href="/post/1727228193024/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-25T01:36:33.023Z">Wed, Sep 25, 2024 @150.38</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1490,7 +1499,7 @@ among some post editor improvements (better mobile support!) NEW posts should ha
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/octobug-meta/" class="post-tag">#octobug (meta)</a>
+                    <a class="p-category" href="/tags/octobug-meta/">#octobug (meta)</a>
                 </li>
         </ol>
     </div>
@@ -1502,16 +1511,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727312098727/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-26T00:54:58.726Z" class="dt-published">Thu, Sep 26, 2024 @121.50</time>
+                <a class="u-url u-uid" href="/post/1727312098727/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-26T00:54:58.726Z">Thu, Sep 26, 2024 @121.50</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1532,16 +1541,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727370074285/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-26T17:01:14.285Z" class="dt-published">Thu, Sep 26, 2024 @792.52</time>
+                <a class="u-url u-uid" href="/post/1727370074285/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-26T17:01:14.285Z">Thu, Sep 26, 2024 @792.52</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1562,16 +1571,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727385279367/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-26T21:14:39.366Z" class="dt-published">Thu, Sep 26, 2024 @968.51</time>
+                <a class="u-url u-uid" href="/post/1727385279367/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-26T21:14:39.366Z">Thu, Sep 26, 2024 @968.51</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1583,7 +1592,7 @@ among some post editor improvements (better mobile support!) NEW posts should ha
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/octobug-feature-requests/" class="post-tag">#octobug (feature requests)</a>
+                    <a class="p-category" href="/tags/octobug-feature-requests/">#octobug (feature requests)</a>
                 </li>
         </ol>
     </div>
@@ -1595,16 +1604,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727591932219/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-29T06:38:52.218Z" class="dt-published">Sun, Sep 29, 2024 @360.32</time>
+                <a class="u-url u-uid" href="/post/1727591932219/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-29T06:38:52.218Z">Sun, Sep 29, 2024 @360.32</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1625,16 +1634,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727736003507/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-09-30T22:40:03.506Z" class="dt-published">Tue, Oct 1, 2024 @27.813</time>
+                <a class="u-url u-uid" href="/post/1727736003507/" rel="canonical">
+                    <time class="dt-published" datetime="2024-09-30T22:40:03.506Z">Tue, Oct 1, 2024 @27.813</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1646,7 +1655,7 @@ among some post editor improvements (better mobile support!) NEW posts should ha
     <div class="tags">
         <ol>
                 <li>
-                    <a href="/tags/make-up-a-guy/" class="post-tag">#make up a guy</a>
+                    <a class="p-category" href="/tags/make-up-a-guy/">#make up a guy</a>
                 </li>
         </ol>
     </div>
@@ -1658,16 +1667,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727762932962/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-10-01T06:08:52.962Z" class="dt-published">Tue, Oct 1, 2024 @339.49</time>
+                <a class="u-url u-uid" href="/post/1727762932962/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-01T06:08:52.962Z">Tue, Oct 1, 2024 @339.49</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1689,16 +1698,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727764037619/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-10-01T06:27:17.619Z" class="dt-published">Tue, Oct 1, 2024 @352.28</time>
+                <a class="u-url u-uid" href="/post/1727764037619/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-01T06:27:17.619Z">Tue, Oct 1, 2024 @352.28</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1720,16 +1729,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727801427549/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-10-01T16:50:27.549Z" class="dt-published">Tue, Oct 1, 2024 @785.03</time>
+                <a class="u-url u-uid" href="/post/1727801427549/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-01T16:50:27.549Z">Tue, Oct 1, 2024 @785.03</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1754,16 +1763,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727810458593/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-10-01T19:20:58.592Z" class="dt-published">Tue, Oct 1, 2024 @889.56</time>
+                <a class="u-url u-uid" href="/post/1727810458593/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-01T19:20:58.592Z">Tue, Oct 1, 2024 @889.56</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1784,16 +1793,16 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 <article class="post h-entry">
     <div class="attribution">
         <div class="metadata p-author h-card">
-            <span class="profile-pic"></span>
+            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05">
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a href="/post/1727882042914/" class="u-url u-uid" rel="canonical">
-                    <time datetime="2024-10-02T15:14:02.911Z" class="dt-published">Wed, Oct 2, 2024 @718.08</time>
+                <a class="u-url u-uid" href="/post/1727882042914/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-02T15:14:02.911Z">Wed, Oct 2, 2024 @718.08</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
+        </span></div>
     </div>
 
     <h1 class="title p-name">
@@ -1835,6 +1844,6 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/tags/reverseChron/` was built on 2024-10-02T17:08:04.036Z -->
+			<!-- This page `/tags/reverseChron/` was built on 2024-10-02T17:22:58.915Z -->
 		</body>
 	</html>
