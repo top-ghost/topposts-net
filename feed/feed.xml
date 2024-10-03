@@ -4,12 +4,23 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-03T04:46:35Z</updated>
+	<updated>2024-10-03T05:00:45Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1727931611456/"/>
+			<updated>2024-10-03T05:00:11Z</updated>
+			<id>https://topposts.net/post/1727931611456/</id>
+			<content type="html">
+				<p>something I will say that has been very nice about using RSS again... going back to reading &quot;oldest first&quot; and having read/unread status. fight me</p>
+
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>

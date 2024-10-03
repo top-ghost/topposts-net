@@ -16,7 +16,174 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			.postlist { counter-reset: start-from 11 }
+			/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 @font-face {
   font-family: "Atkinson Hyperlegible";
@@ -694,11 +861,13 @@ footer {
 
 				
 
+<meta property="og:title" content="topposts.net: ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/">
+<meta property="og:description" content="I will say that has been very nice about using RSS again... going back to reading &amp;quot;oldest first&amp;quot; and having read/unread status. fight me&lt;/p&gt;
+">
 
 
-<ol class="postlist">
-	
-		
 
 <article class="post h-entry">
     <div class="attribution">
@@ -706,8 +875,8 @@ footer {
             <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a class="u-url u-uid" href="/post/1727370074285/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-26T17:01:14Z" title="2024-09-26T17:01:14Z">Thu, Sep 26, 2024 @792.52</time>
+                <a class="u-url u-uid" href="/post/1727931611456/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-03T05:00:11Z" title="2024-10-03T05:00:11Z">Thu, Oct 3, 2024 @291.79</time>
                 </a>
             </span>
             <data class="p-url" value="https://topposts.net/"></data>
@@ -716,311 +885,17 @@ footer {
     </div>
 
     <h1 class="title p-name">
-        <a href="/post/1727370074285/"></a>
+        <a href="/post/1727931611456/"></a>
     </h1>
 
-    <div class="postbody e-content"><p>had a truly sick idea last night revolving around combining short-term cookies with JavaScript setTimeouts in order to fake long-polling (because you have to have GitHub API credentials in order to poll the GitHub repo) and then realized the only user who needs long-polling to auto-refresh is... the person who has API credentials</p>
+    <div class="postbody e-content"><p>something I will say that has been very nice about using RSS again... going back to reading &quot;oldest first&quot; and having read/unread status. fight me</p>
 </div>
     <div class="tags">
         <ol>
         </ol>
     </div>
 </article>
-	
-		
 
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/post/1727312098727/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-26T00:54:58Z" title="2024-09-26T00:54:58Z">Thu, Sep 26, 2024 @121.50</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/post/1727312098727/">dreaming about image posts...</a>
-    </h1>
-
-    <div class="postbody e-content"><p>image posts... I need them</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/post/1727228193024/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-25T01:36:33Z" title="2024-09-25T01:36:33Z">Wed, Sep 25, 2024 @150.38</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/post/1727228193024/">tuesday dinnertime octobug update</a>
-    </h1>
-
-    <div class="postbody e-content"><p>the site upgrades are piling up, I should really backport them to octobug 🤔
-among some post editor improvements (better mobile support!) NEW posts should have a new permalink structure while OLD posts retain their old URLs (to hopefully avoid bombarding feeds with "new" posts, and to avoid breaking what I'm sure are hundreds of links to my first ~25 brilliant posts)</p>
-</div>
-    <div class="tags">
-        <ol>
-                <li>
-                    <a class="p-category" href="/tags/octobug-meta/">#octobug (meta)</a>
-                </li>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/1727218715518/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-24T22:58:35Z" title="2024-09-24T22:58:35Z">Wed, Sep 25, 2024 @40.683</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727218715518/">Printer with a heart of gold</a>
-    </h1>
-
-    <div class="postbody e-content"></div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/1727208050887/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-24T20:00:50Z" title="2024-09-24T20:00:50Z">Tue, Sep 24, 2024 @917.25</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727208050887/">the stakes of posting</a>
-    </h1>
-
-    <div class="postbody e-content"><p>are so much higher when deleting the post requires deleting a file from a git repo 😰</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/1727207607053/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-24T19:53:27Z" title="2024-09-24T19:53:27Z">Tue, Sep 24, 2024 @912.12</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727207607053/"></a>
-    </h1>
-
-    <div class="postbody e-content"><p>hopping into the group chat to tell the squad how non-attached I feel today</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/1727203782788/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-24T18:49:42Z" title="2024-09-24T18:49:42Z">Tue, Sep 24, 2024 @867.85</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727203782788/">crisis over</a>
-    </h1>
-
-    <div class="postbody e-content"><p>I timed badly the delivery of a new phone (my old one was from 2020 and had had its battery replaced twice… I need a bigger battery, apparently) and its accompanying case so I was carrying it around for the last 4 days with no case and it was kind of terrifying.</p>
-<p>The new case has arrived and it’s a huge relief to know that I am at least somewhat protected from fucking up my phone now</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/1727163563785/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-24T07:39:23Z" title="2024-09-24T07:39:23Z">Tue, Sep 24, 2024 @402.35</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727163563785/">oh wow</a>
-    </h1>
-
-    <div class="postbody e-content"><p>it’s starting to feel like a website in here</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/1727159461669/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-24T06:31:01Z" title="2024-09-24T06:31:01Z">Tue, Sep 24, 2024 @354.87</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727159461669/"></a>
-    </h1>
-
-    <div class="postbody e-content"><p>honestly writing vanilla javascript to do things that still "feel good" feels like doing the saddest magic trick, but attracting the most hardcore audience. For my next trick, useful OpenGraph tags</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-		
-
-<article class="post h-entry">
-    <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
-                <a class="u-url u-uid" href="/1727156969779/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-24T05:49:29Z" title="2024-09-24T05:49:29Z">Tue, Sep 24, 2024 @326.03</time>
-                </a>
-            </span>
-            <data class="p-url" value="https://topposts.net/"></data>
-            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
-        </div>
-    </div>
-
-    <h1 class="title p-name">
-        <a href="/1727156969779/">(it didn't clear the form)</a>
-    </h1>
-
-    <div class="postbody e-content"><p>and then it didn't again when I posted whatever that was. Third time's a charm?</p>
-</div>
-    <div class="tags">
-        <ol>
-        </ol>
-    </div>
-</article>
-	
-</ol>
-
-
-<ol class="paginationContainer">
-	<li>
-		
-			<a href="/"><svg viewBox="0 0 25 18" xmlns="http://www.w3.org/2000/svg" class="pagination" role="button" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2; transform: matrix(-1, 0, 0, 1, 0, 0);">
-    <path d="M14.923 17.087c-2.254.666-4.388.967-6.402.905-2.014-.062-3.742-.532-5.183-1.409-1.442-.877-2.436-2.217-2.982-4.022-.549-1.814-.463-3.476.257-4.985.719-1.51 1.905-2.832 3.557-3.965C5.823 2.478 7.776 1.578 10.03.913c2.243-.663 4.369-.965 6.376-.906 2.007.059 3.733.523 5.178 1.394 1.446.87 2.441 2.207 2.987 4.011.546 1.804.457 3.464-.266 4.981-.724 1.516-1.908 2.845-3.551 3.987-1.644 1.143-3.588 2.045-5.831 2.707Z" style="fill-rule: nonzero; transform: rotate(180);"></path>
-    <g transform-origin="center center" transform="scale(0.8 0.8)">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-        </svg>
-    </g>
-</svg></a>
-		
-	</li>
-	<li>
-		
-			<a href="/page/3/"><svg viewBox="0 0 25 18" xmlns="http://www.w3.org/2000/svg" class="pagination" role="button" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
-    <path d="M14.923 17.087c-2.254.666-4.388.967-6.402.905-2.014-.062-3.742-.532-5.183-1.409-1.442-.877-2.436-2.217-2.982-4.022-.549-1.814-.463-3.476.257-4.985.719-1.51 1.905-2.832 3.557-3.965C5.823 2.478 7.776 1.578 10.03.913c2.243-.663 4.369-.965 6.376-.906 2.007.059 3.733.523 5.178 1.394 1.446.87 2.441 2.207 2.987 4.011.546 1.804.457 3.464-.266 4.981-.724 1.516-1.908 2.845-3.551 3.987-1.644 1.143-3.588 2.045-5.831 2.707Z" style="fill-rule: nonzero;"></path>
-    <g transform-origin="center center" transform="scale(0.8 0.8) rotate(0)">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-        </svg>
-    </g>
-</svg></a>
-		
-	</li>
-</ol>
 			</main>
 		</section>
 
@@ -1043,6 +918,6 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/page/2/` was built on 2024-10-03T05:00:46.256Z -->
+			<!-- This page `/post/1727931611456/` was built on 2024-10-03T05:00:46.103Z -->
 		</body>
 	</html>
