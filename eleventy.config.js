@@ -201,8 +201,8 @@ module.exports = async function (eleventyConfig) {
     render: (content) => {
       return mdLib.render(he.decode(content || ""), {
         breaks: true,
-        xhtmlOut: true,
         html: true,
+        xhtmlOut: true,
         linkify: true,
       });
     },

@@ -21,7 +21,7 @@ layout: layouts/base.njk
         <a href={{url}}>{{title | safe}}</a>
     </h1>
 
-    <div class="postbody e-content">{{content | markdown | safe }}</div>
+    <div class="postbody e-content">{{content | safe }}</div>
     <div class="tags">
         <ol>
             {%- for tag in tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
