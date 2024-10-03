@@ -15,7 +15,7 @@ function authorize() {
         auth: {
           appId: localStorage.getItem("githubAppId"),
           privateKey: localStorage.getItem("githubPrivateKey"),
-          installationId: localStorage.getItem("githubAppInstallationId")
+          installationId: localStorage.getItem("githubAppInstallationId"),
         },
       });
 
@@ -99,7 +99,7 @@ window.addEventListener("DOMContentLoaded", async () => {
           Array.from(document.querySelectorAll("form")).forEach((el) => {
             el.reset();
           });
-          const tagsDisplay = document.querySelector("taggedList");
+          const tagsDisplay = document.getElementById("taggedList");
           while (tagsDisplay.firstChild) {
             tagsDisplay.removeChild(tagsDisplay.lastChild);
           }
