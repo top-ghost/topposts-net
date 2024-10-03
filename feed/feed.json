@@ -11,6 +11,17 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1727973702306/",
+			"url": "https://topposts.net/post/1727973702306/",
+			"title": "We are always using RSS again",
+			"content_html": "<p>via <a href=\"https://nex-3.com/blog/ive-been-surprised-how/\">natalie</a>, in reply to me:</p>\n<blockquote>\n<p>I've been surprised how many people I've seen posting about how they're using RSS again. I guess even when talking about &quot;the heyday of RSS&quot; I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.</p>\n</blockquote>\n<p>I would say I fall off of daily RSS reading and then hop back on something like 3-4 times a year and have been since Google Reader died in 2013. It didn’t help that most of the people I knew personally stopped blogging (tho I’m also LARGELY guilty of that— I have been in the 3-to-4 posts a year camp on my primary self-hosted blog) and so my RSS feeds are mostly journalism, news, some weird accumulated tumblr pages, the random people I follow but don’t know who HAVE been blogging faithfully all this time, and (as the newsletter rebirth exploded and Feedbin added support for them) all the email newsletters I’m over-subscribed to.</p>\n<p>So I’ve been a paid user of Feedbin since something like 2015? I love it, but I also like to do a lot of things in my life and am definitely overcommitted to work and hobbies and family/housekeeping. Things fall by the wayside and as Cohost became a decent way for me to feel “aware” of what was happening online I fell back into one of my periods of less RSS reading.</p>\n<p>As Cohost was wrapping up I subscribed to almost every feed I saw people linking to, putting them in a new folder in Feedbin for just them. When I added the feed I put their Cohost username at the end in parentheses, but last night I realized that I wanted to flip it— I put <code>@username</code> at the front and then put all their carefully considered blog titles in parentheses after that. That small change makes me feel a little bit closer to everyone, as silly as it sounds. (I don’t consider this blog to have a “title” per se, btw— I think topposts dot net is fine for now)</p>\n<p>PS I’m hoping by the end of the weekend I’ll have working h-entry post embeds like Natalie does!! It’s so cool to see it working at the link at the top of the post and if you haven’t checked out <a href=\"https://nex-3.com/\">her blog</a> overall you really should!</p>\n"
+	,
+			"tags": [
+			],
+			"date_published": "2024-10-03T16:42:15Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1727932529627/",
 			"url": "https://topposts.net/post/1727932529627/",
 			"title": "after talking to my brother today",
@@ -18,7 +29,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -29,7 +40,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -40,7 +51,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -51,7 +62,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -62,7 +73,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -73,7 +84,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -84,7 +95,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -95,7 +106,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -108,7 +119,7 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -119,7 +130,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -132,7 +143,7 @@
 					"octobug (feature requests)"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -143,7 +154,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -154,7 +165,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -167,7 +178,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -177,7 +188,7 @@
 			"content_html": "",
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -188,7 +199,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -199,7 +210,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -210,7 +221,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -221,7 +232,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -232,7 +243,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -243,7 +254,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -258,7 +269,7 @@
 					"who cares"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -269,7 +280,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -282,7 +293,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -296,7 +307,7 @@
 					"has anyone done this"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -315,7 +326,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -332,7 +343,7 @@
 					"historic anticlimaxes in posting"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -345,7 +356,7 @@
 					"don&#x2019;t worry about it"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -356,7 +367,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -373,7 +384,7 @@
 					"the post button is lime green lol"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -386,7 +397,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -399,7 +410,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -412,7 +423,7 @@
 					"wishful thinking"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -425,7 +436,7 @@
 					"stunts"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -438,7 +449,7 @@
 					"testing in production"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -452,7 +463,7 @@
 					"saturday morning"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		,
 		{
@@ -469,7 +480,7 @@
 					"javascript"
 					
 			],
-			"date_published": "2024-10-03T05:42:29Z"
+			"date_published": "2024-10-03T16:42:15Z"
 		}
 		
 ]

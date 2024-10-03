@@ -4,12 +4,30 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-03T05:42:29Z</updated>
+	<updated>2024-10-03T16:42:15Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>We are always using RSS again</title>
+			<link href="https://topposts.net/post/1727973702306/"/>
+			<updated>2024-10-03T16:41:42Z</updated>
+			<id>https://topposts.net/post/1727973702306/</id>
+			<content type="html">
+				<p>via <a href="https://nex-3.com/blog/ive-been-surprised-how/">natalie</a>, in reply to me:</p>
+<blockquote>
+<p>I've been surprised how many people I've seen posting about how they're using RSS again. I guess even when talking about &quot;the heyday of RSS&quot; I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.</p>
+</blockquote>
+<p>I would say I fall off of daily RSS reading and then hop back on something like 3-4 times a year and have been since Google Reader died in 2013. It didn’t help that most of the people I knew personally stopped blogging (tho I’m also LARGELY guilty of that— I have been in the 3-to-4 posts a year camp on my primary self-hosted blog) and so my RSS feeds are mostly journalism, news, some weird accumulated tumblr pages, the random people I follow but don’t know who HAVE been blogging faithfully all this time, and (as the newsletter rebirth exploded and Feedbin added support for them) all the email newsletters I’m over-subscribed to.</p>
+<p>So I’ve been a paid user of Feedbin since something like 2015? I love it, but I also like to do a lot of things in my life and am definitely overcommitted to work and hobbies and family/housekeeping. Things fall by the wayside and as Cohost became a decent way for me to feel “aware” of what was happening online I fell back into one of my periods of less RSS reading.</p>
+<p>As Cohost was wrapping up I subscribed to almost every feed I saw people linking to, putting them in a new folder in Feedbin for just them. When I added the feed I put their Cohost username at the end in parentheses, but last night I realized that I wanted to flip it— I put <code>@username</code> at the front and then put all their carefully considered blog titles in parentheses after that. That small change makes me feel a little bit closer to everyone, as silly as it sounds. (I don’t consider this blog to have a “title” per se, btw— I think topposts dot net is fine for now)</p>
+<p>PS I’m hoping by the end of the weekend I’ll have working h-entry post embeds like Natalie does!! It’s so cool to see it working at the link at the top of the post and if you haven’t checked out <a href="https://nex-3.com/">her blog</a> overall you really should!</p>
+
+			</content>
+		</entry>
 		
 		<entry>
 			<title>after talking to my brother today</title>
