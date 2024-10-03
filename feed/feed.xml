@@ -4,7 +4,7 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-03T04:44:15Z</updated>
+	<updated>2024-10-03T04:46:35Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
@@ -18,6 +18,7 @@
 			<id>https://topposts.net/post/1727930620201/</id>
 			<content type="html">
 				<p>realizing today that the next step is to build a little RSS feed reader to give myself a &quot;timeline&quot;... shit</p>
+<p>like do I already have a feed reader? yes! But there are so many other feeds in there that aren't people I know <em>posting</em> and I want to put the <em>posting</em> in one place!</p>
 
 			</content>
 		</entry>
