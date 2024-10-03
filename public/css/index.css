@@ -345,7 +345,6 @@ everything above is remnants of the eleventy-base-blog theme */
 }
 
 .profile-pic {
-
 }
 
 .profile-pic.big {
@@ -397,7 +396,7 @@ form#secrets {
     font-size: 0.95em;
     border-radius: 8px 8px 0 0;
     margin: -8px;
-    padding: 12px;
+    padding: 8px;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
@@ -406,6 +405,13 @@ form#secrets {
     flex: 1 1 0%;
     min-width: 0px;
     gap: 0.5rem;
+
+    .p-author {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+    }
 
     .profile-pic {
       img {

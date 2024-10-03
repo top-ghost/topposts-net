@@ -2,14 +2,16 @@
 
 <article class="post h-entry">
     <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg"/></span>
-            <span class="author p-name">{{item.data.author}}</span>
-            <span class="timestamp">
+        <div class="metadata">
+            <div class="p-author h-card">
+                <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg"/></span>
+                <span class="author p-name">{{item.data.author}}</span>
+            </div>
+            <div class="timestamp">
                 <a class="u-url u-uid" href={{item.url}} rel="canonical">
                     <time class="dt-published" datetime="{{item.data.timestamp | unixTimestampToIsoDate }}" title="{{item.data.timestamp | unixTimestampToIsoDate }}">{{item.data.timestamp | beatsDate if item.data.timestamp }}</time>
                 </a>
-            </span>
+            </div>
             <data class="p-url" value="{{metadata.url}}"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg"></data>
         </div>
