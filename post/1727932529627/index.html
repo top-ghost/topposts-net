@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “stunts”</title>
+		<title>after talking to my brother today</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
 
 		<link rel="apple-touch-icon" href="/maskable_icon.png">
@@ -16,7 +16,174 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			.postlist { counter-reset: start-from 2 }
+			/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 @font-face {
   font-family: "Atkinson Hyperlegible";
@@ -694,13 +861,13 @@ footer {
 
 				
 
-<h1 class="page-title">Tagged “stunts”</h1>
+<meta property="og:title" content="topposts.net: after talking to my brother today">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/">
+<meta property="og:description" content="realized that I think is an album about narcissism and that your current feelings about its place in our culture will probably determine how you feel about the music&lt;/p&gt;
+">
 
 
-
-<ol class="postlist">
-	
-		
 
 <article class="post h-entry">
     <div class="attribution">
@@ -708,8 +875,8 @@ footer {
             <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
             <span class="author p-name">@topghost</span>
             <span class="timestamp">
-                <a class="u-url u-uid" href="/1726950240841/" rel="canonical">
-                    <time class="dt-published" datetime="2024-09-21T20:24:00Z" title="2024-09-21T20:24:00Z">Sat, Sep 21, 2024 @933.33</time>
+                <a class="u-url u-uid" href="/post/1727932529627/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-03T05:15:29Z" title="2024-10-03T05:15:29Z">Thu, Oct 3, 2024 @302.42</time>
                 </a>
             </span>
             <data class="p-url" value="https://topposts.net/"></data>
@@ -718,21 +885,16 @@ footer {
     </div>
 
     <h1 class="title p-name">
-        <a href="/1726950240841/">testing the publish time</a>
+        <a href="/post/1727932529627/">after talking to my brother today</a>
     </h1>
 
-    <div class="postbody e-content"><p>STARTING.... NOW!</p>
+    <div class="postbody e-content"><p>I realized that I think <em>brat</em> is an album about narcissism and that your current feelings about its place in our culture will probably determine how you feel about the music</p>
 </div>
     <div class="tags">
         <ol>
-                <li>
-                    <a class="p-category" href="/tags/stunts/">#stunts</a>
-                </li>
         </ol>
     </div>
 </article>
-	
-</ol>
 
 			</main>
 		</section>
@@ -756,6 +918,6 @@ footer {
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/tags/stunts/` was built on 2024-10-03T05:16:03.347Z -->
+			<!-- This page `/post/1727932529627/` was built on 2024-10-03T05:16:03.007Z -->
 		</body>
 	</html>
