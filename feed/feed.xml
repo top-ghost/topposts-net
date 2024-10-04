@@ -4,12 +4,31 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-04T00:00:36Z</updated>
+	<updated>2024-10-04T00:10:11Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1728000578069/"/>
+			<updated>2024-10-04T00:09:38Z</updated>
+			<id>https://topposts.net/post/1728000578069/</id>
+			<content type="html">
+				<p>someone should do a thing where you measure the ratio of a public figure's public sentiment to the length of their wikipedia article, over a period of time, and see how much of an outlier Matt Mullenweg must be in that calculation</p>
+
+					<p>Tagged:
+							<a href="/tags/wordpress/">#wordpress</a>
+							, 
+							<a href="/tags/matt-mullenweg/">#matt mullenweg</a>
+							, 
+							<a href="/tags/valleywag/">#valleywag</a>
+							
+					</p>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>We are always using RSS again</title>
