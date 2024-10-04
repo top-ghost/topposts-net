@@ -199,12 +199,14 @@ module.exports = async function (eleventyConfig) {
   mdLib.disable("code");
   eleventyConfig.setLibrary("md", {
     render: (content) => {
-      return mdLib.render(he.decode(content || ""), {
-        breaks: true,
-        html: true,
-        xhtmlOut: true,
-        linkify: true,
-      });
+      return he.decode(
+        mdLib.render(he.decode(content || ""), {
+          breaks: true,
+          html: true,
+          xhtmlOut: true,
+          linkify: true,
+        })
+      );
     },
   }); // run he.decode on content before markdown processing
 
