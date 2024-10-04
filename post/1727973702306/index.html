@@ -8,7 +8,7 @@
 
 		<link rel="icon" href="/img/favicon.ico?v=0bb578475f9a" sizes="any">
 		<link rel="shortcut icon" type="image/png" href="/img/favicon.png?v=fa32e3f895c9" sizes="32x32">
-		<link rel="apple-touch-icon" href="/img/moon-dutiful.png">
+		<link rel="apple-touch-icon" href="/img/moon-dutiful.jpg?v=4e58b6acac05">
 
 		<link rel="manifest" href="/manifest.json">
 		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#866bb8">
@@ -365,14 +365,9 @@ code {
 
 /* Header */
 header {
-  display: flex;
-  gap: 1em 0.5em;
-  flex-wrap: wrap;
-  align-items: center;
   padding: 1em;
 }
 .home-link {
-  font-size: 1em; /* 16px /16 */
   font-weight: 700;
   margin-right: 2em;
 }
@@ -495,10 +490,9 @@ everything above is remnants of the eleventy-base-blog theme */
   font-weight: 700;
   color: white;
   display: grid;
-  height: 8em;
-
+  align-items: center;
+  gap: 8px;
   grid-template-columns: 2fr 4fr;
-  grid-template-rows: 1fr 3fr;
 
   .profile-pic {
     grid-column: 1;
@@ -514,9 +508,16 @@ everything above is remnants of the eleventy-base-blog theme */
   .display-name {
     grid-column: 2;
     grid-row: 1;
+    font-size: 1.5em;
     height: min-content;
     margin-top: 8px;
     margin-inline: 4px;
+  }
+
+  @media (min-width: 420px) {
+    .display-name {
+      font-size: 2em;
+    }
   }
 
   .username {
@@ -858,7 +859,7 @@ footer {
 		<header>
 			<a href="/" class="home-link" id="intro">
 				<div class="profile-pic big"><img src="/img/moon-dutiful.jpg?v=4e58b6acac05"></div>
-				<h1 class="display-name">Gross Point Blog</h1>
+				<h1 class="display-name">a machine for posting</h1>
 				<h2 class="username">@topghost</h2>
 			</a>
 		</header>
@@ -874,7 +875,7 @@ footer {
 <meta property="og:url" content="/">
 <meta property="og:description" content="href=&quot;https://nex-3.com/blog/ive-been-surprised-how/&quot;&gt;natalie&lt;/a&gt;, in reply to me:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;I&#39;ve been surprised how many people I&#39;ve seen posting about how they&#39;re using RSS again. I guess even when talking about &amp;quot;the heyday of RSS&amp;quot; I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been surprised how many people I&#39;ve seen posting about how they&#39;re using RSS again. I guess even when talking about &quot;the heyday of RSS&quot; I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I would say I fall off of daily RSS reading and then hop back on something like 3-4 times a year and have been since Google Reader died in 2013. It didn’t help that most of the…">
 
@@ -903,7 +904,7 @@ footer {
 
     <div class="postbody e-content"><p>via <a href="https://nex-3.com/blog/ive-been-surprised-how/">natalie</a>, in reply to me:</p>
 <blockquote>
-<p>I've been surprised how many people I've seen posting about how they're using RSS again. I guess even when talking about &quot;the heyday of RSS&quot; I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.</p>
+<p>I've been surprised how many people I've seen posting about how they're using RSS again. I guess even when talking about "the heyday of RSS" I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.</p>
 </blockquote>
 <p>I would say I fall off of daily RSS reading and then hop back on something like 3-4 times a year and have been since Google Reader died in 2013. It didn’t help that most of the people I knew personally stopped blogging (tho I’m also LARGELY guilty of that— I have been in the 3-to-4 posts a year camp on my primary self-hosted blog) and so my RSS feeds are mostly journalism, news, some weird accumulated tumblr pages, the random people I follow but don’t know who HAVE been blogging faithfully all this time, and (as the newsletter rebirth exploded and Feedbin added support for them) all the email newsletters I’m over-subscribed to.</p>
 <p>So I’ve been a paid user of Feedbin since something like 2015? I love it, but I also like to do a lot of things in my life and am definitely overcommitted to work and hobbies and family/housekeeping. Things fall by the wayside and as Cohost became a decent way for me to feel “aware” of what was happening online I fell back into one of my periods of less RSS reading.</p>
@@ -938,6 +939,6 @@ footer {
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/post/1727973702306/` was built on 2024-10-04T00:16:51.157Z -->
+			<!-- This page `/post/1727973702306/` was built on 2024-10-04T00:32:08.182Z -->
 		</body>
 	</html>

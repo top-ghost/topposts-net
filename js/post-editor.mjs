@@ -32,7 +32,7 @@ function makePost(
 ) {
   const tagArray = [];
   try {
-    tagArray.push(...JSON.parse(postTagsRawString));
+    tagArray.push(...JSON.parse(decodeURIComponent(postTagsRawString) || "[]"));
   } catch (e) {
     console.log("problem trying to parse tags");
   }

@@ -8,7 +8,7 @@
 
 		<link rel="icon" href="/img/favicon.ico?v=0bb578475f9a" sizes="any">
 		<link rel="shortcut icon" type="image/png" href="/img/favicon.png?v=fa32e3f895c9" sizes="32x32">
-		<link rel="apple-touch-icon" href="/img/moon-dutiful.png">
+		<link rel="apple-touch-icon" href="/img/moon-dutiful.jpg?v=4e58b6acac05">
 
 		<link rel="manifest" href="/manifest.json">
 		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#866bb8">
@@ -365,14 +365,9 @@ code {
 
 /* Header */
 header {
-  display: flex;
-  gap: 1em 0.5em;
-  flex-wrap: wrap;
-  align-items: center;
   padding: 1em;
 }
 .home-link {
-  font-size: 1em; /* 16px /16 */
   font-weight: 700;
   margin-right: 2em;
 }
@@ -495,10 +490,9 @@ everything above is remnants of the eleventy-base-blog theme */
   font-weight: 700;
   color: white;
   display: grid;
-  height: 8em;
-
+  align-items: center;
+  gap: 8px;
   grid-template-columns: 2fr 4fr;
-  grid-template-rows: 1fr 3fr;
 
   .profile-pic {
     grid-column: 1;
@@ -514,9 +508,16 @@ everything above is remnants of the eleventy-base-blog theme */
   .display-name {
     grid-column: 2;
     grid-row: 1;
+    font-size: 1.5em;
     height: min-content;
     margin-top: 8px;
     margin-inline: 4px;
+  }
+
+  @media (min-width: 420px) {
+    .display-name {
+      font-size: 2em;
+    }
   }
 
   .username {
@@ -858,7 +859,7 @@ footer {
 		<header>
 			<a href="/" class="home-link" id="intro">
 				<div class="profile-pic big"><img src="/img/moon-dutiful.jpg?v=4e58b6acac05"></div>
-				<h1 class="display-name">Gross Point Blog</h1>
+				<h1 class="display-name">a machine for posting</h1>
 				<h2 class="username">@topghost</h2>
 			</a>
 		</header>
@@ -872,7 +873,7 @@ footer {
 <meta property="og:title" content="topposts.net: ">
 <meta property="og:type" content="article">
 <meta property="og:url" content="/">
-<meta property="og:description" content="this weird compulsion where the moment I think I&#39;m making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the &amp;quot;right&amp;quot; way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.&lt;/p&gt;
+<meta property="og:description" content="this weird compulsion where the moment I think I&#39;m making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the &quot;right&quot; way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.&lt;/p&gt;
 &lt;p&gt;It sucks! It sucks to feel that weight for absolutely no reason,…">
 
 
@@ -898,7 +899,7 @@ footer {
         <a href="/1727156814971/"></a>
     </h1>
 
-    <div class="postbody e-content"><p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the &quot;right&quot; way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>
+    <div class="postbody e-content"><p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the "right" way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>
 <p>It sucks! It sucks to feel that weight for absolutely no reason, despite the fact that what you are making is <em>mid</em>, that your knowledge is cobbled together from a bizarre bombardment of information that you've exposed yourself to over your career, both technical and political, that realistically no one cares and if someone does it's because they're already doing the same thing for themselves, or hopefully will someday.</p>
 <p>I have to write things into the box and risk them getting posted to the internet in order to test if the software I wrote is working. That's a terrible idea. Automated tests, non-production environments, there are so many ways to make this not be a necessity. And even if not, I <em>can</em> still go delete the file from the repo if I want.</p>
 </div>
@@ -936,6 +937,6 @@ footer {
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/1727156814971/` was built on 2024-10-04T00:16:51.155Z -->
+			<!-- This page `/1727156814971/` was built on 2024-10-04T00:32:08.180Z -->
 		</body>
 	</html>

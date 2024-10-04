@@ -8,7 +8,7 @@
 
 		<link rel="icon" href="/img/favicon.ico?v=0bb578475f9a" sizes="any">
 		<link rel="shortcut icon" type="image/png" href="/img/favicon.png?v=fa32e3f895c9" sizes="32x32">
-		<link rel="apple-touch-icon" href="/img/moon-dutiful.png">
+		<link rel="apple-touch-icon" href="/img/moon-dutiful.jpg?v=4e58b6acac05">
 
 		<link rel="manifest" href="/manifest.json">
 		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#866bb8">
@@ -197,14 +197,9 @@ code {
 
 /* Header */
 header {
-  display: flex;
-  gap: 1em 0.5em;
-  flex-wrap: wrap;
-  align-items: center;
   padding: 1em;
 }
 .home-link {
-  font-size: 1em; /* 16px /16 */
   font-weight: 700;
   margin-right: 2em;
 }
@@ -327,10 +322,9 @@ everything above is remnants of the eleventy-base-blog theme */
   font-weight: 700;
   color: white;
   display: grid;
-  height: 8em;
-
+  align-items: center;
+  gap: 8px;
   grid-template-columns: 2fr 4fr;
-  grid-template-rows: 1fr 3fr;
 
   .profile-pic {
     grid-column: 1;
@@ -346,9 +340,16 @@ everything above is remnants of the eleventy-base-blog theme */
   .display-name {
     grid-column: 2;
     grid-row: 1;
+    font-size: 1.5em;
     height: min-content;
     margin-top: 8px;
     margin-inline: 4px;
+  }
+
+  @media (min-width: 420px) {
+    .display-name {
+      font-size: 2em;
+    }
   }
 
   .username {
@@ -690,7 +691,7 @@ footer {
 		<header>
 			<a href="/" class="home-link" id="intro">
 				<div class="profile-pic big"><img src="/img/moon-dutiful.jpg?v=4e58b6acac05"></div>
-				<h1 class="display-name">Gross Point Blog</h1>
+				<h1 class="display-name">a machine for posting</h1>
 				<h2 class="username">@topghost</h2>
 			</a>
 		</header>
@@ -733,6 +734,6 @@ footer {
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/404.html` was built on 2024-10-04T00:16:51.153Z -->
+			<!-- This page `/404.html` was built on 2024-10-04T00:32:08.178Z -->
 		</body>
 	</html>

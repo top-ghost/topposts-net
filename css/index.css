@@ -176,14 +176,9 @@ code {
 
 /* Header */
 header {
-  display: flex;
-  gap: 1em 0.5em;
-  flex-wrap: wrap;
-  align-items: center;
   padding: 1em;
 }
 .home-link {
-  font-size: 1em; /* 16px /16 */
   font-weight: 700;
   margin-right: 2em;
 }
@@ -306,10 +301,9 @@ everything above is remnants of the eleventy-base-blog theme */
   font-weight: 700;
   color: white;
   display: grid;
-  height: 8em;
-
+  align-items: center;
+  gap: 8px;
   grid-template-columns: 2fr 4fr;
-  grid-template-rows: 1fr 3fr;
 
   .profile-pic {
     grid-column: 1;
@@ -325,9 +319,16 @@ everything above is remnants of the eleventy-base-blog theme */
   .display-name {
     grid-column: 2;
     grid-row: 1;
+    font-size: 1.5em;
     height: min-content;
     margin-top: 8px;
     margin-inline: 4px;
+  }
+
+  @media (min-width: 420px) {
+    .display-name {
+      font-size: 2em;
+    }
   }
 
   .username {

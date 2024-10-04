@@ -18,7 +18,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -35,18 +35,18 @@
 					"valleywag"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/post/1727973702306/",
 			"url": "https://topposts.net/post/1727973702306/",
 			"title": "We are always using RSS again",
-			"content_html": "<p>via <a href=\"https://nex-3.com/blog/ive-been-surprised-how/\">natalie</a>, in reply to me:</p>\n<blockquote>\n<p>I've been surprised how many people I've seen posting about how they're using RSS again. I guess even when talking about &quot;the heyday of RSS&quot; I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.</p>\n</blockquote>\n<p>I would say I fall off of daily RSS reading and then hop back on something like 3-4 times a year and have been since Google Reader died in 2013. It didn’t help that most of the people I knew personally stopped blogging (tho I’m also LARGELY guilty of that— I have been in the 3-to-4 posts a year camp on my primary self-hosted blog) and so my RSS feeds are mostly journalism, news, some weird accumulated tumblr pages, the random people I follow but don’t know who HAVE been blogging faithfully all this time, and (as the newsletter rebirth exploded and Feedbin added support for them) all the email newsletters I’m over-subscribed to.</p>\n<p>So I’ve been a paid user of Feedbin since something like 2015? I love it, but I also like to do a lot of things in my life and am definitely overcommitted to work and hobbies and family/housekeeping. Things fall by the wayside and as Cohost became a decent way for me to feel “aware” of what was happening online I fell back into one of my periods of less RSS reading.</p>\n<p>As Cohost was wrapping up I subscribed to almost every feed I saw people linking to, putting them in a new folder in Feedbin for just them. When I added the feed I put their Cohost username at the end in parentheses, but last night I realized that I wanted to flip it— I put <code>@username</code> at the front and then put all their carefully considered blog titles in parentheses after that. That small change makes me feel a little bit closer to everyone, as silly as it sounds. (I don’t consider this blog to have a “title” per se, btw— I think topposts dot net is fine for now)</p>\n<p>PS I’m hoping by the end of the weekend I’ll have working h-entry post embeds like Natalie does!! It’s so cool to see it working at the link at the top of the post and if you haven’t checked out <a href=\"https://nex-3.com/\">her blog</a> overall you really should!</p>\n"
+			"content_html": "<p>via <a href=\"https://nex-3.com/blog/ive-been-surprised-how/\">natalie</a>, in reply to me:</p>\n<blockquote>\n<p>I've been surprised how many people I've seen posting about how they're using RSS again. I guess even when talking about \"the heyday of RSS\" I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.</p>\n</blockquote>\n<p>I would say I fall off of daily RSS reading and then hop back on something like 3-4 times a year and have been since Google Reader died in 2013. It didn’t help that most of the people I knew personally stopped blogging (tho I’m also LARGELY guilty of that— I have been in the 3-to-4 posts a year camp on my primary self-hosted blog) and so my RSS feeds are mostly journalism, news, some weird accumulated tumblr pages, the random people I follow but don’t know who HAVE been blogging faithfully all this time, and (as the newsletter rebirth exploded and Feedbin added support for them) all the email newsletters I’m over-subscribed to.</p>\n<p>So I’ve been a paid user of Feedbin since something like 2015? I love it, but I also like to do a lot of things in my life and am definitely overcommitted to work and hobbies and family/housekeeping. Things fall by the wayside and as Cohost became a decent way for me to feel “aware” of what was happening online I fell back into one of my periods of less RSS reading.</p>\n<p>As Cohost was wrapping up I subscribed to almost every feed I saw people linking to, putting them in a new folder in Feedbin for just them. When I added the feed I put their Cohost username at the end in parentheses, but last night I realized that I wanted to flip it— I put <code>@username</code> at the front and then put all their carefully considered blog titles in parentheses after that. That small change makes me feel a little bit closer to everyone, as silly as it sounds. (I don’t consider this blog to have a “title” per se, btw— I think topposts dot net is fine for now)</p>\n<p>PS I’m hoping by the end of the weekend I’ll have working h-entry post embeds like Natalie does!! It’s so cool to see it working at the link at the top of the post and if you haven’t checked out <a href=\"https://nex-3.com/\">her blog</a> overall you really should!</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -57,29 +57,29 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/post/1727931611456/",
 			"url": "https://topposts.net/post/1727931611456/",
 			"title": "Untitled Post",
-			"content_html": "<p>something I will say that has been very nice about using RSS again... going back to reading &quot;oldest first&quot; and having read/unread status. fight me</p>\n"
+			"content_html": "<p>something I will say that has been very nice about using RSS again... going back to reading \"oldest first\" and having read/unread status. fight me</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/post/1727930620201/",
 			"url": "https://topposts.net/post/1727930620201/",
 			"title": "Untitled Post",
-			"content_html": "<p>realizing today that the next step is to build a little RSS feed reader to give myself a &quot;timeline&quot;... shit</p>\n<p>like do I already have a feed reader? yes! But there are so many other feeds in there that aren't people I know <em>posting</em> and I want to put the <em>posting</em> in one place!</p>\n"
+			"content_html": "<p>realizing today that the next step is to build a little RSS feed reader to give myself a \"timeline\"... shit</p>\n<p>like do I already have a feed reader? yes! But there are so many other feeds in there that aren't people I know <em>posting</em> and I want to put the <em>posting</em> in one place!</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -90,7 +90,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -101,7 +101,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -112,7 +112,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -123,7 +123,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -134,7 +134,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -147,31 +147,31 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/post/1727591932219/",
 			"url": "https://topposts.net/post/1727591932219/",
 			"title": "Untitled Post",
-			"content_html": "<p>something I believe strongly is that you cannot skip track on Fatboy Slim's &quot;Weapon of Choice&quot;. Once it starts playing, you have to listen to the whole thing</p>\n"
+			"content_html": "<p>something I believe strongly is that you cannot skip track on Fatboy Slim's \"Weapon of Choice\". Once it starts playing, you have to listen to the whole thing</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/post/1727385279367/",
 			"url": "https://topposts.net/post/1727385279367/",
 			"title": "octobug feature request",
-			"content_html": "<p>My friends&lt;sup style=&quot;color:#527cf9;&quot;&gt;[who?]&lt;/sup&gt; should be allowed to add Wikipedia-style superscript notes to my posts</p>\n"
+			"content_html": "<p>My friends<sup style=\"color:#527cf9;\">[who?]</sup> should be allowed to add Wikipedia-style superscript notes to my posts</p>\n"
 	,
 			"tags": [
 					"octobug (feature requests)"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -182,7 +182,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -193,20 +193,20 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/post/1727228193024/",
 			"url": "https://topposts.net/post/1727228193024/",
 			"title": "tuesday dinnertime octobug update",
-			"content_html": "<p>the site upgrades are piling up, I should really backport them to octobug 🤔\namong some post editor improvements (better mobile support!) NEW posts should have a new permalink structure while OLD posts retain their old URLs (to hopefully avoid bombarding feeds with &quot;new&quot; posts, and to avoid breaking what I'm sure are hundreds of links to my first ~25 brilliant posts)</p>\n"
+			"content_html": "<p>the site upgrades are piling up, I should really backport them to octobug 🤔\namong some post editor improvements (better mobile support!) NEW posts should have a new permalink structure while OLD posts retain their old URLs (to hopefully avoid bombarding feeds with \"new\" posts, and to avoid breaking what I'm sure are hundreds of links to my first ~25 brilliant posts)</p>\n"
 	,
 			"tags": [
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -216,7 +216,7 @@
 			"content_html": "",
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -227,7 +227,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -238,7 +238,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -249,7 +249,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -260,18 +260,18 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/1727159461669/",
 			"url": "https://topposts.net/1727159461669/",
 			"title": "Untitled Post",
-			"content_html": "<p>honestly writing vanilla javascript to do things that still &quot;feel good&quot; feels like doing the saddest magic trick, but attracting the most hardcore audience. For my next trick, useful OpenGraph tags</p>\n"
+			"content_html": "<p>honestly writing vanilla javascript to do things that still \"feel good\" feels like doing the saddest magic trick, but attracting the most hardcore audience. For my next trick, useful OpenGraph tags</p>\n"
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -282,14 +282,14 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/1727156814971/",
 			"url": "https://topposts.net/1727156814971/",
 			"title": "Untitled Post",
-			"content_html": "<p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the &quot;right&quot; way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>\n<p>It sucks! It sucks to feel that weight for absolutely no reason, despite the fact that what you are making is <em>mid</em>, that your knowledge is cobbled together from a bizarre bombardment of information that you've exposed yourself to over your career, both technical and political, that realistically no one cares and if someone does it's because they're already doing the same thing for themselves, or hopefully will someday.</p>\n<p>I have to write things into the box and risk them getting posted to the internet in order to test if the software I wrote is working. That's a terrible idea. Automated tests, non-production environments, there are so many ways to make this not be a necessity. And even if not, I <em>can</em> still go delete the file from the repo if I want.</p>\n"
+			"content_html": "<p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the \"right\" way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>\n<p>It sucks! It sucks to feel that weight for absolutely no reason, despite the fact that what you are making is <em>mid</em>, that your knowledge is cobbled together from a bizarre bombardment of information that you've exposed yourself to over your career, both technical and political, that realistically no one cares and if someone does it's because they're already doing the same thing for themselves, or hopefully will someday.</p>\n<p>I have to write things into the box and risk them getting posted to the internet in order to test if the software I wrote is working. That's a terrible idea. Automated tests, non-production environments, there are so many ways to make this not be a necessity. And even if not, I <em>can</em> still go delete the file from the repo if I want.</p>\n"
 	,
 			"tags": [
 					"so what"
@@ -297,7 +297,7 @@
 					"who cares"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -308,7 +308,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -321,7 +321,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -335,14 +335,14 @@
 					"has anyone done this"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
 			"id": "https://topposts.net/1727153611774/",
 			"url": "https://topposts.net/1727153611774/",
 			"title": "Octobug does tag autocomplete now",
-			"content_html": "<p>It gets the list of tags from the server when you open the post editor</p>\n<p>And then as you type it shows the tags you've already used so you can more easily &quot;do a bit&quot; that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>\n<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>\n"
+			"content_html": "<p>It gets the list of tags from the server when you open the post editor</p>\n<p>And then as you type it shows the tags you've already used so you can more easily \"do a bit\" that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>\n<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>\n"
 	,
 			"tags": [
 					"json"
@@ -354,7 +354,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -371,7 +371,7 @@
 					"historic anticlimaxes in posting"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -384,7 +384,7 @@
 					"don&#x2019;t worry about it"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -395,7 +395,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -412,7 +412,7 @@
 					"the post button is lime green lol"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -425,7 +425,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -438,7 +438,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -451,7 +451,7 @@
 					"wishful thinking"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -464,7 +464,7 @@
 					"stunts"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -477,7 +477,7 @@
 					"testing in production"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -491,7 +491,7 @@
 					"saturday morning"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		,
 		{
@@ -508,7 +508,7 @@
 					"javascript"
 					
 			],
-			"date_published": "2024-10-04T00:16:50Z"
+			"date_published": "2024-10-04T00:32:07Z"
 		}
 		
 ]
