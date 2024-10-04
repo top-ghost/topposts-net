@@ -11,7 +11,7 @@ eleventyImport:
 	"language": "{{ metadata.language }}",
 	"home_page_url": "{{ metadata.url | addPathPrefixToFullUrl }}",
 	"feed_url": "{{ permalink | htmlBaseUrl(metadata.url) }}",
-	"description": "{{ metadata.description }}",
+	"description": "{{ metadata.description | decode }}",
 	"author": {
 		"name": "{{ metadata.author.name }}",
 		"url": "{{ metadata.author.url }}"
@@ -22,12 +22,12 @@ eleventyImport:
 		{
 			"id": "{{ absolutePostUrl }}",
 			"url": "{{ absolutePostUrl }}",
-			"title": "{{ post.data.title if post.data.title else "Untitled Post" }}",
+			"title": "{{ post.data.title | decode if post.data.title else "Untitled Post" }}",
 			"content_html": {% if post.templateContent %}{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | dump | safe }}
 	{% else %}""{% endif %},
 			"tags": [
 				{%- for tag in post.data.tags | filterTagList %}
-					"{{tag | safe}}"
+					"{{tag | decode }}"
 					{% if not loop.last %},{% endif %}
 	{%- endfor %}
 			],

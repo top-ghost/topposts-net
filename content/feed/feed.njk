@@ -20,7 +20,7 @@ eleventyImport:
 	{%- for post in collections.posts | reverse %}
 		{% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
 		<entry>
-			<title>{{ post.data.title if post.data.title else "Untitled post" }}</title>
+			<title>{{ post.data.title | decode if post.data.title else "Untitled post" }}</title>
 			<link href="{{ absolutePostUrl }}"/>
 			<updated>{{ post.data.timestamp | unixTimestampToIsoDate }}</updated>
 			<id>{{ absolutePostUrl }}</id>
