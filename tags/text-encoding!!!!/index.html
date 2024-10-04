@@ -367,7 +367,6 @@ everything above is remnants of the eleventy-base-blog theme */
 }
 
 .profile-pic {
-
 }
 
 .profile-pic.big {
@@ -419,7 +418,7 @@ form#secrets {
     font-size: 0.95em;
     border-radius: 8px 8px 0 0;
     margin: -8px;
-    padding: 12px;
+    padding: 8px;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
@@ -428,6 +427,13 @@ form#secrets {
     flex: 1 1 0%;
     min-width: 0px;
     gap: 0.5rem;
+
+    .p-author {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+    }
 
     .profile-pic {
       img {
@@ -706,14 +712,16 @@ footer {
 
 <article class="post h-entry">
     <div class="attribution">
-        <div class="metadata p-author h-card">
-            <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
-            <span class="author p-name">@topghost</span>
-            <span class="timestamp">
+        <div class="metadata">
+            <div class="p-author h-card">
+                <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
+                <span class="author p-name">@topghost</span>
+            </div>
+            <div class="timestamp">
                 <a class="u-url u-uid" href="/1727153611774/" rel="canonical">
                     <time class="dt-published" datetime="2024-09-24T04:53:31Z" title="2024-09-24T04:53:31Z">Tue, Sep 24, 2024 @287.16</time>
                 </a>
-            </span>
+            </div>
             <data class="p-url" value="https://topposts.net/"></data>
             <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
         </div>
@@ -769,6 +777,6 @@ footer {
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/tags/text-encoding!!!!/` was built on 2024-10-03T16:42:16.363Z -->
+			<!-- This page `/tags/text-encoding!!!!/` was built on 2024-10-04T00:00:36.695Z -->
 		</body>
 	</html>
