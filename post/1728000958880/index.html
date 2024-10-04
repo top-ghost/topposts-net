@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>topposts.net</title>
+		<title>looking at cohost posts in read-only mode and it suddenly hit me</title>
 		<meta name="description" content="@topghost&#39;s post-cohost post host, built with octobug">
 
 		<link rel="icon" href="/img/favicon.ico?v=0bb578475f9a" sizes="any">
@@ -18,7 +18,175 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="topposts.net">
 		
 		<style>
-			* { box-sizing: border-box; }
+			/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 @font-face {
   font-family: "Atkinson Hyperlegible";
   font-style: italic;
@@ -700,16 +868,43 @@ footer {
 			<main id="skip">
 
 				
-<h1 id="content-not-found" tabindex="-1">Content not found. <a class="header-anchor" href="#content-not-found">#</a></h1>
-<p>Go <a href="/">home</a>.</p>
-<p><!--</p>
-<p>Read more: https://www.11ty.dev/docs/quicktips/not-found/</p>
-<p>This will work for both GitHub pages and Netlify:</p>
-<ul>
-<li>https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/</li>
-<li>https://www.netlify.com/docs/redirects/#custom-404</li>
-</ul>
-<p>--></p>
+
+<meta property="og:title" content="topposts.net: looking at cohost posts in read-only mode and it suddenly hit me">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/">
+<meta property="og:description" content="are only carbon now&lt;/p&gt;
+">
+
+
+
+<article class="post h-entry">
+    <div class="attribution">
+        <div class="metadata">
+            <div class="p-author h-card">
+                <span class="profile-pic"><img class="u-photo" src="/img/moon-dutiful.jpg?v=4e58b6acac05"></span>
+                <span class="author p-name">@topghost</span>
+            </div>
+            <div class="timestamp">
+                <a class="u-url u-uid" href="/post/1728000958880/" rel="canonical">
+                    <time class="dt-published" datetime="2024-10-04T00:15:58Z" title="2024-10-04T00:15:58Z">Fri, Oct 4, 2024 @94.421</time>
+                </a>
+            </div>
+            <data class="p-url" value="https://topposts.net/"></data>
+            <data class="p-logo" value="/img/moon-dutiful.jpg?v=4e58b6acac05"></data>
+        </div>
+    </div>
+
+    <h1 class="title p-name">
+        <a href="/post/1728000958880/">looking at cohost posts in read-only mode and it suddenly hit me</a>
+    </h1>
+
+    <div class="postbody e-content"><p><em>WE</em> are only carbon now</p>
+</div>
+    <div class="tags">
+        <ol>
+        </ol>
+    </div>
+</article>
 
 			</main>
 		</section>
@@ -733,6 +928,6 @@ footer {
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/404.html` was built on 2024-10-04T00:16:51.153Z -->
+			<!-- This page `/post/1728000958880/` was built on 2024-10-04T00:16:51.157Z -->
 		</body>
 	</html>
