@@ -4,12 +4,27 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-04T23:14:44Z</updated>
+	<updated>2024-10-05T00:40:27Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1728088792148/"/>
+			<updated>2024-10-05T00:39:52Z</updated>
+			<id>https://topposts.net/post/1728088792148/</id>
+			<content type="html">
+				<p>I think Apple Music is now ranking its new tracks / new albums lists based on my existing library and/or listening history and it's... pretty good at it? I still find myself scrolling down to the bottom of a lot of lists every Friday but I could see myself starting to trust it if the accuracy level sticks</p>
+
+					<p>Tagged:
+							<a href="/tags/apple-music/">#apple music</a>
+							
+					</p>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>there are 23 different “thank you” emoji in my work’s Slack server</title>
