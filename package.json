@@ -29,7 +29,6 @@
 		"eleventy-plugin-embed-everything": "^1.19.0",
 		"eleventy-auto-cache-buster": "^0.6.1",
 		"luxon": "^3.5.0",
-		"markdown-it-anchor": "^9.2.0",
 		"he": "^1.2.0"
 	}
 }
