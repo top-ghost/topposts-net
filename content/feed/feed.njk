@@ -24,16 +24,16 @@ eleventyImport:
 			<link href="{{ absolutePostUrl }}"/>
 			<updated>{{ post.data.timestamp | unixTimestampToIsoDate }}</updated>
 			<id>{{ absolutePostUrl }}</id>
-			<content type="html">
+			<content type="html"><![CDATA[<div>
 				{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | safe }}
 				{%- if post.data.tags | length %}
 					<p>Tagged: {%- for tag in post.data.tags %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
 							<a href="{{ tagUrl }}">#{{ tag | safe }}</a>
-							{% if not loop.last %}, {% endif %}
+							{%- if not loop.last %}, {% endif %}
 						{%- endfor %}
 					</p>
 				{%- endif %}
-			</content>
+			</div>]]></content>
 		</entry>
 	{%- endfor %}
 </feed>
