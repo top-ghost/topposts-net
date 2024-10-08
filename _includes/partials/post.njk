@@ -31,4 +31,10 @@
             {%- endfor %}
         </ol>
     </div>
+
+    <div class="comments">
+        <a href="mailto:{{metadata.author.email}}?subject=Re: {{item.data.title | decode | urlEncodedTextOrPlaceholder("Untitled Post")}}&body=via {{item.url | htmlBaseUrl(metadata.url) }}:%0A%0A{{item.rawInput | decode | blockquotedText | urlEncodedTextOrPlaceholder("")}}%0A">
+            email me
+        </a>
+    </div>
 </article>
