@@ -682,6 +682,27 @@ form#secrets {
     }
   }
 
+  .comments {
+    font-size: 0.9em;
+    border-radius: 0 0 8px 8px;
+    margin: -8px;
+    margin-block-start: 8px;
+    padding: 8px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 1 0%;
+    min-width: 0px;
+    gap: 0.5rem;
+
+    a {
+      color: #999;
+      text-decoration: none;
+    }
+  }
+
   #postTitleInput,
   #postBodyTextarea,
   #postTagsInput,
@@ -819,6 +840,11 @@ footer {
         }
       }
     }
+
+    .comments {
+      border-top: 1px solid #666666;
+      background-color: rgb(51, 51, 51);
+    }
   }
 
   footer {
@@ -905,6 +931,12 @@ footer {
         <ol>
         </ol>
     </div>
+
+    <div class="comments">
+        <a href="mailto:topghost@fastmail.com?subject=Re: Untitled%20Post&body=via https://topposts.net/post/1727810458593/:%0A%0A%3E%20%0A%3E%20The%20blog%20post%20I%20was%20reading%20to%20try%20to%20figure%20out%20how%20to%20deal%20with%20the%20GitHub%20API%E2%80%99s%20requirement%20of%20base64-encoded%20data%20used%20the%20cheese%20emoji%20as%20some%20of%20its%20example%20data.%20I%20still%20haven%E2%80%99t%20fixed%20the%20bug%20so%20the%20poor%20cheese%20emoji%20will%20render%20like%20%F0%9F%A7%80%0A%0A">
+            email me
+        </a>
+    </div>
 </article>
 
 			</main>
@@ -929,6 +961,6 @@ footer {
 			<a href="/octobug" id="cornerPostLink" class="">
 				<span>POST</span></a>
 			
-			<!-- This page `/post/1727810458593/` was built on 2024-10-07T17:49:49.998Z -->
+			<!-- This page `/post/1727810458593/` was built on 2024-10-08T04:00:49.214Z -->
 		</body>
 	</html>
