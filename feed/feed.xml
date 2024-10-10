@@ -4,12 +4,26 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-10T00:29:47Z</updated>
+	<updated>2024-10-10T05:31:06Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>if the linux kernel version 6.11 is so good, why isn&#39;t there a linux kernel version 6.12</title>
+			<link href="https://topposts.net/post/1728538235154/"/>
+			<updated>2024-10-10T05:30:35Z</updated>
+			<id>https://topposts.net/post/1728538235154/</id>
+			<content type="html"><![CDATA[<div>
+				
+					<p>Tagged:
+							<a href="/tags/linux/">#linux</a>, 
+							<a href="/tags/snowclones/">#snowclones</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
