@@ -4,12 +4,26 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-11T06:51:24Z</updated>
+	<updated>2024-10-11T06:54:59Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1728629669419/"/>
+			<updated>2024-10-11T06:54:29Z</updated>
+			<id>https://topposts.net/post/1728629669419/</id>
+			<content type="html"><![CDATA[<div>
+				<p>https://twitter.com/bIoach/status/684145823698018305</p>
+
+					<p>Tagged:
+							<a href="/tags/tweets/">#tweets</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>can I make an audio post with some manual intervention</title>
