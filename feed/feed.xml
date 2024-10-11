@@ -4,12 +4,27 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-11T06:47:23Z</updated>
+	<updated>2024-10-11T06:51:24Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>can I make an audio post with some manual intervention</title>
+			<link href="https://topposts.net/post/1728629455013/"/>
+			<updated>2024-10-11T06:50:55Z</updated>
+			<id>https://topposts.net/post/1728629455013/</id>
+			<content type="html"><![CDATA[<div>
+				<p>(a little too loudly, looking off-stage) wow this charli xcx remix album goes harder than I thought it would</p>
+<p><audio controls="" src="https://topposts.net/attachments/2024/10/romantic-mask-off.mp3"></audio></p>
+
+					<p>Tagged:
+							<a href="/tags/audio-posts/">#audio posts</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
