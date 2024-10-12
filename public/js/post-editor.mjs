@@ -143,12 +143,12 @@ window.addEventListener("DOMContentLoaded", async () => {
           repo: localStorage.getItem("githubRepoName"),
           path: `public/${url}`,
           message: "attachment uploaded with octobug",
-          content: encodedFile.replace(/data:image\/png;base64,/, ""),
+          content: encodedFile.replace(/data:.+base64,/, ""),
           branch: "main",
         }
       );
 
-      postBodyTextarea.value += `\n![${file.name}](/${path})`;
+      postBodyTextarea.value += `\n![${file.name}](/${url})`;
     }
 
     uploadAttachmentInput.value = "";
