@@ -132,9 +132,15 @@ window.addEventListener("DOMContentLoaded", async () => {
   uploadAttachmentInput.addEventListener("change", async (e) => {
     for (const file of e.target.files) {
       const now = new Date();
-      const url = `attachments/${now.getUTCFullYear()}/${
+
+      const urlPrefixNoFilename = `attachments/${now.getUTCFullYear()}/${
         now.getUTCMonth() + 1
-      }/${now.getUTCDate()}/${file.name}`;
+      }/${now.getUTCDate()}/`;
+      const url = `${urlPrefixNoFilename}/${file.name}`;
+      const encodedFilenameUrl = `${urlPrefixNoFilename}/${encodeURIComponent(
+        file.name
+      )}`;
+
       const encodedFile = await encodeBinaryForGithub(file);
       const response = await octokit.request(
         "PUT /repos/{owner}/{repo}/contents/{path}",
@@ -148,7 +154,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         }
       );
 
-      postBodyTextarea.value += `\n![${file.name}](/${url})`;
+      postBodyTextarea.value += `\n![${file.name}](/${encodedFilenameUrl})`;
     }
 
     uploadAttachmentInput.value = "";
