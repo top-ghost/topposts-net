@@ -526,6 +526,11 @@ form#secrets button {
   justify-content: flex-end;
   width: 100%;
 }
+
+.post .controls #uploadAttachmentInput {
+  display: none;
+}
+
 .post .controls #postButton {
   padding: 6px;
   background-color: #866bb6;

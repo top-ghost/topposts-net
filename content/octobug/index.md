@@ -21,7 +21,9 @@
         value=""
       />
     </div>
-    <div class="controls"> 
+    <div class="controls">
+        <input type="file" id="uploadAttachmentInput"/>
+        <label for="uploadAttachmentInput">⤴️</label>
         <button id="postButton" type="submit">post now</button>
     </div>
 </form>
