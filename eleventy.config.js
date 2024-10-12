@@ -5,12 +5,12 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const pluginCacheBuster = require("@mightyplow/eleventy-plugin-cache-buster");
 
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
 const embeds = require("eleventy-plugin-embed-everything");
-const eleventyAutoCacheBuster = require("eleventy-auto-cache-buster");
 const slugify = require("slugify");
 const he = require("he");
 
@@ -48,11 +48,6 @@ function convertTZ(date, tzString) {
 module.exports = async function (eleventyConfig) {
   const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
 
-  // Bundle js snippets
-  eleventyConfig.addBundle("js");
-  // Bundle js tags
-  eleventyConfig.addBundle("jstags");
-
   // Copy the contents of the `public` folder to the output folder
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
@@ -79,6 +74,12 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginBundle);
+  eleventyConfig.addPlugin(pluginCacheBuster({}));
+
+  // Bundle js snippets
+  eleventyConfig.addBundle("js");
+  // Bundle js tags
+  eleventyConfig.addBundle("jstags");
 
   // Third party plugins
   eleventyConfig.addPlugin(embeds, {
@@ -88,8 +89,6 @@ module.exports = async function (eleventyConfig) {
       },
     },
   });
-
-  eleventyConfig.addPlugin(eleventyAutoCacheBuster);
 
   // Collections
   eleventyConfig.addCollection("posts", function (collectionApi) {
