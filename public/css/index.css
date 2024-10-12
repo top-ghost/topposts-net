@@ -178,7 +178,6 @@ header {
 
 .home-link {
   font-weight: 700;
-  margin-right: 2em;
 }
 
 .home-link:link:not(:hover) {
