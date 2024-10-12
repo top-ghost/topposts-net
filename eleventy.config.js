@@ -208,6 +208,8 @@ module.exports = async function (eleventyConfig) {
     }
   });
 
+  eleventyConfig.addFilter("arrayLength", (collection) => collection.length);
+
   const mdLib = markdownIt();
   mdLib.disable("code");
   eleventyConfig.setLibrary("md", {
