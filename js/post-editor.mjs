@@ -32,7 +32,11 @@ function makePost(
 ) {
   const tagArray = [];
   try {
-    tagArray.push(...JSON.parse(decodeURIComponent(postTagsRawString) || "[]"));
+    tagArray.push(
+      ...JSON.parse(decodeURIComponent(postTagsRawString) || "[]").map((tag) =>
+        he.encode(tag)
+      )
+    );
   } catch (e) {
     console.log("problem trying to parse tags");
   }
@@ -57,6 +61,15 @@ function encodeTextForGithub(text) {
   return btoa(binaryString);
 }
 
+async function encodeBinaryForGithub(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+  });
+}
+
 window.addEventListener("DOMContentLoaded", async () => {
   authorize();
 
@@ -64,6 +77,10 @@ window.addEventListener("DOMContentLoaded", async () => {
   const postTitleInput = document.getElementById("postTitleInput");
   const postBodyTextarea = document.getElementById("postBodyTextarea");
   const postTagsHiddenInput = document.getElementById("postTagsHiddenInput");
+
+  const uploadAttachmentInput = document.getElementById(
+    "uploadAttachmentInput"
+  );
 
   postButton.addEventListener("click", async (e) => {
     e.preventDefault();
@@ -110,5 +127,30 @@ window.addEventListener("DOMContentLoaded", async () => {
     } else {
       console.log("API not initialized");
     }
+  });
+
+  uploadAttachmentInput.addEventListener("change", async (e) => {
+    for (const file of e.target.files) {
+      const now = new Date();
+      const url = `attachments/${now.getUTCFullYear()}/${
+        now.getUTCMonth() + 1
+      }/${now.getUTCDate()}/${file.name}`;
+      const encodedFile = await encodeBinaryForGithub(file);
+      const response = await octokit.request(
+        "PUT /repos/{owner}/{repo}/contents/{path}",
+        {
+          owner: localStorage.getItem("githubRepoOwner"),
+          repo: localStorage.getItem("githubRepoName"),
+          path: `public/${url}`,
+          message: "attachment uploaded with octobug",
+          content: encodedFile.replace(/data:image\/png;base64,/, ""),
+          branch: "main",
+        }
+      );
+
+      postBodyTextarea.value += `\n![${file.name}](/${path})`;
+    }
+
+    uploadAttachmentInput.value = "";
   });
 });

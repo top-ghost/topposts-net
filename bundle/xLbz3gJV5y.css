@@ -1,4 +1,4 @@
-.postlist { counter-reset: start-from 7 }
+.postlist { counter-reset: start-from 11 }
 * { box-sizing: border-box; }
 @charset "UTF-8";
 @font-face {
@@ -528,6 +528,11 @@ form#secrets button {
   justify-content: flex-end;
   width: 100%;
 }
+
+.post .controls #uploadAttachmentInput {
+  display: none;
+}
+
 .post .controls #postButton {
   padding: 6px;
   background-color: #866bb6;
