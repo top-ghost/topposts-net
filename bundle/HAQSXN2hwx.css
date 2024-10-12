@@ -1,4 +1,4 @@
-.postlist { counter-reset: start-from 11 }
+.postlist { counter-reset: start-from 2 }
 * { box-sizing: border-box; }
 @charset "UTF-8";
 @font-face {
@@ -316,38 +316,35 @@ everything above is remnants of the eleventy-base-blog theme */
   color: white;
   display: grid;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
   grid-template-columns: 2fr 4fr;
 }
 #intro .profile-pic {
   grid-column: 1;
-  grid-row: 1/3;
+  grid-row: 1/4;
 }
 #intro .profile-pic img {
   aspect-ratio: 1/1;
   height: 8em;
   border-radius: 4em;
 }
-#intro .display-name {
+#intro h1,
+h2,
+h3 {
   grid-column: 2;
-  grid-row: 1;
-  font-size: 1.5em;
-  height: min-content;
-  margin-top: 8px;
-  margin-inline: 4px;
-}
-@media (min-width: 420px) {
-  #intro .display-name {
-    font-size: 2em;
-  }
-}
-#intro .username {
-  margin-top: -16px;
-  margin-bottom: 0px;
   height: min-content;
   margin-inline: 8px;
-  grid-column: 2;
-  grid-row: 2;
+  margin-block: 0px;
+}
+#intro .site-name {
+  font-size: 1.75em;
+}
+#intro .display-name {
+  font-size: 1.25em;
+}
+#intro .username {
+  font-size: 1em;
+  color: #999;
 }
 
 .page-title {
