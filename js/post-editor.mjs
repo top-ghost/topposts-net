@@ -135,24 +135,21 @@ window.addEventListener("DOMContentLoaded", async () => {
 
       const urlPrefixNoFilename = `attachments/${now.getUTCFullYear()}/${
         now.getUTCMonth() + 1
-      }/${now.getUTCDate()}/`;
+      }/${now.getUTCDate()}`;
       const url = `${urlPrefixNoFilename}/${file.name}`;
       const encodedFilenameUrl = `${urlPrefixNoFilename}/${encodeURIComponent(
         file.name
       )}`;
 
       const encodedFile = await encodeBinaryForGithub(file);
-      const response = await octokit.request(
-        "PUT /repos/{owner}/{repo}/contents/{path}",
-        {
-          owner: localStorage.getItem("githubRepoOwner"),
-          repo: localStorage.getItem("githubRepoName"),
-          path: `public/${url}`,
-          message: "attachment uploaded with octobug",
-          content: encodedFile.replace(/data:.+base64,/, ""),
-          branch: "main",
-        }
-      );
+      await octokit.request("PUT /repos/{owner}/{repo}/contents/{path}", {
+        owner: localStorage.getItem("githubRepoOwner"),
+        repo: localStorage.getItem("githubRepoName"),
+        path: `public/${url}`,
+        message: "attachment uploaded with octobug",
+        content: encodedFile.replace(/data:.+base64,/, ""),
+        branch: "main",
+      });
 
       postBodyTextarea.value += `\n![${file.name}](/${encodedFilenameUrl})`;
     }
