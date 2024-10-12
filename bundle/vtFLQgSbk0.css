@@ -1,3 +1,4 @@
+.postlist { counter-reset: start-from 2 }
 * { box-sizing: border-box; }
 @charset "UTF-8";
 @font-face {
@@ -179,7 +180,6 @@ header {
 
 .home-link {
   font-weight: 700;
-  margin-right: 2em;
 }
 
 .home-link:link:not(:hover) {
@@ -343,7 +343,7 @@ h3 {
 }
 #intro .username {
   font-size: 1em;
-  color: #999;
+  color: #ccc1e1;
 }
 
 .page-title {
@@ -606,7 +606,25 @@ footer div ul li {
   transition: opacity 0.4s ease-in;
 }
 
+@media (max-device-width: 380px) {
+  #intro .site-name {
+    font-size: 1.2em;
+  }
+
+  #intro .display-name {
+    font-size: 1em;
+  }
+
+  #intro .username {
+    font-size: 0.9em;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
+  #intro .username {
+    color: #999;
+  }
+
   .post {
     background-color: #000000;
     box-shadow: 0 0.2em 0.4em 0.1em rgb(17, 17, 17);
