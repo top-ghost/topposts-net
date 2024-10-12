@@ -132,7 +132,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   uploadAttachmentInput.addEventListener("change", async (e) => {
     for (const file of e.target.files) {
       const now = new Date();
-      const path = `public/attachments/${now.getUTCFullYear()}/${
+      const url = `attachments/${now.getUTCFullYear()}/${
         now.getUTCMonth() + 1
       }/${now.getUTCDate()}/${file.name}`;
       const encodedFile = await encodeBinaryForGithub(file);
@@ -141,7 +141,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         {
           owner: localStorage.getItem("githubRepoOwner"),
           repo: localStorage.getItem("githubRepoName"),
-          path,
+          path: `public/${url}`,
           message: "attachment uploaded with octobug",
           content: encodedFile.replace(/data:image\/png;base64,/, ""),
           branch: "main",
