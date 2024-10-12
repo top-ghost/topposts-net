@@ -177,7 +177,9 @@ module.exports = async function (eleventyConfig) {
         return tagSet.add(tag);
       });
     }
-    return Array.from(tagSet);
+    return Array.from(tagSet).sort((a, b) =>
+      a.localeCompare(b, undefined, { sensitivity: "base" })
+    );
   });
 
   eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
