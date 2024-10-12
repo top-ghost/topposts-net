@@ -114,6 +114,7 @@ module.exports = async function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("decode", (string) => he.decode(string || ""));
+  eleventyConfig.addFilter("encode", (string) => he.encode(string || ""));
 
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
     // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
