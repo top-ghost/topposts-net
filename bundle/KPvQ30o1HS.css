@@ -1,4 +1,4 @@
-.postlist { counter-reset: start-from 2 }
+.postlist { counter-reset: start-from 7 }
 * { box-sizing: border-box; }
 @charset "UTF-8";
 @font-face {
@@ -442,6 +442,11 @@ form#secrets button {
 .post .postbody {
   margin-inline: 0.75em;
   margin-bottom: 1.5em;
+}
+.post .postbody img {
+  max-width: 100%;
+  display: block;
+  margin-inline: auto;
 }
 .post .tags {
   margin-inline: 0.75em;
