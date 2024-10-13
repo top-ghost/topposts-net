@@ -4,12 +4,26 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-13T06:04:48Z</updated>
+	<updated>2024-10-13T06:13:22Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1728799963670/"/>
+			<updated>2024-10-13T06:12:43Z</updated>
+			<id>https://topposts.net/post/1728799963670/</id>
+			<content type="html"><![CDATA[<div>
+				<p>playing the hi hat on every 16th note is the "red deck wins" of music production</p>
+
+					<p>Tagged:
+							<a href="/tags/postulates/">#postulates</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
