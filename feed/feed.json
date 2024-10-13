@@ -11,6 +11,21 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1728778934590/",
+			"url": "https://topposts.net/post/1728778934590/",
+			"title": "not-quite-one-month-anniversary roadmap",
+			"content_html": "<p>inspired by <a href=\"https://entangled.one/post/1728774235-image-uploads-not-the/\">li's roadmap</a> I guess I will share an updated and mostly-off-the-cuff version of mine, based on a quick scan of my original goals and the mountain of todo list items I have accumulated since then:</p>\n<ul>\n<li>I gotta get h-entry consumption working so I can \"reblog\" everyone else who's publishing with it (and bully the rest of you into adding support so I can reblog you too)</li>\n<li>The post editor has some rough styling edges that I would like to sand down a bit. I want the headline and body fields to grow with the post. The buttons are ass and I would like them to not be ass</li>\n<li>I need to write some static pages for a blogroll and possibly some other stuff? This isn't actually programming or anything, I have no excuse for not doing this sooner</li>\n<li>I want a \"pinned tags\" widget that makes sense on the page in both desktop and mobile</li>\n<li>posts should be editable without using the git repo</li>\n<li>posts should be draftable (I agree with li, localstorage is probably fine for now, though it would be nice to have some alternate strategy</li>\n<li>I need to pull out a bunch of blog-specific things that have been hardcoded and put them into Eleventy Data Files so that my blog is more easily customizable and also probably so I can just take this code, .gitignore the Content and Data files, and force-push back into the octobug repo to have a clean working Eleventy base template.</li>\n<li>I admit I have not been making any progress on also making it possible to use Octobug with an existing static site setup / your own metadata structure. It's going to be kinda hard and finicky and weird and I'm not looking forward to it, sorry!!!!</li>\n<li>I have a couple other very stupid but pretty funny ideas that I'm going to keep a secret for now 🤫</li>\n</ul>\n<p>it's fun that me and a few other people have spent the last ~month tricking each other into using our accumulated programming skills to improve our lives. I mean that genuinely. Ok I really gotta take a shower now bye</p>\n"
+	,
+			"tags": [
+					"octobug (meta)"
+					,
+					"octobug (feature requests)"
+					
+			],
+			"date_published": "2024-10-13T00:22:47Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1728768064653/",
 			"url": "https://topposts.net/post/1728768064653/",
 			"title": "my flag presentation",
@@ -22,7 +37,7 @@
 					"flags"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -37,7 +52,7 @@
 					"uspol"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -50,7 +65,7 @@
 					"emoji"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -64,7 +79,7 @@
 					"topposts.net (meta)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -77,7 +92,7 @@
 					"lamps with threatening auras"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -90,7 +105,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -103,7 +118,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -116,7 +131,7 @@
 					"tweets"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -129,7 +144,7 @@
 					"audio posts"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -142,7 +157,7 @@
 					"posts I would&#39;ve drafted if I had built the drafts feature yet"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -153,7 +168,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -164,7 +179,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -178,7 +193,7 @@
 					"snowclones"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -193,7 +208,7 @@
 					"matt mullenweg"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -208,7 +223,7 @@
 					"online &quot;culture&quot;"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -223,7 +238,7 @@
 					"email"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -236,7 +251,7 @@
 					"envy"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -247,7 +262,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -260,7 +275,7 @@
 					"music"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -273,7 +288,7 @@
 					"cohost meta but like not serious"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -286,7 +301,7 @@
 					"cool websites (temporary)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -301,7 +316,7 @@
 					"theories"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -314,7 +329,7 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -327,7 +342,7 @@
 					"h-entry"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -338,7 +353,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -351,7 +366,7 @@
 					"apple music"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -367,7 +382,7 @@
 					"twenty three"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -378,7 +393,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -395,7 +410,7 @@
 					"valleywag"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -406,7 +421,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -417,7 +432,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -428,7 +443,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -439,7 +454,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -450,7 +465,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -461,7 +476,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -472,7 +487,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -483,7 +498,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -494,7 +509,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -507,7 +522,7 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -518,7 +533,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -531,7 +546,7 @@
 					"octobug (feature requests)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -542,7 +557,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -553,7 +568,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -566,7 +581,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -576,7 +591,7 @@
 			"content_html": "",
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -587,7 +602,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -598,7 +613,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -609,7 +624,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -620,7 +635,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -631,7 +646,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -642,7 +657,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -657,7 +672,7 @@
 					"who cares"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -668,7 +683,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -681,7 +696,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -695,7 +710,7 @@
 					"has anyone done this"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -714,7 +729,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -731,7 +746,7 @@
 					"historic anticlimaxes in posting"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -744,7 +759,7 @@
 					"don’t worry about it"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -757,7 +772,7 @@
 					"tweets"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -774,7 +789,7 @@
 					"the post button is lime green lol"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -787,7 +802,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -800,7 +815,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -813,7 +828,7 @@
 					"wishful thinking"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -826,7 +841,7 @@
 					"stunts"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -839,7 +854,7 @@
 					"testing in production"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -853,7 +868,7 @@
 					"saturday morning"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		,
 		{
@@ -870,7 +885,7 @@
 					"javascript"
 					
 			],
-			"date_published": "2024-10-12T21:21:35Z"
+			"date_published": "2024-10-13T00:22:47Z"
 		}
 		
 ]
