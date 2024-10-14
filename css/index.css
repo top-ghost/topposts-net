@@ -547,14 +547,9 @@ footer {
   padding-inline: 8px;
   display: flex;
   justify-content: space-around;
-  /* chris coyier's ".full-width" */
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding-bottom: 20em;
+  width: 100%;
+  margin-inline: auto;
+  padding-bottom: 10em;
 }
 footer div {
   max-width: 20em;
