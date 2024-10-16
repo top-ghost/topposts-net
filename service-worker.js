@@ -1,4 +1,4 @@
-const VERSION = 'f881-0d9a-aacd';
+const VERSION = 'b959-d05c-9b1d';
 /* global VERSION */
 /* eslint-disable no-restricted-globals */
 /* eslint-env serviceworker */
