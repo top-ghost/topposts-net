@@ -4,7 +4,7 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-10-22T06:28:59Z</updated>
+	<updated>2024-10-23T05:14:24Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
@@ -92,7 +92,7 @@ And I've got mad hits like I was Rockeroo</p>
 <blockquote>
 <p>i love the idea that there are exactly 3 people reading this btw. Who Are You.....</p>
 </blockquote>
-<p>I’m topghost, of the toppost.net topghosts</p>
+<p>I’m topghost, of the <a href="http://toppost.net">toppost.net</a> topghosts</p>
 
 					<p>Tagged:
 							<a href="/tags/lineage/">#lineage</a>, 
@@ -303,7 +303,7 @@ And I've got mad hits like I was Rockeroo</p>
 			<updated>2024-10-11T06:54:29Z</updated>
 			<id>https://topposts.net/post/1728629669419/</id>
 			<content type="html"><![CDATA[<div>
-				<p>https://twitter.com/bIoach/status/684145823698018305</p>
+				<p><a href="https://twitter.com/bIoach/status/684145823698018305">https://twitter.com/bIoach/status/684145823698018305</a></p>
 
 					<p>Tagged:
 							<a href="/tags/tweets/">#tweets</a>
@@ -318,8 +318,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<id>https://topposts.net/post/1728629455013/</id>
 			<content type="html"><![CDATA[<div>
 				<p>(a little too loudly, looking off-stage) wow this charli xcx remix album goes harder than I thought it would</p>
-<p><audio controls="" src="https://topposts.net/attachments/2024/10/romantic-mask-off.mp3"></audio></p>
-
+<audio controls="" src="https://topposts.net/attachments/2024/10/romantic-mask-off.mp3">
+</audio>
 					<p>Tagged:
 							<a href="/tags/audio-posts/">#audio posts</a>
 					</p>
@@ -483,7 +483,7 @@ And I've got mad hits like I was Rockeroo</p>
 			<id>https://topposts.net/post/1728191574496/</id>
 			<content type="html"><![CDATA[<div>
 				<p>Meow Wolf, Cirque du Soleil & MSCHF are proud to present:</p>
-<p></p><h1>#The Cohost Global Feed</h1><p></p>
+<h1>#The Cohost Global Feed</h1>
 <p>the interactive play-within-a-play-pilled digitally-mediated real-life experiential booking slot that seeks to ask: what if the hottest babes from Dimes Square roleplayed as the "most-severaled chosters", acting out titillating versions of their "blaseballiest" content creation moments? XD!</p>
 
 					<p>Tagged:
@@ -676,7 +676,7 @@ And I've got mad hits like I was Rockeroo</p>
 			<updated>2024-10-02T15:14:02Z</updated>
 			<id>https://topposts.net/post/1727882042914/</id>
 			<content type="html"><![CDATA[<div>
-				<p>https://youtu.be/WIWHNmcz-2k</p>
+				<p><a href="https://youtu.be/WIWHNmcz-2k">https://youtu.be/WIWHNmcz-2k</a></p>
 <p>NTS saw an amateur scene pop up on YouTube and said “I want that for me”</p>
 
 			</div>]]></content>
@@ -701,7 +701,7 @@ And I've got mad hits like I was Rockeroo</p>
 			<content type="html"><![CDATA[<div>
 				<p>via <a href="https://graham.build/s/a-blog/001-wizard-sokoban/">graham</a>:</p>
 <blockquote>
-<p>Today, my friend and I launched another new version of our puzzle game named Wizard Sokoban (working title). You can play it on itch.io for free, though it works best on a computer using firefox:</p>
+<p>Today, my friend and I launched another new version of our puzzle game named Wizard Sokoban (working title). You can play it on <a href="http://itch.io">itch.io</a> for free, though it works best on a computer using firefox:</p>
 </blockquote>
 <p><a href="https://anvilfood.itch.io/wizard-sokoban">Go try out Wizard Sokoban</a>! I got to level 13 the day after it was released and at that point it’s really unfurling into something more complex. I’m excited to play more!</p>
 
@@ -799,7 +799,7 @@ And I've got mad hits like I was Rockeroo</p>
 			<updated>2024-09-25T01:36:33Z</updated>
 			<id>https://topposts.net/post/1727228193024/</id>
 			<content type="html"><![CDATA[<div>
-				<p>the site upgrades are piling up, I should really backport them to octobug 🤔
+				<p>the site upgrades are piling up, I should really backport them to octobug 🤔<br>
 among some post editor improvements (better mobile support!) NEW posts should have a new permalink structure while OLD posts retain their old URLs (to hopefully avoid bombarding feeds with "new" posts, and to avoid breaking what I'm sure are hundreds of links to my first ~25 brilliant posts)</p>
 
 					<p>Tagged:
@@ -996,7 +996,7 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<updated>2024-09-23T07:01:12Z</updated>
 			<id>https://topposts.net/1727074872138/</id>
 			<content type="html"><![CDATA[<div>
-				<p>https://twitter.com/i_zzzzzz/status/660925493840072706</p>
+				<p><a href="https://twitter.com/i_zzzzzz/status/660925493840072706">https://twitter.com/i_zzzzzz/status/660925493840072706</a></p>
 
 					<p>Tagged:
 							<a href="/tags/tweets/">#tweets</a>
