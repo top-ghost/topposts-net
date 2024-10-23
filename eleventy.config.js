@@ -209,18 +209,17 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.addFilter("arrayLength", (collection) => collection.length);
 
-  const mdLib = markdownIt();
-  mdLib.disable("code");
+  const mdLib = markdownIt({
+    breaks: true,
+    html: true,
+    xhtmlOut: true,
+    linkify: true,
+  })
+    .enable(["newline"])
+    .disable("code");
   eleventyConfig.setLibrary("md", {
     render: (content) => {
-      return he.decode(
-        mdLib.render(he.decode(content || ""), {
-          breaks: true,
-          html: true,
-          xhtmlOut: true,
-          linkify: true,
-        })
-      );
+      return he.decode(mdLib.render(he.decode(content || "")));
     },
   }); // run he.decode on content before markdown processing
 
