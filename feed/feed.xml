@@ -4,12 +4,23 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-11-01T05:54:48Z</updated>
+	<updated>2024-11-05T09:06:43Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1730797570007/"/>
+			<updated>2024-11-05T09:06:10Z</updated>
+			<id>https://topposts.net/post/1730797570007/</id>
+			<content type="html"><![CDATA[<div>
+				<p>thinking about being extremely normal today, as a bit</p>
+
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
