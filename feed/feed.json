@@ -11,6 +11,21 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1733123394511/",
+			"url": "https://topposts.net/post/1733123394511/",
+			"title": "Untitled Post",
+			"content_html": "<p>it's interesting<sup style=\"color:#527cf9;font-style:italic\">[citation needed]</sup> to imagine whether FFXIV's cutscene scripting in-memory representation could be marshalled into something a visual novel engine could use, then sold back to me for some upsetting amount of money</p>\n"
+	,
+			"tags": [
+					"citation needed"
+					,
+					"telling on myself"
+					
+			],
+			"date_published": "2024-12-02T07:10:30Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1732691357047/",
 			"url": "https://topposts.net/post/1732691357047/",
 			"title": "Untitled Post",
@@ -20,7 +35,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -33,7 +48,7 @@
 					"environmental storytelling"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -46,7 +61,7 @@
 					"no they shouldn’t"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -57,7 +72,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -68,7 +83,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -83,7 +98,7 @@
 					"re:@li"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -96,7 +111,7 @@
 					"not true"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -109,7 +124,7 @@
 					"field recordings"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -122,7 +137,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -133,7 +148,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -146,7 +161,7 @@
 					"blogging tactics"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -157,7 +172,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -172,7 +187,7 @@
 					"video games"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -189,7 +204,7 @@
 					"perception"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -200,7 +215,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -215,7 +230,7 @@
 					"octobug (meta but like not serious)"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -226,7 +241,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -237,7 +252,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -250,7 +265,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -261,7 +276,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -276,7 +291,7 @@
 					"re:@nex3"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -291,7 +306,7 @@
 					"mondegreens"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -302,7 +317,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -317,7 +332,7 @@
 					"1 of exactly 3"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -331,7 +346,7 @@
 					"originally posted elsewhere but that site doesn’t deserve it"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -342,7 +357,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -355,7 +370,7 @@
 					"postulates"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -370,7 +385,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -383,7 +398,7 @@
 					"make up a local restaurant"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -398,7 +413,7 @@
 					"octobug (feature requests)"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -413,7 +428,7 @@
 					"flags"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -428,7 +443,7 @@
 					"uspol"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -441,7 +456,7 @@
 					"emoji"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -455,7 +470,7 @@
 					"topposts.net (meta)"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -468,7 +483,7 @@
 					"lamps with threatening auras"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -481,7 +496,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -494,7 +509,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -507,7 +522,7 @@
 					"tweets"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -520,7 +535,7 @@
 					"audio posts"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -533,7 +548,7 @@
 					"posts I would&#39;ve drafted if I had built the drafts feature yet"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -544,7 +559,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -555,7 +570,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -569,7 +584,7 @@
 					"snowclones"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -584,7 +599,7 @@
 					"matt mullenweg"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -599,7 +614,7 @@
 					"online &quot;culture&quot;"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -614,7 +629,7 @@
 					"email"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -627,7 +642,7 @@
 					"envy"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -638,7 +653,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -651,7 +666,7 @@
 					"music"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -664,7 +679,7 @@
 					"cohost meta but like not serious"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -677,7 +692,7 @@
 					"cool websites (temporary)"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -692,7 +707,7 @@
 					"theories"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -705,7 +720,7 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -718,7 +733,7 @@
 					"h-entry"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -729,7 +744,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -742,7 +757,7 @@
 					"apple music"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -758,7 +773,7 @@
 					"twenty three"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -769,7 +784,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -786,7 +801,7 @@
 					"valleywag"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -797,7 +812,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -808,7 +823,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -819,7 +834,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -830,7 +845,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -841,7 +856,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -852,7 +867,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -863,7 +878,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -874,7 +889,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -885,7 +900,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -898,7 +913,7 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -909,7 +924,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -922,7 +937,7 @@
 					"octobug (feature requests)"
 					
 			],
-			"date_published": "2024-11-27T07:10:00Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -933,7 +948,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -944,7 +959,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -957,7 +972,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -967,7 +982,7 @@
 			"content_html": "",
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -978,7 +993,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -989,7 +1004,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1000,7 +1015,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1011,7 +1026,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1022,7 +1037,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1033,7 +1048,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1048,7 +1063,7 @@
 					"who cares"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1059,7 +1074,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1072,7 +1087,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1086,7 +1101,7 @@
 					"has anyone done this"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1105,7 +1120,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1122,7 +1137,7 @@
 					"historic anticlimaxes in posting"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1135,7 +1150,7 @@
 					"don’t worry about it"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1148,7 +1163,7 @@
 					"tweets"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1165,7 +1180,7 @@
 					"the post button is lime green lol"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1178,7 +1193,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1191,7 +1206,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1204,7 +1219,7 @@
 					"wishful thinking"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1217,7 +1232,7 @@
 					"stunts"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1230,7 +1245,7 @@
 					"testing in production"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1244,7 +1259,7 @@
 					"saturday morning"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		,
 		{
@@ -1261,7 +1276,7 @@
 					"javascript"
 					
 			],
-			"date_published": "2024-11-27T07:09:59Z"
+			"date_published": "2024-12-02T07:10:30Z"
 		}
 		
 ]
