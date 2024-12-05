@@ -1,4 +1,4 @@
-.postlist { counter-reset: start-from 100 }
+.postlist { counter-reset: start-from 101 }
 * { box-sizing: border-box; }
 @charset "UTF-8";
 @font-face {
