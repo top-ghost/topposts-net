@@ -4,12 +4,23 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2024-12-15T07:36:59Z</updated>
+	<updated>2024-12-15T07:38:42Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>it is important to know what we are</title>
+			<link href="https://topposts.net/post/1734248287306/"/>
+			<updated>2024-12-15T07:38:07Z</updated>
+			<id>https://topposts.net/post/1734248287306/</id>
+			<content type="html"><![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2024/12/15/Screenshot%202024-12-14%20at%2011.34.04%E2%80%AFPM.png" alt="twitch chat screenshot where user topghost says " we're="" all="" out="" here="" blogging="" right?="" everyone="" drop="" the="" rss="" feeds""=""></p>
+
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Patch 13.2.1: Flurbo is here?!</title>
