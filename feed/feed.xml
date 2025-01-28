@@ -4,12 +4,28 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-01-28T08:17:38Z</updated>
+	<updated>2025-01-28T08:26:48Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>blog goals</title>
+			<link href="https://topposts.net/post/1738052777982/"/>
+			<updated>2025-01-28T08:26:17Z</updated>
+			<id>https://topposts.net/post/1738052777982/</id>
+			<content type="html"><![CDATA[<div>
+				<p>becoming the <a href="http://kottke.org">kottke.org</a> of #good ideas</p>
+
+					<p>Tagged:
+							<a href="/tags/good-ideas-meta/">#good ideas (meta)</a>, 
+							<a href="/tags/kottkeorg-references/">#kottke.org references</a>, 
+							<a href="/tags/blog-goals/">#blog goals</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>

@@ -11,6 +11,23 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1738052777982/",
+			"url": "https://topposts.net/post/1738052777982/",
+			"title": "blog goals",
+			"content_html": "<p>becoming the <a href=\"http://kottke.org\">kottke.org</a> of #good ideas</p>\n"
+	,
+			"tags": [
+					"good ideas (meta)"
+					,
+					"kottke.org references"
+					,
+					"blog goals"
+					
+			],
+			"date_published": "2025-01-28T08:26:48Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1738052225952/",
 			"url": "https://topposts.net/post/1738052225952/",
 			"title": "Untitled Post",
@@ -20,7 +37,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:48Z"
 		}
 		,
 		{
@@ -31,7 +48,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:48Z"
 		}
 		,
 		{
@@ -42,7 +59,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -55,7 +72,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -68,7 +85,7 @@
 					"challenging opinions"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -79,7 +96,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -90,7 +107,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -101,7 +118,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -114,7 +131,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -125,7 +142,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -136,7 +153,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -147,7 +164,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -158,7 +175,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -169,7 +186,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -180,7 +197,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -193,7 +210,7 @@
 					"commands for gamers"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -206,7 +223,7 @@
 					"LINE"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -217,7 +234,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -228,7 +245,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -245,7 +262,7 @@
 					"patch notes"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -260,7 +277,7 @@
 					"re:@li"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -271,7 +288,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -282,7 +299,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -297,7 +314,7 @@
 					"rt:@nex3"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -312,7 +329,7 @@
 					"telling on myself"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -325,7 +342,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -338,7 +355,7 @@
 					"environmental storytelling"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -351,7 +368,7 @@
 					"no they shouldn’t"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -362,7 +379,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -373,7 +390,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -388,7 +405,7 @@
 					"re:@li"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -401,7 +418,7 @@
 					"not true"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -414,7 +431,7 @@
 					"field recordings"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -427,7 +444,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -438,7 +455,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -451,7 +468,7 @@
 					"blogging tactics"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -462,7 +479,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -477,7 +494,7 @@
 					"video games"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -494,7 +511,7 @@
 					"perception"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -505,7 +522,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -520,7 +537,7 @@
 					"octobug (meta but like not serious)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -531,7 +548,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -542,7 +559,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -555,7 +572,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -566,7 +583,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -581,7 +598,7 @@
 					"re:@nex3"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -596,7 +613,7 @@
 					"mondegreens"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -607,7 +624,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -622,7 +639,7 @@
 					"1 of exactly 3"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -636,7 +653,7 @@
 					"originally posted elsewhere but that site doesn’t deserve it"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -647,7 +664,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -660,7 +677,7 @@
 					"postulates"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -675,7 +692,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -688,7 +705,7 @@
 					"make up a local restaurant"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -703,7 +720,7 @@
 					"octobug (feature requests)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -718,7 +735,7 @@
 					"flags"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -733,7 +750,7 @@
 					"uspol"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -746,7 +763,7 @@
 					"emoji"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -760,7 +777,7 @@
 					"topposts.net (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -773,7 +790,7 @@
 					"lamps with threatening auras"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -786,7 +803,7 @@
 					"single-image posts"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -799,7 +816,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -812,7 +829,7 @@
 					"tweets"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -825,7 +842,7 @@
 					"audio posts"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -838,7 +855,7 @@
 					"posts I would&#39;ve drafted if I had built the drafts feature yet"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -849,7 +866,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -860,7 +877,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -874,7 +891,7 @@
 					"snowclones"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -889,7 +906,7 @@
 					"matt mullenweg"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -904,7 +921,7 @@
 					"online &quot;culture&quot;"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -919,7 +936,7 @@
 					"email"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -932,7 +949,7 @@
 					"envy"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -943,7 +960,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -956,7 +973,7 @@
 					"music"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -969,7 +986,7 @@
 					"cohost meta but like not serious"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -982,7 +999,7 @@
 					"cool websites (temporary)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -997,7 +1014,7 @@
 					"theories"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1010,7 +1027,7 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1023,7 +1040,7 @@
 					"h-entry"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1034,7 +1051,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1047,7 +1064,7 @@
 					"apple music"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1063,7 +1080,7 @@
 					"twenty three"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1074,7 +1091,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1091,7 +1108,7 @@
 					"valleywag"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1102,7 +1119,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1113,7 +1130,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1124,7 +1141,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1135,7 +1152,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1146,7 +1163,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1157,7 +1174,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1168,7 +1185,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1179,7 +1196,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1190,7 +1207,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1203,7 +1220,7 @@
 					"make up a guy"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1214,7 +1231,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1227,7 +1244,7 @@
 					"octobug (feature requests)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1238,7 +1255,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1249,7 +1266,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1262,7 +1279,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1272,7 +1289,7 @@
 			"content_html": "",
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1283,7 +1300,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1294,7 +1311,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1305,7 +1322,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1316,7 +1333,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1327,7 +1344,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1338,7 +1355,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1353,7 +1370,7 @@
 					"who cares"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1364,7 +1381,7 @@
 	,
 			"tags": [
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1377,7 +1394,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1391,7 +1408,7 @@
 					"has anyone done this"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1410,7 +1427,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1427,7 +1444,7 @@
 					"historic anticlimaxes in posting"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1440,7 +1457,7 @@
 					"don’t worry about it"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1453,7 +1470,7 @@
 					"tweets"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1470,7 +1487,7 @@
 					"the post button is lime green lol"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1483,7 +1500,7 @@
 					"good ideas"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1496,7 +1513,7 @@
 					"octobug (meta)"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1509,7 +1526,7 @@
 					"wishful thinking"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1522,7 +1539,7 @@
 					"stunts"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1535,7 +1552,7 @@
 					"testing in production"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1549,7 +1566,7 @@
 					"saturday morning"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		,
 		{
@@ -1566,7 +1583,7 @@
 					"javascript"
 					
 			],
-			"date_published": "2025-01-28T08:17:38Z"
+			"date_published": "2025-01-28T08:26:47Z"
 		}
 		
 ]
