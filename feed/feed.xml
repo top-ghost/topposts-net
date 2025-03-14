@@ -4,12 +4,27 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-03-14T06:14:21Z</updated>
+	<updated>2025-03-14T06:56:11Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1741934683701/"/>
+			<updated>2025-03-14T06:44:43Z</updated>
+			<id>https://topposts.net/post/1741934683701/</id>
+			<content type="html"><![CDATA[<div>
+				<p>do you think the joker is a canonically <em>intelligent</em> character, or is he one of those guys that’s a huge dumbass and every time things go his way it’s extremely infuriating. wait, did I just pitch myself on watching the 2019 movie</p>
+
+					<p>Tagged:
+							<a href="/tags/joker-lore/">#joker lore</a>, 
+							<a href="/tags/posts-I-wouldve-drafted-if-I-had-built-the-drafts-feature-yet/">#posts I would&#x27;ve drafted if I had built the drafts feature yet</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
@@ -1137,7 +1152,7 @@ And I've got mad hits like I was Rockeroo</p>
 				<p>haha oh no is Julian Casablancas the male Charli XCX</p>
 
 					<p>Tagged:
-							<a href="/tags/posts-I-wouldve-drafted-if-I-had-built-the-drafts-feature-yet/">#posts I would've drafted if I had built the drafts feature yet</a>
+							<a href="/tags/posts-I-wouldve-drafted-if-I-had-built-the-drafts-feature-yet/">#posts I would&#x27;ve drafted if I had built the drafts feature yet</a>
 					</p>
 			</div>]]></content>
 		</entry>
