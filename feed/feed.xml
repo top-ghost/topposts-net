@@ -4,12 +4,27 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-03-15T08:03:49Z</updated>
+	<updated>2025-03-15T20:28:17Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1742070464841/"/>
+			<updated>2025-03-15T20:27:44Z</updated>
+			<id>https://topposts.net/post/1742070464841/</id>
+			<content type="html"><![CDATA[<div>
+				<p>it is a testament to the work of both the cohost team and the archive team how browseable the cohost archive is. lots of things on the wayback machine fail when you try to navigate from page to page but by and large you can experience cohost intact (except for all the people who went private before shutdown which was totally fair and possibly wise)</p>
+
+					<p>Tagged:
+							<a href="/tags/cohost/">#cohost</a>, 
+							<a href="/tags/archiveorg/">#archive.org</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
