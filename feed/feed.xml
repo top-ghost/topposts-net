@@ -4,12 +4,26 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-05-06T05:50:51Z</updated>
+	<updated>2025-05-06T06:04:38Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1746511451048/"/>
+			<updated>2025-05-06T06:04:11Z</updated>
+			<id>https://topposts.net/post/1746511451048/</id>
+			<content type="html"><![CDATA[<div>
+				<p>one thing I'm discovering and grateful for about Octobug when using it across multiple blogs is that when something breaks with it, as long as there's <em>a</em> site that builds and updates when I write words into it, I'm just like "that's okay". I know that the YouTube embed code breaks the frame. I know that I haven't backported the whole thing where headlines can safely have markdown in them. I still haven't integrated WebMentions or whatever. that's okay</p>
+
+					<p>Tagged:
+							<a href="/tags/octobug-meta/">#octobug (meta)</a>
+					</p>
+			</div>]]></content>
+		</entry>
 		
 		<entry>
 			<title>no. you can&#39;t do this. stop it</title>
