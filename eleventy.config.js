@@ -209,6 +209,22 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.addFilter("arrayLength", (collection) => collection.length);
 
+  eleventyConfig.addFilter("stripTags", function (content) {
+    let result = content;
+
+    result = result
+      .replace(/<\/(p|div|h[1-6]||ul|ol)>/gi, '\n')
+      .replace(/<br\/?>/gi, '\n')
+      .replace(/<li>/gi, '• ');
+
+    result = result.replace(/<[^>]*>/g, '');
+
+    result = result.replace(/&nbsp;/g, ' ');
+    result = result.replace(/&amp;/g, '&');
+
+    return result;
+  });
+
   const mdLib = markdownIt({
     breaks: true,
     html: true,
