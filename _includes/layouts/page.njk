@@ -9,7 +9,7 @@ layout: layouts/base.njk
             <span class="author p-name">{{author}}</span>
             <span class="timestamp">
                 <a href={{url}} class="u-url u-uid" rel="canonical">
-                    <time datetime={{timestamp | unixTimestampToIsoDate }} class="dt-published">{{timestamp | beatsDate if timestamp }}</time>
+                    <time datetime={{date }} class="dt-published">{{date | beatsDate if date }}</time>
                 </a>
             </span>
             <data class="p-url" value="/"></data>

@@ -26,9 +26,11 @@
 		"@11ty/eleventy-plugin-bundle": "^2.0.0",
 		"@11ty/eleventy-plugin-rss": "^2.0.2",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"eleventy-plugin-embed-everything": "^1.19.0",
 		"@mightyplow/eleventy-plugin-cache-buster": "github:top-ghost/eleventy-plugin-cache-buster#e9a6145c5ecff4e379c656681dc227dceb4e6b59",
+		"eleventy-plugin-embed-everything": "^1.19.0",
+		"gray-matter": "^4.0.3",
+		"he": "^1.2.0",
 		"luxon": "^3.5.0",
-		"he": "^1.2.0"
+		"yaml": "^2.8.0"
 	}
 }

@@ -43,13 +43,12 @@ function makePost(
 
   return `---json
 ${JSON.stringify({
-  author: he.encode(postAuthor),
-  date: "Git created",
-  title: he.encode(postTitle),
-  timestamp: postTimestamp,
-  tags: tagArray, // all items encoded above
-  layout: "layouts/post.njk",
-})}
+    author: he.encode(postAuthor),
+    date: new Date(postTimestamp).toISOString().replace(/\.\d+/, ""),
+    title: he.encode(postTitle),
+    tags: tagArray, // all items encoded above
+    layout: "layouts/post.njk",
+  })}
 ---
 ${he.encode(postBody)}
 `;
@@ -133,9 +132,8 @@ window.addEventListener("DOMContentLoaded", async () => {
     for (const file of e.target.files) {
       const now = new Date();
 
-      const urlPrefixNoFilename = `attachments/${now.getUTCFullYear()}/${
-        now.getUTCMonth() + 1
-      }/${now.getUTCDate()}`;
+      const urlPrefixNoFilename = `attachments/${now.getUTCFullYear()}/${now.getUTCMonth() + 1
+        }/${now.getUTCDate()}`;
       const url = `${urlPrefixNoFilename}/${file.name}`;
       const encodedFilenameUrl = `${urlPrefixNoFilename}/${encodeURIComponent(
         file.name

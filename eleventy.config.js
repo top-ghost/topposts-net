@@ -21,7 +21,7 @@ const SEC_PER_DAY = 24 * 60 * 60;
  * @returns {string}
  */
 function getSwatchBeats(timestamp) {
-  const timeCET = convertTZ(new Date(timestamp), "Europe/Berlin");
+  const timeCET = convertTZ(timestamp, "Europe/Berlin");
   let current_seconds =
     timeCET.getSeconds() +
     timeCET.getMinutes() * 60 +
@@ -102,14 +102,6 @@ module.exports = async function (eleventyConfig) {
   // Filters
   eleventyConfig.addFilter("slug", (str) => {
     return slugify(he.decode(str), { remove: /[&,+()$~%.'":*?<>{}]/g });
-  });
-
-  eleventyConfig.addFilter("unixTimestampToIsoDate", (timestamp) => {
-    if (!timestamp) {
-      return null;
-    }
-
-    return new Date(timestamp).toISOString().replace(/\.\d+/, "");
   });
 
   eleventyConfig.addFilter("decode", (string) => he.decode(string || ""));

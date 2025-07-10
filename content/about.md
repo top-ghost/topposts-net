@@ -1,8 +1,7 @@
 ---
 layout: "layouts/page.njk"
 title: "About"
-date: "Git created"
-timestamp: 1727385279366
+date: "2024-09-26T21:14:39.366Z"
 author: "@topghost"
 eleventyExcludeFromCollections: true
 ---

@@ -9,7 +9,7 @@
             </div>
             <div class="timestamp">
                 <a class="u-url u-uid" href={{item.url}} rel="canonical">
-                    <time class="dt-published" datetime="{{item.data.timestamp | unixTimestampToIsoDate }}" title="{{item.data.timestamp | unixTimestampToIsoDate }}">{{item.data.timestamp | beatsDate if item.data.timestamp }}</time>
+                    <time class="dt-published" datetime="{{item.data.date }}" title="{{item.data.date }}">{{item.data.date | beatsDate if item.data.date }}</time>
                 </a>
             </div>
             <data class="p-url" value="{{metadata.url}}"></data>

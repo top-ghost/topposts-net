@@ -22,9 +22,10 @@ eleventyImport:
 		<entry>
 			<title>{{ post.data.title | decode if post.data.title else "Untitled post" }}</title>
 			<link href="{{ absolutePostUrl }}"/>
-			<updated>{{ post.data.timestamp | unixTimestampToIsoDate }}</updated>
+			<updated>{{ post.data.date }}</updated>
 			<id>{{ absolutePostUrl }}</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | safe }}
 				{%- if post.data.tags | length %}
 					<p>Tagged: {%- for tag in post.data.tags %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
@@ -33,7 +34,8 @@ eleventyImport:
 						{%- endfor %}
 					</p>
 				{%- endif %}
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 	{%- endfor %}
 </feed>
