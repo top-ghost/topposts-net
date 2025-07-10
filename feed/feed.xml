@@ -4,7 +4,7 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-06-28T07:12:35Z</updated>
+	<updated>2025-06-19T06:54:59Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
@@ -13,259 +13,1312 @@
 		
 		<entry>
 			<title>Untitled post</title>
-			<link href="https://topposts.net/1727159461669/"/>
-			<updated>2024-09-24T06:31:01Z</updated>
-			<id>https://topposts.net/1727159461669/</id>
-			<content type="html"><![CDATA[<div>
-				<p>honestly writing vanilla javascript to do things that still "feel good" feels like doing the saddest magic trick, but attracting the most hardcore audience. For my next trick, useful OpenGraph tags</p>
+			<link href="https://topposts.net/post/1750316099861/"/>
+			<updated>2025-06-19T06:54:59Z</updated>
+			<id>https://topposts.net/post/1750316099861/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>okay I know there was a lot going on in the world today but I didn't see anyone mention that the new donkey kong switch game trailer has anime-style opening and closing songs?</p>
 
-			</div>]]></content>
+					<p>Tagged:
+							<a href="/tags/donkey-kong/">#donkey kong</a>
+					</p>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>(it didn&#39;t clear the form)</title>
-			<link href="https://topposts.net/1727156969779/"/>
-			<updated>2024-09-24T05:49:29Z</updated>
-			<id>https://topposts.net/1727156969779/</id>
-			<content type="html"><![CDATA[<div>
-				<p>and then it didn't again when I posted whatever that was. Third time's a charm?</p>
+			<title>hey wait</title>
+			<link href="https://topposts.net/post/1749683204548/"/>
+			<updated>2025-06-11T23:06:44Z</updated>
+			<id>https://topposts.net/post/1749683204548/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>JESTer. like one who jests. wow okay that’s great.</p>
 
-			</div>]]></content>
+					<p>Tagged:
+							<a href="/tags/hey-wait/">#hey wait</a>
+					</p>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
-			<link href="https://topposts.net/1727156814971/"/>
-			<updated>2024-09-24T05:46:54Z</updated>
-			<id>https://topposts.net/1727156814971/</id>
-			<content type="html"><![CDATA[<div>
-				<p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the "right" way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>
-<p>It sucks! It sucks to feel that weight for absolutely no reason, despite the fact that what you are making is <em>mid</em>, that your knowledge is cobbled together from a bizarre bombardment of information that you've exposed yourself to over your career, both technical and political, that realistically no one cares and if someone does it's because they're already doing the same thing for themselves, or hopefully will someday.</p>
-<p>I have to write things into the box and risk them getting posted to the internet in order to test if the software I wrote is working. That's a terrible idea. Automated tests, non-production environments, there are so many ways to make this not be a necessity. And even if not, I <em>can</em> still go delete the file from the repo if I want.</p>
+			<link href="https://topposts.net/post/1749365054877/"/>
+			<updated>2025-06-08T06:44:14Z</updated>
+			<id>https://topposts.net/post/1749365054877/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>why is it that my new outfit has me looking like I'm in Fantasy ICE 😬</p>
+<p><img src="https://topposts.net/attachments/2025/6/8/07%2011%2041%2042%20PM%20(ffxiv_dx11).jpg" alt="FFXIV screenshot with my character wearing dark robes and a solid black veil"></p>
 
 					<p>Tagged:
-							<a href="/tags/so-what/">#so what</a>, 
-							<a href="/tags/who-cares/">#who cares</a>
+							<a href="/tags/final-fantasy-xiv/">#final fantasy xiv</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>update</title>
-			<link href="https://topposts.net/1727156407447/"/>
-			<updated>2024-09-24T05:40:07Z</updated>
-			<id>https://topposts.net/1727156407447/</id>
-			<content type="html"><![CDATA[<div>
-				<p>and when it posts to Github... we clear the form. hopefully</p>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1748905247194/"/>
+			<updated>2025-06-02T23:00:47Z</updated>
+			<id>https://topposts.net/post/1748905247194/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>suddenly realizing that the reason pro-AI people love constructing strawman versions of anti-AI arguments is because they’re already spending their day interacting with something shaped like a human</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>okay look I admit it</title>
-			<link href="https://topposts.net/1727154662985/"/>
-			<updated>2024-09-24T05:11:02Z</updated>
-			<id>https://topposts.net/1727154662985/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I'm posting to production again in order to test something locally. yes it's a nightmare</p>
-
-					<p>Tagged:
-							<a href="/tags/octobug-meta/">#octobug (meta)</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>bone letter off</title>
-			<link href="https://topposts.net/1727154071821/"/>
-			<updated>2024-09-24T05:01:11Z</updated>
-			<id>https://topposts.net/1727154071821/</id>
-			<content type="html"><![CDATA[<div>
-				
-					<p>Tagged:
-							<a href="/tags/one-letter-off/">#one letter off</a>, 
-							<a href="/tags/has-anyone-done-this/">#has anyone done this</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Octobug does tag autocomplete now</title>
-			<link href="https://topposts.net/1727153611774/"/>
-			<updated>2024-09-24T04:53:31Z</updated>
-			<id>https://topposts.net/1727153611774/</id>
-			<content type="html"><![CDATA[<div>
-				<p>It gets the list of tags from the server when you open the post editor</p>
-<p>And then as you type it shows the tags you've already used so you can more easily "do a bit" that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>
-<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1748244536594/"/>
+			<updated>2025-05-26T07:28:56Z</updated>
+			<id>https://topposts.net/post/1748244536594/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>type of guy who thinks the last word in the common phrase “too much time on [one’s] hands” is actually “hams”</p>
 
 					<p>Tagged:
-							<a href="/tags/json/">#json</a>, 
-							<a href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>, 
-							<a href="/tags/text-encoding!!!!/">#text encoding!!!!</a>, 
-							<a href="/tags/octobug-meta/">#octobug (meta)</a>
+							<a href="/tags/make-up-a-guy/">#make up a guy</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>are you josh brolin</title>
-			<link href="https://topposts.net/1727139863554/"/>
-			<updated>2024-09-24T01:04:23Z</updated>
-			<id>https://topposts.net/1727139863554/</id>
-			<content type="html"><![CDATA[<div>
-				<p>because buddy you’ve got me brolin’ on the floor blaughin’</p>
-
-					<p>Tagged:
-							<a href="/tags/this-isnt-anything/">#this isn&#x2019;t anything</a>, 
-							<a href="/tags/but-it-is-the-toilet-post/">#but it is the toilet post</a>, 
-							<a href="/tags/historic-anticlimaxes-in-posting/">#historic anticlimaxes in posting</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>this is not the toilet post</title>
-			<link href="https://topposts.net/1727138701372/"/>
-			<updated>2024-09-24T00:45:01Z</updated>
-			<id>https://topposts.net/1727138701372/</id>
-			<content type="html"><![CDATA[<div>
-				<p>it is the post that proves I have fixed the bug that prevented the toilet post from being made</p>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1747120735695/"/>
+			<updated>2025-05-13T07:18:55Z</updated>
+			<id>https://topposts.net/post/1747120735695/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>realized while listening to Tamara Lindeman wax philosophical tonight that I do consider my worksona to be an accumulation of all my experiences and strengths while I think of my regular life as a sort of accident of existence at any given moment in time. anyway I don't think I will pursue that line of thought any further just in case it makes me sad</p>
 
 					<p>Tagged:
 							<a href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Paperboy is the Earthbound of ARPGs</title>
+			<link href="https://topposts.net/post/1746943364231/"/>
+			<updated>2025-05-11T06:02:44Z</updated>
+			<id>https://topposts.net/post/1746943364231/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>things that make it an ARPG:</p>
+<ul>
+<li>isometric</li>
+<li>ties to christianity (gargoyles, white/black as good/evil, the mon-fri work week)</li>
+<li>lose progress when you die</li>
+</ul>
+<p>things that make it earthbound:</p>
+<ul>
+<li>protagonist wears baseball cap</li>
+<li>the stakes of your success are never quite clear</li>
+<li>features a SICK STUNT COURSE at the end (confirm this)</li>
+</ul>
+
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
-			<link href="https://topposts.net/1727074872138/"/>
-			<updated>2024-09-23T07:01:12Z</updated>
-			<id>https://topposts.net/1727074872138/</id>
-			<content type="html"><![CDATA[<div>
-				<p><a href="https://twitter.com/i_zzzzzz/status/660925493840072706">https://twitter.com/i_zzzzzz/status/660925493840072706</a></p>
+			<link href="https://topposts.net/post/1746777126847/"/>
+			<updated>2025-05-09T07:52:06Z</updated>
+			<id>https://topposts.net/post/1746777126847/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>tired: metroidbrainia<br>
+wired: tony hawk’s gifted and talented program</p>
 
-					<p>Tagged:
-							<a href="/tags/tweets/">#tweets</a>
-					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>ooh my posting form looks less bad now</title>
-			<link href="https://topposts.net/1727072025532/"/>
-			<updated>2024-09-23T06:13:45Z</updated>
-			<id>https://topposts.net/1727072025532/</id>
-			<content type="html"><![CDATA[<div>
-				<p>will that make me post here more? maybe!</p>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1746777015935/"/>
+			<updated>2025-05-09T07:50:15Z</updated>
+			<id>https://topposts.net/post/1746777015935/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>maybe you think I’ve lost it, suggesting that we advertise our new bullet hell roguelite via the California DMV, but consider that a)  there are 34 million licensed drivers who are committed to interacting with the organization and b) the governor of California is a HUGE loser who loves money</p>
 
-					<p>Tagged:
-							<a href="/tags/octobug-meta/">#octobug (meta)</a>, 
-							<a href="/tags/CSS/">#CSS</a>, 
-							<a href="/tags/the-post-button-is-lime-green-lol/">#the post button is lime green lol</a>
-					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>having a development environment that can write data to production is never wise</title>
-			<link href="https://topposts.net/1726992628734/"/>
-			<updated>2024-09-22T08:10:28Z</updated>
-			<id>https://topposts.net/1726992628734/</id>
-			<content type="html"><![CDATA[<div>
-				<p>but maybe it could work for us?</p>
-
-					<p>Tagged:
-							<a href="/tags/good-ideas/">#good ideas</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>DNS working, API keys in localstorage...</title>
-			<link href="https://topposts.net/1726985263715/"/>
-			<updated>2024-09-22T06:07:43Z</updated>
-			<id>https://topposts.net/1726985263715/</id>
-			<content type="html"><![CDATA[<div>
-				<p>if this post sends then everything is in a good state</p>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1746511451048/"/>
+			<updated>2025-05-06T06:04:11Z</updated>
+			<id>https://topposts.net/post/1746511451048/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>one thing I'm discovering and grateful for about Octobug when using it across multiple blogs is that when something breaks with it, as long as there's <em>a</em> site that builds and updates when I write words into it, I'm just like "that's okay". I know that the YouTube embed code breaks the frame. I know that I haven't backported the whole thing where headlines can safely have markdown in them. I still haven't integrated WebMentions or whatever. that's okay</p>
 
 					<p>Tagged:
 							<a href="/tags/octobug-meta/">#octobug (meta)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>seeing if I broke publish after all that nonsense</title>
-			<link href="https://topposts.net/1726957940977/"/>
-			<updated>2024-09-21T22:32:20Z</updated>
-			<id>https://topposts.net/1726957940977/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I wouldn't be surprised! But also I hope it works</p>
+			<title>no. you can&#39;t do this. stop it</title>
+			<link href="https://topposts.net/post/1746510626197/"/>
+			<updated>2025-05-06T05:50:26Z</updated>
+			<id>https://topposts.net/post/1746510626197/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/5/6/05%2010%2049%2037%20PM%20(ffxiv_dx11).jpg" alt="Final Fantasy 14 screenshot featuring a goblin NPC named " Holepix""=""></p>
 
 					<p>Tagged:
-							<a href="/tags/wishful-thinking/">#wishful thinking</a>
+							<a href="/tags/final-fantasy-xiv/">#final fantasy xiv</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>testing the publish time</title>
-			<link href="https://topposts.net/1726950240841/"/>
-			<updated>2024-09-21T20:24:00Z</updated>
-			<id>https://topposts.net/1726950240841/</id>
-			<content type="html"><![CDATA[<div>
-				<p>STARTING.... NOW!</p>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1746389445311/"/>
+			<updated>2025-05-04T20:10:45Z</updated>
+			<id>https://topposts.net/post/1746389445311/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>was following behind a car with license plate “80058” for a while and the whole time I kept thinking “BOOSB”</p>
 
-					<p>Tagged:
-							<a href="/tags/stunts/">#stunts</a>
-					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>testing FROM github pages TO github pages</title>
-			<link href="https://topposts.net/1726947875915/"/>
-			<updated>2024-09-21T19:44:35Z</updated>
-			<id>https://topposts.net/1726947875915/</id>
-			<content type="html"><![CDATA[<div>
-				<p>let's fuckin goooooo</p>
-
-					<p>Tagged:
-							<a href="/tags/testing-in-production/">#testing in production</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>here&#39;s a saturday morning post</title>
-			<link href="https://topposts.net/1726940303042/"/>
-			<updated>2024-09-21T17:38:23Z</updated>
-			<id>https://topposts.net/1726940303042/</id>
-			<content type="html"><![CDATA[<div>
+			<title>open mike eagle was right when he said that indie rappers deserve government subsidies</title>
+			<link href="https://topposts.net/post/1745993072811/"/>
+			<updated>2025-04-30T06:04:32Z</updated>
+			<id>https://topposts.net/post/1745993072811/</id>
+			<content type="html">
+				<![CDATA[<div>
 				
-					<p>Tagged:
-							<a href="/tags/saturday/">#saturday</a>, 
-							<a href="/tags/saturday-morning/">#saturday morning</a>
-					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>json frontmatter fixes</title>
-			<link href="https://topposts.net/1726811344210/"/>
-			<updated>2024-09-20T05:49:04Z</updated>
-			<id>https://topposts.net/1726811344210/</id>
-			<content type="html"><![CDATA[<div>
-				<p>okay, that should fix the front matter to be actual json</p>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1745371080782/"/>
+			<updated>2025-04-23T01:18:00Z</updated>
+			<id>https://topposts.net/post/1745371080782/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I don’t listen to a lot of Japanese Citypop but I do feel like there’s a good chance it would be what I’d listen to while I was having a nervous breakdown for some reason</p>
 
 					<p>Tagged:
-							<a href="/tags/fixes/">#fixes</a>, 
-							<a href="/tags/json/">#json</a>, 
-							<a href="/tags/javascript/">#javascript</a>
+							<a href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1744937992621/"/>
+			<updated>2025-04-18T00:59:52Z</updated>
+			<id>https://topposts.net/post/1744937992621/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>upon recent reflection I have realized that I have become reliant on one response to almost every customer service interaction, many interactions at work, and probably some in my personal life: after receiving something from someone, I will say “perfect”. I don’t know where I picked this up but now that I am aware of it I am working very hard to discard it and I’m sorry to anyone I may have said it to after being handed a small plastic cup of water on an airplane or my own credit card after purchasing a chicken caesar wrap</p>
+
+					<p>Tagged:
+							<a href="/tags/regrets/">#regrets</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1744839873962/"/>
+			<updated>2025-04-16T21:44:33Z</updated>
+			<id>https://topposts.net/post/1744839873962/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>end the curse, wizard, I beg of you</p>
+<p><img src="https://topposts.net/attachments/2025/4/16/IMG_4416.jpeg" alt="Duolingo screenshot reading “Unlock real-world speaking for your whole family”"></p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1744266290839/"/>
+			<updated>2025-04-10T06:24:50Z</updated>
+			<id>https://topposts.net/post/1744266290839/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>they’d never let me on jeopardy even if I was smart enough to pass the tests (which I’m not) because I’d do an audition round and the question would be “what is Harry Potter” and instead I’d say “ewww, uh, what is Harry Potter”</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1744180488181/"/>
+			<updated>2025-04-09T06:34:48Z</updated>
+			<id>https://topposts.net/post/1744180488181/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>as an american, when people tell me they are from "leeds" or "nottingham", it is like they have said they are from "narnia" or "stormwind", and I am sorry for that</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1744130070440/"/>
+			<updated>2025-04-08T16:34:30Z</updated>
+			<id>https://topposts.net/post/1744130070440/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I can’t even wrap my head around what it’s like to be farsighted. Like how can you not see things that are right there. they’re right there</p>
+
+					<p>Tagged:
+							<a href="/tags/ableism/">#ableism</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1743401548662/"/>
+			<updated>2025-03-31T06:12:28Z</updated>
+			<id>https://topposts.net/post/1743401548662/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>there should be a high-profile indie rhythm game with a soundtrack by glass beach. the gitaroo man of the 2020s</p>
+
+					<p>Tagged:
+							<a href="/tags/good-ideas/">#good ideas</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>The Lives of Other Otaku</title>
+			<link href="https://topposts.net/post/1743401341332/"/>
+			<updated>2025-03-31T06:09:01Z</updated>
+			<id>https://topposts.net/post/1743401341332/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/3/31/30%2010%2045%2028%20PM%20(Plex).jpg" alt="Zenigata raising his fist as he shouts " I'm="" a="" police="" investigator="" specializing="" in="" Lupin""=""></p>
+
+					<p>Tagged:
+							<a href="/tags/lupin-the-third/">#lupin the third</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>waiting for the lady gaga backlash to start so I can deploy this</title>
+			<link href="https://topposts.net/post/1743398822909/"/>
+			<updated>2025-03-31T05:27:02Z</updated>
+			<id>https://topposts.net/post/1743398822909/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/3/31/30%2010%2021%2006%20PM%20(Plex).jpg" alt="scene from Lupin the Third where Lupin's new wife says " Also="" that="" pianist="" is="" annoying="" me,="" get="" rid="" of="" her""=""></p>
+
+					<p>Tagged:
+							<a href="/tags/lady-gaga/">#lady gaga</a>, 
+							<a href="/tags/lupin-the-third/">#lupin the third</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1742709605745/"/>
+			<updated>2025-03-23T06:00:05Z</updated>
+			<id>https://topposts.net/post/1742709605745/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>dreaming about checking out <em>The Serviceberry</em> from the library and then just not returning it <3</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1742544525328/"/>
+			<updated>2025-03-21T08:08:45Z</updated>
+			<id>https://topposts.net/post/1742544525328/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/3/21/21%2001%2004%2031%20AM%20(msedge).png" alt="feedbin stats bar graph showing a complete lack of posting between january 29 and february 15"></p>
+<p>sorry I didn't post for the first half of February; I was facing the reality of the last 6 months of my life all at once in every way and it sucked shit!!</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>look,</title>
+			<link href="https://topposts.net/post/1742543936143/"/>
+			<updated>2025-03-21T07:58:56Z</updated>
+			<id>https://topposts.net/post/1742543936143/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>we all have to stop and think occasionally about how "Dropout TV" exists as a result of a website that posted "babe of the day" content in the early 2010s</p>
+
+					<p>Tagged:
+							<a href="/tags/look‚/">#look&#x201A;</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1742070464841/"/>
+			<updated>2025-03-15T20:27:44Z</updated>
+			<id>https://topposts.net/post/1742070464841/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>it is a testament to the work of both the cohost team and the archive team how browseable the cohost archive is. lots of things on the wayback machine fail when you try to navigate from page to page but by and large you can experience cohost intact (except for all the people who went private before shutdown which was totally fair and possibly wise)</p>
+
+					<p>Tagged:
+							<a href="/tags/cohost/">#cohost</a>, 
+							<a href="/tags/archiveorg/">#archive.org</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1742025805311/"/>
+			<updated>2025-03-15T08:03:25Z</updated>
+			<id>https://topposts.net/post/1742025805311/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/3/15/15%2001%2001%2031%20AM%20(firefox).png" alt="thread of self-rechosts where I suggsted various song titles that should be future Knives Out movies, including " Hand="" Crushed="" by="" a="" Mallet",="" "Particle="" Man",="" "They="" Are="" Night="" Zombies!!="" They="" Neighbors!!="" Have="" Come="" Back="" from="" the="" Dead!!="" Ahhhh!",="" and="" "America's="" Most="" Blunted""=""></p>
+<p>I don't have a good way to reblog old cohost posts yet but I was cooking with this thread</p>
+
+					<p>Tagged:
+							<a href="/tags/manual-rechosts/">#manual rechosts</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1741934683701/"/>
+			<updated>2025-03-14T06:44:43Z</updated>
+			<id>https://topposts.net/post/1741934683701/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>do you think the joker is a canonically <em>intelligent</em> character, or is he one of those guys that’s a huge dumbass and every time things go his way it’s extremely infuriating. wait, did I just pitch myself on watching the 2019 movie</p>
+
+					<p>Tagged:
+							<a href="/tags/joker-lore/">#joker lore</a>, 
+							<a href="/tags/posts-I-wouldve-drafted-if-I-had-built-the-drafts-feature-yet/">#posts I would&#x27;ve drafted if I had built the drafts feature yet</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1741736627020/"/>
+			<updated>2025-03-11T23:43:47Z</updated>
+			<id>https://topposts.net/post/1741736627020/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/3/11/11%2004%2042%2025%20PM%20(msedge).png" alt="screenshot of a popup reading " The="" feature="" you're="" trying="" has="" been="" turned="" off:="" Thanks="" for="" out="" 'High="" Quality="" Audio'""=""></p>
+
+					<p>Tagged:
+							<a href="/tags/single-image-posts/">#single-image posts</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1741667102399/"/>
+			<updated>2025-03-11T04:25:02Z</updated>
+			<id>https://topposts.net/post/1741667102399/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><a href="https://youtu.be/ADtPzdWiTQ0">https://youtu.be/ADtPzdWiTQ0</a></p>
+<p>science has managed to create a new grimes and now it’s up to us as a society to protect her this time</p>
+
+					<p>Tagged:
+							<a href="/tags/oklou/">#oklou</a>, 
+							<a href="/tags/grimes/">#grimes</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1741554874813/"/>
+			<updated>2025-03-09T21:14:34Z</updated>
+			<id>https://topposts.net/post/1741554874813/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>🎵 life is a highway<br>
+😴 I’m gonna fall asleep<br>
+👍 while<br>
+😎 I<br>
+💥 drive</p>
+
+					<p>Tagged:
+							<a href="/tags/geniuscom/">#genius.com</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1741459130003/"/>
+			<updated>2025-03-08T18:38:50Z</updated>
+			<id>https://topposts.net/post/1741459130003/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>there have been a couple situations recently where I’ve felt awkward after mentioning that I had spent some time sitting and listening to music without doing anything else but like… music is good? you’re the weird ones!!!</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1740897755045/"/>
+			<updated>2025-03-02T06:42:35Z</updated>
+			<id>https://topposts.net/post/1740897755045/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img 3="" 300="" src="https://topposts.net/attachments/2025/3/2/01%2010%2038%2044%20PM%20(HearthstoneDeckTracker).png" alt="a first place Hearthstone Battlegrounds warband for the " Factory="" Line"="" anomaly="" where,="" as="" the="" Curator,="" I="" had="" separate="" reborn="" amalgams,="" a="" golden="" belcher,="" leeroy,="" bassgill="" containing="" (not="" pictured)="" 300-ish="" Bream="" and="" another="" kangor's="" apprentice"=""></p>
+<p>anomalies can be so miserable but every once in a while you get a game like this</p>
+
+					<p>Tagged:
+							<a href="/tags/hearthstone-bgs/">#hearthstone bgs</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1740811137532/"/>
+			<updated>2025-03-01T06:38:57Z</updated>
+			<id>https://topposts.net/post/1740811137532/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I saw a custom license plate "HARPUA" today and I'm not proud to admit my immediate thought was "pluck on that thang"</p>
+
+					<p>Tagged:
+							<a href="/tags/sorry/">#sorry</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>look,</title>
+			<link href="https://topposts.net/post/1740810844302/"/>
+			<updated>2025-03-01T06:34:04Z</updated>
+			<id>https://topposts.net/post/1740810844302/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>we're <em>all</em> stuck on 1.0% of downloading a torrent that has the episode of <em>House Hunters</em> starring someone we met at a party one time 2 years ago</p>
+
+					<p>Tagged:
+							<a href="/tags/look‚/">#look&#x201A;</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>to a couple</title>
+			<link href="https://topposts.net/post/1740516142705/"/>
+			<updated>2025-02-25T20:42:22Z</updated>
+			<id>https://topposts.net/post/1740516142705/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>which one of you is the hewlett and which one is the packard</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>(Hold Steady voice)</title>
+			<link href="https://topposts.net/post/1740213129350/"/>
+			<updated>2025-02-22T08:32:09Z</updated>
+			<id>https://topposts.net/post/1740213129350/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/2/22/Screenshot%202025-02-22%20003011.png" alt="screenshot of video game UI hover card reading " Work="" at="" the="" Docks="" to="" earn="" some="" coin""=""></p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>&quot;I also choose this guy&#39;s oshi&quot;</title>
+			<link href="https://topposts.net/post/1740120882056/"/>
+			<updated>2025-02-21T06:54:42Z</updated>
+			<id>https://topposts.net/post/1740120882056/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>is a sentence I cooked up while mentally ill last weekend and it has been rattling around in my brain ever since</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1739691728989/"/>
+			<updated>2025-02-16T07:42:08Z</updated>
+			<id>https://topposts.net/post/1739691728989/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I gotta say, this year has not been very brat so far</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1739599399324/"/>
+			<updated>2025-02-15T06:03:19Z</updated>
+			<id>https://topposts.net/post/1739599399324/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>"Keep Portland Weird" includes the elevator safety inspection company that has purchased billboards in at least 3 distinct neighborhoods this winter</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1739547910853/"/>
+			<updated>2025-02-14T15:45:10Z</updated>
+			<id>https://topposts.net/post/1739547910853/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2025/2/14/IMG_4169.jpeg" alt="Google AdSense ad reading “Cheapest Way To Get A Walk-In Tub If You're On Medicare: Seniors With Old And Not Practical Bath Tubs Are Getting A Treat This Month”"></p>
+
+					<p>Tagged:
+							<a href="/tags/single-image-posts/">#single-image posts</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1739505315874/"/>
+			<updated>2025-02-14T03:55:15Z</updated>
+			<id>https://topposts.net/post/1739505315874/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>the USA might be a total clusterfuck and my work situation might be intensely stressful but at least I’ve got uhhhhh forty-five minutes of Hearthstone Battlegrounds a night</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>blog goals</title>
+			<link href="https://topposts.net/post/1738052777982/"/>
+			<updated>2025-01-28T08:26:17Z</updated>
+			<id>https://topposts.net/post/1738052777982/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>becoming the <a href="http://kottke.org">kottke.org</a> of #good ideas</p>
+
+					<p>Tagged:
+							<a href="/tags/good-ideas-meta/">#good ideas (meta)</a>, 
+							<a href="/tags/kottkeorg-references/">#kottke.org references</a>, 
+							<a href="/tags/blog-goals/">#blog goals</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1738052225952/"/>
+			<updated>2025-01-28T08:17:05Z</updated>
+			<id>https://topposts.net/post/1738052225952/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>there should be a career track for people who think they should get to make all the decisions but don't want to do all the boring business stuff. which one is that</p>
+
+					<p>Tagged:
+							<a href="/tags/good-ideas/">#good ideas</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1738050865149/"/>
+			<updated>2025-01-28T07:54:25Z</updated>
+			<id>https://topposts.net/post/1738050865149/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>a fun thing you could do if you were going to belgium was becoming an "IPA Hunter" where you go around from bar to bar and if you find anyone drinking an IPA you slap it out of their hand. on account of their different famous beer</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1738048845792/"/>
+			<updated>2025-01-28T07:20:45Z</updated>
+			<id>https://topposts.net/post/1738048845792/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<audio controls="" src="https://topposts.net/attachments/2025/1/28/the%20most%20consequential%20day.mp3">
+</audio>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>A second Octobug site has hit the blogosphere</title>
+			<link href="https://topposts.net/post/1737831611147/"/>
+			<updated>2025-01-25T19:00:11Z</updated>
+			<id>https://topposts.net/post/1737831611147/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>This one's about music?</p>
+<p><a href="https://secretchoir.com/">https://secretchoir.com/</a></p>
+
+					<p>Tagged:
+							<a href="/tags/octobug-meta/">#octobug (meta)</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1737274062904/"/>
+			<updated>2025-01-19T08:07:42Z</updated>
+			<id>https://topposts.net/post/1737274062904/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>if a class action lawsuit actually emails me THREE TIMES to ask me to join it I’m sorry but that’s loser energy. I don’t want to be associated with that. My dignity is not worth a check for $12.19 17 months from now or whatever</p>
+
+					<p>Tagged:
+							<a href="/tags/challenging-opinions/">#challenging opinions</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1737268956295/"/>
+			<updated>2025-01-19T06:42:36Z</updated>
+			<id>https://topposts.net/post/1737268956295/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>hello digital media publication whose parent company has had three rounds of layoffs in the last 5 weeks. I noticed that your breaking news posted at 12:30am on a Sunday morning had a typo in it. (smirk) write much?</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1736900625848/"/>
+			<updated>2025-01-15T00:23:45Z</updated>
+			<id>https://topposts.net/post/1736900625848/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>can’t stop thinking about the instructions on the little pager the local food truck gave me while I was waiting for my lunch</p>
+<p><img src="https://topposts.net/attachments/2025/1/15/IMG_3764.jpeg" alt="“when beep and flash / please take the meal”"></p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1736664160534/"/>
+			<updated>2025-01-12T06:42:40Z</updated>
+			<id>https://topposts.net/post/1736664160534/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>every once in a while I remember the David Letterman "are these your drums" supercut exists and I'm just so thankful</p>
+<iframe width="951" height="480" src="https://www.youtube.com/embed/M65Dx0STe2M" title="David Letterman | Are Those Your Drums?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1736289647795/"/>
+			<updated>2025-01-07T22:40:47Z</updated>
+			<id>https://topposts.net/post/1736289647795/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>some websites should have hallways between their pages, to provide you the chance to prepare for what lies in the “next room”</p>
+
+					<p>Tagged:
+							<a href="/tags/good-ideas/">#good ideas</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1736033089186/"/>
+			<updated>2025-01-04T23:24:49Z</updated>
+			<id>https://topposts.net/post/1736033089186/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>after the success of Hawk Tuah in 2024 I would like to place my bid for Onomatopoeia of 2025 to be “bingalingaling”, the sound of the little bells on the back of the door to a local business</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>I’m doing a thing over here </title>
+			<link href="https://topposts.net/post/1735976971721/"/>
+			<updated>2025-01-04T07:49:31Z</updated>
+			<id>https://topposts.net/post/1735976971721/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>truly a theme for 2025. It reflects what I’m doing (a thing) and where (over here)</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1735974647572/"/>
+			<updated>2025-01-04T07:10:47Z</updated>
+			<id>https://topposts.net/post/1735974647572/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>just saw someone describe squid game season two as having “stomach-churning vibes” and I have just decided that I am a sort of “emotional himbo” for not wanting to spend time experiencing anything described as that</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>job functions I thought I’d have based on movies from my childhood</title>
+			<link href="https://topposts.net/post/1735833663357/"/>
+			<updated>2025-01-02T16:01:03Z</updated>
+			<id>https://topposts.net/post/1735833663357/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<ul>
+<li>running the Morrison report</li>
+<li>running the Wilson report</li>
+<li>having things on someone’s desk by 5</li>
+<li>running the Evans report</li>
+</ul>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1735394752463/"/>
+			<updated>2024-12-28T14:05:52Z</updated>
+			<id>https://topposts.net/post/1735394752463/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<h1>“I love the way this game looks and the way the players look on the ice”</h1>
+<p>– pull quote from a television commercial I thought was about the sport of hockey but was actually about an NHL video game</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1735005264806/"/>
+			<updated>2024-12-24T01:54:24Z</updated>
+			<id>https://topposts.net/post/1735005264806/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I think the most insulting thing about “motion smoothing” on TVs is that it doesn’t even work right on a lot of them! There’s a screen tearing effect every 5-6 seconds during scenes where the camera is moving quickly because it can’t actually keep up? Like if you’re going to make everything look like ass at least take it seriously</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1734848533388/"/>
+			<updated>2024-12-22T06:22:13Z</updated>
+			<id>https://topposts.net/post/1734848533388/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2024/12/22/21%2007%2047%2014%20PM%20(The_Jackbox_Survey_Scramble).png" alt="21 07 47 14 PM (The_Jackbox_Survey_Scramble).png"></p>
+
+					<p>Tagged:
+							<a href="/tags/commands-for-gamers/">#commands for gamers</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>challenging political discourse in the group chat</title>
+			<link href="https://topposts.net/post/1734848503051/"/>
+			<updated>2024-12-22T06:21:43Z</updated>
+			<id>https://topposts.net/post/1734848503051/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2024/12/22/21%2010%2019%2056%20PM%20(LINE).png" alt="21 10 19 56 PM (LINE).png"></p>
+
+					<p>Tagged:
+							<a href="/tags/LINE/">#LINE</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1734284037509/"/>
+			<updated>2024-12-15T17:33:57Z</updated>
+			<id>https://topposts.net/post/1734284037509/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>thinking about how there’s more than one guy out there who meets people and is like “yeah I have like a character I do on social media. It’s… God? yeah like the Christian one. yeah no exactly. I mean the idea of him, I guess. The signifiers. Old guy, beard, omniscient. I don’t really get into the religion stuff. No, yeah, it’s more like I roll my eyes at Republicans. Yeah, like 15% of all BlueSky users follow me. No, I haven’t met Lin-Manuel.”</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>it is important to know what we are</title>
+			<link href="https://topposts.net/post/1734248287306/"/>
+			<updated>2024-12-15T07:38:07Z</updated>
+			<id>https://topposts.net/post/1734248287306/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2024/12/15/Screenshot%202024-12-14%20at%2011.34.04%E2%80%AFPM.png" alt="twitch chat screenshot where user topghost says " we're="" all="" out="" here="" blogging="" right?="" everyone="" drop="" the="" rss="" feeds""=""></p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Patch 13.2.1: Flurbo is here?!</title>
+			<link href="https://topposts.net/post/1734081191900/"/>
+			<updated>2024-12-13T09:13:11Z</updated>
+			<id>https://topposts.net/post/1734081191900/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>Jolly Jinglefest to everyone out there who's still enjoying Orb Minders: Weavecast in its FOURTH YEAR! With the year winding down, but the Jinglefest season heating up, we've got one more announcement for the community this year that we think might just make your holidays a little more merry.</p>
+<p>Patch 13.2.1 on Tuesday of COURSE features the bugfix that will allow us to FINALLY restore Rince the Skin-Flayer to the Mercenaries pool (when the Witching Hour remains unbanned by your warband, of course). We appreciate your patience while ol' Rinny has had to sit on the bench due to that exploit we all caught thanks to SneakyPete's viral Twitch clip. But if the whole idea of a bugfix release is putting you to sleep... don't check out just yet, because there may be a special little guy who's tagging along for the ride!</p>
+<p>Flurbo is purely cosmetic, adorably cuddly, and is ready to be your best pal.</p>
+<p>Flurbo grants NO ADVANTAGE in-game, is a purely optional purchase, and after you dismiss one shop notification about "new items", we won't ever nag you about its availability again.</p>
+<p>Flurbo was hand-animated by longtime community member Kendall Price, who's never done professional work in the industry before this moment. This addition to their resume represents the start of us paying back everything they've contributed up until this point purely for the love of the community. Thanks Kendall!</p>
+<p>Flurbo is your friend. Its design was done under the supervision of a record seventeen sensitivity consultants.</p>
+<p>Nothing can possibly go wrong with Flurbo's launch, and we won't allow you to ruin this for us.</p>
+<p>Flurbo approaches. Do NOT resist Flurbo.</p>
+
+					<p>Tagged:
+							<a href="/tags/Orb-Minders/">#Orb Minders</a>, 
+							<a href="/tags/Orb-Minders-Weavecast/">#Orb Minders: Weavecast</a>, 
+							<a href="/tags/patch-notes/">#patch notes</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>the funniest emoji</title>
+			<link href="https://topposts.net/post/1733973698477/"/>
+			<updated>2024-12-12T03:21:38Z</updated>
+			<id>https://topposts.net/post/1733973698477/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>li <a href="https://entangled.one/post/1733957228-what-is-the-funniest/">wrote</a>:</p>
+<blockquote>
+<p>what is the funniest emoji</p>
+</blockquote>
+<p>the funniest emoji is 🪤 because despite <a href="https://www.unicode.org/L2/L2019/19144-mouse-trap-emoji.pdf">the proposal itself</a> showing the modern plank + spring mouse trap design, almost every major implementer, when faced with the design, was like "yeah no that's too gruesome we're gonna do the cartoon thing with the box and the stick"</p>
+
+					<p>Tagged:
+							<a href="/tags/emoji/">#emoji</a>, 
+							<a href="/tags/re@li/">#re:@li</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1733615371373/"/>
+			<updated>2024-12-07T23:49:31Z</updated>
+			<id>https://topposts.net/post/1733615371373/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>in 2025 we’re not saying we’ve “beaten” a video game any more. we’re saying we’ve “bested” a video game. much more refined</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1733380285263/"/>
+			<updated>2024-12-05T06:31:25Z</updated>
+			<id>https://topposts.net/post/1733380285263/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<h2>ME ON THE CORPORATE CHRISTMAS PARTY ZOOM CALL</h2>
+<p>heh, yeah... I've got some fun ideas I want to "hack on", over the break. You know, just for me</p>
+<h2>THE ONLY LINE IN MY IDEAS.TXT</h2>
+<ul>
+<li>[ ] TSA PreCheck for captchas???</li>
+</ul>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>ware slaw</title>
+			<link href="https://topposts.net/post/1733124385705/"/>
+			<updated>2024-12-02T07:26:25Z</updated>
+			<id>https://topposts.net/post/1733124385705/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>natalie <a href="https://nex-3.com/blog/if-cole-slaw-is-cold-then/">wrote</a>:</p>
+<blockquote>
+<p>if cole slaw is cold then there should be a ware slaw that's warm. bonus points if it's extra polish somehow</p>
+</blockquote>
+<p>circulating this post in all the relevant discords</p>
+
+					<p>Tagged:
+							<a href="/tags/signal-boost/">#signal boost</a>, 
+							<a href="/tags/rt@nex3/">#rt:@nex3</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1733123394511/"/>
+			<updated>2024-12-02T07:09:54Z</updated>
+			<id>https://topposts.net/post/1733123394511/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>it's interesting<sup style="color:#527cf9;font-style:italic">[citation needed]</sup> to imagine whether FFXIV's cutscene scripting in-memory representation could be marshalled into something a visual novel engine could use, then sold back to me for some upsetting amount of money</p>
+
+					<p>Tagged:
+							<a href="/tags/citation-needed/">#citation needed</a>, 
+							<a href="/tags/telling-on-myself/">#telling on myself</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1732691357047/"/>
+			<updated>2024-11-27T07:09:17Z</updated>
+			<id>https://topposts.net/post/1732691357047/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I remembered last night that Feedbin (my RSS reader of choice) has an API and now I’m having Dangerous Ideas for December</p>
+
+					<p>Tagged:
+							<a href="/tags/octobug-meta/">#octobug (meta)</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1732401710681/"/>
+			<updated>2024-11-23T22:41:50Z</updated>
+			<id>https://topposts.net/post/1732401710681/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2024/11/23/IMG_2908.jpeg" alt="two signs attached to a light pole, one reads “KARATE CLUB 400m”, the other “HOSPITAL 700m”"></p>
+
+					<p>Tagged:
+							<a href="/tags/environmental-storytelling/">#environmental storytelling</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1732253145309/"/>
+			<updated>2024-11-22T05:25:45Z</updated>
+			<id>https://topposts.net/post/1732253145309/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>they should make an Apple TV screensaver that gives you anxiety</p>
+
+					<p>Tagged:
+							<a href="/tags/no-they-shouldnt/">#no they shouldn&#x2019;t</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>🤔</title>
+			<link href="https://topposts.net/post/1732076385223/"/>
+			<updated>2024-11-20T04:19:45Z</updated>
+			<id>https://topposts.net/post/1732076385223/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2024/11/20/IMG_2746.jpeg" alt="A page from the New Zealand Customs Service reading “Controls on importing hazardous substances: The Hazardous Substances and New Organisms (HSNO) Act 1996 & controls the import of hazardous substances into New Zealand”"></p>
+<p><img src="https://topposts.net/attachments/2024/11/20/IMG_2743.png" alt="A screenshot of the McDonalds New Zealand website with a promotion for the Grimace Shake featuring Grimace saying “hi nz i'm heeerE!”"></p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>taking an absurdly long flight tomorrow</title>
+			<link href="https://topposts.net/post/1731818634888/"/>
+			<updated>2024-11-17T04:43:54Z</updated>
+			<id>https://topposts.net/post/1731818634888/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>not looking forward to it! looking forward to seeing the friends on the other end of the flight though 😌</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1731544248737/"/>
+			<updated>2024-11-14T00:30:48Z</updated>
+			<id>https://topposts.net/post/1731544248737/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><a href="https://entangled.one/post/1731514708-has-literally-one-single/">li wrote</a>:</p>
+<blockquote>
+<p>i love how two people can describe something with the same words but one person's subtext is that they don't like it and the other person's subtext is that they do like it</p>
+</blockquote>
+<p>exactly. for example, when Bruno Mars says something makes “a dragon want to retire” he’s saying that it is good, but when I say it, I’m trying to highlight how it’s accelerating the already troubling burn-out culture within the dragon career path</p>
+
+					<p>Tagged:
+							<a href="/tags/not-true/">#not true</a>, 
+							<a href="/tags/re@li/">#re:@li</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1731544011647/"/>
+			<updated>2024-11-14T00:26:51Z</updated>
+			<id>https://topposts.net/post/1731544011647/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>when Robyn sang “I know what’s on your mind / there will be time for that too” in “Hang With Me” she was talking about her dog asking for dinner at 4pm</p>
+
+					<p>Tagged:
+							<a href="/tags/not-true/">#not true</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1731264856111/"/>
+			<updated>2024-11-10T18:54:16Z</updated>
+			<id>https://topposts.net/post/1731264856111/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>it is difficult to describe the hell that I am currently in. sort of a gender swamp, one that confirms my biases instead of relieving them. If fictionalized it would be a sort of anti-Robert Yang work, simultaneously unremarkable and upsettingly heteronormative</p>
+
+					<p>Tagged:
+							<a href="/tags/field-recordings/">#field recordings</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>capitalism is sick. it needs to rest</title>
+			<link href="https://topposts.net/post/1731185778581/"/>
+			<updated>2024-11-09T20:56:18Z</updated>
+			<id>https://topposts.net/post/1731185778581/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><img src="https://topposts.net/attachments/2024/11/9/IMG_2570.jpeg" alt="NEW! Oreo Scissors"></p>
+
+					<p>Tagged:
+							<a href="/tags/single-image-posts/">#single-image posts</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1731093681103/"/>
+			<updated>2024-11-08T19:21:21Z</updated>
+			<id>https://topposts.net/post/1731093681103/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>guy next to us on the airplane just opened his Mercedes Benz iOS app, stared at the image of his SUV for a minute, then swiped through the different angles of the model you own that it will apparently show you before closing the app again</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>thinking about coming up with a catchphrase</title>
+			<link href="https://topposts.net/post/1731049881855/"/>
+			<updated>2024-11-08T07:11:21Z</updated>
+			<id>https://topposts.net/post/1731049881855/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>so that if I don't know how to write a complete post I can just end it with "but I don't know much about that" or "I guess that's what it takes to get ahead these days"</p>
+
+					<p>Tagged:
+							<a href="/tags/blogging-tactics/">#blogging tactics</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1730797570007/"/>
+			<updated>2024-11-05T09:06:10Z</updated>
+			<id>https://topposts.net/post/1730797570007/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>thinking about being extremely normal today, as a bit</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1730440456703/"/>
+			<updated>2024-11-01T05:54:16Z</updated>
+			<id>https://topposts.net/post/1730440456703/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>it feels like maybe a good moment to check in on whether I've cooked my brain on Final Fantasy XIV this year is when I'm like "I guess my mount is pretty great but I wonder what other mounts there are that I could be using right now"</p>
+
+					<p>Tagged:
+							<a href="/tags/final-fantasy-xiv/">#final fantasy xiv</a>, 
+							<a href="/tags/video-games/">#video games</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>DST end: a repayment or an advance?</title>
+			<link href="https://topposts.net/post/1730421000131/"/>
+			<updated>2024-11-01T00:30:00Z</updated>
+			<id>https://topposts.net/post/1730421000131/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>Realized about myself today that when I “gain an hour” at the end of DST in the autumn, I consider that an advance against the hour I will lose in the spring, as opposed to getting back that which I lost earlier in the same Gregorian year</p>
+
+					<p>Tagged:
+							<a href="/tags/daylight-saving/">#daylight saving</a>, 
+							<a href="/tags/gregorian-calendar/">#gregorian calendar</a>, 
+							<a href="/tags/perception/">#perception</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>everyone has these beautiful 88x31 banners featuring complex designs</title>
+			<link href="https://topposts.net/post/1730178291306/"/>
+			<updated>2024-10-29T05:04:51Z</updated>
+			<id>https://topposts.net/post/1730178291306/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>then I try to make one and it's like</p>
+<img style="image-rendering: pixelated;" src="https://topposts.net/attachments/2024/10/29/88x31.png" width="88" height="31">
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>octobug autofic</title>
+			<link href="https://topposts.net/post/1730012800598/"/>
+			<updated>2024-10-27T07:06:40Z</updated>
+			<id>https://topposts.net/post/1730012800598/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>(opening PWA, hitting post, typing this meta-commentary, writing some markdown that indicates the source of the blockquote—</p>
+<p>li <a href="https://entangled.one/post/1729989377-the-slowcial-slowciable-/">wrote<a>:</a></a></p>
+<p>wait, shit, do I link the full line or just the word "wrote"? ugh, I have to find at least one post to compare it to. Okay, <a href="https://topposts.net/post/1729238695697/">here</a>, damn I really should have tagged this as "re:@li" or something, huh? Let's do this one now at least.</p>
+<p>Okay let's do this.</p>
+<p>li <a href="https://entangled.one/post/1729989377-the-slowcial-slowciable-/">wrote<a>:</a></a></p>
+<blockquote>
+<p>the slowcial (slowciable) web</p>
+</blockquote>
+<p>yeah!</p>
+
+					<p>Tagged:
+							<a href="/tags/re@li/">#re:@li</a>, 
+							<a href="/tags/octobug-meta-but-like-not-serious/">#octobug (meta but like not serious)</a>
+					</p>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -273,11 +1326,13 @@
 			<link href="https://topposts.net/post/1729964518005/"/>
 			<updated>2024-10-26T17:41:58Z</updated>
 			<id>https://topposts.net/post/1729964518005/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/26/IMG_2513.jpeg" alt="Limited Run Games x Shopify pop-up event featuring Jason Mewes and Kevin Smith"></p>
 <p>name some of my favorite video game characters? uhhhh… jay and silent bob</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -285,10 +1340,12 @@
 			<link href="https://topposts.net/post/1729841061394/"/>
 			<updated>2024-10-25T07:24:21Z</updated>
 			<id>https://topposts.net/post/1729841061394/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>having a couch goes crazy when you want somewhere to feel relaxed</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -296,13 +1353,15 @@
 			<link href="https://topposts.net/post/1729737969173/"/>
 			<updated>2024-10-24T02:46:09Z</updated>
 			<id>https://topposts.net/post/1729737969173/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/24/23%2007%2045%2002%20PM%20(firefox).png" alt="Trivia - General - * " Sex"="" is="" censored."=""></p>
 
 					<p>Tagged:
 							<a href="/tags/single-image-posts/">#single-image posts</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -310,7 +1369,8 @@
 			<link href="https://topposts.net/post/1729573484624/"/>
 			<updated>2024-10-22T05:04:44Z</updated>
 			<id>https://topposts.net/post/1729573484624/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>my brain: hey<br>
 my brain: hey listen up<br>
 me: what?<br>
@@ -325,7 +1385,8 @@ my brain: ...<br>
 me: so you're exactly as funny as the social media team for TJ Maxx<br>
 my brain:</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -333,7 +1394,8 @@ my brain:</p>
 			<link href="https://topposts.net/post/1729369738372/"/>
 			<updated>2024-10-19T20:28:58Z</updated>
 			<id>https://topposts.net/post/1729369738372/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>Natalie's post <a href="https://nex-3.com/blog/a-sociable-web/">A Sociable Web</a> is a fantastic outline of what's happening on the web, in a small way and with references to the larger state of things on established "platforms", and I want to shove it in everyone's faces and make them read it.</p>
 <p>I don't consider myself to be fully participating in its "sociable" ideals yet—perhaps obviously, since this is a manual post with a single hyperlink and not a "quote post" or whatever. For whatever it might say about me, I've automated/smoothed out the "performance" part of all of this first and have to be more manual and intentional about the social connection bits.</p>
 <p>But! I am really looking forward to moving closer and closer to it and it's nice to have a thing to point at when I'm trying to explain to people what I'm spending time thinking about and working on lately instead of just a mess of ideas, ambitious and achievable, that exists in my head and partially implemented on my own domain.</p>
@@ -342,7 +1404,8 @@ my brain:</p>
 							<a href="/tags/sociable-web/">#sociable web</a>, 
 							<a href="/tags/re@nex3/">#re:@nex3</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -350,7 +1413,8 @@ my brain:</p>
 			<link href="https://topposts.net/post/1729356526738/"/>
 			<updated>2024-10-19T16:48:46Z</updated>
 			<id>https://topposts.net/post/1729356526738/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>when I was a kid I thought the line in the Beastie Boys’ “Sure Shot” was</p>
 <blockquote>
 <p>I've got more action than my man John Woo<br>
@@ -362,7 +1426,8 @@ And I've got mad hits like I was Rockeroo</p>
 							<a href="/tags/beastie-boys/">#beastie boys</a>, 
 							<a href="/tags/mondegreens/">#mondegreens</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -370,10 +1435,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1729330021415/"/>
 			<updated>2024-10-19T09:27:01Z</updated>
 			<id>https://topposts.net/post/1729330021415/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/19/19%2002%2025%2034%20AM%20(Plex).png" alt="a screengrab from something featuring three blurred faces. where are they from?"></p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -381,7 +1448,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1729238695697/"/>
 			<updated>2024-10-18T08:04:55Z</updated>
 			<id>https://topposts.net/post/1729238695697/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>li <a href="https://entangled.one/post/1729226760-i-love-the-idea/">wrote</a>:</p>
 <blockquote>
 <p>i love the idea that there are exactly 3 people reading this btw. Who Are You.....</p>
@@ -392,7 +1460,8 @@ And I've got mad hits like I was Rockeroo</p>
 							<a href="/tags/lineage/">#lineage</a>, 
 							<a href="/tags/1-of-exactly-3/">#1 of exactly 3</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -400,13 +1469,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1729045017162/"/>
 			<updated>2024-10-16T02:16:57Z</updated>
 			<id>https://topposts.net/post/1729045017162/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				
 					<p>Tagged:
 							<a href="/tags/teenage-engineering/">#teenage engineering</a>, 
 							<a href="/tags/originally-posted-elsewhere-but-that-site-doesnt-deserve-it/">#originally posted elsewhere but that site doesn&#x2019;t deserve it</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -414,10 +1485,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728800884306/"/>
 			<updated>2024-10-13T06:28:04Z</updated>
 			<id>https://topposts.net/post/1728800884306/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>every time I wonder why I haven't played so many cool games this year I remember that I've probably put >100 hours each into final fantasy xiv, hearthstone, balatro, and watching balatro videos on youtube. it doesn't make me feel better but it does change it from being an x-files-style mystery into just an episode of hoarders</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -425,13 +1498,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728799963670/"/>
 			<updated>2024-10-13T06:12:43Z</updated>
 			<id>https://topposts.net/post/1728799963670/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>playing the hi hat on every 16th note is the "red deck wins" of music production</p>
 
 					<p>Tagged:
 							<a href="/tags/postulates/">#postulates</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -439,14 +1514,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728799258294/"/>
 			<updated>2024-10-13T06:00:58Z</updated>
 			<id>https://topposts.net/post/1728799258294/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/13/12%2010%2058%2004%20PM%20(Plex).png" alt="white screen with the words " This="" idea="" came="" to="" life="" thanks="" Double="" A's="" smooth="" paper."="" in="" black="" text,="" except="" the="" "Double="" A"="" is="" their="" blue="" wordmark."=""></p>
 
 					<p>Tagged:
 							<a href="/tags/header-images/">#header images</a>, 
 							<a href="/tags/single-image-posts/">#single-image posts</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -454,13 +1531,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728798935842/"/>
 			<updated>2024-10-13T05:55:35Z</updated>
 			<id>https://topposts.net/post/1728798935842/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>in such a way that I will only eat at restaurants that advertise themselves as "home of" a burger with some inscrutable name like "the froby". ordering the burger is optional</p>
 
 					<p>Tagged:
 							<a href="/tags/make-up-a-local-restaurant/">#make up a local restaurant</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -468,7 +1547,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728778934590/"/>
 			<updated>2024-10-13T00:22:14Z</updated>
 			<id>https://topposts.net/post/1728778934590/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>inspired by <a href="https://entangled.one/post/1728774235-image-uploads-not-the/">li's roadmap</a> I guess I will share an updated and mostly-off-the-cuff version of mine, based on a quick scan of my original goals and the mountain of todo list items I have accumulated since then:</p>
 <ul>
 <li>I gotta get h-entry consumption working so I can "reblog" everyone else who's publishing with it (and bully the rest of you into adding support so I can reblog you too)</li>
@@ -487,7 +1567,8 @@ And I've got mad hits like I was Rockeroo</p>
 							<a href="/tags/octobug-meta/">#octobug (meta)</a>, 
 							<a href="/tags/octobug-feature-requests/">#octobug (feature requests)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -495,14 +1576,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728768064653/"/>
 			<updated>2024-10-12T21:21:04Z</updated>
 			<id>https://topposts.net/post/1728768064653/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/12/IMG_2436.jpeg" alt="three LINE flag stickers that mimic the US flag, the EU flag, and a skull and crossbones but with a smiley face inserted"></p>
 
 					<p>Tagged:
 							<a href="/tags/LINE/">#LINE</a>, 
 							<a href="/tags/flags/">#flags</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -510,14 +1593,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728751254821/"/>
 			<updated>2024-10-12T16:40:54Z</updated>
 			<id>https://topposts.net/post/1728751254821/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>well, time to go to work. hope there isn’t an october surprise waiting there for me!</p>
 
 					<p>Tagged:
 							<a href="/tags/make-up-a-guy/">#make up a guy</a>, 
 							<a href="/tags/uspol/">#uspol</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -525,13 +1610,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728715757972/"/>
 			<updated>2024-10-12T06:49:17Z</updated>
 			<id>https://topposts.net/post/1728715757972/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/12/10%2010%2034%2018%20PM%20(msedge).png" alt="a screenshot of the windows rendering of the crying emoji " 😭""=""></p>
 
 					<p>Tagged:
 							<a href="/tags/emoji/">#emoji</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -539,13 +1626,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728712880538/"/>
 			<updated>2024-10-12T06:01:20Z</updated>
 			<id>https://topposts.net/post/1728712880538/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				
 					<p>Tagged:
 							<a href="/tags/bcj/">#bcj</a>, 
 							<a href="/tags/toppostsnet-meta/">#topposts.net (meta)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -553,14 +1642,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728712569473/"/>
 			<updated>2024-10-12T05:56:09Z</updated>
 			<id>https://topposts.net/post/1728712569473/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>uploading from my phone!!!</p>
 <p><img src="https://topposts.net/attachments/2024/10/12/IMG_2425.jpeg" alt="IMG_2425.jpeg"></p>
 
 					<p>Tagged:
 							<a href="/tags/lamps-with-threatening-auras/">#lamps with threatening auras</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -568,13 +1659,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728712150923/"/>
 			<updated>2024-10-12T05:49:10Z</updated>
 			<id>https://topposts.net/post/1728712150923/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/12/IMG_2451.jpeg" alt="Persona Director Says Designing Stylish Menus 'Actually Really Annoying'"></p>
 
 					<p>Tagged:
 							<a href="/tags/single-image-posts/">#single-image posts</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -582,13 +1675,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728710976793/"/>
 			<updated>2024-10-12T05:29:36Z</updated>
 			<id>https://topposts.net/post/1728710976793/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><img src="https://topposts.net/attachments/2024/10/12/114.png" alt="114.png"></p>
 
 					<p>Tagged:
 							<a href="/tags/octobug-meta/">#octobug (meta)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -596,13 +1691,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728629669419/"/>
 			<updated>2024-10-11T06:54:29Z</updated>
 			<id>https://topposts.net/post/1728629669419/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><a href="https://twitter.com/bIoach/status/684145823698018305">https://twitter.com/bIoach/status/684145823698018305</a></p>
 
 					<p>Tagged:
 							<a href="/tags/tweets/">#tweets</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -610,14 +1707,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728629455013/"/>
 			<updated>2024-10-11T06:50:55Z</updated>
 			<id>https://topposts.net/post/1728629455013/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>(a little too loudly, looking off-stage) wow this charli xcx remix album goes harder than I thought it would</p>
 <audio controls="" src="https://topposts.net/attachments/2024/10/romantic-mask-off.mp3">
 </audio>
 					<p>Tagged:
 							<a href="/tags/audio-posts/">#audio posts</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -625,13 +1724,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728625454948/"/>
 			<updated>2024-10-11T05:44:14Z</updated>
 			<id>https://topposts.net/post/1728625454948/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>haha oh no is Julian Casablancas the male Charli XCX</p>
 
 					<p>Tagged:
 							<a href="/tags/posts-I-wouldve-drafted-if-I-had-built-the-drafts-feature-yet/">#posts I would&#x27;ve drafted if I had built the drafts feature yet</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -639,10 +1740,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728624607318/"/>
 			<updated>2024-10-11T05:30:07Z</updated>
 			<id>https://topposts.net/post/1728624607318/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>ALL THE OPENGRAPH CARD LIBRARIES SHOULD LOOK FOR AND EXCERPT H-ENTRY TAGS IF THE PAGE DOESN'T HAVE OPENGRAPH TAGS</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -650,13 +1753,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728624052497/"/>
 			<updated>2024-10-11T05:20:52Z</updated>
 			<id>https://topposts.net/post/1728624052497/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<ul>
 <li>listening to the brat remix album</li>
 <li>making sure my CSS doesn't break for pals who are better at keeping electronics for longer</li>
 </ul>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -664,13 +1769,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728538235154/"/>
 			<updated>2024-10-10T05:30:35Z</updated>
 			<id>https://topposts.net/post/1728538235154/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				
 					<p>Tagged:
 							<a href="/tags/linux/">#linux</a>, 
 							<a href="/tags/snowclones/">#snowclones</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -678,14 +1785,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728520145367/"/>
 			<updated>2024-10-10T00:29:05Z</updated>
 			<id>https://topposts.net/post/1728520145367/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>when it comes to the whole mess with WordPress and Matt Mullenweg, one theory I’d like to see examined more closely is that an evil magician perhaps used a “dumbass curse” on him as revenge for a careless act at a coffee shop or child’s birthday party. There’s even no saying how long ago this happened, or if it’s possible that it’s happened multiple times and the effects stack</p>
 
 					<p>Tagged:
 							<a href="/tags/wordpress/">#wordpress</a>, 
 							<a href="/tags/matt-mullenweg/">#matt mullenweg</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -693,14 +1802,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728493252133/"/>
 			<updated>2024-10-09T17:00:52Z</updated>
 			<id>https://topposts.net/post/1728493252133/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>is people on Twitch insisting that they cannot possibly interpret sarcasm without a specific emote added to the end of a statement, ESPECIALLY since the same people would insist that the emote is a somehow-working version of the classic "no offense". Sarcasm is a weapon and it should be wielded as such, not lumped in with bad manners that should be ignored</p>
 
 					<p>Tagged:
 							<a href="/tags/language/">#language</a>, 
 							<a href="/tags/online-culture/">#online "culture"</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -708,14 +1819,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728360172526/"/>
 			<updated>2024-10-08T04:02:52Z</updated>
 			<id>https://topposts.net/post/1728360172526/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>thanks to an email link at the bottom of each post's permalink. I already treasure all of the emails I have received from people and look forward to future (nice) emails</p>
 
 					<p>Tagged:
 							<a href="/tags/octobug-meta/">#octobug (meta)</a>, 
 							<a href="/tags/email/">#email</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -723,7 +1836,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728278804902/"/>
 			<updated>2024-10-07T05:26:44Z</updated>
 			<id>https://topposts.net/post/1728278804902/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>instead of working on octobug this weekend I</p>
 <ul>
 <li>cleaned the garage</li>
@@ -741,7 +1855,8 @@ And I've got mad hits like I was Rockeroo</p>
 					<p>Tagged:
 							<a href="/tags/envy/">#envy</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -749,10 +1864,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728267209644/"/>
 			<updated>2024-10-07T02:13:29Z</updated>
 			<id>https://topposts.net/post/1728267209644/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>turn around! get out of there!</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -760,14 +1877,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728197086415/"/>
 			<updated>2024-10-06T06:44:46Z</updated>
 			<id>https://topposts.net/post/1728197086415/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>just went through <a href="https://blood.church/posts/new-music-roundup-2/">cass’s music roundup post for the week</a> and added basically everything in it to my <a href="https://record.club">record.club</a> queue, Apple Music seasonal playlist, and/or random desktop shortcut on my PC</p>
 <p>cass please keep doing these posts 🙏</p>
 
 					<p>Tagged:
 							<a href="/tags/music/">#music</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -775,7 +1894,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728191574496/"/>
 			<updated>2024-10-06T05:12:54Z</updated>
 			<id>https://topposts.net/post/1728191574496/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>Meow Wolf, Cirque du Soleil & MSCHF are proud to present:</p>
 <h1>#The Cohost Global Feed</h1>
 <p>the interactive play-within-a-play-pilled digitally-mediated real-life experiential booking slot that seeks to ask: what if the hottest babes from Dimes Square roleplayed as the "most-severaled chosters", acting out titillating versions of their "blaseballiest" content creation moments? XD!</p>
@@ -783,7 +1903,8 @@ And I've got mad hits like I was Rockeroo</p>
 					<p>Tagged:
 							<a href="/tags/cohost-meta-but-like-not-serious/">#cohost meta but like not serious</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -791,14 +1912,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728190768947/"/>
 			<updated>2024-10-06T04:59:28Z</updated>
 			<id>https://topposts.net/post/1728190768947/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>osmose's <a href="https://osmose.ceo/blog/">updated website</a> is so good. the new domain is A+ too. excited to see where this one goes.</p>
 <p>I definitely need to build out a blogroll situation, I will try to do that soon</p>
 
 					<p>Tagged:
 							<a href="/tags/cool-websites-temporary/">#cool websites (temporary)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -806,7 +1929,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728190534886/"/>
 			<updated>2024-10-06T04:55:34Z</updated>
 			<id>https://topposts.net/post/1728190534886/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>I think that the true "gamer's edge" is the ability to be able to watch a piece of media that depicts gaming culture and clock at any given moment whether it's authentic or not. the way a person moves their hands while playing a certain genre of game. the fidelity/depth of sound design relative to the graphical fidelity. the precise level of narrative irony vs the game's supposed release date / mainstream appeal.</p>
 <p>but then if that is so then there is also a "knitter's edge", a "philatelist's edge", a "podcast fan's edge", and so on for all communities. and the most popular person among each of those worlds must be declared the edgelord</p>
 
@@ -814,7 +1938,8 @@ And I've got mad hits like I was Rockeroo</p>
 							<a href="/tags/gamers-edge/">#gamer&#x2019;s edge</a>, 
 							<a href="/tags/theories/">#theories</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -822,13 +1947,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728145705008/"/>
 			<updated>2024-10-05T16:28:25Z</updated>
 			<id>https://topposts.net/post/1728145705008/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>guy who calls the first person they interact with in any personal anecdote “the questgiver”</p>
 
 					<p>Tagged:
 							<a href="/tags/make-up-a-guy/">#make up a guy</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -836,13 +1963,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728111646404/"/>
 			<updated>2024-10-05T07:00:46Z</updated>
 			<id>https://topposts.net/post/1728111646404/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>lol 'hentry'</p>
 
 					<p>Tagged:
 							<a href="/tags/h-entry/">#h-entry</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -850,10 +1979,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728110041120/"/>
 			<updated>2024-10-05T06:34:01Z</updated>
 			<id>https://topposts.net/post/1728110041120/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>bcj regularly posts about things that are happening in other online timelines without linking to them and I am FORCED to do that in response to their post about octobug because octobug can't embed h-entry posts yet but hopefully it will be able to soon!!!</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -861,13 +1992,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728088792148/"/>
 			<updated>2024-10-05T00:39:52Z</updated>
 			<id>https://topposts.net/post/1728088792148/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>I think Apple Music is now ranking its new tracks / new albums lists based on my existing library and/or listening history and it's... pretty good at it? I still find myself scrolling down to the bottom of a lot of lists every Friday but I could see myself starting to trust it if the accuracy level sticks</p>
 
 					<p>Tagged:
 							<a href="/tags/apple-music/">#apple music</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -875,14 +2008,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728082397160/"/>
 			<updated>2024-10-04T22:53:17Z</updated>
 			<id>https://topposts.net/post/1728082397160/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				
 					<p>Tagged:
 							<a href="/tags/slack/">#slack</a>, 
 							<a href="/tags/emoji/">#emoji</a>, 
 							<a href="/tags/twenty-three/">#twenty three</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -890,10 +2025,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728000958880/"/>
 			<updated>2024-10-04T00:15:58Z</updated>
 			<id>https://topposts.net/post/1728000958880/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><em>WE</em> are only carbon now</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -901,7 +2038,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1728000578069/"/>
 			<updated>2024-10-04T00:09:38Z</updated>
 			<id>https://topposts.net/post/1728000578069/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>someone should do a thing where you measure the ratio of a public figure's public sentiment to the length of their wikipedia article, over a period of time, and see how much of an outlier Matt Mullenweg must be in that calculation</p>
 
 					<p>Tagged:
@@ -909,7 +2047,8 @@ And I've got mad hits like I was Rockeroo</p>
 							<a href="/tags/matt-mullenweg/">#matt mullenweg</a>, 
 							<a href="/tags/valleywag/">#valleywag</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -917,7 +2056,8 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727973702306/"/>
 			<updated>2024-10-03T16:41:42Z</updated>
 			<id>https://topposts.net/post/1727973702306/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>via <a href="https://nex-3.com/blog/ive-been-surprised-how/">natalie</a>, in reply to me:</p>
 <blockquote>
 <p>I've been surprised how many people I've seen posting about how they're using RSS again. I guess even when talking about "the heyday of RSS" I was assuming that it was mostly more people joining and not using it than people stopping that caused its decline. I for one have been using RSS pretty much daily since the early 00s.</p>
@@ -927,7 +2067,8 @@ And I've got mad hits like I was Rockeroo</p>
 <p>As Cohost was wrapping up I subscribed to almost every feed I saw people linking to, putting them in a new folder in Feedbin for just them. When I added the feed I put their Cohost username at the end in parentheses, but last night I realized that I wanted to flip it— I put <code>@username</code> at the front and then put all their carefully considered blog titles in parentheses after that. That small change makes me feel a little bit closer to everyone, as silly as it sounds. (I don’t consider this blog to have a “title” per se, btw— I think topposts dot net is fine for now)</p>
 <p>PS I’m hoping by the end of the weekend I’ll have working h-entry post embeds like Natalie does!! It’s so cool to see it working at the link at the top of the post and if you haven’t checked out <a href="https://nex-3.com/">her blog</a> overall you really should!</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -935,10 +2076,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727932529627/"/>
 			<updated>2024-10-03T05:15:29Z</updated>
 			<id>https://topposts.net/post/1727932529627/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>I realized that I think <em>brat</em> is an album about narcissism and that your current feelings about its place in our culture will probably determine how you feel about the music</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -946,10 +2089,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727931611456/"/>
 			<updated>2024-10-03T05:00:11Z</updated>
 			<id>https://topposts.net/post/1727931611456/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>something I will say that has been very nice about using RSS again... going back to reading "oldest first" and having read/unread status. fight me</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -957,11 +2102,13 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727930620201/"/>
 			<updated>2024-10-03T04:43:40Z</updated>
 			<id>https://topposts.net/post/1727930620201/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>realizing today that the next step is to build a little RSS feed reader to give myself a "timeline"... shit</p>
 <p>like do I already have a feed reader? yes! But there are so many other feeds in there that aren't people I know <em>posting</em> and I want to put the <em>posting</em> in one place!</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -969,11 +2116,13 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727882042914/"/>
 			<updated>2024-10-02T15:14:02Z</updated>
 			<id>https://topposts.net/post/1727882042914/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p><a href="https://youtu.be/WIWHNmcz-2k">https://youtu.be/WIWHNmcz-2k</a></p>
 <p>NTS saw an amateur scene pop up on YouTube and said “I want that for me”</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -981,10 +2130,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727810458593/"/>
 			<updated>2024-10-01T19:20:58Z</updated>
 			<id>https://topposts.net/post/1727810458593/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>The blog post I was reading to try to figure out how to deal with the GitHub API’s requirement of base64-encoded data used the cheese emoji as some of its example data. I still haven’t fixed the bug so the poor cheese emoji will render like 🧀</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -992,14 +2143,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727801427549/"/>
 			<updated>2024-10-01T16:50:27Z</updated>
 			<id>https://topposts.net/post/1727801427549/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>via <a href="https://graham.build/s/a-blog/001-wizard-sokoban/">graham</a>:</p>
 <blockquote>
 <p>Today, my friend and I launched another new version of our puzzle game named Wizard Sokoban (working title). You can play it on <a href="http://itch.io">itch.io</a> for free, though it works best on a computer using firefox:</p>
 </blockquote>
 <p><a href="https://anvilfood.itch.io/wizard-sokoban">Go try out Wizard Sokoban</a>! I got to level 13 the day after it was released and at that point it’s really unfurling into something more complex. I’m excited to play more!</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1007,11 +2160,13 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727764037619/"/>
 			<updated>2024-10-01T06:27:17Z</updated>
 			<id>https://topposts.net/post/1727764037619/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>MY FRIEND: whoa, we haven't seen you since like 2022. Where have you been?</p>
 <p>ME: I... I... don't remember?</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1019,11 +2174,13 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727762932962/"/>
 			<updated>2024-10-01T06:08:52Z</updated>
 			<id>https://topposts.net/post/1727762932962/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>me, a 20-year-old, watching a 65-year-old person struggle to remember a childhood memory: heh, wow. skill issue I guess. not me, I've got this little thing called BRAIN TRAINING, I just do these every day and you'll never catch me looking like that. sucker</p>
 <p>me, a 40-year-old, seeing something about ZZT: goddammit</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1031,13 +2188,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727736003507/"/>
 			<updated>2024-09-30T22:40:03Z</updated>
 			<id>https://topposts.net/post/1727736003507/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>guy who just happens to get really into blogging on October 1, 2024, without understanding what compels him</p>
 
 					<p>Tagged:
 							<a href="/tags/make-up-a-guy/">#make up a guy</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1045,10 +2204,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727591932219/"/>
 			<updated>2024-09-29T06:38:52Z</updated>
 			<id>https://topposts.net/post/1727591932219/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>something I believe strongly is that you cannot skip track on Fatboy Slim's "Weapon of Choice". Once it starts playing, you have to listen to the whole thing</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1056,13 +2217,15 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727385279367/"/>
 			<updated>2024-09-26T21:14:39Z</updated>
 			<id>https://topposts.net/post/1727385279367/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>My friends<sup style="color:#527cf9;">[who?]</sup> should be allowed to add Wikipedia-style superscript notes to my posts</p>
 
 					<p>Tagged:
 							<a href="/tags/octobug-feature-requests/">#octobug (feature requests)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1070,10 +2233,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727370074285/"/>
 			<updated>2024-09-26T17:01:14Z</updated>
 			<id>https://topposts.net/post/1727370074285/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>had a truly sick idea last night revolving around combining short-term cookies with JavaScript setTimeouts in order to fake long-polling (because you have to have GitHub API credentials in order to poll the GitHub repo) and then realized the only user who needs long-polling to auto-refresh is... the person who has API credentials</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1081,10 +2246,12 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727312098727/"/>
 			<updated>2024-09-26T00:54:58Z</updated>
 			<id>https://topposts.net/post/1727312098727/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>image posts... I need them</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1092,14 +2259,16 @@ And I've got mad hits like I was Rockeroo</p>
 			<link href="https://topposts.net/post/1727228193024/"/>
 			<updated>2024-09-25T01:36:33Z</updated>
 			<id>https://topposts.net/post/1727228193024/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>the site upgrades are piling up, I should really backport them to octobug 🤔<br>
 among some post editor improvements (better mobile support!) NEW posts should have a new permalink structure while OLD posts retain their old URLs (to hopefully avoid bombarding feeds with "new" posts, and to avoid breaking what I'm sure are hundreds of links to my first ~25 brilliant posts)</p>
 
 					<p>Tagged:
 							<a href="/tags/octobug-meta/">#octobug (meta)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1107,9 +2276,11 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<link href="https://topposts.net/1727218715518/"/>
 			<updated>2024-09-24T22:58:35Z</updated>
 			<id>https://topposts.net/1727218715518/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1117,10 +2288,12 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<link href="https://topposts.net/1727208050887/"/>
 			<updated>2024-09-24T20:00:50Z</updated>
 			<id>https://topposts.net/1727208050887/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>are so much higher when deleting the post requires deleting a file from a git repo 😰</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1128,10 +2301,12 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<link href="https://topposts.net/1727207607053/"/>
 			<updated>2024-09-24T19:53:27Z</updated>
 			<id>https://topposts.net/1727207607053/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>hopping into the group chat to tell the squad how non-attached I feel today</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1139,11 +2314,13 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<link href="https://topposts.net/1727203782788/"/>
 			<updated>2024-09-24T18:49:42Z</updated>
 			<id>https://topposts.net/1727203782788/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>I timed badly the delivery of a new phone (my old one was from 2020 and had had its battery replaced twice… I need a bigger battery, apparently) and its accompanying case so I was carrying it around for the last 4 days with no case and it was kind of terrifying.</p>
 <p>The new case has arrived and it’s a huge relief to know that I am at least somewhat protected from fucking up my phone now</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
@@ -1151,1151 +2328,304 @@ among some post editor improvements (better mobile support!) NEW posts should ha
 			<link href="https://topposts.net/1727163563785/"/>
 			<updated>2024-09-24T07:39:23Z</updated>
 			<id>https://topposts.net/1727163563785/</id>
-			<content type="html"><![CDATA[<div>
+			<content type="html">
+				<![CDATA[<div>
 				<p>it’s starting to feel like a website in here</p>
 
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1750316099861/"/>
-			<updated>2025-06-19T06:54:59Z</updated>
-			<id>https://topposts.net/post/1750316099861/</id>
-			<content type="html"><![CDATA[<div>
-				<p>okay I know there was a lot going on in the world today but I didn't see anyone mention that the new donkey kong switch game trailer has anime-style opening and closing songs?</p>
+			<link href="https://topposts.net/1727159461669/"/>
+			<updated>2024-09-24T06:31:01Z</updated>
+			<id>https://topposts.net/1727159461669/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>honestly writing vanilla javascript to do things that still "feel good" feels like doing the saddest magic trick, but attracting the most hardcore audience. For my next trick, useful OpenGraph tags</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>(it didn&#39;t clear the form)</title>
+			<link href="https://topposts.net/1727156969779/"/>
+			<updated>2024-09-24T05:49:29Z</updated>
+			<id>https://topposts.net/1727156969779/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>and then it didn't again when I posted whatever that was. Third time's a charm?</p>
+
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/1727156814971/"/>
+			<updated>2024-09-24T05:46:54Z</updated>
+			<id>https://topposts.net/1727156814971/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>there's this weird compulsion where the moment I think I'm making something that might be interesting, I want to polish it to a shine in a way that will make it possible for other people to use it. Despite the fact that it will require an intense and detail-oriented effort to go back and revisit almost every decision, definitely every cut corner, and figure out the "right" way to do it. the error cases to handle. the worries that if I let the software fail, it could hurt someone else.</p>
+<p>It sucks! It sucks to feel that weight for absolutely no reason, despite the fact that what you are making is <em>mid</em>, that your knowledge is cobbled together from a bizarre bombardment of information that you've exposed yourself to over your career, both technical and political, that realistically no one cares and if someone does it's because they're already doing the same thing for themselves, or hopefully will someday.</p>
+<p>I have to write things into the box and risk them getting posted to the internet in order to test if the software I wrote is working. That's a terrible idea. Automated tests, non-production environments, there are so many ways to make this not be a necessity. And even if not, I <em>can</em> still go delete the file from the repo if I want.</p>
 
 					<p>Tagged:
-							<a href="/tags/donkey-kong/">#donkey kong</a>
+							<a href="/tags/so-what/">#so what</a>, 
+							<a href="/tags/who-cares/">#who cares</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>hey wait</title>
-			<link href="https://topposts.net/post/1749683204548/"/>
-			<updated>2025-06-11T23:06:44Z</updated>
-			<id>https://topposts.net/post/1749683204548/</id>
-			<content type="html"><![CDATA[<div>
-				<p>JESTer. like one who jests. wow okay that’s great.</p>
+			<title>update</title>
+			<link href="https://topposts.net/1727156407447/"/>
+			<updated>2024-09-24T05:40:07Z</updated>
+			<id>https://topposts.net/1727156407447/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>and when it posts to Github... we clear the form. hopefully</p>
 
-					<p>Tagged:
-							<a href="/tags/hey-wait/">#hey wait</a>
-					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1749365054877/"/>
-			<updated>2025-06-08T06:44:14Z</updated>
-			<id>https://topposts.net/post/1749365054877/</id>
-			<content type="html"><![CDATA[<div>
-				<p>why is it that my new outfit has me looking like I'm in Fantasy ICE 😬</p>
-<p><img src="https://topposts.net/attachments/2025/6/8/07%2011%2041%2042%20PM%20(ffxiv_dx11).jpg" alt="FFXIV screenshot with my character wearing dark robes and a solid black veil"></p>
-
-					<p>Tagged:
-							<a href="/tags/final-fantasy-xiv/">#final fantasy xiv</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1748905247194/"/>
-			<updated>2025-06-02T23:00:47Z</updated>
-			<id>https://topposts.net/post/1748905247194/</id>
-			<content type="html"><![CDATA[<div>
-				<p>suddenly realizing that the reason pro-AI people love constructing strawman versions of anti-AI arguments is because they’re already spending their day interacting with something shaped like a human</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1748244536594/"/>
-			<updated>2025-05-26T07:28:56Z</updated>
-			<id>https://topposts.net/post/1748244536594/</id>
-			<content type="html"><![CDATA[<div>
-				<p>type of guy who thinks the last word in the common phrase “too much time on [one’s] hands” is actually “hams”</p>
-
-					<p>Tagged:
-							<a href="/tags/make-up-a-guy/">#make up a guy</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1747120735695/"/>
-			<updated>2025-05-13T07:18:55Z</updated>
-			<id>https://topposts.net/post/1747120735695/</id>
-			<content type="html"><![CDATA[<div>
-				<p>realized while listening to Tamara Lindeman wax philosophical tonight that I do consider my worksona to be an accumulation of all my experiences and strengths while I think of my regular life as a sort of accident of existence at any given moment in time. anyway I don't think I will pursue that line of thought any further just in case it makes me sad</p>
-
-					<p>Tagged:
-							<a href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Paperboy is the Earthbound of ARPGs</title>
-			<link href="https://topposts.net/post/1746943364231/"/>
-			<updated>2025-05-11T06:02:44Z</updated>
-			<id>https://topposts.net/post/1746943364231/</id>
-			<content type="html"><![CDATA[<div>
-				<p>things that make it an ARPG:</p>
-<ul>
-<li>isometric</li>
-<li>ties to christianity (gargoyles, white/black as good/evil, the mon-fri work week)</li>
-<li>lose progress when you die</li>
-</ul>
-<p>things that make it earthbound:</p>
-<ul>
-<li>protagonist wears baseball cap</li>
-<li>the stakes of your success are never quite clear</li>
-<li>features a SICK STUNT COURSE at the end (confirm this)</li>
-</ul>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1746777126847/"/>
-			<updated>2025-05-09T07:52:06Z</updated>
-			<id>https://topposts.net/post/1746777126847/</id>
-			<content type="html"><![CDATA[<div>
-				<p>tired: metroidbrainia<br>
-wired: tony hawk’s gifted and talented program</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1746777015935/"/>
-			<updated>2025-05-09T07:50:15Z</updated>
-			<id>https://topposts.net/post/1746777015935/</id>
-			<content type="html"><![CDATA[<div>
-				<p>maybe you think I’ve lost it, suggesting that we advertise our new bullet hell roguelite via the California DMV, but consider that a)  there are 34 million licensed drivers who are committed to interacting with the organization and b) the governor of California is a HUGE loser who loves money</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1746511451048/"/>
-			<updated>2025-05-06T06:04:11Z</updated>
-			<id>https://topposts.net/post/1746511451048/</id>
-			<content type="html"><![CDATA[<div>
-				<p>one thing I'm discovering and grateful for about Octobug when using it across multiple blogs is that when something breaks with it, as long as there's <em>a</em> site that builds and updates when I write words into it, I'm just like "that's okay". I know that the YouTube embed code breaks the frame. I know that I haven't backported the whole thing where headlines can safely have markdown in them. I still haven't integrated WebMentions or whatever. that's okay</p>
+			<title>okay look I admit it</title>
+			<link href="https://topposts.net/1727154662985/"/>
+			<updated>2024-09-24T05:11:02Z</updated>
+			<id>https://topposts.net/1727154662985/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I'm posting to production again in order to test something locally. yes it's a nightmare</p>
 
 					<p>Tagged:
 							<a href="/tags/octobug-meta/">#octobug (meta)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>no. you can&#39;t do this. stop it</title>
-			<link href="https://topposts.net/post/1746510626197/"/>
-			<updated>2025-05-06T05:50:26Z</updated>
-			<id>https://topposts.net/post/1746510626197/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/5/6/05%2010%2049%2037%20PM%20(ffxiv_dx11).jpg" alt="Final Fantasy 14 screenshot featuring a goblin NPC named " Holepix""=""></p>
-
-					<p>Tagged:
-							<a href="/tags/final-fantasy-xiv/">#final fantasy xiv</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1746389445311/"/>
-			<updated>2025-05-04T20:10:45Z</updated>
-			<id>https://topposts.net/post/1746389445311/</id>
-			<content type="html"><![CDATA[<div>
-				<p>was following behind a car with license plate “80058” for a while and the whole time I kept thinking “BOOSB”</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>open mike eagle was right when he said that indie rappers deserve government subsidies</title>
-			<link href="https://topposts.net/post/1745993072811/"/>
-			<updated>2025-04-30T06:04:32Z</updated>
-			<id>https://topposts.net/post/1745993072811/</id>
-			<content type="html"><![CDATA[<div>
+			<title>bone letter off</title>
+			<link href="https://topposts.net/1727154071821/"/>
+			<updated>2024-09-24T05:01:11Z</updated>
+			<id>https://topposts.net/1727154071821/</id>
+			<content type="html">
+				<![CDATA[<div>
 				
-			</div>]]></content>
+					<p>Tagged:
+							<a href="/tags/one-letter-off/">#one letter off</a>, 
+							<a href="/tags/has-anyone-done-this/">#has anyone done this</a>
+					</p>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1745371080782/"/>
-			<updated>2025-04-23T01:18:00Z</updated>
-			<id>https://topposts.net/post/1745371080782/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I don’t listen to a lot of Japanese Citypop but I do feel like there’s a good chance it would be what I’d listen to while I was having a nervous breakdown for some reason</p>
+			<title>Octobug does tag autocomplete now</title>
+			<link href="https://topposts.net/1727153611774/"/>
+			<updated>2024-09-24T04:53:31Z</updated>
+			<id>https://topposts.net/1727153611774/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>It gets the list of tags from the server when you open the post editor</p>
+<p>And then as you type it shows the tags you've already used so you can more easily "do a bit" that you've done before, and safely put it in the filing cabinet drawer where it belongs.</p>
+<p>no I don't know why the tag field isn't able to use my webfont. I'll fix it later</p>
+
+					<p>Tagged:
+							<a href="/tags/json/">#json</a>, 
+							<a href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>, 
+							<a href="/tags/text-encoding!!!!/">#text encoding!!!!</a>, 
+							<a href="/tags/octobug-meta/">#octobug (meta)</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>are you josh brolin</title>
+			<link href="https://topposts.net/1727139863554/"/>
+			<updated>2024-09-24T01:04:23Z</updated>
+			<id>https://topposts.net/1727139863554/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>because buddy you’ve got me brolin’ on the floor blaughin’</p>
+
+					<p>Tagged:
+							<a href="/tags/this-isnt-anything/">#this isn&#x2019;t anything</a>, 
+							<a href="/tags/but-it-is-the-toilet-post/">#but it is the toilet post</a>, 
+							<a href="/tags/historic-anticlimaxes-in-posting/">#historic anticlimaxes in posting</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>this is not the toilet post</title>
+			<link href="https://topposts.net/1727138701372/"/>
+			<updated>2024-09-24T00:45:01Z</updated>
+			<id>https://topposts.net/1727138701372/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>it is the post that proves I have fixed the bug that prevented the toilet post from being made</p>
 
 					<p>Tagged:
 							<a href="/tags/dont-worry-about-it/">#don&#x2019;t worry about it</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1744937992621/"/>
-			<updated>2025-04-18T00:59:52Z</updated>
-			<id>https://topposts.net/post/1744937992621/</id>
-			<content type="html"><![CDATA[<div>
-				<p>upon recent reflection I have realized that I have become reliant on one response to almost every customer service interaction, many interactions at work, and probably some in my personal life: after receiving something from someone, I will say “perfect”. I don’t know where I picked this up but now that I am aware of it I am working very hard to discard it and I’m sorry to anyone I may have said it to after being handed a small plastic cup of water on an airplane or my own credit card after purchasing a chicken caesar wrap</p>
+			<link href="https://topposts.net/1727074872138/"/>
+			<updated>2024-09-23T07:01:12Z</updated>
+			<id>https://topposts.net/1727074872138/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p><a href="https://twitter.com/i_zzzzzz/status/660925493840072706">https://twitter.com/i_zzzzzz/status/660925493840072706</a></p>
 
 					<p>Tagged:
-							<a href="/tags/regrets/">#regrets</a>
+							<a href="/tags/tweets/">#tweets</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1744839873962/"/>
-			<updated>2025-04-16T21:44:33Z</updated>
-			<id>https://topposts.net/post/1744839873962/</id>
-			<content type="html"><![CDATA[<div>
-				<p>end the curse, wizard, I beg of you</p>
-<p><img src="https://topposts.net/attachments/2025/4/16/IMG_4416.jpeg" alt="Duolingo screenshot reading “Unlock real-world speaking for your whole family”"></p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1744266290839/"/>
-			<updated>2025-04-10T06:24:50Z</updated>
-			<id>https://topposts.net/post/1744266290839/</id>
-			<content type="html"><![CDATA[<div>
-				<p>they’d never let me on jeopardy even if I was smart enough to pass the tests (which I’m not) because I’d do an audition round and the question would be “what is Harry Potter” and instead I’d say “ewww, uh, what is Harry Potter”</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1744180488181/"/>
-			<updated>2025-04-09T06:34:48Z</updated>
-			<id>https://topposts.net/post/1744180488181/</id>
-			<content type="html"><![CDATA[<div>
-				<p>as an american, when people tell me they are from "leeds" or "nottingham", it is like they have said they are from "narnia" or "stormwind", and I am sorry for that</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1744130070440/"/>
-			<updated>2025-04-08T16:34:30Z</updated>
-			<id>https://topposts.net/post/1744130070440/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I can’t even wrap my head around what it’s like to be farsighted. Like how can you not see things that are right there. they’re right there</p>
+			<title>ooh my posting form looks less bad now</title>
+			<link href="https://topposts.net/1727072025532/"/>
+			<updated>2024-09-23T06:13:45Z</updated>
+			<id>https://topposts.net/1727072025532/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>will that make me post here more? maybe!</p>
 
 					<p>Tagged:
-							<a href="/tags/ableism/">#ableism</a>
+							<a href="/tags/octobug-meta/">#octobug (meta)</a>, 
+							<a href="/tags/CSS/">#CSS</a>, 
+							<a href="/tags/the-post-button-is-lime-green-lol/">#the post button is lime green lol</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1743401548662/"/>
-			<updated>2025-03-31T06:12:28Z</updated>
-			<id>https://topposts.net/post/1743401548662/</id>
-			<content type="html"><![CDATA[<div>
-				<p>there should be a high-profile indie rhythm game with a soundtrack by glass beach. the gitaroo man of the 2020s</p>
+			<title>having a development environment that can write data to production is never wise</title>
+			<link href="https://topposts.net/1726992628734/"/>
+			<updated>2024-09-22T08:10:28Z</updated>
+			<id>https://topposts.net/1726992628734/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>but maybe it could work for us?</p>
 
 					<p>Tagged:
 							<a href="/tags/good-ideas/">#good ideas</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>The Lives of Other Otaku</title>
-			<link href="https://topposts.net/post/1743401341332/"/>
-			<updated>2025-03-31T06:09:01Z</updated>
-			<id>https://topposts.net/post/1743401341332/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/3/31/30%2010%2045%2028%20PM%20(Plex).jpg" alt="Zenigata raising his fist as he shouts " I'm="" a="" police="" investigator="" specializing="" in="" Lupin""=""></p>
-
-					<p>Tagged:
-							<a href="/tags/lupin-the-third/">#lupin the third</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>waiting for the lady gaga backlash to start so I can deploy this</title>
-			<link href="https://topposts.net/post/1743398822909/"/>
-			<updated>2025-03-31T05:27:02Z</updated>
-			<id>https://topposts.net/post/1743398822909/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/3/31/30%2010%2021%2006%20PM%20(Plex).jpg" alt="scene from Lupin the Third where Lupin's new wife says " Also="" that="" pianist="" is="" annoying="" me,="" get="" rid="" of="" her""=""></p>
-
-					<p>Tagged:
-							<a href="/tags/lady-gaga/">#lady gaga</a>, 
-							<a href="/tags/lupin-the-third/">#lupin the third</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1742709605745/"/>
-			<updated>2025-03-23T06:00:05Z</updated>
-			<id>https://topposts.net/post/1742709605745/</id>
-			<content type="html"><![CDATA[<div>
-				<p>dreaming about checking out <em>The Serviceberry</em> from the library and then just not returning it <3</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1742544525328/"/>
-			<updated>2025-03-21T08:08:45Z</updated>
-			<id>https://topposts.net/post/1742544525328/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/3/21/21%2001%2004%2031%20AM%20(msedge).png" alt="feedbin stats bar graph showing a complete lack of posting between january 29 and february 15"></p>
-<p>sorry I didn't post for the first half of February; I was facing the reality of the last 6 months of my life all at once in every way and it sucked shit!!</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>look,</title>
-			<link href="https://topposts.net/post/1742543936143/"/>
-			<updated>2025-03-21T07:58:56Z</updated>
-			<id>https://topposts.net/post/1742543936143/</id>
-			<content type="html"><![CDATA[<div>
-				<p>we all have to stop and think occasionally about how "Dropout TV" exists as a result of a website that posted "babe of the day" content in the early 2010s</p>
-
-					<p>Tagged:
-							<a href="/tags/look‚/">#look&#x201A;</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1742070464841/"/>
-			<updated>2025-03-15T20:27:44Z</updated>
-			<id>https://topposts.net/post/1742070464841/</id>
-			<content type="html"><![CDATA[<div>
-				<p>it is a testament to the work of both the cohost team and the archive team how browseable the cohost archive is. lots of things on the wayback machine fail when you try to navigate from page to page but by and large you can experience cohost intact (except for all the people who went private before shutdown which was totally fair and possibly wise)</p>
-
-					<p>Tagged:
-							<a href="/tags/cohost/">#cohost</a>, 
-							<a href="/tags/archiveorg/">#archive.org</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1742025805311/"/>
-			<updated>2025-03-15T08:03:25Z</updated>
-			<id>https://topposts.net/post/1742025805311/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/3/15/15%2001%2001%2031%20AM%20(firefox).png" alt="thread of self-rechosts where I suggsted various song titles that should be future Knives Out movies, including " Hand="" Crushed="" by="" a="" Mallet",="" "Particle="" Man",="" "They="" Are="" Night="" Zombies!!="" They="" Neighbors!!="" Have="" Come="" Back="" from="" the="" Dead!!="" Ahhhh!",="" and="" "America's="" Most="" Blunted""=""></p>
-<p>I don't have a good way to reblog old cohost posts yet but I was cooking with this thread</p>
-
-					<p>Tagged:
-							<a href="/tags/manual-rechosts/">#manual rechosts</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1741934683701/"/>
-			<updated>2025-03-14T06:44:43Z</updated>
-			<id>https://topposts.net/post/1741934683701/</id>
-			<content type="html"><![CDATA[<div>
-				<p>do you think the joker is a canonically <em>intelligent</em> character, or is he one of those guys that’s a huge dumbass and every time things go his way it’s extremely infuriating. wait, did I just pitch myself on watching the 2019 movie</p>
-
-					<p>Tagged:
-							<a href="/tags/joker-lore/">#joker lore</a>, 
-							<a href="/tags/posts-I-wouldve-drafted-if-I-had-built-the-drafts-feature-yet/">#posts I would&#x27;ve drafted if I had built the drafts feature yet</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1741736627020/"/>
-			<updated>2025-03-11T23:43:47Z</updated>
-			<id>https://topposts.net/post/1741736627020/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/3/11/11%2004%2042%2025%20PM%20(msedge).png" alt="screenshot of a popup reading " The="" feature="" you're="" trying="" has="" been="" turned="" off:="" Thanks="" for="" out="" 'High="" Quality="" Audio'""=""></p>
-
-					<p>Tagged:
-							<a href="/tags/single-image-posts/">#single-image posts</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1741667102399/"/>
-			<updated>2025-03-11T04:25:02Z</updated>
-			<id>https://topposts.net/post/1741667102399/</id>
-			<content type="html"><![CDATA[<div>
-				<p><a href="https://youtu.be/ADtPzdWiTQ0">https://youtu.be/ADtPzdWiTQ0</a></p>
-<p>science has managed to create a new grimes and now it’s up to us as a society to protect her this time</p>
-
-					<p>Tagged:
-							<a href="/tags/oklou/">#oklou</a>, 
-							<a href="/tags/grimes/">#grimes</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1741554874813/"/>
-			<updated>2025-03-09T21:14:34Z</updated>
-			<id>https://topposts.net/post/1741554874813/</id>
-			<content type="html"><![CDATA[<div>
-				<p>🎵 life is a highway<br>
-😴 I’m gonna fall asleep<br>
-👍 while<br>
-😎 I<br>
-💥 drive</p>
-
-					<p>Tagged:
-							<a href="/tags/geniuscom/">#genius.com</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1741459130003/"/>
-			<updated>2025-03-08T18:38:50Z</updated>
-			<id>https://topposts.net/post/1741459130003/</id>
-			<content type="html"><![CDATA[<div>
-				<p>there have been a couple situations recently where I’ve felt awkward after mentioning that I had spent some time sitting and listening to music without doing anything else but like… music is good? you’re the weird ones!!!</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1740897755045/"/>
-			<updated>2025-03-02T06:42:35Z</updated>
-			<id>https://topposts.net/post/1740897755045/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img 3="" 300="" src="https://topposts.net/attachments/2025/3/2/01%2010%2038%2044%20PM%20(HearthstoneDeckTracker).png" alt="a first place Hearthstone Battlegrounds warband for the " Factory="" Line"="" anomaly="" where,="" as="" the="" Curator,="" I="" had="" separate="" reborn="" amalgams,="" a="" golden="" belcher,="" leeroy,="" bassgill="" containing="" (not="" pictured)="" 300-ish="" Bream="" and="" another="" kangor's="" apprentice"=""></p>
-<p>anomalies can be so miserable but every once in a while you get a game like this</p>
-
-					<p>Tagged:
-							<a href="/tags/hearthstone-bgs/">#hearthstone bgs</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1740811137532/"/>
-			<updated>2025-03-01T06:38:57Z</updated>
-			<id>https://topposts.net/post/1740811137532/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I saw a custom license plate "HARPUA" today and I'm not proud to admit my immediate thought was "pluck on that thang"</p>
-
-					<p>Tagged:
-							<a href="/tags/sorry/">#sorry</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>look,</title>
-			<link href="https://topposts.net/post/1740810844302/"/>
-			<updated>2025-03-01T06:34:04Z</updated>
-			<id>https://topposts.net/post/1740810844302/</id>
-			<content type="html"><![CDATA[<div>
-				<p>we're <em>all</em> stuck on 1.0% of downloading a torrent that has the episode of <em>House Hunters</em> starring someone we met at a party one time 2 years ago</p>
-
-					<p>Tagged:
-							<a href="/tags/look‚/">#look&#x201A;</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>to a couple</title>
-			<link href="https://topposts.net/post/1740516142705/"/>
-			<updated>2025-02-25T20:42:22Z</updated>
-			<id>https://topposts.net/post/1740516142705/</id>
-			<content type="html"><![CDATA[<div>
-				<p>which one of you is the hewlett and which one is the packard</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>(Hold Steady voice)</title>
-			<link href="https://topposts.net/post/1740213129350/"/>
-			<updated>2025-02-22T08:32:09Z</updated>
-			<id>https://topposts.net/post/1740213129350/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/2/22/Screenshot%202025-02-22%20003011.png" alt="screenshot of video game UI hover card reading " Work="" at="" the="" Docks="" to="" earn="" some="" coin""=""></p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>&quot;I also choose this guy&#39;s oshi&quot;</title>
-			<link href="https://topposts.net/post/1740120882056/"/>
-			<updated>2025-02-21T06:54:42Z</updated>
-			<id>https://topposts.net/post/1740120882056/</id>
-			<content type="html"><![CDATA[<div>
-				<p>is a sentence I cooked up while mentally ill last weekend and it has been rattling around in my brain ever since</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1739691728989/"/>
-			<updated>2025-02-16T07:42:08Z</updated>
-			<id>https://topposts.net/post/1739691728989/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I gotta say, this year has not been very brat so far</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1739599399324/"/>
-			<updated>2025-02-15T06:03:19Z</updated>
-			<id>https://topposts.net/post/1739599399324/</id>
-			<content type="html"><![CDATA[<div>
-				<p>"Keep Portland Weird" includes the elevator safety inspection company that has purchased billboards in at least 3 distinct neighborhoods this winter</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1739547910853/"/>
-			<updated>2025-02-14T15:45:10Z</updated>
-			<id>https://topposts.net/post/1739547910853/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2025/2/14/IMG_4169.jpeg" alt="Google AdSense ad reading “Cheapest Way To Get A Walk-In Tub If You're On Medicare: Seniors With Old And Not Practical Bath Tubs Are Getting A Treat This Month”"></p>
-
-					<p>Tagged:
-							<a href="/tags/single-image-posts/">#single-image posts</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1739505315874/"/>
-			<updated>2025-02-14T03:55:15Z</updated>
-			<id>https://topposts.net/post/1739505315874/</id>
-			<content type="html"><![CDATA[<div>
-				<p>the USA might be a total clusterfuck and my work situation might be intensely stressful but at least I’ve got uhhhhh forty-five minutes of Hearthstone Battlegrounds a night</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>blog goals</title>
-			<link href="https://topposts.net/post/1738052777982/"/>
-			<updated>2025-01-28T08:26:17Z</updated>
-			<id>https://topposts.net/post/1738052777982/</id>
-			<content type="html"><![CDATA[<div>
-				<p>becoming the <a href="http://kottke.org">kottke.org</a> of #good ideas</p>
-
-					<p>Tagged:
-							<a href="/tags/good-ideas-meta/">#good ideas (meta)</a>, 
-							<a href="/tags/kottkeorg-references/">#kottke.org references</a>, 
-							<a href="/tags/blog-goals/">#blog goals</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1738052225952/"/>
-			<updated>2025-01-28T08:17:05Z</updated>
-			<id>https://topposts.net/post/1738052225952/</id>
-			<content type="html"><![CDATA[<div>
-				<p>there should be a career track for people who think they should get to make all the decisions but don't want to do all the boring business stuff. which one is that</p>
-
-					<p>Tagged:
-							<a href="/tags/good-ideas/">#good ideas</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1738050865149/"/>
-			<updated>2025-01-28T07:54:25Z</updated>
-			<id>https://topposts.net/post/1738050865149/</id>
-			<content type="html"><![CDATA[<div>
-				<p>a fun thing you could do if you were going to belgium was becoming an "IPA Hunter" where you go around from bar to bar and if you find anyone drinking an IPA you slap it out of their hand. on account of their different famous beer</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1738048845792/"/>
-			<updated>2025-01-28T07:20:45Z</updated>
-			<id>https://topposts.net/post/1738048845792/</id>
-			<content type="html"><![CDATA[<div>
-				<audio controls="" src="https://topposts.net/attachments/2025/1/28/the%20most%20consequential%20day.mp3">
-</audio>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>A second Octobug site has hit the blogosphere</title>
-			<link href="https://topposts.net/post/1737831611147/"/>
-			<updated>2025-01-25T19:00:11Z</updated>
-			<id>https://topposts.net/post/1737831611147/</id>
-			<content type="html"><![CDATA[<div>
-				<p>This one's about music?</p>
-<p><a href="https://secretchoir.com/">https://secretchoir.com/</a></p>
+			<title>DNS working, API keys in localstorage...</title>
+			<link href="https://topposts.net/1726985263715/"/>
+			<updated>2024-09-22T06:07:43Z</updated>
+			<id>https://topposts.net/1726985263715/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>if this post sends then everything is in a good state</p>
 
 					<p>Tagged:
 							<a href="/tags/octobug-meta/">#octobug (meta)</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1737274062904/"/>
-			<updated>2025-01-19T08:07:42Z</updated>
-			<id>https://topposts.net/post/1737274062904/</id>
-			<content type="html"><![CDATA[<div>
-				<p>if a class action lawsuit actually emails me THREE TIMES to ask me to join it I’m sorry but that’s loser energy. I don’t want to be associated with that. My dignity is not worth a check for $12.19 17 months from now or whatever</p>
+			<title>seeing if I broke publish after all that nonsense</title>
+			<link href="https://topposts.net/1726957940977/"/>
+			<updated>2024-09-21T22:32:20Z</updated>
+			<id>https://topposts.net/1726957940977/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I wouldn't be surprised! But also I hope it works</p>
 
 					<p>Tagged:
-							<a href="/tags/challenging-opinions/">#challenging opinions</a>
+							<a href="/tags/wishful-thinking/">#wishful thinking</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1737268956295/"/>
-			<updated>2025-01-19T06:42:36Z</updated>
-			<id>https://topposts.net/post/1737268956295/</id>
-			<content type="html"><![CDATA[<div>
-				<p>hello digital media publication whose parent company has had three rounds of layoffs in the last 5 weeks. I noticed that your breaking news posted at 12:30am on a Sunday morning had a typo in it. (smirk) write much?</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1736900625848/"/>
-			<updated>2025-01-15T00:23:45Z</updated>
-			<id>https://topposts.net/post/1736900625848/</id>
-			<content type="html"><![CDATA[<div>
-				<p>can’t stop thinking about the instructions on the little pager the local food truck gave me while I was waiting for my lunch</p>
-<p><img src="https://topposts.net/attachments/2025/1/15/IMG_3764.jpeg" alt="“when beep and flash / please take the meal”"></p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1736664160534/"/>
-			<updated>2025-01-12T06:42:40Z</updated>
-			<id>https://topposts.net/post/1736664160534/</id>
-			<content type="html"><![CDATA[<div>
-				<p>every once in a while I remember the David Letterman "are these your drums" supercut exists and I'm just so thankful</p>
-<iframe width="951" height="480" src="https://www.youtube.com/embed/M65Dx0STe2M" title="David Letterman | Are Those Your Drums?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1736289647795/"/>
-			<updated>2025-01-07T22:40:47Z</updated>
-			<id>https://topposts.net/post/1736289647795/</id>
-			<content type="html"><![CDATA[<div>
-				<p>some websites should have hallways between their pages, to provide you the chance to prepare for what lies in the “next room”</p>
+			<title>testing the publish time</title>
+			<link href="https://topposts.net/1726950240841/"/>
+			<updated>2024-09-21T20:24:00Z</updated>
+			<id>https://topposts.net/1726950240841/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>STARTING.... NOW!</p>
 
 					<p>Tagged:
-							<a href="/tags/good-ideas/">#good ideas</a>
+							<a href="/tags/stunts/">#stunts</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1736033089186/"/>
-			<updated>2025-01-04T23:24:49Z</updated>
-			<id>https://topposts.net/post/1736033089186/</id>
-			<content type="html"><![CDATA[<div>
-				<p>after the success of Hawk Tuah in 2024 I would like to place my bid for Onomatopoeia of 2025 to be “bingalingaling”, the sound of the little bells on the back of the door to a local business</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>I’m doing a thing over here </title>
-			<link href="https://topposts.net/post/1735976971721/"/>
-			<updated>2025-01-04T07:49:31Z</updated>
-			<id>https://topposts.net/post/1735976971721/</id>
-			<content type="html"><![CDATA[<div>
-				<p>truly a theme for 2025. It reflects what I’m doing (a thing) and where (over here)</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1735974647572/"/>
-			<updated>2025-01-04T07:10:47Z</updated>
-			<id>https://topposts.net/post/1735974647572/</id>
-			<content type="html"><![CDATA[<div>
-				<p>just saw someone describe squid game season two as having “stomach-churning vibes” and I have just decided that I am a sort of “emotional himbo” for not wanting to spend time experiencing anything described as that</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>job functions I thought I’d have based on movies from my childhood</title>
-			<link href="https://topposts.net/post/1735833663357/"/>
-			<updated>2025-01-02T16:01:03Z</updated>
-			<id>https://topposts.net/post/1735833663357/</id>
-			<content type="html"><![CDATA[<div>
-				<ul>
-<li>running the Morrison report</li>
-<li>running the Wilson report</li>
-<li>having things on someone’s desk by 5</li>
-<li>running the Evans report</li>
-</ul>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1735394752463/"/>
-			<updated>2024-12-28T14:05:52Z</updated>
-			<id>https://topposts.net/post/1735394752463/</id>
-			<content type="html"><![CDATA[<div>
-				<h1>“I love the way this game looks and the way the players look on the ice”</h1>
-<p>– pull quote from a television commercial I thought was about the sport of hockey but was actually about an NHL video game</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1735005264806/"/>
-			<updated>2024-12-24T01:54:24Z</updated>
-			<id>https://topposts.net/post/1735005264806/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I think the most insulting thing about “motion smoothing” on TVs is that it doesn’t even work right on a lot of them! There’s a screen tearing effect every 5-6 seconds during scenes where the camera is moving quickly because it can’t actually keep up? Like if you’re going to make everything look like ass at least take it seriously</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1734848533388/"/>
-			<updated>2024-12-22T06:22:13Z</updated>
-			<id>https://topposts.net/post/1734848533388/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2024/12/22/21%2007%2047%2014%20PM%20(The_Jackbox_Survey_Scramble).png" alt="21 07 47 14 PM (The_Jackbox_Survey_Scramble).png"></p>
+			<title>testing FROM github pages TO github pages</title>
+			<link href="https://topposts.net/1726947875915/"/>
+			<updated>2024-09-21T19:44:35Z</updated>
+			<id>https://topposts.net/1726947875915/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>let's fuckin goooooo</p>
 
 					<p>Tagged:
-							<a href="/tags/commands-for-gamers/">#commands for gamers</a>
+							<a href="/tags/testing-in-production/">#testing in production</a>
 					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 		
 		<entry>
-			<title>challenging political discourse in the group chat</title>
-			<link href="https://topposts.net/post/1734848503051/"/>
-			<updated>2024-12-22T06:21:43Z</updated>
-			<id>https://topposts.net/post/1734848503051/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2024/12/22/21%2010%2019%2056%20PM%20(LINE).png" alt="21 10 19 56 PM (LINE).png"></p>
+			<title>here&#39;s a saturday morning post</title>
+			<link href="https://topposts.net/1726940303042/"/>
+			<updated>2024-09-21T17:38:23Z</updated>
+			<id>https://topposts.net/1726940303042/</id>
+			<content type="html">
+				<![CDATA[<div>
+				
+					<p>Tagged:
+							<a href="/tags/saturday/">#saturday</a>, 
+							<a href="/tags/saturday-morning/">#saturday morning</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
+		
+		<entry>
+			<title>json frontmatter fixes</title>
+			<link href="https://topposts.net/1726811344210/"/>
+			<updated>2024-09-20T05:49:04Z</updated>
+			<id>https://topposts.net/1726811344210/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>okay, that should fix the front matter to be actual json</p>
 
 					<p>Tagged:
-							<a href="/tags/LINE/">#LINE</a>
+							<a href="/tags/fixes/">#fixes</a>, 
+							<a href="/tags/json/">#json</a>, 
+							<a href="/tags/javascript/">#javascript</a>
 					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1734284037509/"/>
-			<updated>2024-12-15T17:33:57Z</updated>
-			<id>https://topposts.net/post/1734284037509/</id>
-			<content type="html"><![CDATA[<div>
-				<p>thinking about how there’s more than one guy out there who meets people and is like “yeah I have like a character I do on social media. It’s… God? yeah like the Christian one. yeah no exactly. I mean the idea of him, I guess. The signifiers. Old guy, beard, omniscient. I don’t really get into the religion stuff. No, yeah, it’s more like I roll my eyes at Republicans. Yeah, like 15% of all BlueSky users follow me. No, I haven’t met Lin-Manuel.”</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>it is important to know what we are</title>
-			<link href="https://topposts.net/post/1734248287306/"/>
-			<updated>2024-12-15T07:38:07Z</updated>
-			<id>https://topposts.net/post/1734248287306/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2024/12/15/Screenshot%202024-12-14%20at%2011.34.04%E2%80%AFPM.png" alt="twitch chat screenshot where user topghost says " we're="" all="" out="" here="" blogging="" right?="" everyone="" drop="" the="" rss="" feeds""=""></p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Patch 13.2.1: Flurbo is here?!</title>
-			<link href="https://topposts.net/post/1734081191900/"/>
-			<updated>2024-12-13T09:13:11Z</updated>
-			<id>https://topposts.net/post/1734081191900/</id>
-			<content type="html"><![CDATA[<div>
-				<p>Jolly Jinglefest to everyone out there who's still enjoying Orb Minders: Weavecast in its FOURTH YEAR! With the year winding down, but the Jinglefest season heating up, we've got one more announcement for the community this year that we think might just make your holidays a little more merry.</p>
-<p>Patch 13.2.1 on Tuesday of COURSE features the bugfix that will allow us to FINALLY restore Rince the Skin-Flayer to the Mercenaries pool (when the Witching Hour remains unbanned by your warband, of course). We appreciate your patience while ol' Rinny has had to sit on the bench due to that exploit we all caught thanks to SneakyPete's viral Twitch clip. But if the whole idea of a bugfix release is putting you to sleep... don't check out just yet, because there may be a special little guy who's tagging along for the ride!</p>
-<p>Flurbo is purely cosmetic, adorably cuddly, and is ready to be your best pal.</p>
-<p>Flurbo grants NO ADVANTAGE in-game, is a purely optional purchase, and after you dismiss one shop notification about "new items", we won't ever nag you about its availability again.</p>
-<p>Flurbo was hand-animated by longtime community member Kendall Price, who's never done professional work in the industry before this moment. This addition to their resume represents the start of us paying back everything they've contributed up until this point purely for the love of the community. Thanks Kendall!</p>
-<p>Flurbo is your friend. Its design was done under the supervision of a record seventeen sensitivity consultants.</p>
-<p>Nothing can possibly go wrong with Flurbo's launch, and we won't allow you to ruin this for us.</p>
-<p>Flurbo approaches. Do NOT resist Flurbo.</p>
-
-					<p>Tagged:
-							<a href="/tags/Orb-Minders/">#Orb Minders</a>, 
-							<a href="/tags/Orb-Minders-Weavecast/">#Orb Minders: Weavecast</a>, 
-							<a href="/tags/patch-notes/">#patch notes</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>the funniest emoji</title>
-			<link href="https://topposts.net/post/1733973698477/"/>
-			<updated>2024-12-12T03:21:38Z</updated>
-			<id>https://topposts.net/post/1733973698477/</id>
-			<content type="html"><![CDATA[<div>
-				<p>li <a href="https://entangled.one/post/1733957228-what-is-the-funniest/">wrote</a>:</p>
-<blockquote>
-<p>what is the funniest emoji</p>
-</blockquote>
-<p>the funniest emoji is 🪤 because despite <a href="https://www.unicode.org/L2/L2019/19144-mouse-trap-emoji.pdf">the proposal itself</a> showing the modern plank + spring mouse trap design, almost every major implementer, when faced with the design, was like "yeah no that's too gruesome we're gonna do the cartoon thing with the box and the stick"</p>
-
-					<p>Tagged:
-							<a href="/tags/emoji/">#emoji</a>, 
-							<a href="/tags/re@li/">#re:@li</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1733615371373/"/>
-			<updated>2024-12-07T23:49:31Z</updated>
-			<id>https://topposts.net/post/1733615371373/</id>
-			<content type="html"><![CDATA[<div>
-				<p>in 2025 we’re not saying we’ve “beaten” a video game any more. we’re saying we’ve “bested” a video game. much more refined</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1733380285263/"/>
-			<updated>2024-12-05T06:31:25Z</updated>
-			<id>https://topposts.net/post/1733380285263/</id>
-			<content type="html"><![CDATA[<div>
-				<h2>ME ON THE CORPORATE CHRISTMAS PARTY ZOOM CALL</h2>
-<p>heh, yeah... I've got some fun ideas I want to "hack on", over the break. You know, just for me</p>
-<h2>THE ONLY LINE IN MY IDEAS.TXT</h2>
-<ul>
-<li>[ ] TSA PreCheck for captchas???</li>
-</ul>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>ware slaw</title>
-			<link href="https://topposts.net/post/1733124385705/"/>
-			<updated>2024-12-02T07:26:25Z</updated>
-			<id>https://topposts.net/post/1733124385705/</id>
-			<content type="html"><![CDATA[<div>
-				<p>natalie <a href="https://nex-3.com/blog/if-cole-slaw-is-cold-then/">wrote</a>:</p>
-<blockquote>
-<p>if cole slaw is cold then there should be a ware slaw that's warm. bonus points if it's extra polish somehow</p>
-</blockquote>
-<p>circulating this post in all the relevant discords</p>
-
-					<p>Tagged:
-							<a href="/tags/signal-boost/">#signal boost</a>, 
-							<a href="/tags/rt@nex3/">#rt:@nex3</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1733123394511/"/>
-			<updated>2024-12-02T07:09:54Z</updated>
-			<id>https://topposts.net/post/1733123394511/</id>
-			<content type="html"><![CDATA[<div>
-				<p>it's interesting<sup style="color:#527cf9;font-style:italic">[citation needed]</sup> to imagine whether FFXIV's cutscene scripting in-memory representation could be marshalled into something a visual novel engine could use, then sold back to me for some upsetting amount of money</p>
-
-					<p>Tagged:
-							<a href="/tags/citation-needed/">#citation needed</a>, 
-							<a href="/tags/telling-on-myself/">#telling on myself</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1732691357047/"/>
-			<updated>2024-11-27T07:09:17Z</updated>
-			<id>https://topposts.net/post/1732691357047/</id>
-			<content type="html"><![CDATA[<div>
-				<p>I remembered last night that Feedbin (my RSS reader of choice) has an API and now I’m having Dangerous Ideas for December</p>
-
-					<p>Tagged:
-							<a href="/tags/octobug-meta/">#octobug (meta)</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1732401710681/"/>
-			<updated>2024-11-23T22:41:50Z</updated>
-			<id>https://topposts.net/post/1732401710681/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2024/11/23/IMG_2908.jpeg" alt="two signs attached to a light pole, one reads “KARATE CLUB 400m”, the other “HOSPITAL 700m”"></p>
-
-					<p>Tagged:
-							<a href="/tags/environmental-storytelling/">#environmental storytelling</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1732253145309/"/>
-			<updated>2024-11-22T05:25:45Z</updated>
-			<id>https://topposts.net/post/1732253145309/</id>
-			<content type="html"><![CDATA[<div>
-				<p>they should make an Apple TV screensaver that gives you anxiety</p>
-
-					<p>Tagged:
-							<a href="/tags/no-they-shouldnt/">#no they shouldn&#x2019;t</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>🤔</title>
-			<link href="https://topposts.net/post/1732076385223/"/>
-			<updated>2024-11-20T04:19:45Z</updated>
-			<id>https://topposts.net/post/1732076385223/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2024/11/20/IMG_2746.jpeg" alt="A page from the New Zealand Customs Service reading “Controls on importing hazardous substances: The Hazardous Substances and New Organisms (HSNO) Act 1996 & controls the import of hazardous substances into New Zealand”"></p>
-<p><img src="https://topposts.net/attachments/2024/11/20/IMG_2743.png" alt="A screenshot of the McDonalds New Zealand website with a promotion for the Grimace Shake featuring Grimace saying “hi nz i'm heeerE!”"></p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>taking an absurdly long flight tomorrow</title>
-			<link href="https://topposts.net/post/1731818634888/"/>
-			<updated>2024-11-17T04:43:54Z</updated>
-			<id>https://topposts.net/post/1731818634888/</id>
-			<content type="html"><![CDATA[<div>
-				<p>not looking forward to it! looking forward to seeing the friends on the other end of the flight though 😌</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1731544248737/"/>
-			<updated>2024-11-14T00:30:48Z</updated>
-			<id>https://topposts.net/post/1731544248737/</id>
-			<content type="html"><![CDATA[<div>
-				<p><a href="https://entangled.one/post/1731514708-has-literally-one-single/">li wrote</a>:</p>
-<blockquote>
-<p>i love how two people can describe something with the same words but one person's subtext is that they don't like it and the other person's subtext is that they do like it</p>
-</blockquote>
-<p>exactly. for example, when Bruno Mars says something makes “a dragon want to retire” he’s saying that it is good, but when I say it, I’m trying to highlight how it’s accelerating the already troubling burn-out culture within the dragon career path</p>
-
-					<p>Tagged:
-							<a href="/tags/not-true/">#not true</a>, 
-							<a href="/tags/re@li/">#re:@li</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1731544011647/"/>
-			<updated>2024-11-14T00:26:51Z</updated>
-			<id>https://topposts.net/post/1731544011647/</id>
-			<content type="html"><![CDATA[<div>
-				<p>when Robyn sang “I know what’s on your mind / there will be time for that too” in “Hang With Me” she was talking about her dog asking for dinner at 4pm</p>
-
-					<p>Tagged:
-							<a href="/tags/not-true/">#not true</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1731264856111/"/>
-			<updated>2024-11-10T18:54:16Z</updated>
-			<id>https://topposts.net/post/1731264856111/</id>
-			<content type="html"><![CDATA[<div>
-				<p>it is difficult to describe the hell that I am currently in. sort of a gender swamp, one that confirms my biases instead of relieving them. If fictionalized it would be a sort of anti-Robert Yang work, simultaneously unremarkable and upsettingly heteronormative</p>
-
-					<p>Tagged:
-							<a href="/tags/field-recordings/">#field recordings</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>capitalism is sick. it needs to rest</title>
-			<link href="https://topposts.net/post/1731185778581/"/>
-			<updated>2024-11-09T20:56:18Z</updated>
-			<id>https://topposts.net/post/1731185778581/</id>
-			<content type="html"><![CDATA[<div>
-				<p><img src="https://topposts.net/attachments/2024/11/9/IMG_2570.jpeg" alt="NEW! Oreo Scissors"></p>
-
-					<p>Tagged:
-							<a href="/tags/single-image-posts/">#single-image posts</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1731093681103/"/>
-			<updated>2024-11-08T19:21:21Z</updated>
-			<id>https://topposts.net/post/1731093681103/</id>
-			<content type="html"><![CDATA[<div>
-				<p>guy next to us on the airplane just opened his Mercedes Benz iOS app, stared at the image of his SUV for a minute, then swiped through the different angles of the model you own that it will apparently show you before closing the app again</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>thinking about coming up with a catchphrase</title>
-			<link href="https://topposts.net/post/1731049881855/"/>
-			<updated>2024-11-08T07:11:21Z</updated>
-			<id>https://topposts.net/post/1731049881855/</id>
-			<content type="html"><![CDATA[<div>
-				<p>so that if I don't know how to write a complete post I can just end it with "but I don't know much about that" or "I guess that's what it takes to get ahead these days"</p>
-
-					<p>Tagged:
-							<a href="/tags/blogging-tactics/">#blogging tactics</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1730797570007/"/>
-			<updated>2024-11-05T09:06:10Z</updated>
-			<id>https://topposts.net/post/1730797570007/</id>
-			<content type="html"><![CDATA[<div>
-				<p>thinking about being extremely normal today, as a bit</p>
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>Untitled post</title>
-			<link href="https://topposts.net/post/1730440456703/"/>
-			<updated>2024-11-01T05:54:16Z</updated>
-			<id>https://topposts.net/post/1730440456703/</id>
-			<content type="html"><![CDATA[<div>
-				<p>it feels like maybe a good moment to check in on whether I've cooked my brain on Final Fantasy XIV this year is when I'm like "I guess my mount is pretty great but I wonder what other mounts there are that I could be using right now"</p>
-
-					<p>Tagged:
-							<a href="/tags/final-fantasy-xiv/">#final fantasy xiv</a>, 
-							<a href="/tags/video-games/">#video games</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>DST end: a repayment or an advance?</title>
-			<link href="https://topposts.net/post/1730421000131/"/>
-			<updated>2024-11-01T00:30:00Z</updated>
-			<id>https://topposts.net/post/1730421000131/</id>
-			<content type="html"><![CDATA[<div>
-				<p>Realized about myself today that when I “gain an hour” at the end of DST in the autumn, I consider that an advance against the hour I will lose in the spring, as opposed to getting back that which I lost earlier in the same Gregorian year</p>
-
-					<p>Tagged:
-							<a href="/tags/daylight-saving/">#daylight saving</a>, 
-							<a href="/tags/gregorian-calendar/">#gregorian calendar</a>, 
-							<a href="/tags/perception/">#perception</a>
-					</p>
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>everyone has these beautiful 88x31 banners featuring complex designs</title>
-			<link href="https://topposts.net/post/1730178291306/"/>
-			<updated>2024-10-29T05:04:51Z</updated>
-			<id>https://topposts.net/post/1730178291306/</id>
-			<content type="html"><![CDATA[<div>
-				<p>then I try to make one and it's like</p>
-<img style="image-rendering: pixelated;" src="https://topposts.net/attachments/2024/10/29/88x31.png" width="88" height="31">
-
-			</div>]]></content>
-		</entry>
-		
-		<entry>
-			<title>octobug autofic</title>
-			<link href="https://topposts.net/post/1730012800598/"/>
-			<updated>2024-10-27T07:06:40Z</updated>
-			<id>https://topposts.net/post/1730012800598/</id>
-			<content type="html"><![CDATA[<div>
-				<p>(opening PWA, hitting post, typing this meta-commentary, writing some markdown that indicates the source of the blockquote—</p>
-<p>li <a href="https://entangled.one/post/1729989377-the-slowcial-slowciable-/">wrote<a>:</a></a></p>
-<p>wait, shit, do I link the full line or just the word "wrote"? ugh, I have to find at least one post to compare it to. Okay, <a href="https://topposts.net/post/1729238695697/">here</a>, damn I really should have tagged this as "re:@li" or something, huh? Let's do this one now at least.</p>
-<p>Okay let's do this.</p>
-<p>li <a href="https://entangled.one/post/1729989377-the-slowcial-slowciable-/">wrote<a>:</a></a></p>
-<blockquote>
-<p>the slowcial (slowciable) web</p>
-</blockquote>
-<p>yeah!</p>
-
-					<p>Tagged:
-							<a href="/tags/re@li/">#re:@li</a>, 
-							<a href="/tags/octobug-meta-but-like-not-serious/">#octobug (meta but like not serious)</a>
-					</p>
-			</div>]]></content>
+			</div>]]>
+			</content>
 		</entry>
 </feed>
