@@ -11,6 +11,21 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1752992551381/",
+			"url": "https://topposts.net/post/1752992551381/",
+			"title": "Untitled Post",
+			"content_html": "<p>people say that working at Meta in 2025 is like working for <em>Severance</em>'s Lumon but I bet it's more like working at Veridian Technologies, the company from <em>Better Off Ted</em></p>\n"
+	,
+			"tags": [
+					"better off ted"
+					,
+					"severance"
+					
+			],
+			"date_published": "2025-07-20T06:22:31Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1752827266251/",
 			"url": "https://topposts.net/post/1752827266251/",
 			"title": "Untitled Post",

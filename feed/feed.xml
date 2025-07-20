@@ -4,12 +4,29 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-07-18T08:27:46Z</updated>
+	<updated>2025-07-20T06:22:31Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1752992551381/"/>
+			<updated>2025-07-20T06:22:31Z</updated>
+			<id>https://topposts.net/post/1752992551381/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>people say that working at Meta in 2025 is like working for <em>Severance</em>'s Lumon but I bet it's more like working at Veridian Technologies, the company from <em>Better Off Ted</em></p>
+
+					<p>Tagged:
+							<a href="/tags/better-off-ted/">#better off ted</a>, 
+							<a href="/tags/severance/">#severance</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
