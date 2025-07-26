@@ -83,6 +83,7 @@ module.exports = async function (eleventyConfig) {
 
   // Third party plugins
   eleventyConfig.addPlugin(embeds, {
+    add: ['bluesky'],
     twitter: {
       options: {
         cacheText: true,
