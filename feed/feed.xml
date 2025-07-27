@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-07-27T06:01:24Z</updated>
+	<updated>2025-07-27T07:01:37Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1753599697609/"/>
+			<updated>2025-07-27T07:01:37Z</updated>
+			<id>https://topposts.net/post/1753599697609/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>Knowing me is a sort of experiential version of <em>Blue Prince</em>, where at the start you feel powerless in a compelling way but by the end of it you're just wondering if there are any more rewarding mysteries left, or if the rest of it would just be kind of annoying to actually reach</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
