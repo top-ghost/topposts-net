@@ -4,12 +4,29 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-08-05T17:19:30Z</updated>
+	<updated>2025-08-07T04:44:19Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1754541859041/"/>
+			<updated>2025-08-07T04:44:19Z</updated>
+			<id>https://topposts.net/post/1754541859041/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>okay let this be a lesson, I put my email address in a mailto link on a random weblog in 2024 and 10 months later I get 1-3 daily spam emails inviting me to a whatsapp chat in order to contract web design services</p>
+
+					<p>Tagged:
+							<a href="/tags/octobug-meta/">#octobug (meta)</a>, 
+							<a href="/tags/bad-ideas/">#bad ideas</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
