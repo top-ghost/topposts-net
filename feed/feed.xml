@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-08-17T05:55:52Z</updated>
+	<updated>2025-08-18T06:45:54Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1755499554276/"/>
+			<updated>2025-08-18T06:45:54Z</updated>
+			<id>https://topposts.net/post/1755499554276/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>"I need to enter my mind palace" is a fairly polite and modern way of saying "shut up for a minute please"</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
