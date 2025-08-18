@@ -1,4 +1,4 @@
-.postlist { counter-reset: start-from 14 }
+.postlist { counter-reset: start-from 10 }
 * { box-sizing: border-box; }
 @charset "UTF-8";
 @font-face {
@@ -444,6 +444,13 @@ form#secrets button {
   display: block;
   margin-inline: auto;
 }
+
+.post .postbody video {
+  max-width: 100%;
+  display: block;
+  margin-inline: auto;
+}
+
 .post .tags {
   margin-inline: 0.75em;
   font-size: 0.875em;

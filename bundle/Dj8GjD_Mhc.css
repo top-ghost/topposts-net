@@ -444,6 +444,13 @@ form#secrets button {
   display: block;
   margin-inline: auto;
 }
+
+.post .postbody video {
+  max-width: 100%;
+  display: block;
+  margin-inline: auto;
+}
+
 .post .tags {
   margin-inline: 0.75em;
   font-size: 0.875em;
