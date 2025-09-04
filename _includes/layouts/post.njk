@@ -5,9 +5,10 @@ layout: layouts/base.njk
 {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
 
-<meta property="og:title" content="topposts.net: {{ title | decode }}"/>
+<meta property="og:title" content="{{ title | decode or 'Untitled Post'}}"/>
 <meta property="og:type" content="article"/>
 <meta property="og:url" content={{ url }}/>
+<meta property="og:image" content="/img/opengraph-banner.png"/>
 <meta property="og:description" content="{{ content | stripTags | truncate(196, true) }}">
 
 {% include "../partials/post.njk" %}
