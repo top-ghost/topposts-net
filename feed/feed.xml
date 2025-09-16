@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-09-13T08:53:34Z</updated>
+	<updated>2025-09-16T07:06:14Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1758006374914/"/>
+			<updated>2025-09-16T07:06:14Z</updated>
+			<id>https://topposts.net/post/1758006374914/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>it's weird that the "epson" brand name means "son of electronic printer" but the "brother" brand name does not mean "brother of electronic printer"</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>(staring deeply into the mirror)</title>
