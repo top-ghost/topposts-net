@@ -4,12 +4,28 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-09-24T08:03:38Z</updated>
+	<updated>2025-09-26T07:44:02Z</updated>
 	<id>https://topposts.net/</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>okay I finally got into Blippo+</title>
+			<link href="https://topposts.net/post/1758872642744/"/>
+			<updated>2025-09-26T07:44:02Z</updated>
+			<id>https://topposts.net/post/1758872642744/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>it's actually ridiculous that Blippo+'s Femtofax has different text-rendering engines for different boards? Like the Read-Only Review does this weird self-correcting for word-wrap, whereas Subspace Spotlight just types it out with wraps pre-calculated. And Micro Meditation is doing a whole thing. Wow!</p>
+
+					<p>Tagged:
+							<a href="/tags/blippo/">#blippo+</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
