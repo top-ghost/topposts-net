@@ -28,6 +28,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@mightyplow/eleventy-plugin-cache-buster": "github:top-ghost/eleventy-plugin-cache-buster#e9a6145c5ecff4e379c656681dc227dceb4e6b59",
     "eleventy-plugin-embed-everything": "^1.21.0",
+    "eleventy-plugin-og-image": "^4.2.0",
     "gray-matter": "^4.0.3",
     "he": "^1.2.0",
     "luxon": "^3.5.0",

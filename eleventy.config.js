@@ -1,3 +1,4 @@
+const fs = require('fs');
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 
@@ -47,6 +48,26 @@ function convertTZ(date, tzString) {
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = async function (eleventyConfig) {
   const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+  const EleventyPluginOgImage = (await import('eleventy-plugin-og-image')).default;
+
+  eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    satoriOptions: {
+      fonts: [
+        {
+          name: 'Atkinson Hyperlegible',
+          data: fs.readFileSync('public/fonts/Atkinson-Hyperlegible-Regular-102.woff'),
+          weight: 700,
+          style: 'normal',
+        },
+        {
+          name: 'Atkinson Hyperlegible',
+          data: fs.readFileSync('public/fonts/Atkinson-Hyperlegible-Bold-102.woff'),
+          weight: 900,
+          style: 'normal',
+        },
+      ],
+    },
+  });
 
   // Copy the contents of the `public` folder to the output folder
   // For example, `./public/css/` ends up in `_site/css/`
