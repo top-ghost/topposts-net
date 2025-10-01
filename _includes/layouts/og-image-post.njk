@@ -5,16 +5,153 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: linear-gradient(135deg, #ef629f, #eecda3);
+        justify-content: center;
+        background-color: rgb(25,25,25);
+    }
+    .root * {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
     }
 
-    .title {
-        color: white;
-        font-size: 80px;
-        margin: auto 0;
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        height: 80%;
+        background-color: #000000;
+        box-shadow: 0 0.2em 0.4em 0.1em rgb(17, 17, 17);
+        border: 1px solid #666666;
+        border-radius: 8px;
+        margin: 24px;
+        padding: 8px;
+        font-size: 28px;
+    }
+    .post .metadata {
+        font-size: 0.95em;
+        height: 3em;
+        margin: -8px;
+        padding-left: 0.75em;
+        border-radius: 8px 8px 0 0;
+        background-color: rgb(51, 51, 51);
+        border-bottom: 1px solid #666666;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap: 0.5rem;
+
+    }
+    .post .metadata .author {
+        color: #dadad8 !important;
+    }
+    .post .metadata .profile-pic {
+        height: 48px;
+        width: 48px;
+        border-radius: 1em;
+    }
+    .post .metadata .timestamp {
+        white-space: nowrap;
+        color: #999;
+        text-decoration: none;
+    }
+
+    .post .main-box {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .post .main-box .postbody,
+    .post .main-box .title {
+        color: #ffffff;
+        margin-top: 0.75em;
+        margin-left: 0.75em;
+    }
+    .post .main-box .title {
+        height: 1.5em;
+        font-size: 1.25em;
+        font-weight: bold;
+
+    }
+    .post .main-box .title a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .post .main-box .postbody {
+        flex-grow: 1;
+    }
+
+    .post .main-box .postbody img {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .post .main-box .postbody video {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .post .main-box .tags {
+
+        color: #dadad8;
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+        font-size: 0.875em;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .post .main-box .tags a {
+        text-decoration: none;
+        color: #dadad8;
+    }
+
+    .post .comments {
+        background-color: rgb(51, 51, 51);
+        color: #999;
+        font-size: 0.9em;
+        border-radius: 0 0 8px 8px;
+        margin: 8px -8px -8px;
+        padding: 8px;
+        border-top: 1px solid #666666;
+
     }
 </style>
-
+<base href={{metadata.url}}/>
 <div class="root">
-    <h1 class="title">{{ title | decode or 'Untitled Post' }}</h1>
+    <div class="post">
+        <div class="metadata">
+
+            <div class="author">{{author}}</div>
+            <a class="timestamp" href="/?doesnt-matter" rel="canonical">
+                {{date | beatsDate if date }}
+            </a>
+        </div>
+
+        <div class="main-box">
+            <h1 class="title">
+                <a href="/?doesnt-matter">{{title | decode }}</a>
+            </h1>
+
+            <div class="postbody">{{content | stripTags | transformWithHtmlBase(metadata.url) }}</div>
+            <div class="tags">
+                {%- for tag in tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+                    <a href="/?doesnt-matter" class="post-tag">#{{ tag | safe }}</a>
+                {%- endfor %}
+            </div>
+        </div>
+        <div class="comments">
+            click to view post on topposts.net
+        </div>
+    </div>
 </div>

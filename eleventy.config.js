@@ -14,6 +14,7 @@ const pluginImages = require("./eleventy.config.images.js");
 const embeds = require("eleventy-plugin-embed-everything");
 const slugify = require("slugify");
 const he = require("he");
+const metadata = require('./_data/metadata.js');
 
 const SEC_PER_DAY = 24 * 60 * 60;
 
@@ -47,7 +48,7 @@ function convertTZ(date, tzString) {
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = async function (eleventyConfig) {
-  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+  const { HtmlBasePlugin } = await import("@11ty/eleventy");
   const EleventyPluginOgImage = (await import('eleventy-plugin-og-image')).default;
 
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
@@ -93,7 +94,7 @@ module.exports = async function (eleventyConfig) {
     preAttributes: { tabindex: 0 },
   });
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(HtmlBasePlugin, { baseHref: metadata.url });
   eleventyConfig.addPlugin(pluginBundle);
   eleventyConfig.addPlugin(pluginCacheBuster({}));
 
@@ -217,7 +218,7 @@ module.exports = async function (eleventyConfig) {
     if (startingText.length == 0) {
       return "(No text)";
     } else {
-      return `${startingText}${ellipsisNeeded ? "…" : ""}`;
+      return `${startingText}${ellipsisNeeded ? "…" : ""}`.trim();
     }
   });
 

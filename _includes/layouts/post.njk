@@ -5,10 +5,19 @@ layout: layouts/base.njk
 {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
 
-<meta property="og:title" content={{ title | decode or 'Untitled Post'}}/>
-<meta property="og:type" content="article"/>
-<meta property="og:url" content={{ url }}/>
-{% ogImage "./og-image-post.njk", { title: title } %}
-<meta property="og:description" content="{{ content | stripTags | truncate(196, true) }}">
+{% block meta %}
+    <meta property="og:title" content={{ title or 'Untitled Post'}}/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content={{ url }}/>
+    {# rendering engine is so finicky, ugh % ogImage "../_includes/layouts/og-image-post.njk", { 
+        metadata: metadata,
+        author: author,
+        date: date,
+        title: title,
+        content: content,
+        tags: tags
+    } %#}
+    <meta property="og:description" content="{{ content | stripTags | truncate(196, true) }}">
+{% endblock %}
 
 {% include "../partials/post.njk" %}

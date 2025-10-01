@@ -1,19 +1,14 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title | decode or metadata.title }}</title>
-		<meta name="description" content="{{ description or metadata.description }}">
+		<base href={{metadata.url}}/>
 
 		<link rel="icon" href="/img/favicon.ico" sizes="any">
 		<link rel="shortcut icon" type="image/png" href="/img/favicon.png" sizes="32x32"/>
 		<link rel="apple-touch-icon" sizes="180x180" href="/img/moon-dutiful-icon.jpg"/>
 
 		<link rel="manifest" href="/manifest.json"/>
-		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#866bb8"/>
-		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#191919"/>
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
@@ -44,6 +39,14 @@
 		</script>
 		<link rel="me" href="mailto:topghost@fastmail.com">
 		<link rel="webmention" href="https://webmention.io/topposts.net/webmention">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="{{ description or metadata.description }}">
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#866bb8"/>
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#191919"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		{% block meta %}{% endblock %}
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
