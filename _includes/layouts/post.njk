@@ -9,6 +9,7 @@ layout: layouts/base.njk
     <meta property="og:title" content={{ title or 'Untitled Post'}}/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content={{ url }}/>
+    <meta property="og:image" content="/img/opengraph-banner.png"/>
     {# rendering engine is so finicky, ugh % ogImage "../_includes/layouts/og-image-post.njk", { 
         metadata: metadata,
         author: author,
