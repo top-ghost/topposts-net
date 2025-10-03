@@ -11,6 +11,21 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1759474278127/",
+			"url": "https://topposts.net/post/1759474278127/",
+			"title": "Untitled Post",
+			"content_html": "<p>input validation is old news. instead of rejecting the invalid content, you should accept it anyway, then shame the user constantly until they fix it</p>\n"
+	,
+			"tags": [
+					"good ideas"
+					,
+					"this isn&#39;t about anything"
+					
+			],
+			"date_published": "2025-10-03T06:51:18Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1759471549888/",
 			"url": "https://topposts.net/post/1759471549888/",
 			"title": "Untitled Post",
