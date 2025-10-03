@@ -4,12 +4,28 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-09-30T05:53:25Z</updated>
+	<updated>2025-10-03T06:05:49Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1759471549888/"/>
+			<updated>2025-10-03T06:05:49Z</updated>
+			<id>https://topposts.net/post/1759471549888/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>saw a bluesky account today, registered in june of 2023, with 89 <em>thousand</em> posts</p>
+
+					<p>Tagged:
+							<a href="/tags/twitter-chillers/">#twitter chillers</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>(beyonce voice)</title>
