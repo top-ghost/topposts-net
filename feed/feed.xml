@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-10-27T06:50:35Z</updated>
+	<updated>2025-10-27T08:40:02Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>(writing my first post on LinkedIn) </title>
+			<link href="https://topposts.net/post/1761554402737/"/>
+			<updated>2025-10-27T08:40:02Z</updated>
+			<id>https://topposts.net/post/1761554402737/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>in the words of Trent Reznor, my whole existence is flawed! But it's in the face of that adversity, and with the energy of a new opportunity, that you can help me become somebody else: someone who can feel your challenges from the inside</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
