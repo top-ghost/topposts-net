@@ -4,12 +4,29 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-11-12T08:11:59Z</updated>
+	<updated>2025-11-14T07:55:33Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1763106933487/"/>
+			<updated>2025-11-14T07:55:33Z</updated>
+			<id>https://topposts.net/post/1763106933487/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>sometimes I look at my browser and see that there's only one tab open and think "oh, shoot, I must have opened a second window by accident" but no-- it's just the only tab I have open</p>
+
+					<p>Tagged:
+							<a href="/tags/so-what/">#so what</a>, 
+							<a href="/tags/who-cares/">#who cares</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
