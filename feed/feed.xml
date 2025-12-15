@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2025-12-10T07:47:15Z</updated>
+	<updated>2025-12-15T08:32:54Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>(watching an old movie)</title>
+			<link href="https://topposts.net/post/1765787574742/"/>
+			<updated>2025-12-15T08:32:54Z</updated>
+			<id>https://topposts.net/post/1765787574742/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>interesting...it seems beer was served <em>omakase</em> in 1980s american bars</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>kiki/bouba is a false binary</title>
