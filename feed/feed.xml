@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-02-27T09:35:23Z</updated>
+	<updated>2026-03-05T09:10:54Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1772701854305/"/>
+			<updated>2026-03-05T09:10:54Z</updated>
+			<id>https://topposts.net/post/1772701854305/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>thinking about joining the street team for getting kicked in the head. it's an unpaid gig but appears to be VERY fulfilling</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
