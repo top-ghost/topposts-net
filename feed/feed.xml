@@ -4,12 +4,33 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-05-21T06:35:50Z</updated>
+	<updated>2026-05-24T05:35:16Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>a youtube quandary</title>
+			<link href="https://topposts.net/post/1779600916633/"/>
+			<updated>2026-05-24T05:35:16Z</updated>
+			<id>https://topposts.net/post/1779600916633/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>if a video is kept private on YouTube and then linked from a Patreon, is it "on YouTube?" if a video uses the "Members Only" on YouTube, is it "on YouTube"?</p>
+<p>Sound off in the comments:</p>
+<p><a href="https://pad.riseup.net/p/1ztLG2xY1YXx37G__-v7-keep">https://pad.riseup.net/p/1ztLG2xY1YXx37G__-v7-keep</a></p>
+
+					<p>Tagged:
+							<a href="/tags/what-if-we-did-comments-using-etherpad/">#what if we did comments using etherpad</a>, 
+							<a href="/tags/dont-be-weird/">#don&#x27;t be weird</a>, 
+							<a href="/tags/octobug-meta/">#octobug (meta)</a>, 
+							<a href="/tags/youtube-studies/">#youtube studies</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>working on my new character, &quot;visual novel dad&quot;</title>

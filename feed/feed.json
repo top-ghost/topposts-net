@@ -11,6 +11,25 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1779600916633/",
+			"url": "https://topposts.net/post/1779600916633/",
+			"title": "a youtube quandary",
+			"content_html": "<p>if a video is kept private on YouTube and then linked from a Patreon, is it \"on YouTube?\" if a video uses the \"Members Only\" on YouTube, is it \"on YouTube\"?</p>\n<p>Sound off in the comments:</p>\n<p><a href=\"https://pad.riseup.net/p/1ztLG2xY1YXx37G__-v7-keep\">https://pad.riseup.net/p/1ztLG2xY1YXx37G__-v7-keep</a></p>\n"
+	,
+			"tags": [
+					"what if we did comments using etherpad"
+					,
+					"don&#39;t be weird"
+					,
+					"octobug (meta)"
+					,
+					"youtube studies"
+					
+			],
+			"date_published": "2026-05-24T05:35:16Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1779345350958/",
 			"url": "https://topposts.net/post/1779345350958/",
 			"title": "working on my new character, &quot;visual novel dad&quot;",
