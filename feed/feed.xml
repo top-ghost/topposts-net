@@ -4,12 +4,28 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-06-17T06:37:47Z</updated>
+	<updated>2026-06-17T06:58:09Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>blogging annual review, 21 months in</title>
+			<link href="https://topposts.net/post/1781679489484/"/>
+			<updated>2026-06-17T06:58:09Z</updated>
+			<id>https://topposts.net/post/1781679489484/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>Frankly? They're saying I'm the best to ever do it. I'm not seeing them say it because I don't have webmentions properly configured and I kind of fell off of reading RSS. And when people email me I only respond like half of the time. And I could stop at any time, and have, sometimes. But still</p>
+
+					<p>Tagged:
+							<a href="/tags/toppostsnet-meta/">#topposts.net (meta)</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>

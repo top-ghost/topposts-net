@@ -11,6 +11,19 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1781679489484/",
+			"url": "https://topposts.net/post/1781679489484/",
+			"title": "blogging annual review, 21 months in",
+			"content_html": "<p>Frankly? They're saying I'm the best to ever do it. I'm not seeing them say it because I don't have webmentions properly configured and I kind of fell off of reading RSS. And when people email me I only respond like half of the time. And I could stop at any time, and have, sometimes. But still</p>\n"
+	,
+			"tags": [
+					"topposts.net (meta)"
+					
+			],
+			"date_published": "2026-06-17T06:58:09Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1781678267247/",
 			"url": "https://topposts.net/post/1781678267247/",
 			"title": "Untitled Post",
