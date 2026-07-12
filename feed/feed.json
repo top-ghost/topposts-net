@@ -11,6 +11,19 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1783833414217/",
+			"url": "https://topposts.net/post/1783833414217/",
+			"title": "Untitled Post",
+			"content_html": "<p>using LLMs to do Advent of Code is basically like watching the worst GDQ of all time</p>\n"
+	,
+			"tags": [
+					"posts I would&#39;ve drafted if I had built the drafts feature yet"
+					
+			],
+			"date_published": "2026-07-12T05:16:54Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1783583743102/",
 			"url": "https://topposts.net/post/1783583743102/",
 			"title": "Untitled Post",
