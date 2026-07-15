@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-07-15T06:16:39Z</updated>
+	<updated>2026-07-15T06:28:37Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1784096917699/"/>
+			<updated>2026-07-15T06:28:37Z</updated>
+			<id>https://topposts.net/post/1784096917699/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>why give jony ive the task of bringing your work into the physical world when david cronenberg is right there</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
