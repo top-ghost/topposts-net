@@ -4,12 +4,28 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-07-20T05:55:49Z</updated>
+	<updated>2026-07-20T07:29:36Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1784532576423/"/>
+			<updated>2026-07-20T07:29:36Z</updated>
+			<id>https://topposts.net/post/1784532576423/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>buckley vs vidal... a sort of sapiosexual MMA...</p>
+
+					<p>Tagged:
+							<a href="/tags/letterboxd-dot-com/">#letterboxd dot com</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
