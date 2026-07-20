@@ -4,12 +4,28 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-07-20T07:29:36Z</updated>
+	<updated>2026-07-20T08:32:04Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1784536324357/"/>
+			<updated>2026-07-20T08:32:04Z</updated>
+			<id>https://topposts.net/post/1784536324357/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>(making it my hobby to look at problems that are happening) hmm, yes, I think that maybe the people responsible for fixing this problem should think about things a little bit more like me. that would probably make things end up better. for all of us</p>
+
+					<p>Tagged:
+							<a href="/tags/this-isnt-about-anything/">#this isn&#x27;t about anything</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
