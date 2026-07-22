@@ -4,12 +4,25 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-07-20T08:32:04Z</updated>
+	<updated>2026-07-22T04:09:49Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1784693389336/"/>
+			<updated>2026-07-22T04:09:49Z</updated>
+			<id>https://topposts.net/post/1784693389336/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>when something you've seeded at 99% for a few years gets a new peer all of a sudden you should be able to send a little message to that client that just says "welcome to hell"</p>
+
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
