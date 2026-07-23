@@ -11,6 +11,21 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1784782600061/",
+			"url": "https://topposts.net/post/1784782600061/",
+			"title": "Untitled Post",
+			"content_html": "<p>I was thinking about how when I was between the ages of like 12 and 22 if you put a book that taught me a programming language in front of me I would totally devour it and now all of MDN is right there. There should be like an MDN book club or something</p>\n"
+	,
+			"tags": [
+					"good ideas"
+					,
+					"Mozilla Developer Network (MDN)"
+					
+			],
+			"date_published": "2026-07-23T04:56:40Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1784693389336/",
 			"url": "https://topposts.net/post/1784693389336/",
 			"title": "Untitled Post",

@@ -4,12 +4,29 @@
 	<subtitle>@topghost&#39;s post-cohost post host, built with octobug</subtitle>
 	<link href="https://topposts.net/feed/feed.xml" rel="self"/>
 	<link href="https://topposts.net/"/>
-	<updated>2026-07-22T04:09:49Z</updated>
+	<updated>2026-07-23T04:56:40Z</updated>
 	<id>https://topposts.net</id>
 	<author>
 		<name>@topghost</name>
 		<email>topghost@fastmail.com</email>
 	</author>
+		
+		<entry>
+			<title>Untitled post</title>
+			<link href="https://topposts.net/post/1784782600061/"/>
+			<updated>2026-07-23T04:56:40Z</updated>
+			<id>https://topposts.net/post/1784782600061/</id>
+			<content type="html">
+				<![CDATA[<div>
+				<p>I was thinking about how when I was between the ages of like 12 and 22 if you put a book that taught me a programming language in front of me I would totally devour it and now all of MDN is right there. There should be like an MDN book club or something</p>
+
+					<p>Tagged:
+							<a href="/tags/good-ideas/">#good ideas</a>, 
+							<a href="/tags/Mozilla-Developer-Network-MDN/">#Mozilla Developer Network (MDN)</a>
+					</p>
+			</div>]]>
+			</content>
+		</entry>
 		
 		<entry>
 			<title>Untitled post</title>
