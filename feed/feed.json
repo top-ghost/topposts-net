@@ -11,6 +11,19 @@
 	},
 	"items": [
 		{
+			"id": "https://topposts.net/post/1788156452410/",
+			"url": "https://topposts.net/post/1788156452410/",
+			"title": "Untitled Post",
+			"content_html": "<p>this is a weird thing to say but within the contexts of the things I'm interested in, there is currently a sort of uncanny valley between \"I have $100 to spend\" and \"I have $400\" where you do not have an amount of money that is worth spending on anything</p>\n"
+	,
+			"tags": [
+					"who cares"
+					
+			],
+			"date_published": "2026-08-31T06:07:32Z"
+		}
+		,
+		{
 			"id": "https://topposts.net/post/1785896845149/",
 			"url": "https://topposts.net/post/1785896845149/",
 			"title": "Untitled Post",
